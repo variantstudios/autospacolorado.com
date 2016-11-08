@@ -1,0 +1,58 @@
+
+# Site settings
+title: "Auto Spa Colorado"
+email: "team@variantstudios.com"
+description: "Car Detailing, Clear Bra, Tinting &amp; Ceramic Pro Colorado"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://maraschino-cherry.cloudvent.net" # the base hostname & protocol for your site
+#timezone: America/Denver - Don't set for CloudCannon...for reasons.
+version: "3.1.6" # the version of jekyll
+author.name: "Variant Studios"
+author.email: "team@variantstudios.com"
+
+# Gems for plugins
+gems:
+  - jekyll-paginate # Needed to add paginate on Jekyll ver 3+
+  - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
+
+# Permalinks
+permalink: pretty
+
+# Pagination
+paginate: 10
+paginate_path: '/blog/:num/'
+
+#Collections
+collections:
+  posts:
+    output: true
+    permalink: '/blog/:title/'
+  people:
+    output: false
+  categories:
+    output: true
+    permalink: '/blog/:title/'
+  tags:
+    output: true
+    permalink: '/blog/:title/'
+
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+      title:
+      image_path:
+      description:
+      author:
+      category:
+      tags:
+
+# typekit - Because we all need nice type faces.
+typekit:
+
+# Google Analytics - What site isn't using it?!
+google_analytics_tracking_id:
+
+exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]

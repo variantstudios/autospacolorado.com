@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<main>
+  <section class="wrap with-sidebar">
+    <h1 class="pagetitle">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <h2 class="subtitle">{{ page.subtitle }}</h2>
+    {% endif %}
+    <div>{{ content }}</div>
+  </section>
+  {% include sidebar.html %}
+</main>

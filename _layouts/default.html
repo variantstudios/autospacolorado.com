@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+{% include head.html %}
+<body>
+	{% include browserupgrade.html %}
+
+  <div class="header-wrapper clearfix">
+	  {% include header.html %}
+  </div>
+
+  <div class="main-wrapper clearfix">
+	  {{ content }}
+  </div>
+  
+  <div class="footer-wrapper clearfix">
+  	{% include footer.html %}
+  </div>
+
+	{% include scripts.html %}
+</body>
+
+</html>
