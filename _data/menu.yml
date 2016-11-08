@@ -1,20 +1,19 @@
 - text: Our Work
   url: /our-work/
 - text: Services
-  url: '/'
   subitems:
     - title: Packages
       url: /service-packages/
     - title: Ceramic Pro Coatings
       url: /ceramic-pro-coatings/
     - title: Prestige Detailing
-      url: /service-packages/
+      url: /prestige-detailing/
     - title: Window Tint
       url: /window-tint/
     - title: Clear Bra Protection
       url: /clear-bra-protection/
     - title: Bray Windshield Skin
-      url: /Bray Windshield Skin/
+      url: /bray-windshield-skin/
 - text: Blog
   url: /blog/
 - text: About

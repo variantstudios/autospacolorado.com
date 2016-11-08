@@ -1,6 +1,6 @@
 ---
-title: Services
-permalink: "/services/"
+title: Bray Windshield Skin
+permalink: "/bray-windshield-skin/"
 description: This is just a sample general page.
 layout: page
 ---
