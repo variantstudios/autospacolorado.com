@@ -1,8 +1,29 @@
-- text: About
-  url: /about/
+- text: Our Work
+  url: /our-work/
 - text: Services
-  url: /services/
+  url: '/'
+  subitems:
+    - title: Packages
+      url: /service-packages/
+    - title: Ceramic Pro Coatings
+      url: /ceramic-pro-coatings/
+    - title: Prestige Detailing
+      url: /service-packages/
+    - title: Window Tint
+      url: /window-tint/
+    - title: Clear Bra Protection
+      url: /clear-bra-protection/
+    - title: Bray Windshield Skin
+      url: /Bray Windshield Skin/
 - text: Blog
   url: /blog/
+- text: About
+  url: /about/
+- text: Locations
+  subitems:
+    - title: Greeley
+      url: /greeley-colorado/
+    - title: Loveland
+      url: /loveland-colorado/
 - text: Contact
   url: /contact/
