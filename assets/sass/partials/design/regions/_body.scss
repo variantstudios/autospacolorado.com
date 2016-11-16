@@ -14,7 +14,9 @@ html {
   @include clearfix;
   max-width: $container_width;
   margin: 0 auto;
+  padding: 0 1em;
 }
+
 
 .site-wrapper {
   margin: 0 auto;

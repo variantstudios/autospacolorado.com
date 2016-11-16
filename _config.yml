@@ -50,7 +50,7 @@ defaults:
       tags:
 
 # typekit - Because we all need nice type faces.
-typekit:
+typekit: kqz1qdu
 
 # Google Analytics - What site isn't using it?!
 google_analytics_tracking_id:

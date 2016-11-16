@@ -1,3 +1,8 @@
+.header-wrapper  {
+  padding: 1em 0;
+  background: $header-bg;
+}
+
 .logo {
   text-align: center;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
@@ -10,7 +15,3 @@
   }
 }
 
-.header-wrapper  {
-  padding: 1em 0;
-  background: $header-bg;
-}
