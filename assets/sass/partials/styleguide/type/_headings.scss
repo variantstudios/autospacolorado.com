@@ -17,6 +17,32 @@ h6 { font-size: 1em; }
 h1, h2, h3, h4, h5, h6 {
   margin: $rem 0;
   line-height: 1.3;
-  color: $color-one;
   font-family: $heading-font-family;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 2.2em;
+  margin: 0;
+}
+.section-subtitle {
+    color: #A7A7A7;
+    font-style: italic;
+    margin: 0 0 0;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0;
+}
+
+.headings {
+  position: relative;
+  &:before {
+    content: '';
+    background: $color-one;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -2em;
+    left: -80%;
+  }
 }

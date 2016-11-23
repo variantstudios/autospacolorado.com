@@ -1,3 +1,63 @@
 .front {
-	
+  .preface-wrap {
+    background: #ccc;
+    background-image: linear-gradient(-179deg, #FCFCFC 16%, #D5D5D5 72%, #DEDEDE 100%);
+  }
+  .preface {
+    background: url(../images/bgs/grill.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+	.postscript {
+    background: #000;
+    color: #fff;
+  }
+  section {
+    padding: 5em 0;
+  }
+
+  // Location Blocks 
+  .location-block {
+    background: #fff;
+
+    padding: 2em 2em 2em 3em;
+    position: relative;
+    margin-top: 6em;
+    box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.23);
+    &:before {
+      content: '';
+      position: absolute;
+      background:#fff;
+      height: 100%;
+      width: 13px;
+      left: 0;
+      top: 0;
+      box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.12);
+    }
+    &.first {
+      @include breakpoint($bp-medium, $no-query) {
+        @include grid-span(5.5,1);
+      }
+    }
+    &.last {
+      margin-top: 3em;
+      @include breakpoint($bp-medium, $no-query) {
+        margin-top: 6em;
+        @include grid-span(5.5,7.5);
+      }
+    }
+    h4 {
+      text-transform: uppercase;
+    }
+  }
+
+  // Slider 
+  .gallery-slider {
+    margin-top: 4em;
+  }
+  .gallery-slider .slick-slide {
+    padding: 1em;
+  }
 }

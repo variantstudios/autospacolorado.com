@@ -21,12 +21,30 @@ div.btn {
     display: block;
     text-decoration: none;
     text-align: center;
-    @include btn($color-one, #fff, darken($color-one, 5%), 2px, 95%);
+    @include btn($color-one, #fff, darken($color-one, 5%), 0, 90%);
     font-family: $heading-font-family;
     @include trans(all, linear, .2s);
+    text-transform: uppercase;
+
     &:hover {
       margin-top: -0.15em;
       margin: -0.15em 0 0.15em;
+    }
+  }
+}
+
+
+div.btn.outline {
+  a {
+    display: block;
+    background: #fff;
+    border: 3px solid $color-one;
+    color: $color-one;
+    @include trans(all, linear, .2s);
+    &:hover {
+      background: $color-one;
+      color: #fff;
+      
     }
   }
 }

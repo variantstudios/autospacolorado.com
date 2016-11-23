@@ -51,8 +51,10 @@
   border-radius: $radius;
   color: $color;
   cursor: pointer;
-  padding: .5em 1.25em;
+  padding: .45em 1em .3em;
   font-size: $size;
+  font-weight: 700;
+  
   &:hover {
     background-color: darken($bg, 2%);
   }
