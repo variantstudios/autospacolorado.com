@@ -4,7 +4,7 @@
     background-image: linear-gradient(-179deg, #FCFCFC 16%, #D5D5D5 72%, #DEDEDE 100%);
   }
   .preface {
-    background: url(../images/bgs/grill.png) no-repeat center center fixed; 
+    background: url(../images/bgs/grill.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,15 +13,26 @@
 	.postscript {
     background: #000;
     color: #fff;
+    background: url(../images/bgs/postscript.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
   }
   section {
     padding: 5em 0;
+    &.work-section, &.postscript {
+      padding: 10em 0 5em;
+    }
+    &.preface {
+      padding: 5em 0 10em;
+    }
   }
 
   // Location Blocks 
   .location-block {
     background: #fff;
-
     padding: 2em 2em 2em 3em;
     position: relative;
     margin-top: 6em;
@@ -37,15 +48,35 @@
       box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.12);
     }
     &.first {
-      @include breakpoint($bp-medium, $no-query) {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
         @include grid-span(5.5,1);
+      }
+      &:after {
+        content: '01';
+        position: absolute;
+        top: 0px;
+        right: 40px;
+        color: #EEEEEE;
+        font-family: $heading-font-family;
+        font-size: 70px;
+        font-weight: 300;
       }
     }
     &.last {
       margin-top: 3em;
-      @include breakpoint($bp-medium, $no-query) {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
         margin-top: 6em;
         @include grid-span(5.5,7.5);
+      }
+      &:after {
+        content: '02';
+        position: absolute;
+        top: 0px;
+        right: 40px;
+        color: #EEEEEE;
+        font-family: $heading-font-family;
+        font-size: 70px;
+        font-weight: 300;
       }
     }
     h4 {
@@ -56,8 +87,80 @@
   // Slider 
   .gallery-slider {
     margin-top: 4em;
+    button {
+      position:absolute;
+      top: 48%;
+      -webkit-appearance: none;
+      @include hide-text;
+      height: 41px;
+      width: 41px;
+      border: 0;
+      z-index: 99;
+      box-shadow:0 0 10px rgba(0,0,0,0.4);
+    }
+    .slick-prev {
+      background: url(../images/left.png);
+      left: 20px;
+    } 
+    .slick-next {
+      background: url(../images/right.png);
+      right: 20px;
+    } 
   }
   .gallery-slider .slick-slide {
     padding: 1em;
+  }
+}
+
+.service-list-wrap {
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    @include grid-span(7.5,1);
+  }
+}
+
+.service-info-wrap {
+  position: relative;
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    @include grid-span(4,9);
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    top: -10em;
+    width: 100%;
+    height: 200%;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.28) 0%, #880409 91%);
+  }
+  .service-info {
+    padding: 2em;
+    img {
+      display:block;
+      margin: 0 auto;
+      padding-bottom: 3em;
+    }
+  }
+}
+
+ul.services-list {
+  list-style: none;
+  padding: 2em 0;
+  margin: 0;
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #3F3F3F;
+    &:last-child {
+      border-bottom: 1px solid #3F3F3F;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      padding: 0.65em 1em;
+      font-size: 1.65em;
+      font-family: $heading-font-family;
+    }
+
   }
 }

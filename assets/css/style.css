@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 23, ../sass/partials/styleguide/type/_headings.scss */
 .section-title {
   text-transform: uppercase;
-  font-size: 2.2em;
+  font-size: 2.4em;
   margin: 0;
 }
 
@@ -128,6 +128,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
   bottom: -2em;
   left: -80%;
+}
+
+/* line 52, ../sass/partials/styleguide/type/_headings.scss */
+.postscript .headings:before {
+  bottom: auto;
+  top: -40px;
 }
 
 /* line 1, ../sass/partials/styleguide/type/_links.scss */
@@ -385,13 +391,13 @@ ul.pager li a:visited {
   /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu {
     text-align: right;
-    padding-top: 2em;
+    padding-top: 1.5em;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .menu {
   text-align: right;
-  padding-top: 2em;
+  padding-top: 1.5em;
 }
 /* line 10, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li {
@@ -517,19 +523,30 @@ ul.pager li a:visited {
 }
 /* line 6, ../sass/partials/design/pages/_front.scss */
 .front .preface {
-  background: url(../images/bgs/grill.png) no-repeat center center fixed;
+  background: url(../images/bgs/grill.png) no-repeat center center;
   background-size: cover;
 }
 /* line 13, ../sass/partials/design/pages/_front.scss */
 .front .postscript {
   background: #000;
   color: #fff;
+  background: url(../images/bgs/postscript.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
 }
-/* line 17, ../sass/partials/design/pages/_front.scss */
+/* line 23, ../sass/partials/design/pages/_front.scss */
 .front section {
   padding: 5em 0;
 }
-/* line 22, ../sass/partials/design/pages/_front.scss */
+/* line 25, ../sass/partials/design/pages/_front.scss */
+.front section.work-section, .front section.postscript {
+  padding: 10em 0 5em;
+}
+/* line 28, ../sass/partials/design/pages/_front.scss */
+.front section.preface {
+  padding: 5em 0 10em;
+}
+/* line 34, ../sass/partials/design/pages/_front.scss */
 .front .location-block {
   background: #fff;
   padding: 2em 2em 2em 3em;
@@ -538,7 +555,7 @@ ul.pager li a:visited {
   -webkit-box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
           box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
 }
-/* line 29, ../sass/partials/design/pages/_front.scss */
+/* line 40, ../sass/partials/design/pages/_front.scss */
 .front .location-block:before {
   content: '';
   position: absolute;
@@ -551,7 +568,7 @@ ul.pager li a:visited {
           box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.12);
 }
 @media (min-width: 50em) {
-  /* line 39, ../sass/partials/design/pages/_front.scss */
+  /* line 50, ../sass/partials/design/pages/_front.scss */
   .front .location-block.first {
     width: 44.68085%;
     float: left;
@@ -561,19 +578,30 @@ ul.pager li a:visited {
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
-800px  ,  "no-query"    ".no-mq"   .front .location-block.first {
+.no-mq .front .location-block.first {
   width: 44.68085%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
   clear: none;
 }
-/* line 44, ../sass/partials/design/pages/_front.scss */
+/* line 54, ../sass/partials/design/pages/_front.scss */
+.front .location-block.first:after {
+  content: '01';
+  position: absolute;
+  top: 0px;
+  right: 40px;
+  color: #EEEEEE;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 70px;
+  font-weight: 300;
+}
+/* line 65, ../sass/partials/design/pages/_front.scss */
 .front .location-block.last {
   margin-top: 3em;
 }
 @media (min-width: 50em) {
-  /* line 44, ../sass/partials/design/pages/_front.scss */
+  /* line 65, ../sass/partials/design/pages/_front.scss */
   .front .location-block.last {
     margin-top: 6em;
     width: 44.68085%;
@@ -584,7 +612,7 @@ ul.pager li a:visited {
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
-800px  ,  "no-query"    ".no-mq"   .front .location-block.last {
+.no-mq .front .location-block.last {
   margin-top: 6em;
   width: 44.68085%;
   float: right;
@@ -592,17 +620,143 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 51, ../sass/partials/design/pages/_front.scss */
+/* line 71, ../sass/partials/design/pages/_front.scss */
+.front .location-block.last:after {
+  content: '02';
+  position: absolute;
+  top: 0px;
+  right: 40px;
+  color: #EEEEEE;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 70px;
+  font-weight: 300;
+}
+/* line 82, ../sass/partials/design/pages/_front.scss */
 .front .location-block h4 {
   text-transform: uppercase;
 }
-/* line 57, ../sass/partials/design/pages/_front.scss */
+/* line 88, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider {
   margin-top: 4em;
 }
-/* line 60, ../sass/partials/design/pages/_front.scss */
+/* line 90, ../sass/partials/design/pages/_front.scss */
+.front .gallery-slider button {
+  position: absolute;
+  top: 48%;
+  -webkit-appearance: none;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  height: 41px;
+  width: 41px;
+  border: 0;
+  z-index: 99;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+/* line 101, ../sass/partials/design/pages/_front.scss */
+.front .gallery-slider .slick-prev {
+  background: url(../images/left.png);
+  left: 20px;
+}
+/* line 105, ../sass/partials/design/pages/_front.scss */
+.front .gallery-slider .slick-next {
+  background: url(../images/right.png);
+  right: 20px;
+}
+/* line 110, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-slide {
   padding: 1em;
+}
+
+@media (min-width: 50em) {
+  /* line 115, ../sass/partials/design/pages/_front.scss */
+  .service-list-wrap {
+    width: 61.70213%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .service-list-wrap {
+  width: 61.70213%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+
+/* line 121, ../sass/partials/design/pages/_front.scss */
+.service-info-wrap {
+  position: relative;
+}
+@media (min-width: 50em) {
+  /* line 121, ../sass/partials/design/pages/_front.scss */
+  .service-info-wrap {
+    width: 31.91489%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .service-info-wrap {
+  width: 31.91489%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 126, ../sass/partials/design/pages/_front.scss */
+.service-info-wrap:before {
+  content: '';
+  position: absolute;
+  top: -10em;
+  width: 100%;
+  height: 200%;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.28) 0%, #880409 91%);
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.28) 0%, #880409 91%);
+}
+/* line 134, ../sass/partials/design/pages/_front.scss */
+.service-info-wrap .service-info {
+  padding: 2em;
+}
+/* line 136, ../sass/partials/design/pages/_front.scss */
+.service-info-wrap .service-info img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+/* line 144, ../sass/partials/design/pages/_front.scss */
+ul.services-list {
+  list-style: none;
+  padding: 2em 0;
+  margin: 0;
+}
+/* line 148, ../sass/partials/design/pages/_front.scss */
+ul.services-list li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #3F3F3F;
+}
+/* line 153, ../sass/partials/design/pages/_front.scss */
+ul.services-list li:last-child {
+  border-bottom: 1px solid #3F3F3F;
+}
+/* line 156, ../sass/partials/design/pages/_front.scss */
+ul.services-list li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 0.65em 1em;
+  font-size: 1.65em;
+  font-family: "brandon-grotesque", sans-serif;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */

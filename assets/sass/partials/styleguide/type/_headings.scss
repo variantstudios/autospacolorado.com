@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-title {
   text-transform: uppercase;
-  font-size: 2.2em;
+  font-size: 2.4em;
   margin: 0;
 }
 .section-subtitle {
@@ -44,5 +44,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 1px;
     bottom: -2em;
     left: -80%;
+  }
+}
+
+.postscript {
+  .headings {
+    &:before {
+      bottom: auto;
+      top: -40px;
+    }
   }
 }
