@@ -819,13 +819,54 @@ ul.services-list li a {
 
 /* line 1, ../sass/partials/design/regions/_main.scss */
 main {
-  padding: 2em 0;
+  padding: 0 0 2em;
 }
 /* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 main:after {
   content: "";
   display: table;
   clear: both;
+}
+/* line 4, ../sass/partials/design/regions/_main.scss */
+main section {
+  padding: 3em 0;
+}
+
+/* line 10, ../sass/partials/design/regions/_main.scss */
+.preface-wrap {
+  background: #ccc;
+  background-image: -webkit-linear-gradient(269deg, #fcfcfc 16%, #d5d5d5 72%, #dedede 100%);
+  background-image: linear-gradient(-179deg, #fcfcfc 16%, #d5d5d5 72%, #dedede 100%);
+}
+
+/* line 14, ../sass/partials/design/regions/_main.scss */
+.preface {
+  background: url(../images/bgs/grill.png) no-repeat center center;
+  background-size: cover;
+  padding: 3em 0 4em;
+}
+
+/* line 23, ../sass/partials/design/regions/_main.scss */
+.intro-text {
+  font-size: 1.2em;
+  padding-top: 1em;
+}
+
+/* line 28, ../sass/partials/design/regions/_main.scss */
+.content-section {
+  font-size: 1.2em;
+}
+
+/* line 32, ../sass/partials/design/regions/_main.scss */
+.page-image--main {
+  margin: -3em auto 2em;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  line-height: 0;
+}
+/* line 36, ../sass/partials/design/regions/_main.scss */
+.page-image--main img {
+  width: 100%;
 }
 
 /* line 1, ../sass/partials/design/regions/_body.scss */
@@ -872,111 +913,120 @@ main, header, footer, section, aside {
   display: block;
 }
 
-/* line 2, ../sass/partials/design/views/_team.scss */
+/* line 1, ../sass/partials/design/views/_team.scss */
+.team-list {
+  padding-top: 2em;
+}
+/* line 3, ../sass/partials/design/views/_team.scss */
 .team-list .person {
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 @media (min-width: 50em) {
-  /* line 5, ../sass/partials/design/views/_team.scss */
-  .team-list .person img {
-    width: 23.40426%;
+  /* line 3, ../sass/partials/design/views/_team.scss */
+  .team-list .person {
     float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-  }
-  /* line 8, ../sass/partials/design/views/_team.scss */
-  .team-list .person .info {
-    width: 74.46809%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
+    width: 50%;
+    padding-right: 2em;
   }
 }
-/* line 5, ../sass/partials/design/views/_team.scss */
-.no-mq .team-list .person img {
-  width: 23.40426%;
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .team-list .person {
   float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none;
+  width: 50%;
+  padding-right: 2em;
 }
-/* line 8, ../sass/partials/design/views/_team.scss */
-.no-mq .team-list .person .info {
-  width: 74.46809%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
+/* line 10, ../sass/partials/design/views/_team.scss */
+.team-list .person img {
+  width: 150px;
+  height: auto;
+  float: left;
+}
+/* line 16, ../sass/partials/design/views/_team.scss */
+.team-list .info {
+  overflow: hidden;
+  padding-left: 1.5em;
+}
+/* line 19, ../sass/partials/design/views/_team.scss */
+.team-list .info h4 {
+  text-transform: uppercase;
+  color: #d5121a;
+  font-size: 1.2em;
+  margin: 0 0 .5em;
 }
 
 /* line 2, ../sass/partials/design/views/_blog.scss */
 .blog-wrapper .blog-item {
   padding-bottom: 2em;
 }
-/* line 6, ../sass/partials/design/views/_blog.scss */
-.blog-wrapper .right-blog h3 {
+/* line 5, ../sass/partials/design/views/_blog.scss */
+.blog-wrapper .post-date {
+  font-weight: 700;
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+/* line 12, ../sass/partials/design/views/_blog.scss */
+.blog-wrapper .blog-item--content h3 {
   margin-top: 0;
 }
-/* line 9, ../sass/partials/design/views/_blog.scss */
-.blog-wrapper .right-blog .person {
+/* line 15, ../sass/partials/design/views/_blog.scss */
+.blog-wrapper .blog-item--content .person {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   margin-bottom: -5px;
   border: 2px solid #d5121a;
 }
-/* line 16, ../sass/partials/design/views/_blog.scss */
-.blog-wrapper .right-blog ul {
+/* line 22, ../sass/partials/design/views/_blog.scss */
+.blog-wrapper .blog-item--content ul {
   list-style: none;
   padding: 0;
 }
-/* line 19, ../sass/partials/design/views/_blog.scss */
-.blog-wrapper .right-blog ul li {
+/* line 25, ../sass/partials/design/views/_blog.scss */
+.blog-wrapper .blog-item--content ul li {
   display: inline-block;
 }
-/* line 21, ../sass/partials/design/views/_blog.scss */
-.blog-wrapper .right-blog ul li.tag-label {
+/* line 27, ../sass/partials/design/views/_blog.scss */
+.blog-wrapper .blog-item--content ul li.tag-label {
   background: #d5121a;
   padding: 2px 5px;
   border-radius: 3px;
   font-size: .8rem;
 }
-/* line 26, ../sass/partials/design/views/_blog.scss */
-.blog-wrapper .right-blog ul li.tag-label a, .blog-wrapper .right-blog ul li.tag-label a:visited {
+/* line 32, ../sass/partials/design/views/_blog.scss */
+.blog-wrapper .blog-item--content ul li.tag-label a, .blog-wrapper .blog-item--content ul li.tag-label a:visited {
   color: #f1f1f1;
   text-decoration: none;
 }
 @media (min-width: 50em) {
-  /* line 35, ../sass/partials/design/views/_blog.scss */
-  .blog-wrapper .left-image {
-    width: 23.40426%;
+  /* line 41, ../sass/partials/design/views/_blog.scss */
+  .blog-wrapper .blog-item--image {
+    width: 31.91489%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
   }
-  /* line 38, ../sass/partials/design/views/_blog.scss */
-  .blog-wrapper .right-blog {
-    width: 74.46809%;
+  /* line 44, ../sass/partials/design/views/_blog.scss */
+  .blog-wrapper .blog-item--content {
+    width: 65.95745%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
   }
 }
-/* line 35, ../sass/partials/design/views/_blog.scss */
-.no-mq .blog-wrapper .left-image {
-  width: 23.40426%;
+/* line 41, ../sass/partials/design/views/_blog.scss */
+.no-mq .blog-wrapper .blog-item--image {
+  width: 31.91489%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
   clear: none;
 }
-/* line 38, ../sass/partials/design/views/_blog.scss */
-.no-mq .blog-wrapper .right-blog {
-  width: 74.46809%;
+/* line 44, ../sass/partials/design/views/_blog.scss */
+.no-mq .blog-wrapper .blog-item--content {
+  width: 65.95745%;
   float: right;
   margin-left: 0;
   margin-right: 0;

@@ -1,5 +1,39 @@
 main {
   @include clearfix;
-  padding: 2em 0;
+  padding: 0 0 2em;
+  section {
+    padding: 3em 0;
+  }
 
+}
+
+.preface-wrap {
+    background: #ccc;
+    background-image: linear-gradient(-179deg, #FCFCFC 16%, #D5D5D5 72%, #DEDEDE 100%);
+  }
+.preface {
+  background: url(../images/bgs/grill.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 3em 0 4em;
+}
+
+.intro-text {
+  font-size: 1.2em;
+  padding-top: 1em;
+}
+
+.content-section {
+  font-size: 1.2em;
+}
+
+.page-image--main {
+  margin: -3em auto 2em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  line-height: 0;
+  img {
+    width: 100%;
+  }
 }

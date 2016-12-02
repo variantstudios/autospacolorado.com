@@ -2,7 +2,13 @@
   .blog-item {
     padding-bottom: 2em;
   }
-  .right-blog {
+  .post-date {
+    font-weight: 700;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    font-size: 0.9em;
+  }
+  .blog-item--content {
     h3 {
       margin-top: 0;
     }
@@ -32,11 +38,11 @@
     }
   }
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
-    .left-image {
-      @include grid-span(3, 1);
+    .blog-item--image {
+      @include grid-span(4, 1);
     }
-    .right-blog {
-      @include grid-span(9, 4);
+    .blog-item--content {
+      @include grid-span(8, 5);
     }
   }
 }

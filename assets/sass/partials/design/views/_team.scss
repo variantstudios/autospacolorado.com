@@ -1,13 +1,26 @@
 .team-list {
+  padding-top: 2em;
   .person {
-    padding-bottom: 2em;
+    padding-bottom: 3em;
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
-      img {
-        @include grid-span(3, 1);
+        float: left;
+        width: 50%;
+        padding-right: 2em;
       }
-      .info {
-        @include grid-span(9, 4);
-      }
+    img {
+      width: 150px;
+      height: auto;
+      float: left;
+    }
+  }
+  .info {
+    overflow:hidden;
+    padding-left: 1.5em;
+    h4 {
+      text-transform: uppercase;
+      color: $color-one;
+      font-size: 1.2em;
+      margin: 0 0 .5em;
     }
   }
 }
