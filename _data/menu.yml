@@ -1,5 +1,5 @@
-- text: Our Work
-  url: /our-work/
+- text: Gallery
+  url: /gallery/
 - text: Services
   subitems:
     - title: Packages

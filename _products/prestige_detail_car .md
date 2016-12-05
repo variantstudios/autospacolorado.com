@@ -3,7 +3,7 @@ layout: store
 title: Prestige Detail Car
 group: Detailing Packages
 image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/339361382.jpg
-description: 
+description: What most would consider a full inside and out detail.
 price_range: $210
 options: 
 ---

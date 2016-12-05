@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<section class="store-wrapper">
+  {% for gallery in site.projects %}
+    <article class="gallery-item clearfix">
+      <div class="gallery-item--image">
+        {% if gallery.image_path %}
+          <a href="{{ gallery.url }}"><img src="{{ gallery.image_path }}" alt="{{ gallery.title }}" title="{{ gallery.title }}"></a>
+        {% endif %}
+      </div>
+      <div class="gallery-item--content">
+        <a href="{{ gallery.url }}" title="{{ gallery.title }}">
+          <h2>{{ gallery.title }}</h2></a>
+      </div>
+    </article>
+  {% endfor %}
+</section>

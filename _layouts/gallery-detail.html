@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+
+<main>
+  <!--<div class="preface-wrap" >-->
+    <div class="preface">
+      <div class="wrap">
+        <img src="{{ page.main_image_path }}" />
+        
+      </div>
+    </div>
+  <!--</div>-->
+  <div class="wrap">
+    <div class="interior-headings">
+          <h1 class="section-title">{{ page.title }}</h1>
+          <h3 class="section-subtitle">{{ page.subtitle }}</h3>
+          <div class="intro-text"><p>{{ page.intro }}</p></div>
+        </div>
+    <div class="content-section">{{ content }}</div>
+    {% if page.url contains "contact" %}
+      {% include contact-form.html %}
+      {% elsif page.url contains "about" %}
+        {% include team.html %}
+    {% endif %}
+    
+  </div>
+</main>

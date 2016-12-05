@@ -1,10 +1,10 @@
 ---
 layout: store
 title: Concours Detail Car
-group:Detailing Packages
+group: Detailing Packages
 image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/339361593.jpg
-description: 
-price_range: $359
+description: The package demanded by auto enthusiast of all types for a complete and extensive detailing service.
+price_range: $458
 options: 
 ---
 
