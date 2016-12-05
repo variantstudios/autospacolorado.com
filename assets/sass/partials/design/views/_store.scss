@@ -1,0 +1,25 @@
+.store-wrapper {
+  .product-item {
+    padding-bottom: 2em;
+    @include breakpoint($bp-medium) {
+      display: inline-block;
+      width: 48%;
+      vertical-align: top;
+      padding: 0 1% 3em;
+    }
+    @include breakpoint($bp-large, $no-query: '.no-mq') {
+      width: 32%;
+    }
+  }
+  .product-date {
+    font-weight: 700;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    font-size: 0.9em;
+  }
+  .product-item--content {
+    padding-top: 1em;
+
+  }
+
+}

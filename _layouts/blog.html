@@ -1,18 +1,16 @@
 ---
 layout: page
 ---
-
-<section class="blog-preface">{{ content }}</section>
 <section class="blog-wrapper">
   {% for post in site.posts %}
     <article class="blog-item clearfix">
       <div class="blog-item--image">
         {% if post.image_path %}
-          <a href="{{ post.url }}"><img src="{{ post.image_path }}" alt="{{ post.title }}"></a>
+          <a href="{{ post.url }}"><img src="{{ post.image_path }}" alt="{{ post.title }}" title="{{ post.title }}"></a>
         {% endif %}
       </div>
       <div class="blog-item--content">
-        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</h2></a>
         <p class="post-date">{{ post.date | date: "%a, %b %d, %Y" }}</p>
         {% if post.description %}
           <p>{{ post.description }}</p>

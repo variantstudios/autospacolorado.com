@@ -22,16 +22,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-title {
   text-transform: uppercase;
-  font-size: 2.4em;
-  margin: 0;
+      font-size: 3.5em;
+    margin: 0 0 .2em;
+    font-weight: 700;
+    line-height: 1;
+}
+.front {
+  .section-title {
+    font-size: 3.2em;
+    margin: 0;
+  }
 }
 .section-subtitle {
     color: #A7A7A7;
-    font-style: italic;
-    margin: 0 0 0;
-    font-weight: normal;
-    font-size: 2em;
-    margin: 0;
+    font-weight: 300;
+    font-size: 2.2em;
+    margin: -3px 0 0;
 }
 
 .headings {
@@ -54,4 +60,10 @@ h1, h2, h3, h4, h5, h6 {
       top: -40px;
     }
   }
+}
+
+.intro-text {
+  font-size: 1.2em;
+  padding-top: 0.2em;
+  line-height: 1.5;
 }

@@ -3,14 +3,18 @@
   .person {
     padding-bottom: 3em;
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
-        float: left;
-        width: 50%;
+        display: inline-block;
+        width: 46%;
         padding-right: 2em;
+        vertical-align: top;
       }
     img {
-      width: 150px;
+      width: 90px;
       height: auto;
       float: left;
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        width: 150px;
+      }
     }
   }
   .info {

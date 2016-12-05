@@ -1,9 +1,10 @@
 ---
-title: About
+title: About AutoSpa Colorado
 permalink: "/about/"
 description: This is just a sample general page.
-intro: "We are very proud to offer an unrivalled range of detailing services designed to meet the needs of discerning customers throughout Northern Colorado Area who want the very best in car care for their vehicles. We undertake everything from full paint correction details, and also provide new car preparation services and a range of annual maintenance plans."
+intro: "We are very proud to offer an unrivalled range of detailing services designed to meet the needs of discerning customers throughout Northern Colorado Area who want the very best in car care for their vehicles."
 main_image_path: '/assets/images/team.jpg'
+header_image_path: 'http://o.homedsgn.com/wp-content/uploads/2014/09/A-Home-With-a-16-Car-Garage-15.jpg'
 layout: page
 ---
 
