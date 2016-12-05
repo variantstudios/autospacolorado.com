@@ -27,7 +27,6 @@ paginate_path: '/blog/:num/'
 cloudinary:
   cloud_name: variant-studios
   api_key: "796987956754394"
-  api_secret: "Tyn0wSTLPAWABg0Qq9lGNcy13PI"
   verbose: true
   presets:
     default:
