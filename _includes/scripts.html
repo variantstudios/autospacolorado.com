@@ -3,6 +3,7 @@
 <script src="/assets/js/prod/jquery.vide.js"></script>
 <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="/assets/js/prod/jquery.colorbox-min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
   window.sr = ScrollReveal({ reset: true });
@@ -63,6 +64,17 @@ sr.reveal('.person', {
 
 
 </script>
+
+<script>
+  $(document).ready(function(){
+    //Examples of how to assign the Colorbox event to elements
+    //$("").colorbox();
+    //$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+    $(".gallery-grid .grid-item").colorbox();
+  });
+</script>
+
+
 <script src="/assets/js/prod/scripts.js"></script>
 
 {% if site.google_analytics_tracking_id %}

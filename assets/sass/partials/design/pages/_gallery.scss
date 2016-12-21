@@ -1,0 +1,67 @@
+.gallery-detail-node{
+  padding: 5em 0 2em;
+  position: relative;
+  &:after {
+  background: url(../images/bgs/grill.png) no-repeat center center; 
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    content: '';
+    //background-color:rgba(0, 0, 0, 0.43);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 150px;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      height: 400px;
+    }
+  }
+  &:before {
+    background-image: linear-gradient(-179deg, #FCFCFC 16%, #D5D5D5 72%, #DEDEDE 100%);
+    content: '';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 150px;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      height: 400px;
+    }
+  }
+
+}
+
+.gallery-grid {
+  list-style: none;
+  margin: 0 0 3em;
+  padding: 0;
+  position: relative;z-index:1;
+  li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    width: 20%;
+    margin-right: 5px;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      width:15%;
+    }
+    &.first-grid-item {
+      display: block;
+      width: 100%;
+    }
+
+
+  }
+}
+
+.gallery-content-section {
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+   @include grid-span(6,1);
+  }
+}
+.gallery-service-section {
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+   @include grid-span(5.5,7.5);
+  }
+}

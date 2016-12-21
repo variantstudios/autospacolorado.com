@@ -3,27 +3,41 @@ layout: default
 ---
 
 
-<main>
-  <!--<div class="preface-wrap" >-->
-    <div class="preface">
-      <div class="wrap">
-        <img src="{{ page.main_image_path }}" />
-        
-      </div>
-    </div>
-  <!--</div>-->
+<main class="gallery-detail-node">
   <div class="wrap">
-    <div class="interior-headings">
-          <h1 class="section-title">{{ page.title }}</h1>
-          <h3 class="section-subtitle">{{ page.subtitle }}</h3>
-          <div class="intro-text"><p>{{ page.intro }}</p></div>
-        </div>
-    <div class="content-section">{{ content }}</div>
-    {% if page.url contains "contact" %}
-      {% include contact-form.html %}
-      {% elsif page.url contains "about" %}
-        {% include team.html %}
+    <ul class="gallery-grid">
+      <li itemscope class="grid-item first-grid-item">
+      <a href="{{ page.main_image_path }}">
+        <img src="{{ page.main_image_path }}" />
+      </a>
+    </li>
+      {% for item in page.images_and_videos %}
+        <li itemscope class="grid-item">
+          {% if item.large_image_path %} 
+            <a class="gallery-item" href="{{ item.large_image_path }}">
+          {% endif %}
+          {% if item.youtube_id %} 
+            <a href="http://www.youtube.com/embed/{{ item.youtube_id }} " class="youtube">
+          {% endif %}
+            <img class="gallery-img lrg" src="{{ item.teaser_image_path }}" alt="{{ item.title }}" itemprop="image">
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="gallery-content-section">
+      <h1 class="section-title">{{ page.title }}</h1>
+      <h3 class="section-subtitle">{{ page.subtitle }}</h3>
+      <div class="intro-text"><p>{{ page.intro }}</p></div>
+      <div class="content-section">{{ content }}</div>
+    </div>
+    {% if page.services %} 
+      <div class="gallery-service-section">
+        <ul class="service-list">
+          {% for item in page.services %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
-    
   </div>
 </main>
