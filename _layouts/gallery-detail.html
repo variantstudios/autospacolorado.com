@@ -6,19 +6,24 @@ layout: default
 <main class="gallery-detail-node">
   <div class="wrap">
     <ul class="gallery-grid">
+      
       <li itemscope class="grid-item first-grid-item">
-      <a href="{{ page.main_image_path }}">
+       <a href="#" data-featherlight="{{ page.main_image_path }}">
         <img src="{{ page.main_image_path }}" />
       </a>
-    </li>
+      </li>
+
       {% for item in page.images_and_videos %}
         <li itemscope class="grid-item">
           {% if item.large_image_path %} 
-            <a class="gallery-item" href="{{ item.large_image_path }}">
+            <a class="gallery-item" href="#" data-featherlight="{{ item.large_image_path }}">
           {% endif %}
+
           {% if item.youtube_id %} 
-            <a href="http://www.youtube.com/embed/{{ item.youtube_id }} " class="youtube">
+            <iframe class="lightbox"  width="560" height="315" src="https://www.youtube.com/embed/{{ item.youtube_id }} " frameborder="0" allowfullscreen id="video"></iframe>
+            <a class="btn btn-default" href="#" data-featherlight="#video">
           {% endif %}
+          
             <img class="gallery-img lrg" src="{{ item.teaser_image_path }}" alt="{{ item.title }}" itemprop="image">
           </a>
         </li>

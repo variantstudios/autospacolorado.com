@@ -1154,9 +1154,13 @@ ul.services-list li a {
   display: block;
   width: 100%;
 }
+/* line 61, ../sass/partials/design/pages/_gallery.scss */
+.gallery-grid #video {
+  display: none;
+}
 
 @media (min-width: 50em) {
-  /* line 63, ../sass/partials/design/pages/_gallery.scss */
+  /* line 66, ../sass/partials/design/pages/_gallery.scss */
   .gallery-content-section {
     width: 48.93617%;
     float: left;
@@ -1175,7 +1179,7 @@ ul.services-list li a {
 }
 
 @media (min-width: 50em) {
-  /* line 68, ../sass/partials/design/pages/_gallery.scss */
+  /* line 71, ../sass/partials/design/pages/_gallery.scss */
   .gallery-service-section {
     width: 44.68085%;
     float: right;
