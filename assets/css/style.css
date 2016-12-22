@@ -1116,7 +1116,14 @@ ul.services-list li a {
   height: 400px;
 }
 
-/* line 35, ../sass/partials/design/pages/_gallery.scss */
+/* line 34, ../sass/partials/design/pages/_gallery.scss */
+.one3rd {
+  max-width: 33%;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+/* line 40, ../sass/partials/design/pages/_gallery.scss */
 .gallery-grid {
   list-style: none;
   margin: 0 0 3em;
@@ -1124,7 +1131,7 @@ ul.services-list li a {
   position: relative;
   z-index: 1;
 }
-/* line 40, ../sass/partials/design/pages/_gallery.scss */
+/* line 45, ../sass/partials/design/pages/_gallery.scss */
 .gallery-grid li {
   list-style: none;
   display: inline-block;
@@ -1133,7 +1140,7 @@ ul.services-list li a {
   margin-right: 5px;
 }
 @media (min-width: 50em) {
-  /* line 40, ../sass/partials/design/pages/_gallery.scss */
+  /* line 45, ../sass/partials/design/pages/_gallery.scss */
   .gallery-grid li {
     width: 15%;
   }
@@ -1142,14 +1149,14 @@ ul.services-list li a {
 .no-mq .gallery-grid li {
   width: 15%;
 }
-/* line 49, ../sass/partials/design/pages/_gallery.scss */
+/* line 54, ../sass/partials/design/pages/_gallery.scss */
 .gallery-grid li.first-grid-item {
   display: block;
   width: 100%;
 }
 
 @media (min-width: 50em) {
-  /* line 58, ../sass/partials/design/pages/_gallery.scss */
+  /* line 63, ../sass/partials/design/pages/_gallery.scss */
   .gallery-content-section {
     width: 48.93617%;
     float: left;
@@ -1168,7 +1175,7 @@ ul.services-list li a {
 }
 
 @media (min-width: 50em) {
-  /* line 63, ../sass/partials/design/pages/_gallery.scss */
+  /* line 68, ../sass/partials/design/pages/_gallery.scss */
   .gallery-service-section {
     width: 44.68085%;
     float: right;

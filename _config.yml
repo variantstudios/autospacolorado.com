@@ -33,8 +33,16 @@ cloudinary:
         min_width: 320
         max_width: 1200
         fallback_max_width: 800
-        steps: 2
+        steps: 5
         sizes: "(min-width: 50rem) 50rem, 90vw"
+      onethird:
+        min_width: 110
+        max_width: 535
+        fallback_max_width: 300
+        steps: 3
+        sizes: "(min-width: 50rem) 17rem, 30vw"
+        attributes:
+          class: "one3rd"
 
 #Collections
 collections:
