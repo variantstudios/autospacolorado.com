@@ -830,13 +830,14 @@ ul.pager li a:visited {
   background: #ccc;
   background-image: -webkit-linear-gradient(269deg, #fcfcfc 16%, #d5d5d5 72%, #dedede 100%);
   background-image: linear-gradient(-179deg, #fcfcfc 16%, #d5d5d5 72%, #dedede 100%);
+  position: relative;
 }
-/* line 6, ../sass/partials/design/pages/_front.scss */
+/* line 8, ../sass/partials/design/pages/_front.scss */
 .front .preface {
   background: url(../images/bgs/grill.png) no-repeat center center;
   background-size: cover;
 }
-/* line 13, ../sass/partials/design/pages/_front.scss */
+/* line 15, ../sass/partials/design/pages/_front.scss */
 .front .postscript {
   background: #000;
   color: #fff;
@@ -844,19 +845,19 @@ ul.pager li a:visited {
   background-size: cover;
   overflow: hidden;
 }
-/* line 23, ../sass/partials/design/pages/_front.scss */
+/* line 25, ../sass/partials/design/pages/_front.scss */
 .front section {
   padding: 5em 0;
 }
-/* line 25, ../sass/partials/design/pages/_front.scss */
+/* line 27, ../sass/partials/design/pages/_front.scss */
 .front section.work-section, .front section.postscript {
   padding: 10em 0 5em;
 }
-/* line 28, ../sass/partials/design/pages/_front.scss */
+/* line 30, ../sass/partials/design/pages/_front.scss */
 .front section.preface {
   padding: 5em 0 10em;
 }
-/* line 34, ../sass/partials/design/pages/_front.scss */
+/* line 36, ../sass/partials/design/pages/_front.scss */
 .front .location-block {
   background: #fff;
   padding: 2em 2em 2em 3em;
@@ -865,7 +866,7 @@ ul.pager li a:visited {
   -webkit-box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
           box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
 }
-/* line 40, ../sass/partials/design/pages/_front.scss */
+/* line 42, ../sass/partials/design/pages/_front.scss */
 .front .location-block:before {
   content: '';
   position: absolute;
@@ -878,7 +879,7 @@ ul.pager li a:visited {
           box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.12);
 }
 @media (min-width: 50em) {
-  /* line 50, ../sass/partials/design/pages/_front.scss */
+  /* line 52, ../sass/partials/design/pages/_front.scss */
   .front .location-block.first {
     width: 44.68085%;
     float: left;
@@ -895,7 +896,7 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 54, ../sass/partials/design/pages/_front.scss */
+/* line 56, ../sass/partials/design/pages/_front.scss */
 .front .location-block.first:after {
   content: '01';
   position: absolute;
@@ -906,12 +907,12 @@ ul.pager li a:visited {
   font-size: 70px;
   font-weight: 300;
 }
-/* line 65, ../sass/partials/design/pages/_front.scss */
+/* line 67, ../sass/partials/design/pages/_front.scss */
 .front .location-block.last {
   margin-top: 3em;
 }
 @media (min-width: 50em) {
-  /* line 65, ../sass/partials/design/pages/_front.scss */
+  /* line 67, ../sass/partials/design/pages/_front.scss */
   .front .location-block.last {
     margin-top: 6em;
     width: 44.68085%;
@@ -930,7 +931,7 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 71, ../sass/partials/design/pages/_front.scss */
+/* line 73, ../sass/partials/design/pages/_front.scss */
 .front .location-block.last:after {
   content: '02';
   position: absolute;
@@ -941,15 +942,15 @@ ul.pager li a:visited {
   font-size: 70px;
   font-weight: 300;
 }
-/* line 82, ../sass/partials/design/pages/_front.scss */
+/* line 84, ../sass/partials/design/pages/_front.scss */
 .front .location-block h4 {
   text-transform: uppercase;
 }
-/* line 88, ../sass/partials/design/pages/_front.scss */
+/* line 90, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider {
   margin-top: 4em;
 }
-/* line 90, ../sass/partials/design/pages/_front.scss */
+/* line 92, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider button {
   position: absolute;
   top: 48%;
@@ -965,23 +966,30 @@ ul.pager li a:visited {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-/* line 101, ../sass/partials/design/pages/_front.scss */
+/* line 103, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-prev {
   background: url(../images/left.png);
   left: 20px;
 }
-/* line 105, ../sass/partials/design/pages/_front.scss */
+/* line 107, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-next {
   background: url(../images/right.png);
   right: 20px;
 }
-/* line 110, ../sass/partials/design/pages/_front.scss */
+/* line 112, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-slide {
   padding: 1em;
 }
+/* line 117, ../sass/partials/design/pages/_front.scss */
+.front .car-side {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  max-width: 50%;
+}
 
 @media (min-width: 50em) {
-  /* line 115, ../sass/partials/design/pages/_front.scss */
+  /* line 125, ../sass/partials/design/pages/_front.scss */
   .service-list-wrap {
     width: 61.70213%;
     float: left;
@@ -999,12 +1007,13 @@ ul.pager li a:visited {
   clear: none;
 }
 
-/* line 121, ../sass/partials/design/pages/_front.scss */
+/* line 131, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap {
   position: relative;
+  margin: 0 -2em;
 }
 @media (min-width: 50em) {
-  /* line 121, ../sass/partials/design/pages/_front.scss */
+  /* line 131, ../sass/partials/design/pages/_front.scss */
   .service-info-wrap {
     width: 31.91489%;
     float: right;
@@ -1021,45 +1030,54 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 126, ../sass/partials/design/pages/_front.scss */
+/* line 137, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap:before {
   content: '';
   position: absolute;
-  top: -10em;
   width: 100%;
   height: 200%;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.28) 0%, #880409 91%);
   background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.28) 0%, #880409 91%);
 }
-/* line 134, ../sass/partials/design/pages/_front.scss */
+@media (min-width: 50em) {
+  /* line 137, ../sass/partials/design/pages/_front.scss */
+  .service-info-wrap:before {
+    top: -10em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .service-info-wrap:before {
+  top: -10em;
+}
+/* line 147, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap .service-info {
   padding: 2em;
 }
-/* line 136, ../sass/partials/design/pages/_front.scss */
+/* line 149, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap .service-info img {
   display: block;
   margin: 0 auto;
   padding-bottom: 3em;
 }
 
-/* line 144, ../sass/partials/design/pages/_front.scss */
+/* line 157, ../sass/partials/design/pages/_front.scss */
 ul.services-list {
   list-style: none;
   padding: 2em 0;
   margin: 0;
 }
-/* line 148, ../sass/partials/design/pages/_front.scss */
+/* line 161, ../sass/partials/design/pages/_front.scss */
 ul.services-list li {
   list-style: none;
   padding: 0;
   margin: 0;
   border-top: 1px solid #3F3F3F;
 }
-/* line 153, ../sass/partials/design/pages/_front.scss */
+/* line 166, ../sass/partials/design/pages/_front.scss */
 ul.services-list li:last-child {
   border-bottom: 1px solid #3F3F3F;
 }
-/* line 156, ../sass/partials/design/pages/_front.scss */
+/* line 169, ../sass/partials/design/pages/_front.scss */
 ul.services-list li a {
   text-decoration: none;
   color: #fff;
@@ -1201,10 +1219,102 @@ ul.services-list li a {
 .footer-wrapper {
   background: black;
   color: #fff;
+  padding: 3em 0em 1em;
 }
-/* line 4, ../sass/partials/design/regions/_footer.scss */
-.footer-wrapper h6, .footer-wrapper a {
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/regions/_footer.scss */
+  .footer-wrapper {
+    padding: 3em 2em 1em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .footer-wrapper {
+  padding: 3em 2em 1em;
+}
+/* line 8, ../sass/partials/design/regions/_footer.scss */
+.footer-wrapper h6, .footer-wrapper a, .footer-wrapper p {
   color: #fff;
+  vertical-align: top;
+}
+/* line 12, ../sass/partials/design/regions/_footer.scss */
+.footer-wrapper h6 {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-right: 2em;
+}
+/* line 17, ../sass/partials/design/regions/_footer.scss */
+.footer-wrapper .footer-block, .footer-wrapper .copy-footer-block {
+  vertical-align: top;
+}
+@media (min-width: 50em) {
+  /* line 21, ../sass/partials/design/regions/_footer.scss */
+  .footer-wrapper .footer-block-1 {
+    width: 23.40426%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+  /* line 24, ../sass/partials/design/regions/_footer.scss */
+  .footer-wrapper .footer-block-1 h6, .footer-wrapper .footer-block-1 a, .footer-wrapper .footer-block-1 p {
+    display: inline-block;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .footer-wrapper .footer-block-1 {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+/* line 24, ../sass/partials/design/regions/_footer.scss */
+.no-mq .footer-wrapper .footer-block-1 h6, .no-mq .footer-wrapper .footer-block-1 a, .no-mq .footer-wrapper .footer-block-1 p {
+  display: inline-block;
+}
+@media (min-width: 50em) {
+  /* line 30, ../sass/partials/design/regions/_footer.scss */
+  .footer-wrapper .footer-block-2 {
+    width: 23.40426%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 34.04255%;
+    clear: none;
+  }
+  /* line 33, ../sass/partials/design/regions/_footer.scss */
+  .footer-wrapper .footer-block-2 h6, .footer-wrapper .footer-block-2 a, .footer-wrapper .footer-block-2 p {
+    display: inline-block;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .footer-wrapper .footer-block-2 {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 34.04255%;
+  clear: none;
+}
+/* line 33, ../sass/partials/design/regions/_footer.scss */
+.no-mq .footer-wrapper .footer-block-2 h6, .no-mq .footer-wrapper .footer-block-2 a, .no-mq .footer-wrapper .footer-block-2 p {
+  display: inline-block;
+}
+@media (min-width: 50em) {
+  /* line 38, ../sass/partials/design/regions/_footer.scss */
+  .footer-wrapper .footer-block-3 {
+    width: 23.40426%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .footer-wrapper .footer-block-3 {
+  width: 23.40426%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
 }
 
 /* line 1, ../sass/partials/design/regions/_header.scss */

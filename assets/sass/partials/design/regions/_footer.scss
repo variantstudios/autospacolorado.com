@@ -1,7 +1,43 @@
 .footer-wrapper {
   background: $footer-bg;
   color: #fff;
-  h6, a {
+  padding: 3em 0em 1em;
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    padding: 3em 2em 1em;
+  }
+  h6, a, p {
     color: #fff;
+    vertical-align: top;
+  }
+  h6 {
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-right: 2em;
+  }
+  .footer-block, .copy-footer-block {
+    //display: inline-block;
+    vertical-align: top;
+  }
+  .footer-block-1 {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include grid-span(3,1);
+      h6, a, p {
+        display: inline-block;
+      }
+    }
+    
+  }
+  .footer-block-2 {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include grid-span(3,5);
+      h6, a, p {
+        display: inline-block;
+      }
+    }
+  }
+  .footer-block-3 {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include grid-span(3,10);
+    }
   }
 }
