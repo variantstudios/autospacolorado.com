@@ -1,15 +1,14 @@
 ---
 layout: store
-title: 2 Front Door Windows
+title: Window Tinting on 2 Door Car
 group: Window Tinting
 image_path: /assets/images/store/detail-gold.png
 description: The package demanded by auto enthusiast of all types for a complete and extensive detailing service.
-price_range: $109
+price_range: $209
 options:
 ---
 
 
-This gift certificate is valid for tinting 2 front door windows on trucks and Suvs. Includes a lifetime nationwide warranty.
+Gift Certificate for tinting on most 2 door cars. Includes a lifetime warranty. Add $29 more for a windshield visor/Eyebrow
 
-$20 Additional for 2 fronts doors with wing windows.
-<br>$29 additional for a windshield visor.
+Some 2 door vehicles are excluded (cobalt, volkswagen beetle, volkswagen gti, older camaros and firebirds, c6 or older corvette coupes)
