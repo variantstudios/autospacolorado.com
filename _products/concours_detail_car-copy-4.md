@@ -1,14 +1,12 @@
 ---
 layout: store
-title: Window Tinting on a 4 Door Car (Sedan)
+title: Regular Cab Truck Tinting
 group: Window Tinting
 image_path: /assets/images/store/detail-gold.png
-description: The package demanded by auto enthusiast of all types for a complete and extensive detailing service.
-price_range: $249
+description: Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint.
+price_range: $199
 options:
 ---
 
 
-Window tinting for a 4 door car. Includes all the windows except the front windshield or sunroof. Includes a lifetime nationwide warranty.
-
-Excludes most vehicles model year 2005 and older.
+Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider.
