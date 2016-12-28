@@ -4,7 +4,7 @@
 }
 
 .logo {
-  text-align: center;
+  width: 200px;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     @include grid-span(3,1,$gutter:0);
   }

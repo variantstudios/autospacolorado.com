@@ -11,6 +11,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-bottom: 0;
   }
 	.postscript {
     background: #000;
@@ -117,8 +118,13 @@
   .car-side {
     position: absolute;
     right: 0;
-    top: 25%;
-    max-width: 50%;
+    max-width: 85%;
+    bottom: 1em;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      top: 25%;
+      bottom: auto;
+      max-width: 50%;
+    }
   }
 }
 
@@ -173,6 +179,18 @@ ul.services-list {
       padding: 0.65em 1em;
       font-size: 1.65em;
       font-family: $heading-font-family;
+      transition: all .25s linear;
+      &:hover {
+        img {
+          padding-right: 10px;
+          transition: all .25s linear;
+        }
+      }
+    }
+    img {
+      float: right;
+      padding-top: 10px;
+      transition: all .25s linear;
     }
 
   }
