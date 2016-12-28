@@ -9,6 +9,6 @@ options:
 ---
 
 
-Gift Certificate for tinting on most 2 door cars. Includes a lifetime warranty. Add $29 more for a windshield visor/Eyebrow
+Window tinting for a 4 door car. Includes all the windows except the front windshield or sunroof. Includes a lifetime nationwide warranty.
 
-Some 2 door vehicles are excluded (cobalt, volkswagen beetle, volkswagen gti, older camaros and firebirds, c6 or older corvette coupes)
+Excludes most vehicles model year 2005 and older.
