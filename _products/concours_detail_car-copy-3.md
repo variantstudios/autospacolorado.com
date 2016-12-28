@@ -1,10 +1,10 @@
 ---
 layout: store
-title: Window Tinting on 2 Door Car
+title: Window Tinting on a 4 Door Car (Sedan)
 group: Window Tinting
 image_path: /assets/images/store/detail-gold.png
 description: The package demanded by auto enthusiast of all types for a complete and extensive detailing service.
-price_range: $209
+price_range: $249
 options:
 ---
 
