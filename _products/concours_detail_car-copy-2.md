@@ -2,7 +2,7 @@
 layout: store
 title: Window Tinting on 2 Door Car
 group: Window Tinting
-image_path: /assets/images/store/detail-gold.png
+image_path: /assets/images/store/tint-2-door.png
 description: The package demanded by auto enthusiast of all types for a complete and extensive detailing service.
 price_range: $209
 options:

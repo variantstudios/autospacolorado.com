@@ -2,7 +2,7 @@
 layout: store
 title: 2 Front Door Windows
 group: Window Tinting
-image_path: /assets/images/store/detail-gold.png
+image_path: /assets/images/store/tint-truck.png
 description: The package demanded by auto enthusiast of all types for a complete and extensive detailing service.
 price_range: $109
 options:
