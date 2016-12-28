@@ -101,31 +101,61 @@ h1, h2, h3, h4, h5, h6 {
 /* line 23, ../sass/partials/styleguide/type/_headings.scss */
 .section-title {
   text-transform: uppercase;
-  font-size: 3.5em;
+  font-size: 2.5em;
   margin: 0 0 .2em;
   font-weight: 700;
   line-height: 1;
 }
-
-/* line 31, ../sass/partials/styleguide/type/_headings.scss */
-.front .section-title {
-  font-size: 3.2em;
-  margin: 0;
+@media (min-width: 50em) {
+  /* line 23, ../sass/partials/styleguide/type/_headings.scss */
+  .section-title {
+    font-size: 3.5em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .section-title {
+  font-size: 3.5em;
 }
 
-/* line 36, ../sass/partials/styleguide/type/_headings.scss */
+/* line 34, ../sass/partials/styleguide/type/_headings.scss */
+.front .section-title {
+  font-size: 2.2em;
+  margin: 0;
+}
+@media (min-width: 50em) {
+  /* line 34, ../sass/partials/styleguide/type/_headings.scss */
+  .front .section-title {
+    font-size: 3.2em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front .section-title {
+  font-size: 3.2em;
+}
+
+/* line 42, ../sass/partials/styleguide/type/_headings.scss */
 .section-subtitle {
   color: #A7A7A7;
   font-weight: 300;
-  font-size: 2.2em;
+  font-size: 1.5em;
   margin: -3px 0 0;
 }
+@media (min-width: 50em) {
+  /* line 42, ../sass/partials/styleguide/type/_headings.scss */
+  .section-subtitle {
+    font-size: 2.2em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .section-subtitle {
+  font-size: 2.2em;
+}
 
-/* line 43, ../sass/partials/styleguide/type/_headings.scss */
+/* line 52, ../sass/partials/styleguide/type/_headings.scss */
 .headings {
   position: relative;
 }
-/* line 45, ../sass/partials/styleguide/type/_headings.scss */
+/* line 54, ../sass/partials/styleguide/type/_headings.scss */
 .headings:before {
   content: '';
   background: #d5121a;
@@ -136,13 +166,13 @@ h1, h2, h3, h4, h5, h6 {
   left: -80%;
 }
 
-/* line 58, ../sass/partials/styleguide/type/_headings.scss */
+/* line 67, ../sass/partials/styleguide/type/_headings.scss */
 .postscript .headings:before {
   bottom: auto;
   top: -40px;
 }
 
-/* line 65, ../sass/partials/styleguide/type/_headings.scss */
+/* line 74, ../sass/partials/styleguide/type/_headings.scss */
 .intro-text {
   font-size: 1.2em;
   padding-top: 0.2em;
@@ -1097,18 +1127,28 @@ ul.services-list li a {
   color: #fff;
   display: block;
   padding: 0.65em 1em;
-  font-size: 1.65em;
+  font-size: 1.25em;
   font-family: "futura-pt", sans-serif;
   -webkit-transition: all .25s linear;
           transition: all .25s linear;
 }
-/* line 184, ../sass/partials/design/pages/_front.scss */
+@media (min-width: 50em) {
+  /* line 175, ../sass/partials/design/pages/_front.scss */
+  ul.services-list li a {
+    font-size: 1.65em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq ul.services-list li a {
+  font-size: 1.65em;
+}
+/* line 188, ../sass/partials/design/pages/_front.scss */
 ul.services-list li a:hover img {
   padding-right: 10px;
   -webkit-transition: all .25s linear;
           transition: all .25s linear;
 }
-/* line 190, ../sass/partials/design/pages/_front.scss */
+/* line 194, ../sass/partials/design/pages/_front.scss */
 ul.services-list li img {
   float: right;
   padding-top: 10px;
@@ -1680,12 +1720,17 @@ main, header, footer, section, aside {
   clear: none;
 }
 
-/* line 2, ../sass/partials/design/views/_store.scss */
+/* line 1, ../sass/partials/design/views/_store.scss */
+.store-wrapper {
+  text-align: center;
+}
+/* line 3, ../sass/partials/design/views/_store.scss */
 .store-wrapper .product-item {
   padding-bottom: 2em;
+  text-align: left;
 }
 @media (min-width: 50em) {
-  /* line 2, ../sass/partials/design/views/_store.scss */
+  /* line 3, ../sass/partials/design/views/_store.scss */
   .store-wrapper .product-item {
     display: inline-block;
     width: 48%;
@@ -1694,23 +1739,38 @@ main, header, footer, section, aside {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 2, ../sass/partials/design/views/_store.scss */
+  /* line 3, ../sass/partials/design/views/_store.scss */
   .store-wrapper .product-item {
-    width: 32%;
+    width: 33%;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .store-wrapper .product-item {
-  width: 32%;
+  width: 33%;
 }
-/* line 14, ../sass/partials/design/views/_store.scss */
+/* line 15, ../sass/partials/design/views/_store.scss */
+.store-wrapper .product-item a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 20, ../sass/partials/design/views/_store.scss */
 .store-wrapper .product-date {
   font-weight: 700;
   font-family: "futura-pt", sans-serif;
   text-transform: uppercase;
   font-size: 0.9em;
 }
-/* line 20, ../sass/partials/design/views/_store.scss */
+/* line 26, ../sass/partials/design/views/_store.scss */
 .store-wrapper .product-item--content {
-  padding-top: 1em;
+  background: #ECECEC;
+  padding: 1em 2em;
+}
+/* line 30, ../sass/partials/design/views/_store.scss */
+.store-wrapper .product-item--image {
+  line-height: 0;
+}
+/* line 33, ../sass/partials/design/views/_store.scss */
+.store-wrapper .store-group-labels {
+  padding: 2em 0;
+  text-align: center;
 }

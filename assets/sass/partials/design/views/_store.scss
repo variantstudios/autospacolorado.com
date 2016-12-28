@@ -1,6 +1,8 @@
 .store-wrapper {
+  text-align: center;
   .product-item {
     padding-bottom: 2em;
+    text-align: left;
     @include breakpoint($bp-medium) {
       display: inline-block;
       width: 48%;
@@ -8,7 +10,11 @@
       padding: 0 1% 3em;
     }
     @include breakpoint($bp-large, $no-query: '.no-mq') {
-      width: 32%;
+      width: 33%;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
     }
   }
   .product-date {
@@ -18,8 +24,16 @@
     font-size: 0.9em;
   }
   .product-item--content {
-    padding-top: 1em;
-
+    background: #ECECEC;
+    padding: 1em 2em;
   }
+  .product-item--image {
+    line-height: 0;
+  }
+  .store-group-labels {
+    padding: 2em 0;
+    text-align: center;
+  }
+
 
 }

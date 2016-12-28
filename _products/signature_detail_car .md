@@ -2,7 +2,7 @@
 layout: store
 title: Signature Detail Car
 group: Detailing Packages
-image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/339314368.jpg
+image_path: /assets/images/store/detail-bronze.png
 description: This package fits perfectly for vehicles that have been detailed within the last 2 – 3 months or for those looking for a quick cleaning of their vehicles.
 price_range: $159
 options: 

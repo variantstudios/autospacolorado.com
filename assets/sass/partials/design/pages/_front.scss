@@ -177,9 +177,13 @@ ul.services-list {
       color: #fff;
       display: block;
       padding: 0.65em 1em;
-      font-size: 1.65em;
+      font-size: 1.25em;
       font-family: $heading-font-family;
       transition: all .25s linear;
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        font-size: 1.65em;
+      }
+
       &:hover {
         img {
           padding-right: 10px;
