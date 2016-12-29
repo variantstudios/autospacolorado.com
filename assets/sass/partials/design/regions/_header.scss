@@ -1,6 +1,11 @@
 .header-wrapper  {
   padding: 1em 0;
   background: $header-bg;
+  position: relative;
+  z-index: 999;
+  .wrap {
+    max-width: none;
+  }
 }
 
 .logo {

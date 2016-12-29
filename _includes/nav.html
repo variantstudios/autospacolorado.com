@@ -1,9 +1,94 @@
-{% assign navurl = page.url | remove : 'index.html' %}
+<!-- {% assign navurl = page.url | remove : 'index.html' %}
 <ul class="menu">
-    {% for item in include.nav %}
+  {% for item in include.nav %}
+    <li class="first">
+        <a href="{{ item.url }}" class="{% if item.url == navurl %}active{% endif %}">{{ item.text }}</a>
+        {% if item.subitems %}{% include nav.html nav = item.subitems %}{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+ -->
+
+ <ul class="menu">
+    <li class="first">
+      <a href="/gallery/">Gallery</a>
+    </li>
+
+    <li class="has-submenu">Services
+      <ul class="menu">
         <li class="first">
-            <a href="{{ item.url }}" class="{% if item.url == navurl %}active{% endif %}">{{ item.text }}</a>
-            {% if item.subitems %}{% include nav.html nav = item.subitems %}{% endif %}
+          <a href="/service-packages/">
+            <img src="https://source.unsplash.com/random/600x320" />
+            <span>Packages</span>
+          </a>  
         </li>
-    {% endfor %}
+        <li>
+          <a href="/ceramic-pro-coatings/">
+            <img src="/assets/images/menu/ceramic.jpg" />
+            <span>Ceramic Pro Coatings</span>  
+          </a>
+        </li>
+        <li>
+          <a href="/prestige-detailing/">
+            <img src="/assets/images/menu/detail.jpg" />
+            <span>Prestige Detailing</span> 
+          </a>  
+        </li>
+        <li>
+          <a href="/window-tint/">
+            <img src="/assets/images/menu/tint.jpg" />
+            <span>Window Tint</span> 
+          </a>  
+        </li>
+        <li >
+          <a href="/clear-bra-protection/">
+            <img src="/assets/images/menu/clearbra.jpg" />
+            <span>Clear Bra Protection</span> 
+          </a>  
+        </li>
+        <li>
+          <a href="/bray-windshield-skin/">
+            <img src="/assets/images/menu/windshield.jpg" />
+            <span>Bray Windshield Skin</span>
+          </a>  
+        </li>
+      </ul>
+    </li>
+  
+    <li>
+        <a href="/blog/">Blog</a>
+        
+    </li>
+  
+    <li>
+        <a href="/about/">About</a>    
+    </li>
+  
+    <li class="has-submenu">
+      <span class="nolink">Locations</span>   
+      <ul class="menu">
+        <li>
+          <a href="/greeley-colorado/">
+            <img src="/assets/images/menu/windshield.jpg" />
+            <span>Greeley</span>
+          </a>
+        </li>
+      
+        <li>
+          <a href="/loveland-colorado/">
+            <img src="/assets/images/menu/windshield.jpg" />
+            <span>Loveland</span>
+          </a>    
+        </li>
+      </ul>
+    </li>
+  
+    <li class="first">
+      <a href="/store/">Store</a>  
+    </li>
+  
+    <li class="first">
+      <a href="/contact/">Contact</a>
+    </li>
+  
 </ul>

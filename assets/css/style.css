@@ -713,11 +713,13 @@ ul.pager li a:visited {
   /* line 2, ../sass/partials/design/blocks/_logo.scss */
   .logo img {
     margin: 0;
+    max-width: 250px;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .logo img {
   margin: 0;
+  max-width: 250px;
 }
 
 /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
@@ -761,6 +763,15 @@ ul.pager li a:visited {
   padding-right: 2em;
 }
 /* line 20, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.has-submenu {
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-transition: color .5s ease;
+          transition: color .5s ease;
+  color: #4A4A4A;
+  text-transform: uppercase;
+}
+/* line 27, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a {
   font-weight: 700;
   font-size: 1em;
@@ -772,7 +783,7 @@ ul.pager li a:visited {
   text-transform: uppercase;
 }
 @media (min-width: 50em) {
-  /* line 20, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 27, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li a {
     padding: 0;
   }
@@ -781,52 +792,99 @@ ul.pager li a:visited {
 .no-mq .menu li a {
   padding: 0;
 }
-/* line 31, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 38, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a:hover {
   color: #d5121a;
 }
-/* line 34, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 41, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a:active {
   top: 1px;
   position: relative;
 }
-/* line 39, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 46, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul {
   position: absolute;
+  width: 200px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  left: 0;
+  z-index: 9;
+  top: 83px;
+  padding: 2em;
+  visibility: hidden;
+  text-align: left;
 }
-/* line 43, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 58, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li ul li {
+  width: 33%;
+  padding: 2%;
+}
+/* line 61, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li ul li a {
+  position: relative;
+  line-height: 0;
+}
+/* line 64, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li ul li a span {
+  position: absolute;
+  text-shadow: 0 1px 11px rgba(0, 0, 0, 0.75);
+  bottom: 0;
+  padding: 0em 1em 1.5em;
+  font-size: 1.4em;
+}
+/* line 73, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li ul a {
+  color: #fff;
+}
+/* line 78, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul {
+  opacity: 1;
+  visibility: visible;
+}
+/* line 84, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu a, .menu a:visited {
   text-decoration: none;
 }
-/* line 46, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 87, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li li {
   padding: 0;
 }
 
-/* line 50, ../sass/partials/design/blocks/_main-navigation.scss */
-.js .main-nav .menu {
+/* line 91, ../sass/partials/design/blocks/_main-navigation.scss */
+.main-nav .menu {
   max-height: 0;
   overflow: hidden;
   -webkit-transition: max-height .5s ease;
           transition: max-height .5s ease;
 }
 @media (min-width: 50em) {
-  /* line 50, ../sass/partials/design/blocks/_main-navigation.scss */
-  .js .main-nav .menu {
+  /* line 91, ../sass/partials/design/blocks/_main-navigation.scss */
+  .main-nav .menu {
     max-height: none;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
-.no-mq .js .main-nav .menu {
+.no-mq .main-nav .menu {
   max-height: none;
 }
-/* line 57, ../sass/partials/design/blocks/_main-navigation.scss */
-.js .main-nav .menu.show {
+/* line 98, ../sass/partials/design/blocks/_main-navigation.scss */
+.main-nav .menu.show {
   max-height: 5000px;
   padding-top: 1em;
 }
+@media (min-width: 50em) {
+  /* line 98, ../sass/partials/design/blocks/_main-navigation.scss */
+  .main-nav .menu.show {
+    max-height: none;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .main-nav .menu.show {
+  max-height: none;
+}
 
-/* line 62, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 106, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn {
   position: absolute;
   right: 10px;
@@ -835,7 +893,7 @@ ul.pager li a:visited {
   cursor: pointer;
 }
 @media (min-width: 50em) {
-  /* line 62, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 106, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu-btn {
     display: none;
   }
@@ -844,12 +902,12 @@ ul.pager li a:visited {
 .no-mq .menu-btn {
   display: none;
 }
-/* line 71, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 115, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn img {
   padding-right: .5em;
 }
 
-/* line 75, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 119, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-js .menu-btn {
   display: none;
 }
@@ -1390,14 +1448,20 @@ ul.services-list li img {
 .header-wrapper {
   padding: 1em 0;
   background: white;
+  position: relative;
+  z-index: 999;
+}
+/* line 6, ../sass/partials/design/regions/_header.scss */
+.header-wrapper .wrap {
+  max-width: none;
 }
 
-/* line 6, ../sass/partials/design/regions/_header.scss */
+/* line 11, ../sass/partials/design/regions/_header.scss */
 .logo {
   width: 200px;
 }
 @media (min-width: 50em) {
-  /* line 6, ../sass/partials/design/regions/_header.scss */
+  /* line 11, ../sass/partials/design/regions/_header.scss */
   .logo {
     width: 25%;
     float: left;
@@ -1416,7 +1480,7 @@ ul.services-list li img {
 }
 
 @media (min-width: 50em) {
-  /* line 12, ../sass/partials/design/regions/_header.scss */
+  /* line 17, ../sass/partials/design/regions/_header.scss */
   .main-nav {
     width: 65.95745%;
     float: right;

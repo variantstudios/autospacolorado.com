@@ -10,6 +10,18 @@ $(document).ready(function() {
     $('.menu').toggleClass('show');
   });
 
+
+  // Menu Sub Links
+  $(".has-submenu").on('click touch', function() {
+    $(this).toggleClass('submenu--open');
+    sr.reveal('.has-submenu li', { 
+      delay: 140,
+      duration: 900,
+      origin: 'top',
+      scale: 1,
+    }, 200);
+  });
+
     $('.gallery-slider').slick({
       centerMode: true,
       dots: false,

@@ -80,7 +80,7 @@ defaults:
     scope:
       type: products
     values:
-      layout: store
+      layout: store-detail
       title:
       image_path:
       description:

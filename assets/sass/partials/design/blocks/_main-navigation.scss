@@ -17,6 +17,13 @@
       vertical-align: top;
       padding-right: 2em;
     }
+    &.has-submenu {
+      font-weight: 700;
+      font-size: 1em;
+      transition: color .5s ease;
+      color: #4A4A4A;
+      text-transform: uppercase;
+    }
     a {
       font-weight: 700;
       font-size: 1em;
@@ -38,6 +45,40 @@
     }
     ul {
       position: absolute;
+      width: 200px;
+      opacity: 0;
+      background: rgba(0,0,0,0.9);
+      width: 100%;
+      left: 0;
+      z-index: 9;
+      top: 83px;
+      padding:2em;
+      visibility: hidden;
+      text-align: left;
+      li {
+        width: 33%;
+        padding: 2%;
+        a {
+          position: relative;
+          line-height: 0;
+          span {
+            position: absolute;
+            text-shadow: 0 1px 11px rgba(0,0,0,0.75);
+            bottom: 0;
+            padding: 0em 1em 1.5em;
+            font-size: 1.4em;
+          }
+        }
+      }
+      a {
+        color: #fff;
+      }
+    }
+    &.submenu--open {
+      ul {
+        opacity: 1;
+        visibility: visible;
+      }
     }
   }
   a, a:visited {
@@ -47,7 +88,7 @@
     padding: 0;
   }
 }
-.js .main-nav .menu {
+.main-nav .menu {
   max-height: 0;
   overflow: hidden;
   transition: max-height .5s ease;
@@ -56,7 +97,10 @@
   }
   &.show {
     max-height: 5000px;
-      padding-top: 1em;
+    padding-top: 1em;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      max-height: none;
+    }
   }
 }
 .menu-btn {
