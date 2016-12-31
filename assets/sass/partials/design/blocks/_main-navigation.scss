@@ -1,3 +1,31 @@
+@keyframes FadeIn { 
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+
+  85% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes FadeOut { 
+  0% {
+    transform: scale(1);
+  }
+
+  85% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
 .menu {
   padding: 0;
   margin: 0;
@@ -53,11 +81,14 @@
       z-index: 9;
       margin-top: 30px;
       padding:2em;
-      visibility: hidden;
       text-align: left;
+      transition: all 1s linear;
       li {
         width: 33%;
         padding: 2%;
+        opacity: 0;
+        margin-top: -60px;
+        animation: FadeOut .75s linear;
         a {
           position: relative;
           line-height: 0;
@@ -77,7 +108,28 @@
     &.submenu--open {
       ul {
         opacity: 1;
-        visibility: visible;
+        transition: all 1s linear;
+        li {
+          opacity: 1;
+          margin-top: 0;
+          animation: FadeIn .75s linear;
+        animation-fill-mode:both;
+          &:nth-child(2){
+            animation-delay: .25s
+          }
+          &:nth-child(3){
+            animation-delay: .5s
+          }
+          &:nth-child(4){
+            animation-delay: .75s
+          }
+          &:nth-child(5){
+            animation-delay: 1s
+          }
+          &:nth-child(6){
+            animation-delay: 1.25s
+          }
+        }
       }
     }
   }

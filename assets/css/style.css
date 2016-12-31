@@ -722,7 +722,90 @@ ul.pager li a:visited {
   max-width: 250px;
 }
 
-/* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
+@-webkit-keyframes FadeIn {
+  /* line 2, ../sass/partials/design/blocks/_main-navigation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+
+  /* line 7, ../sass/partials/design/blocks/_main-navigation.scss */
+  85% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+
+  /* line 11, ../sass/partials/design/blocks/_main-navigation.scss */
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes FadeIn {
+  /* line 2, ../sass/partials/design/blocks/_main-navigation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+
+  /* line 7, ../sass/partials/design/blocks/_main-navigation.scss */
+  85% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+
+  /* line 11, ../sass/partials/design/blocks/_main-navigation.scss */
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@-webkit-keyframes FadeOut {
+  /* line 16, ../sass/partials/design/blocks/_main-navigation.scss */
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 20, ../sass/partials/design/blocks/_main-navigation.scss */
+  85% {
+    opacity: 0;
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+
+  /* line 24, ../sass/partials/design/blocks/_main-navigation.scss */
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+@keyframes FadeOut {
+  /* line 16, ../sass/partials/design/blocks/_main-navigation.scss */
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 20, ../sass/partials/design/blocks/_main-navigation.scss */
+  85% {
+    opacity: 0;
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+
+  /* line 24, ../sass/partials/design/blocks/_main-navigation.scss */
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+/* line 29, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu {
   padding: 0;
   margin: 0;
@@ -730,7 +813,7 @@ ul.pager li a:visited {
   font-size: 92%;
 }
 @media (min-width: 50em) {
-  /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 29, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu {
     text-align: right;
     padding-top: 1.5em;
@@ -741,7 +824,7 @@ ul.pager li a:visited {
   text-align: right;
   padding-top: 1.5em;
 }
-/* line 10, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 38, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li {
   list-style: none;
   margin: 0;
@@ -749,7 +832,7 @@ ul.pager li a:visited {
   padding: 0;
 }
 @media (min-width: 50em) {
-  /* line 10, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 38, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li {
     display: inline-block;
     vertical-align: top;
@@ -762,7 +845,7 @@ ul.pager li a:visited {
   vertical-align: top;
   padding-right: 2em;
 }
-/* line 20, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 48, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.has-submenu {
   font-weight: 700;
   font-size: 1em;
@@ -771,7 +854,7 @@ ul.pager li a:visited {
   color: #4A4A4A;
   text-transform: uppercase;
 }
-/* line 27, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 55, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a {
   font-weight: 700;
   font-size: 1em;
@@ -783,7 +866,7 @@ ul.pager li a:visited {
   text-transform: uppercase;
 }
 @media (min-width: 50em) {
-  /* line 27, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 55, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li a {
     padding: 0;
   }
@@ -792,16 +875,16 @@ ul.pager li a:visited {
 .no-mq .menu li a {
   padding: 0;
 }
-/* line 38, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 66, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a:hover {
   color: #d5121a;
 }
-/* line 41, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 69, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a:active {
   top: 1px;
   position: relative;
 }
-/* line 46, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 74, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul {
   position: absolute;
   width: 200px;
@@ -812,20 +895,25 @@ ul.pager li a:visited {
   z-index: 9;
   margin-top: 30px;
   padding: 2em;
-  visibility: hidden;
   text-align: left;
+  -webkit-transition: all 1s linear;
+          transition: all 1s linear;
 }
-/* line 58, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 86, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul li {
   width: 33%;
   padding: 2%;
+  opacity: 0;
+  margin-top: -60px;
+  -webkit-animation: FadeOut .75s linear;
+          animation: FadeOut .75s linear;
 }
-/* line 61, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 92, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul li a {
   position: relative;
   line-height: 0;
 }
-/* line 64, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 95, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul li a span {
   position: absolute;
   text-shadow: 0 1px 11px rgba(0, 0, 0, 0.75);
@@ -833,25 +921,60 @@ ul.pager li a:visited {
   padding: 0em 1em 1.5em;
   font-size: 1.4em;
 }
-/* line 73, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 104, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul a {
   color: #fff;
 }
-/* line 78, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 109, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul {
   opacity: 1;
-  visibility: visible;
+  -webkit-transition: all 1s linear;
+          transition: all 1s linear;
 }
-/* line 84, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 112, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li {
+  opacity: 1;
+  margin-top: 0;
+  -webkit-animation: FadeIn .75s linear;
+          animation: FadeIn .75s linear;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* line 117, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(2) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+/* line 120, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(3) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+/* line 123, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(4) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+/* line 126, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+/* line 129, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(6) {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+/* line 136, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu a, .menu a:visited {
   text-decoration: none;
 }
-/* line 87, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 139, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li li {
   padding: 0;
 }
 
-/* line 91, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 143, ../sass/partials/design/blocks/_main-navigation.scss */
 .main-nav .menu {
   max-height: 0;
   overflow: hidden;
@@ -859,7 +982,7 @@ ul.pager li a:visited {
           transition: max-height .5s ease;
 }
 @media (min-width: 50em) {
-  /* line 91, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 143, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav .menu {
     max-height: none;
   }
@@ -868,13 +991,13 @@ ul.pager li a:visited {
 .no-mq .main-nav .menu {
   max-height: none;
 }
-/* line 98, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 150, ../sass/partials/design/blocks/_main-navigation.scss */
 .main-nav .menu.show {
   max-height: 5000px;
   padding-top: 1em;
 }
 @media (min-width: 50em) {
-  /* line 98, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 150, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav .menu.show {
     max-height: none;
   }
@@ -884,7 +1007,7 @@ ul.pager li a:visited {
   max-height: none;
 }
 
-/* line 106, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 158, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn {
   position: absolute;
   right: 10px;
@@ -893,7 +1016,7 @@ ul.pager li a:visited {
   cursor: pointer;
 }
 @media (min-width: 50em) {
-  /* line 106, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 158, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu-btn {
     display: none;
   }
@@ -902,12 +1025,12 @@ ul.pager li a:visited {
 .no-mq .menu-btn {
   display: none;
 }
-/* line 115, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 167, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn img {
   padding-right: .5em;
 }
 
-/* line 119, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 171, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-js .menu-btn {
   display: none;
 }
