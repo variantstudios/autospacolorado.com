@@ -1,0 +1,37 @@
+
+// Location Node Styles
+
+.layout--location .content-section {
+  padding-top: 3em;
+  @include clearfix;
+  .col-1 {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      float: left;
+      width: 50%;
+    }
+  }
+  .col-2 {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      float: right;
+      width: 45%;
+    }
+  }
+}
+.phone--location {
+  padding: 1em .5em;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+.hours--location {
+    list-style: none;
+    padding: 0 0.5em 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+}
+.hours--label {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding-left: 0.5em;
+}
