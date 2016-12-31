@@ -14,11 +14,16 @@
 	<meta property="og:url" content="{{ page.url | prepend:site.url }}">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="og:type" content="website" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-	<link href="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
+	<!-- CSS -->
+	<!-- Slick Slider CSS -->
+	{% if page.url == "/" %}
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	{% endif %}
+	<!-- Featherlight Lightbox CSS -->
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="/assets/css/style.css" media="screen">
 	<link rel="stylesheet" href="/assets/css/print.css"  media="print">
 
@@ -36,4 +41,5 @@
 
 	<!-- HTML 5 Shiv -->
 	<!--[if lt IE 9]> <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script> <![endif]-->
+
 </head>

@@ -1,11 +1,12 @@
 $(document).ready(function() {
-// Add a class of .mq if the browser supports Media Query and '.no-mq' if it doesn't
+  // Add a class of .mq if the browser supports Media Query and '.no-mq' if it doesn't
   if (Modernizr.mq('only all')) {
     $('html').addClass('mq');
   } else {
     $('html').addClass('no-mq');
   }
-  // Mobile Menu Funcation
+
+  // Mobile Menu ToggleClass
   $(".menu-btn").on('click touch', function() {
     $('.menu').toggleClass('show');
   });
@@ -14,15 +15,10 @@ $(document).ready(function() {
   // Menu Sub Links
   $(".has-submenu").on('click touch', function() {
      $(this).toggleClass('submenu--open');
-    // sr.reveal('.has-submenu li', { 
-    //   delay: 140,
-    //   duration: 900,
-    //   origin: 'top',
-    //   scale: 1,
-    // }, 200);
   });
-
-    $('.gallery-slider').slick({
+  
+  // Slick Init for Home Page  
+  $('.gallery-slider').slick({
       centerMode: true,
       dots: false,
       infinite: true,

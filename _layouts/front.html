@@ -2,110 +2,116 @@
 layout: default
 ---
 <div class="front">
-<div id="block" style="width: 100%; height: 100vh;" data-vide-bg="assets/video/ocean" data-vide-options="position: 0% 50%"></div>
+  <!-- Video Header pulling from Front Matter -->
+  <div id="block" style="width: 100%; height: 100vh;" data-vide-bg="{{ page.header_video_path }}" data-vide-options="position: 0% 50%"></div>
 
-<div class="preface-wrap">
-  <img src="/assets/images/car.png" class="car-side">
-<section class="preface clearfix">
-  <div class="wrap">
-    <div class="headings">
-      <h2 class="section-title">Locations</h2>
-      <h3 class="section-subtitle">Serving Northern Colorado</h3>
-    </div>
-    <div class="location-block first editable">
-      <h4>Greeley</h4>
-      <p>3620 35th Ave #3  <br>
-        Evans, CO 80620</p>
-      <p>970-619-9863</p>
-      <div class="btn outline"><a href="#">Book An Appointment</a></div>
-    </div>
-    <div class="location-block last editable">
-      <h4>Loveland</h4>
-      <p>497 Denver Ave<br>
-        Loveland, CO 80537</p>
-      <p>970-619-9863</p>
-      <div class="btn outline"><a href="#">Book An Appointment</a></div>
-    </div>
+  <!-- Preface Are for Location Blocks  -->
+  <div class="preface-wrap">
+    <img src="/assets/images/car.png" class="car-side">
+    <section class="preface clearfix">
+      <div class="wrap">
+        <div class="headings">
+          <h2 class="section-title">Locations</h2>
+          <h3 class="section-subtitle">Serving Northern Colorado</h3>
+        </div>
+        <div class="location-block first editable">
+          <h4>Greeley</h4>
+          <p>3620 35th Ave #3  <br>
+            Evans, CO 80620</p>
+          <p>970-619-9863</p>
+          <div class="btn outline"><a href="#">Book An Appointment</a></div>
+        </div>
+        <div class="location-block last editable">
+          <h4>Loveland</h4>
+          <p>497 Denver Ave<br>
+            Loveland, CO 80537</p>
+          <p>970-619-9863</p>
+          <div class="btn outline"><a href="#">Book An Appointment</a></div>
+        </div>
+      </div>
+    </section>
   </div>
-</section>
-</div>
-<section class="clearfix work-section">
-  <div class="wrap clearfix">
-    <div class="headings">
-      <h2 class="section-title">Our Work</h2>
-      <h3 class="section-subtitle">The Highest Quality Workmanship.</h3>
-    </div>
-  </div>
-  <div class="gallery-slider">
-    <div>
-      <a href="#">
-        <img src="https://source.unsplash.com/random/400x400" />
-      </a>
-    </div>
-    <div>
-      <a href="#">
-        <img src="https://source.unsplash.com/random/400x400" />
-      </a>
-    </div>
-    <div>
-      <a href="#">
-        <img src="https://source.unsplash.com/random/400x400" />
-      </a>
-    </div>
-    <div>
-      <a href="#">
-        <img src="https://source.unsplash.com/random/400x400" />
-      </a>
-    </div>
-    <div>
-      <a href="#">
-        <img src="https://source.unsplash.com/random/400x400" />
-      </a>
-    </div>
-    <div>
-      <a href="#">
-        <img src="https://source.unsplash.com/random/400x400" />
-      </a>
-    </div>
-    <div>
-      <a href="#">
-        <img src="https://source.unsplash.com/random/400x400" />
-      </a>
-    </div>
-</div>
-</section>
-<section class="postscript clearfix">
-  <div class="wrap">
-    <div class="service-list-wrap">
+
+  <!-- Slider Using Slick !!!!! NEEDS UPDATED TO USE FRONT MATTER  -->
+  <section class="clearfix work-section">
+    <div class="wrap clearfix">
       <div class="headings">
-        <h2 class="section-title">What We Do.</h2>
-        <h3 class="section-subtitle">Award Winning. Certified. Professional.</h3>
-      </div>
-      <ul class="services-list">
-        <li class="service-item">
-          <a href="">Ceramic Pro Coatings <img src="/assets/images/arrow-red.png" alt=""></a>
-        </li>
-        <li class="service-item">
-          <a href="">Clear Bra Protection <img src="/assets/images/arrow-red.png" alt=""></a>
-        </li>
-        <li class="service-item">
-          <a href="">Prestige Detailing <img src="/assets/images/arrow-red.png" alt=""></a>
-        </li>
-        <li class="service-item">
-          <a href="">Window Titling <img src="/assets/images/arrow-red.png" alt=""></a>
-        </li>
-        <li class="service-item">
-          <a href="">Windshield Protection <img src="/assets/images/arrow-red.png" alt=""></a>
-        </li>
-      </ul>
-    </div>
-    <div class="service-info-wrap">
-      <div class="service-info">
-        <img src="/assets/images/small-badge.png" />
-        <p>With well over 21 years of vehicle reconditioning experience combined between Ricque and Zack you can be rest assured you will receive the highest quality workmanship. </p>
-        <p>We are also I.D.A. Certified, Xpel Paint Protection Certified Installers, Suntek Window Tint and Protection Film Certified Installers, Ceramic Pro Certified Installers and received many awards for our work.</p>
+        <h2 class="section-title">Our Work</h2>
+        <h3 class="section-subtitle">The Highest Quality Workmanship.</h3>
       </div>
     </div>
-  </div>
-</section>
+    <div class="gallery-slider">
+      <div>
+        <a href="#">
+          <img src="https://source.unsplash.com/random/400x400" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="https://source.unsplash.com/random/400x400" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="https://source.unsplash.com/random/400x400" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="https://source.unsplash.com/random/400x400" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="https://source.unsplash.com/random/400x400" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="https://source.unsplash.com/random/400x400" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="https://source.unsplash.com/random/400x400" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section  -->
+  <section class="postscript clearfix">
+    <div class="wrap">
+      <div class="service-list-wrap">
+        <div class="headings">
+          <h2 class="section-title">What We Do.</h2>
+          <h3 class="section-subtitle">Award Winning. Certified. Professional.</h3>
+        </div>
+        <ul class="services-list">
+          <li class="service-item">
+            <a href="">Ceramic Pro Coatings <img src="/assets/images/arrow-red.png" alt=""></a>
+          </li>
+          <li class="service-item">
+            <a href="">Clear Bra Protection <img src="/assets/images/arrow-red.png" alt=""></a>
+          </li>
+          <li class="service-item">
+            <a href="">Prestige Detailing <img src="/assets/images/arrow-red.png" alt=""></a>
+          </li>
+          <li class="service-item">
+            <a href="">Window Titling <img src="/assets/images/arrow-red.png" alt=""></a>
+          </li>
+          <li class="service-item">
+            <a href="">Windshield Protection <img src="/assets/images/arrow-red.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <div class="service-info-wrap">
+        <div class="service-info editable">
+          <img src="/assets/images/small-badge.png" />
+          <p>With well over 21 years of vehicle reconditioning experience combined between Ricque and Zack you can be rest assured you will receive the highest quality workmanship. </p>
+          <p>We are also I.D.A. Certified, Xpel Paint Protection Certified Installers, Suntek Window Tint and Protection Film Certified Installers, Ceramic Pro Certified Installers and received many awards for our work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
