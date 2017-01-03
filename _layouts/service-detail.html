@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main class="layout--location">
+<main class="services--location">
   
   <!-- Header Image with NO text overlay -->
   {% if page.header_image_path %}
@@ -17,25 +17,24 @@ layout: default
       <div class="col-1">
         <h1 class="section-title">{{ page.title }}</h1>
         <h3 class="section-subtitle">{{ page.subtitle }}</h3>
-        <h4 class="phone--location">{{page.phone}}</h4>
-        
-        <!-- Hours List -->
-        <h4 class="hours--label">Hours:</h4>
-        <ul class="hours--location">
-          {% for item in page.hours %}
-          <li>{{ item.title }}</li>
-          {% endfor %}
-        </ul>
         {{ content }}
+      </div>
+      <div class="col-2">
+        <!-- Service Table Prcing and Option Table -->
+        <table class="service-table">
+          <tbody>
+          {% for item in page.service-table %}
+            <tr>
+              <td>{{item.option}}</td>
+              <td class="price">{{item.price}}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
 
         {% include gallery.html %}
 
       </div>
-
-       <!-- Map Embed  -->
-      <div class="map-embed col-2">
-        <iframe src="{{ page.map_embed }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
   </div>
 </main>
+{% include book-appointment.html %}

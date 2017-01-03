@@ -1,0 +1,34 @@
+.book-appointment-banner {
+  /* Rectangle 3: */
+  background-image: linear-gradient(-180deg, #d5121a 0%, #880409 91%);
+  text-align:center;
+  padding: 3em 1em;
+  h4 {
+    font-size: 1em;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 4px solid #fff;
+    padding: 1em 2em;
+    font-size: 1em;
+  }
+}
+.book-fixed {
+  position: fixed;
+  z-index: 9999;
+  right: 10%;
+  bottom: 10%;
+  a {
+    background: $color-one;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.23);
+    border-radius: 2px;
+    font-family: $heading-font-family;
+    padding: 0.75em 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

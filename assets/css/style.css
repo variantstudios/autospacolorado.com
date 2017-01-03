@@ -676,7 +676,7 @@ table tr.even {
 }
 /* line 16, ../sass/partials/styleguide/misc/_table.scss */
 table td {
-  padding: 0.5em 2em;
+  padding: 0.75em 2em;
   margin: 0;
 }
 
@@ -896,10 +896,11 @@ ul.pager li a:visited {
   margin-top: 30px;
   padding: 2em;
   text-align: left;
-  -webkit-transition: all 1s linear;
-          transition: all 1s linear;
+  -webkit-transition: all .5s linear;
+          transition: all .5s linear;
+  visibility: hidden;
 }
-/* line 86, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 87, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul li {
   width: 33%;
   padding: 2%;
@@ -908,12 +909,12 @@ ul.pager li a:visited {
   -webkit-animation: FadeOut .75s linear;
           animation: FadeOut .75s linear;
 }
-/* line 92, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 93, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul li a {
   position: relative;
   line-height: 0;
 }
-/* line 95, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 96, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul li a span {
   position: absolute;
   text-shadow: 0 1px 11px rgba(0, 0, 0, 0.75);
@@ -921,17 +922,18 @@ ul.pager li a:visited {
   padding: 0em 1em 1.5em;
   font-size: 1.4em;
 }
-/* line 104, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 105, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li ul a {
   color: #fff;
 }
-/* line 109, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 110, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul {
   opacity: 1;
-  -webkit-transition: all 1s linear;
-          transition: all 1s linear;
+  -webkit-transition: all .5s linear;
+          transition: all .5s linear;
+  visibility: visible;
 }
-/* line 112, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 114, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li {
   opacity: 1;
   margin-top: 0;
@@ -940,41 +942,41 @@ ul.pager li a:visited {
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
-/* line 117, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 119, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li:nth-child(2) {
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
 }
-/* line 120, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 122, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li:nth-child(3) {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
-/* line 123, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 125, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li:nth-child(4) {
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
 }
-/* line 126, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 128, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li:nth-child(5) {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
-/* line 129, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 131, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li:nth-child(6) {
   -webkit-animation-delay: 1.25s;
           animation-delay: 1.25s;
 }
-/* line 136, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 138, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu a, .menu a:visited {
   text-decoration: none;
 }
-/* line 139, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 141, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li li {
   padding: 0;
 }
 
-/* line 143, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 145, ../sass/partials/design/blocks/_main-navigation.scss */
 .main-nav .menu {
   max-height: 0;
   overflow: hidden;
@@ -982,7 +984,7 @@ ul.pager li a:visited {
           transition: max-height .5s ease;
 }
 @media (min-width: 50em) {
-  /* line 143, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 145, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav .menu {
     max-height: none;
   }
@@ -991,13 +993,13 @@ ul.pager li a:visited {
 .no-mq .main-nav .menu {
   max-height: none;
 }
-/* line 150, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 152, ../sass/partials/design/blocks/_main-navigation.scss */
 .main-nav .menu.show {
   max-height: 5000px;
   padding-top: 1em;
 }
 @media (min-width: 50em) {
-  /* line 150, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 152, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav .menu.show {
     max-height: none;
   }
@@ -1007,7 +1009,7 @@ ul.pager li a:visited {
   max-height: none;
 }
 
-/* line 158, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 160, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn {
   position: absolute;
   right: 10px;
@@ -1016,7 +1018,7 @@ ul.pager li a:visited {
   cursor: pointer;
 }
 @media (min-width: 50em) {
-  /* line 158, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 160, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu-btn {
     display: none;
   }
@@ -1025,14 +1027,76 @@ ul.pager li a:visited {
 .no-mq .menu-btn {
   display: none;
 }
-/* line 167, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 169, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn img {
   padding-right: .5em;
 }
 
-/* line 171, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 173, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-js .menu-btn {
   display: none;
+}
+
+/* line 1, ../sass/partials/design/blocks/_book-appointment.scss */
+.book-appointment-banner {
+  /* Rectangle 3: */
+  background-image: -webkit-linear-gradient(270deg, #d5121a 0%, #880409 91%);
+  background-image: linear-gradient(-180deg, #d5121a 0%, #880409 91%);
+  text-align: center;
+  padding: 3em 1em;
+}
+/* line 6, ../sass/partials/design/blocks/_book-appointment.scss */
+.book-appointment-banner h4 {
+  font-size: 1em;
+}
+/* line 9, ../sass/partials/design/blocks/_book-appointment.scss */
+.book-appointment-banner a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  border: 4px solid #fff;
+  padding: 1em 2em;
+  font-size: 1em;
+}
+
+/* line 18, ../sass/partials/design/blocks/_book-appointment.scss */
+.book-fixed {
+  position: fixed;
+  z-index: 9999;
+  right: 10%;
+  bottom: 10%;
+}
+/* line 23, ../sass/partials/design/blocks/_book-appointment.scss */
+.book-fixed a {
+  background: #d5121a;
+  color: #fff;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.23);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.23);
+  border-radius: 2px;
+  font-family: "futura-pt", sans-serif;
+  padding: 0.75em 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 3, ../sass/partials/design/blocks/_gallery.scss */
+.featherlight-content .featherlight-next, .featherlight-content .featherlight-previous {
+  top: 0;
+  width: 100px;
+}
+/* line 6, ../sass/partials/design/blocks/_gallery.scss */
+.featherlight-content .featherlight-next span, .featherlight-content .featherlight-previous span {
+  font-size: 24px;
+}
+/* line 10, ../sass/partials/design/blocks/_gallery.scss */
+.featherlight-content .featherlight-previous {
+  left: 0;
+}
+/* line 13, ../sass/partials/design/blocks/_gallery.scss */
+.featherlight-content .featherlight-next {
+  right: 0;
+  left: auto;
 }
 
 /* line 2, ../sass/partials/design/pages/_front.scss */
@@ -1524,6 +1588,81 @@ ul.services-list li img {
   padding-left: 0.5em;
 }
 
+/* line 4, ../sass/partials/design/pages/_services.scss */
+.services--location .content-section {
+  padding-top: 3em;
+}
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.services--location .content-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 50em) {
+  /* line 7, ../sass/partials/design/pages/_services.scss */
+  .services--location .content-section .col-1 {
+    float: left;
+    width: 50%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .services--location .content-section .col-1 {
+  float: left;
+  width: 50%;
+}
+@media (min-width: 50em) {
+  /* line 13, ../sass/partials/design/pages/_services.scss */
+  .services--location .content-section .col-2 {
+    float: right;
+    width: 45%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .services--location .content-section .col-2 {
+  float: right;
+  width: 45%;
+}
+/* line 19, ../sass/partials/design/pages/_services.scss */
+.services--location .content-section .gallery-grid {
+  margin: 2em 0;
+}
+@media (min-width: 50em) {
+  /* line 21, ../sass/partials/design/pages/_services.scss */
+  .services--location .content-section .gallery-grid li {
+    width: 22%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .services--location .content-section .gallery-grid li {
+  width: 22%;
+}
+
+/* line 28, ../sass/partials/design/pages/_services.scss */
+.service-table {
+  font-weight: 700;
+}
+/* line 30, ../sass/partials/design/pages/_services.scss */
+.service-table tr:nth-child(odd) {
+  background: #E8E8E8;
+}
+/* line 33, ../sass/partials/design/pages/_services.scss */
+.service-table tr:nth-child(even) {
+  background: #F5F5F5;
+}
+/* line 36, ../sass/partials/design/pages/_services.scss */
+.service-table td.price {
+  color: #fff;
+  width: 60px;
+}
+/* line 41, ../sass/partials/design/pages/_services.scss */
+.service-table tr:nth-child(odd) td.price {
+  background: #B60910;
+}
+/* line 44, ../sass/partials/design/pages/_services.scss */
+.service-table tr:nth-child(even) td.price {
+  background: #D5121A;
+}
+
 /* line 1, ../sass/partials/design/regions/_footer.scss */
 .footer-wrapper {
   background: black;
@@ -1706,12 +1845,12 @@ main section {
 .preface {
   background-position: center;
   background-size: cover;
-  padding: 5em 0 2em;
+  padding: 6em 0 4em;
   position: relative;
   overflow: hidden;
   margin-bottom: 3em;
 }
-/* line 26, ../sass/partials/design/regions/_main.scss */
+/* line 25, ../sass/partials/design/regions/_main.scss */
 .preface:before {
   content: '';
   background: rgba(0, 0, 0, 0.43);
@@ -1721,13 +1860,15 @@ main section {
   height: 100%;
 }
 
-/* line 36, ../sass/partials/design/regions/_main.scss */
+/* line 35, ../sass/partials/design/regions/_main.scss */
 .interior-headings {
   z-index: 9;
   position: relative;
+  margin: 0 auto;
+  text-align: center;
 }
 @media (min-width: 50em) {
-  /* line 36, ../sass/partials/design/regions/_main.scss */
+  /* line 35, ../sass/partials/design/regions/_main.scss */
   .interior-headings {
     width: 45%;
   }
@@ -1736,20 +1877,20 @@ main section {
 .no-mq .interior-headings {
   width: 45%;
 }
-/* line 42, ../sass/partials/design/regions/_main.scss */
+/* line 43, ../sass/partials/design/regions/_main.scss */
 .interior-headings * {
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* line 53, ../sass/partials/design/regions/_main.scss */
+/* line 54, ../sass/partials/design/regions/_main.scss */
 .page-image--main {
   margin: -3em auto 4em;
   -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   line-height: 0;
 }
-/* line 57, ../sass/partials/design/regions/_main.scss */
+/* line 58, ../sass/partials/design/regions/_main.scss */
 .page-image--main img {
   width: 100%;
 }

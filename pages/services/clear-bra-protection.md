@@ -2,7 +2,24 @@
 title: Clear Bra Protection
 permalink: "/clear-bra-protection/"
 description: This is just a sample general page.
-layout: page
+header_image_path: /assets/images/bgs/store.jpg
+images_and_videos:
+  - title:
+    teaser_image_path: /assets/images/gallery/atomic.jpg
+    large_image_path: /assets/images/IMG_5638.JPG
+    youtube_url: 
+  - title:
+    teaser_image_path: /assets/images/gallery/mogwai_small.png
+    large_image_path: 
+    youtube_id: 5EfuLuN0VXs
+service-table:
+  - option: Option 1
+    price: $219
+  - option: Option 2
+    price: $269
+  - option: Option 3
+    price: $289
+layout: service-detail
 ---
 
 Triticeas premente altum eget rediere *limite*. Non orientis hunc, surgunt

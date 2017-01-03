@@ -12,13 +12,12 @@ main {
     background-image: linear-gradient(-179deg, #FCFCFC 16%, #D5D5D5 72%, #DEDEDE 100%);
   }
 .preface {
-  //background: url(../images/bgs/grill.png) no-repeat center center; 
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 5em 0 2em;
+  padding: 6em 0 4em;
   position: relative;
   overflow: hidden;
       margin-bottom: 3em;
@@ -36,6 +35,8 @@ main {
 .interior-headings {
   z-index: 9;
   position: relative;
+    margin: 0 auto;
+    text-align: center;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     width: 45%;
   }

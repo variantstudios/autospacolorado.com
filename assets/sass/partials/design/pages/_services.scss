@@ -1,0 +1,48 @@
+
+// Location Node Styles
+
+.services--location .content-section {
+  padding-top: 3em;
+  @include clearfix;
+  .col-1 {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      float: left;
+      width: 50%;
+    }
+  }
+  .col-2 {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      float: right;
+      width: 45%;
+    }
+  }
+  .gallery-grid {
+    margin: 2em 0;
+    li {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        width:22%;
+      }
+    }
+  }
+}
+.service-table {
+  font-weight: 700;
+  tr:nth-child(odd) {
+    background: #E8E8E8;
+  }
+  tr:nth-child(even) {
+    background: #F5F5F5;
+  }
+  td.price {
+    color: #fff;
+    width: 60px;
+  }
+
+  tr:nth-child(odd) td.price {
+    background: #B60910;
+  }
+  tr:nth-child(even) td.price {
+    background: #D5121A;
+  }
+
+}

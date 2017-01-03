@@ -1,0 +1,17 @@
+// LIGHTBOX Controls
+.featherlight-content {
+  .featherlight-next, .featherlight-previous {
+   top: 0;
+   width: 100px;
+   span {
+    font-size: 24px;
+   }
+  }
+  .featherlight-previous {
+    left: 0;
+  }
+  .featherlight-next {
+    right: 0;
+    left: auto;
+  }
+}

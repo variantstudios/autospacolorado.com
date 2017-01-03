@@ -1,0 +1,18 @@
+<!-- Video & Images Grid -->
+<ul class="gallery-grid" data-featherlight-gallery data-featherlight-filter="a">
+  {% for item in page.images_and_videos %}
+    <li itemscope class="grid-item">
+      {% if item.large_image_path %} 
+        <a class="gallery-item gallery" href="{{ item.large_image_path }}" >
+      {% endif %}
+
+      {% if item.youtube_id %} 
+        <iframe class="lightbox"  width="560" height="315" src="https://www.youtube.com/embed/{{ item.youtube_id }} " frameborder="0" allowfullscreen id="video"></iframe>
+        <a class="btn btn-default" href="#" data-featherlight="#video">
+      {% endif %}
+      
+        <img class="gallery-img lrg" src="{{ item.teaser_image_path }}" alt="{{ item.title }}" itemprop="image">
+      </a>
+    </li>
+  {% endfor %}
+</ul>
