@@ -35,14 +35,13 @@ main {
 .interior-headings {
   z-index: 9;
   position: relative;
-    margin: 0 auto;
-    text-align: center;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     width: 45%;
   }
   * {
     color: #fff;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    font-family: $heading-font-family;
   }
 }
 

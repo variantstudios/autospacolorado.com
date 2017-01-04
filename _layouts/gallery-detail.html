@@ -5,18 +5,18 @@ layout: default
 
 <main class="gallery-detail-node">
   <div class="wrap">
-    <ul class="gallery-grid">
 
+    <!-- Video & Images Grid -->
+    <ul class="gallery-grid" data-featherlight-gallery data-featherlight-filter="a">
       <li itemscope class="grid-item first-grid-item">
-       <a href="#" data-featherlight="{{ page.main_image_path }}">
-        <img src="{{ page.main_image_path }}" />
-      </a>
+         <a href="{{ page.main_image_path }}" >
+          <img src="{{ page.main_image_path }}" />
+        </a>
       </li>
-
-      {% for item in page.images_and_videos %}
+        {% for item in page.images_and_videos %}
         <li itemscope class="grid-item">
           {% if item.large_image_path %} 
-            <a class="gallery-item" href="#" data-featherlight="{{ item.large_image_path }}">
+            <a class="gallery-item gallery" href="{{ item.large_image_path }}" >
           {% endif %}
 
           {% if item.youtube_id %} 
@@ -29,6 +29,10 @@ layout: default
         </li>
       {% endfor %}
     </ul>
+
+    
+
+
     <div class="gallery-content-section">
       <h1 class="section-title">{{ page.title }}</h1>
       <h3 class="section-subtitle">{{ page.subtitle }}</h3>
