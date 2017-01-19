@@ -90,9 +90,10 @@ defaults:
     scope:
       type: projects
     values:
-      layout: gallery
+      layout: gallery-detail
       title:
       image_path:
+
 
 # typekit - Because we all need nice type faces.
 typekit: kqz1qdu

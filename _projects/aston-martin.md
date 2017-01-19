@@ -1,5 +1,4 @@
 ---
-layout: gallery-detail
 title: Aston Martin
 main_image_path: /uploads/img-0626.jpg
 images_and_videos:
@@ -15,6 +14,10 @@ images_and_videos:
     teaser_image_path: /uploads/img-0481-sm.jpg
     large_image_path: /uploads/img-0481.jpg
     youtube_id:
+services:
+  - Example 1
+  - Example 2
+  - Example 3
 ---
 
 
