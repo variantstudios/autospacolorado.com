@@ -1,22 +1,22 @@
 ---
-title: Audi S4 2016
-main_image_path: /uploads/img-1389.jpg
+title: Bentley Continental GT
+main_image_path: /uploads/img-1384.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /uploads/img-1392-sm.jpg
-    large_image_path: /uploads/img-1392.jpg
+    teaser_image_path: /uploads/img-1386-sm.jpg
+    large_image_path: /uploads/img-1386.jpg
     youtube_url:
   - title:
-    teaser_image_path: /uploads/img-1393-sm.jpg
-    large_image_path: /uploads/img-1393.jpg
+    teaser_image_path: /uploads/img-1387-sm.jpg
+    large_image_path: /uploads/img-1387.jpg
     youtube_id:
   - title:
-    teaser_image_path: /uploads/img-1394-sm.jpg
-    large_image_path: /uploads/img-1394.jpg
+    teaser_image_path:
+    large_image_path:
     youtube_id:
   - title:
-    teaser_image_path: /uploads/img-1395-sm.jpg
-    large_image_path: /uploads/img-1395.jpg
+    teaser_image_path:
+    large_image_path:
     youtube_id:
 services:
   - Example 1
