@@ -1,17 +1,17 @@
 ---
-title: Aston Martin
-main_image_path: /uploads/img-0626.jpg
+title: Aston Martin V12 Vantage
+main_image_path: /uploads/20151023-154044.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /uploads/img-0415-sm.jpg
-    large_image_path: /uploads/img-0415.jpg
+    teaser_image_path: /uploads/20151023-154022-sm.jpg
+    large_image_path: /uploads/20151023-154022.jpg
     youtube_url:
   - title:
-    teaser_image_path: /uploads/img-0425-sm.jpg
-    large_image_path: /uploads/img-0425.jpg
+    teaser_image_path: /uploads/20151023-154607-sm.jpg
+    large_image_path: /uploads/20151023-154607.jpg
     youtube_id:
   - title:
-    teaser_image_path: /uploads/img-0481-sm.jpg
+    teaser_image_path: /uploads/20151023-154529-sm.jpg
     large_image_path: /uploads/img-0481.jpg
     youtube_id:
 services:
