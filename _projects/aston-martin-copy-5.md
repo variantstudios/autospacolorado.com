@@ -3,16 +3,12 @@ title: Chevrolet Corvette Grand Sport
 main_image_path: /uploads/IMG_0196.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /uploads/20151023-154022-sm.jpg
-    large_image_path: /uploads/20151023-154022.jpg
+    teaser_image_path:
+    large_image_path:
     youtube_url:
   - title:
-    teaser_image_path: /uploads/20151023-154529-sm.jpg
-    large_image_path: /uploads/20151023-154529.jpg
-    youtube_id:
-  - title:
-    teaser_image_path: /uploads/20151023-154607-sm.jpg
-    large_image_path: /uploads/20151023-154607.jpg
+    teaser_image_path:
+    large_image_path:
     youtube_id:
 services:
   - Example 1
