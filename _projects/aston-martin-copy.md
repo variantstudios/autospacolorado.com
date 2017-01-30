@@ -3,19 +3,15 @@ title: Audi S4 2016
 main_image_path: /uploads/img-1389.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /uploads/img-1392-sm.jpg
     image_path: /uploads/img-1392.jpg
     youtube_url:
   - title:
-    teaser_image_path: /uploads/img-1393-sm.jpg
     image_path: /uploads/img-1393.jpg
     youtube_id:
   - title:
-    teaser_image_path: /uploads/img-1394-sm.jpg
     image_path: /uploads/img-1394.jpg
     youtube_id:
   - title:
-    teaser_image_path: /uploads/img-1395-sm.jpg
     image_path: /uploads/img-1395.jpg
     youtube_id:
 services:

@@ -1165,6 +1165,61 @@ ul.pager li a:visited {
   overflow: hidden;
 }
 
+/* line 48, ../sass/partials/design/pages/_contact.scss */
+.contact-form {
+  margin-top: 2em;
+  background: #eee;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,eaeaea+100 */
+  background: #f7f7f7;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f7f7 0%, #eaeaea 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#eaeaea));
+  background: linear-gradient(to bottom, #f7f7f7 0%, #eaeaea 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 );
+  /* IE6-9 */
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+@media (min-width: 50em) {
+  /* line 62, ../sass/partials/design/pages/_contact.scss */
+  .contact-form h2 {
+    float: left;
+    width: 230px;
+    text-align: right;
+    margin-right: 3em;
+    margin-top: 0;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .contact-form h2 {
+  float: left;
+  width: 230px;
+  text-align: right;
+  margin-right: 3em;
+  margin-top: 0;
+}
+/* line 71, ../sass/partials/design/pages/_contact.scss */
+.contact-form .webform-component {
+  padding-bottom: 1em;
+}
+/* line 73, ../sass/partials/design/pages/_contact.scss */
+.contact-form .webform-component label {
+  display: block;
+}
+/* line 75, ../sass/partials/design/pages/_contact.scss */
+.contact-form .webform-component label input {
+  width: auto;
+}
+/* line 80, ../sass/partials/design/pages/_contact.scss */
+.contact-form .webform-component input {
+  width: 100%;
+}
+
 /* line 2, ../sass/partials/design/pages/_front.scss */
 .front .preface-wrap {
   background: #ccc;

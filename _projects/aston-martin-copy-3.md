@@ -3,20 +3,10 @@ title: Bentley Continental GT
 main_image_path: /uploads/img-1384.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /uploads/img-1386-sm.jpg
     image_path: /uploads/img-1386.jpg
     youtube_url:
   - title:
-    teaser_image_path: /uploads/img-1387-sm.jpg
     image_path: /uploads/img-1387.jpg
-    youtube_id:
-  - title:
-    teaser_image_path:
-    image_path:
-    youtube_id:
-  - title:
-    teaser_image_path:
-    image_path:
     youtube_id:
 services:
   - Example 1

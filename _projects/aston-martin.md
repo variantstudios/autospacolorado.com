@@ -3,15 +3,12 @@ title: Aston Martin
 main_image_path: /uploads/img-0626.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /uploads/img-0415-sm.jpg
     image_path: /uploads/img-0415.jpg
     youtube_url:
   - title:
-    teaser_image_path: /uploads/img-0425-sm.jpg
     image_path: /uploads/img-0425.jpg
     youtube_id:
   - title:
-    teaser_image_path: /uploads/img-0481-sm.jpg
     image_path: /uploads/img-0481.jpg
     youtube_id:
 services:
