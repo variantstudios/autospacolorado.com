@@ -41,41 +41,13 @@ layout: default
       </div>
     </div>
     <div class="gallery-slider">
-      <div>
-        <a href="#">
-          <img src="https://source.unsplash.com/random/400x400" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="https://source.unsplash.com/random/400x400" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="https://source.unsplash.com/random/400x400" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="https://source.unsplash.com/random/400x400" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="https://source.unsplash.com/random/400x400" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="https://source.unsplash.com/random/400x400" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="https://source.unsplash.com/random/400x400" />
-        </a>
-      </div>
+      {% for gallery in site.projects %}
+        <div>
+          <a href="{{ gallery.url }}">
+            <img src="https://res.cloudinary.com/variant-studios/image/fetch/w_400,h_400,c_fill/http://maraschino-cherry.cloudvent.net/{{ gallery.main_image_path }}">
+          </a>
+        </div>
+      {% endfor %}
     </div>
   </section>
 
