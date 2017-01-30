@@ -1,6 +1,6 @@
 ---
-title: Aston Martin V12 Vantage
-main_image_path: /uploads/20151023-154044.jpg
+title: Chevrolet Corvette Grand Sport
+main_image_path: /uploads/IMG_0196.jpg
 images_and_videos:
   - title:
     teaser_image_path: /uploads/20151023-154022-sm.jpg
