@@ -4,15 +4,15 @@ main_image_path: /uploads/img-0626.jpg
 images_and_videos:
   - title:
     teaser_image_path: /uploads/img-0415-sm.jpg
-    large_image_path: /uploads/img-0415.jpg
+    image_path: /uploads/img-0415.jpg
     youtube_url:
   - title:
     teaser_image_path: /uploads/img-0425-sm.jpg
-    large_image_path: /uploads/img-0425.jpg
+    image_path: /uploads/img-0425.jpg
     youtube_id:
   - title:
     teaser_image_path: /uploads/img-0481-sm.jpg
-    large_image_path: /uploads/img-0481.jpg
+    image_path: /uploads/img-0481.jpg
     youtube_id:
 services:
   - Example 1

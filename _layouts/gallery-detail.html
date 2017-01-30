@@ -16,7 +16,7 @@ layout: default
         {% for item in page.images_and_videos %}
         <li itemscope class="grid-item">
           {% if item.large_image_path %} 
-            <a class="gallery-item gallery" href="{{ item.large_image_path }}" >
+            <a class="gallery-item gallery" href="{{ item.image_path }}" >
           {% endif %}
 
           {% if item.youtube_id %} 
@@ -24,7 +24,7 @@ layout: default
             <a class="btn btn-default" href="#" data-featherlight="#video">
           {% endif %}
           
-            <img class="gallery-img lrg" src="{{ item.teaser_image_path }}" alt="{{ item.title }}" itemprop="image">
+            <img class="gallery-img lrg" src="{{ site.cloudinaryintro }}/w_300,h_300,c_fill/{{ site.url }}/{{ item.image_path }}" alt="{{ item.title }}" itemprop="image">
           </a>
         </li>
       {% endfor %}
