@@ -7,7 +7,6 @@ gem 'compass', '1.0.3'
 
 
 group :jekyll_plugins do
-    gem 'jekyll-cloudinary', '1.5.2'
     gem 'jekyll-paginate', '1.1.0'
     gem 'jekyll-sitemap', '0.10.0'
 end

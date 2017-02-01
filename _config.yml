@@ -12,7 +12,6 @@ author.email: "team@variantstudios.com"
 
 # Gems for plugins
 gems:
-  - jekyll-cloudinary
   - jekyll-paginate # Needed to add paginate on Jekyll ver 3+
   - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
 
