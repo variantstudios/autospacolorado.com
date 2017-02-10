@@ -36,6 +36,9 @@ collections:
   projects:
     output: true
     permalink: '/gallery/:title/'
+  services:
+    output: true
+    permalink: '/services/:title/'
   people:
     output: false
   categories:
@@ -74,6 +77,25 @@ defaults:
       layout: gallery-detail
       title:
       image_path:
+  -
+    scope:
+      type: services
+    values:
+      layout: services-detail
+      title: 
+      description: 
+      header_image_path: 
+      images_and_videos:
+        - title:
+          teaser_image_path: 
+          large_image_path: 
+          youtube_url:
+      service-table:
+        - group:  
+          desc:
+          options:
+          - option: 
+            price: 
 
 
 # typekit - Because we all need nice type faces.
