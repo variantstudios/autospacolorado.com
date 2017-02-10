@@ -81,21 +81,12 @@ defaults:
     scope:
       type: services
     values:
-      layout: services-detail
+      layout: service-detail
       title: 
       description: 
       header_image_path: 
       images_and_videos:
-        - title:
-          teaser_image_path: 
-          large_image_path: 
-          youtube_url:
-      service-table:
-        - group:  
-          desc:
-          options:
-          - option: 
-            price: 
+
 
 
 # typekit - Because we all need nice type faces.

@@ -19,22 +19,29 @@ layout: default
         <h3 class="section-subtitle">{{ page.subtitle }}</h3>
         {{ content }}
       </div>
+      
       <div class="col-2">
+
         {% if page.pricing %}
-        <h4>Pricing:</h4>
-        <p class="pricing-block">{{ page.pricing }}</p>
+          <h4>Pricing:</h4>
+          <p class="pricing-block">{{ page.pricing }}</p>
         {% endif %}
+
         <!-- Service Table Prcing and Option Table -->
-        <table class="service-table">
-          <tbody>
-          {% for item in page.service-table %}
-            <tr>
-              <td>{{item.option}}</td>
-              <td class="price">{{item.price}}</td>
-            </tr>
-          {% endfor %}
-          </tbody>
-        </table>
+        {% for item in page.service-table %}
+         <h3>{{ item.group }}</h3>
+         <p>{{ item.desc }}</p>
+          <table class="service-table">
+            <tbody>
+                {% for options in item.options %}
+              <tr>
+                <td>{{ options.option }}</td>
+                <td class="price">{{ options.price }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% endfor %}
 
         {% include gallery.html %}
 
