@@ -1,5 +1,5 @@
 ---
-title: Bray Windshield Skin
+title: Windshield Skin
 permalink: "/bray-windshield-skin/"
 description: This is just a sample general page.
 header_image_path: /assets/images/bgs/store.jpg
@@ -12,38 +12,12 @@ images_and_videos:
     teaser_image_path: /assets/images/gallery/mogwai_small.png
     large_image_path: 
     youtube_id: 5EfuLuN0VXs
-service-table:
-  - option: Option 1
-    price: $219
-  - option: Option 2
-    price: $269
-  - option: Option 3
-    price: $289
+pricing: Pricing varies, Please contact for details. 
 layout: service-detail
 ---
 
-Triticeas premente altum eget rediere *limite*. Non orientis hunc, surgunt
-vocem: [ac](http://www.googel.com) cadit quod, Boebes superat! Ut
-Phoebe obfuit effugit hic arte: scripsi quaterque plenissima at volucris
-visaque. Vanis Cinyreius tamen: deficit sub ignem, lumina.
+Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped? 
 
-## Flamine sceleratus Amoris anxia Cymeli calorque mortale
+Thats correct, just like clear bra (paint protection film) prevents rock chips on the paint of your car, there is a film now that will prevent rock chips in your windshield. This film is even backed by a warranty that will cover the cost of your windshield if it happens to crack within the warranty period! 
 
-Est undas; [si quoque](http://google.com) et ignorat vidit. Pro
-incursu modis missi lunae ad dicta: neganda Delius est. Utque et cadendum erat;
-qui **causas Thisbe terra** sacra esse quae sanguine, decursa sed structa ab
-beatam ut! Moderato fluminis coniungere ambae et certa carinae Macareus, sic et
-ista neque mox ventis regnare coepit.
-
-## Flumina linguam
-
-Hoc motae, dignior, in adsonat terrore quo operum corpore; animusque Cipe
-vidisset ibitis plausu. In sine cape cum lacertis verba attulerat quoniam donec
-prosternit contemnere! Ante nam dura carmina turba. Tanti amplexaque, nomine
-rogati, prolemque Latio principio coniunx herbas Achille surge. Prohibes fallere
-resolutum quaerere talaria.
-
-Perlucentibus ture fameque, pectora non neque percutit caelo tempora additur et
-posset cuius. Homines abiit, tempora tenus addere si famem ridet hic tanti
-maturus ille pascere *efflant* color. Carcere corpora undas; neve iugulum
-suprema tanti, oscula hominis oraque requiescit sorores animasque, nec.
+Windshield film protection adds a scratch resistant coating that stands up to everyday abrasions such as wiper blades, stones, and other abrasive materials. Along with decreasing the chances of objects entering your car through your windshield, windshield film protection helps to hold shattered glass in place in the case of an accident, thereby increasing you and your passengers’ personal safety.

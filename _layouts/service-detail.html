@@ -20,6 +20,10 @@ layout: default
         {{ content }}
       </div>
       <div class="col-2">
+        {% if page.pricing %}
+        <h4>Pricing:</h4>
+        <p class="pricing-block">{{ page.pricing }}</p>
+        {% endif %}
         <!-- Service Table Prcing and Option Table -->
         <table class="service-table">
           <tbody>
