@@ -9,11 +9,19 @@
       float: left;
       width: 50%;
     }
+    @include breakpoint($bp-large, $no-query: '.no-mq') {
+      float: left;
+      width: 65%;
+    }
   }
   .col-2 {
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       float: right;
       width: 45%;
+    }
+    @include breakpoint($bp-large, $no-query: '.no-mq') {
+      float: right;
+      width: 30%;
     }
   }
   .gallery-grid {

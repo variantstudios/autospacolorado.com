@@ -1,6 +1,6 @@
 ---
-title: Surface Coatings
-permalink: "/surface-coatings/"
+title: Coatings
+permalink: "/coatings/"
 description: This is just a sample general page.
 header_image_path: /assets/images/bgs/store.jpg
 images_and_videos:
@@ -8,37 +8,29 @@ images_and_videos:
     teaser_image_path: /assets/images/gallery/atomic.jpg
     large_image_path: /assets/images/IMG_5638.JPG
     youtube_url: 
-  - title:
-    teaser_image_path: /assets/images/gallery/mogwai_small.png
-    large_image_path: 
-    youtube_id: 5EfuLuN0VXs
-service-table:
-  - option: Option 1
-    price: $219
-  - option: Option 2
-    price: $269
-  - option: Option 3
-    price: $289
-layout: service-detail
+layout: service-detail-coating
 ---
 
-## Why are Coatings Important?
+## Want your car to look its best? Want insane gloss? Want the paint to look better than it was brand new? 
+### We have you covered! 
 
-Coatings will aid in the preservation of your vehicles clear coat by offering protection from harmful UV rays, bugs, bird droppings, tar and tree sap. Keeping your vehicles exterior in the best possible shape will result in more value when you decide to sell it or trade it in. A coating can last years which is much longer than a wax or sealant. Most waxes may only last a month, a sealant up to 6 months. The coatings we offer last 1-7 years. 
-
-
-## Why have a coating installed on my car?
-
-Time is money, and having your vehicle coated can eventually for itself over time! One of the great benefits of having a coated car is the ease of maintenance. It will take less time to wash and dry your vehicle due to the hydrophobic (slickness) properties of the of the product, thus saving you money! But wait there’s more(R.I.P. Billy Mays) you will also no longer have to wax your vehicle, the coating itself acts as a wax in a way but can not be removed without heavy abrasion(compounding, sanding). Unlike wax that can be removed by simply washing with the wrong soap or in a touchless car wash. 
-
-A few other key benefits:
-
-* Nothing sticks to the surface, tree sap wipes right off. Road paint washes right off
-* Anti-Graffiti
-* Gloss enhancement and color depth
-* Vehicle stays cleaner longer 
+* This is what it boils down to, we offer coatings of all types of levels. 
+* Want a coating that will just make your car glossier and last a year? We have that. 
+* Want a coating that has a warranty? Not a problem. 
+* Want a coating that can almost self heal like a clear mask? You bet your bottom dollar we have that also. 
+* Have a new car and want to keep it looking amazing?
+** Looking for a specific coating brand? We have been authorized by the majority of coating companies to install their products.
 
 
-## Why choose Auto Spa of Greeley and Loveland for your coating needs?
+## Benefits
+Ease of Maintenance. The surface is extremely slick, therefore resulting in nothing sticking to the surface and rolling right off!
 
-We have tested dozens of brands and types of coatings over the last few years. We have done all the studying and choose nothing but the best that fits our business and our clients needs and desires. You can be rest assured that we have thoroughly tested all product we use before we offer them to our clients. We have also won many awards, trophies and received accreditations for our quality finishes and service. Zack (the owner) has been in the automotive reconditioning field for over 17 years, understands and has knowledge on all types of paint finishes. 
+Sacrificial layer on top of your clear coat. Most coatings consist of nano particles(very very tiny molecular structures) that will actually go down into your clear coat(see diagram) and then also form a layer on top of your clear coat that cannot be washed away like wax. This is creating a layer of protection on top of your clear coat!
+
+Semi-Permanent to Permanent Bond! The ceramic coatings we offer at Auto Spa cannot be removed by washing your car or even a chemical wash. You would have to literally use abrasives to remove our coatings(high speed polishing/sanding etc.)
+
+Extreme gloss! You thought your paint was perfect and shiny when you purchased it brand new??? Wait until you see what the results of a proper paint correction and coating application will do. We personally have never seen even a clear coat that has been wetsanded and polished be as glossy as a car with orange peel and coated!
+
+Hardness: Clear coats are very sensitive, and sometimes it seems like no matter how careful you are, it is impossible not to leave behind some very light marring or swirls after washing and drying.  Paint coatings are typically harder than your vehicle’s clear coat. This added hardness helps to protect your paint from light marring.  Remember, coatings can still easily be scratched, however they can help to reduce the amount of lighter defects from appearing over time.  This means you will need to polish your vehicle less often.
+
+Resistance to contamination: Fewer contaminates will bond to the surface of the coating, so you will find that you will need to clay your vehicle much less often.  In fact, treating your vehicle with Iron X a couple of times a year may be all that is needed to remove the bonded contaminates from the coating

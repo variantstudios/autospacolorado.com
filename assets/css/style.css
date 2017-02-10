@@ -1731,8 +1731,20 @@ ul.services-list li img {
   float: left;
   width: 50%;
 }
+@media (min-width: 62.5em) {
+  /* line 7, ../sass/partials/design/pages/_services.scss */
+  .services--location .content-section .col-1 {
+    float: left;
+    width: 65%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .services--location .content-section .col-1 {
+  float: left;
+  width: 65%;
+}
 @media (min-width: 50em) {
-  /* line 13, ../sass/partials/design/pages/_services.scss */
+  /* line 17, ../sass/partials/design/pages/_services.scss */
   .services--location .content-section .col-2 {
     float: right;
     width: 45%;
@@ -1743,12 +1755,24 @@ ul.services-list li img {
   float: right;
   width: 45%;
 }
-/* line 19, ../sass/partials/design/pages/_services.scss */
+@media (min-width: 62.5em) {
+  /* line 17, ../sass/partials/design/pages/_services.scss */
+  .services--location .content-section .col-2 {
+    float: right;
+    width: 30%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .services--location .content-section .col-2 {
+  float: right;
+  width: 30%;
+}
+/* line 27, ../sass/partials/design/pages/_services.scss */
 .services--location .content-section .gallery-grid {
   margin: 2em 0;
 }
 @media (min-width: 50em) {
-  /* line 21, ../sass/partials/design/pages/_services.scss */
+  /* line 29, ../sass/partials/design/pages/_services.scss */
   .services--location .content-section .gallery-grid li {
     width: 22%;
   }
@@ -1758,28 +1782,28 @@ ul.services-list li img {
   width: 22%;
 }
 
-/* line 28, ../sass/partials/design/pages/_services.scss */
+/* line 36, ../sass/partials/design/pages/_services.scss */
 .service-table {
   font-weight: 700;
 }
-/* line 30, ../sass/partials/design/pages/_services.scss */
+/* line 38, ../sass/partials/design/pages/_services.scss */
 .service-table tr:nth-child(odd) {
   background: #E8E8E8;
 }
-/* line 33, ../sass/partials/design/pages/_services.scss */
+/* line 41, ../sass/partials/design/pages/_services.scss */
 .service-table tr:nth-child(even) {
   background: #F5F5F5;
 }
-/* line 36, ../sass/partials/design/pages/_services.scss */
+/* line 44, ../sass/partials/design/pages/_services.scss */
 .service-table td.price {
   color: #fff;
   width: 60px;
 }
-/* line 41, ../sass/partials/design/pages/_services.scss */
+/* line 49, ../sass/partials/design/pages/_services.scss */
 .service-table tr:nth-child(odd) td.price {
   background: #B60910;
 }
-/* line 44, ../sass/partials/design/pages/_services.scss */
+/* line 52, ../sass/partials/design/pages/_services.scss */
 .service-table tr:nth-child(even) td.price {
   background: #D5121A;
 }
@@ -2037,7 +2061,7 @@ html body {
 
 /* line 13, ../sass/partials/design/regions/_body.scss */
 .wrap {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 2em;
 }
@@ -2051,7 +2075,7 @@ html body {
 /* line 21, ../sass/partials/design/regions/_body.scss */
 .site-wrapper {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 
 /* line 26, ../sass/partials/design/regions/_body.scss */
