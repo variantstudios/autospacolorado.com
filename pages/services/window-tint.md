@@ -1,5 +1,5 @@
 ---
-title: Window Tint
+title: Window Tinting
 permalink: "/window-tint/"
 description: This is just a sample general page.
 header_image_path: /assets/images/bgs/store.jpg
@@ -21,29 +21,12 @@ service-table:
     price: $289
 layout: service-detail
 ---
+You ever feel like somebody is looking at you? Creepy isnt it? Well guess what? Get your windows tinted and it will be difficult to see you in your flashy ride! 
 
-Triticeas premente altum eget rediere *limite*. Non orientis hunc, surgunt
-vocem: [ac](http://www.googel.com) cadit quod, Boebes superat! Ut
-Phoebe obfuit effugit hic arte: scripsi quaterque plenissima at volucris
-visaque. Vanis Cinyreius tamen: deficit sub ignem, lumina.
+We all usually like to lay out on the beach to catch a tan and get that right skin tone right? Well dont catch yourself getting farmers tan because your windows are not tinted. Not only will tint block harmful uv rays, but it will also block a good amount of heat. Looking to block a lot of heat but dont want the look of window tint on your car? We have a film that is extremely light in color but will block as much heat as a dark standard film would. Block harmful uv rays will also protect your interior from sun damage and fading.
 
-## Flamine sceleratus Amoris anxia Cymeli calorque mortale
+Even though the fad of colored tint, mirror tint and even sparkle tint has died, we still have a good amount of options when it comes to the shades, performance, some slight color differences and price points.
 
-Est undas; [si quoque](http://google.com) et ignorat vidit. Pro
-incursu modis missi lunae ad dicta: neganda Delius est. Utque et cadendum erat;
-qui **causas Thisbe terra** sacra esse quae sanguine, decursa sed structa ab
-beatam ut! Moderato fluminis coniungere ambae et certa carinae Macareus, sic et
-ista neque mox ventis regnare coepit.
+Our main installer at Auto Spa has been installing all types of window films since 2005 and has been certified by 3m, Suntek, llumar, Photosync and a few others. 
 
-## Flumina linguam
-
-Hoc motae, dignior, in adsonat terrore quo operum corpore; animusque Cipe
-vidisset ibitis plausu. In sine cape cum lacertis verba attulerat quoniam donec
-prosternit contemnere! Ante nam dura carmina turba. Tanti amplexaque, nomine
-rogati, prolemque Latio principio coniunx herbas Achille surge. Prohibes fallere
-resolutum quaerere talaria.
-
-Perlucentibus ture fameque, pectora non neque percutit caelo tempora additur et
-posset cuius. Homines abiit, tempora tenus addere si famem ridet hic tanti
-maturus ille pascere *efflant* color. Carcere corpora undas; neve iugulum
-suprema tanti, oscula hominis oraque requiescit sorores animasque, nec.
+All films installed by us are back by a lifetime nationwide warranty that guarantees the tint will not fade, turn purple, peel, delaminate or crack.
