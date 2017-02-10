@@ -3,17 +3,17 @@ layout: default
 ---
 
 <main class="services--location">
-  
+
   <!-- Header Image with NO text overlay -->
   {% if page.header_image_path %}
     <figure class="page-image--main">
       <img src="{{ page.header_image_path}}">
     </figure>
   {% endif %}
-  
+
   <!-- 2 Column Layout -->
   <div class="wrap content-section">
-      
+
       <div class="">
         <h1 class="section-title">{{ page.title }}</h1>
         <h3 class="section-subtitle">{{ page.subtitle }}</h3>
@@ -21,22 +21,20 @@ layout: default
 
                 <!-- Service Table Prcing and Option Table -->
        {% for item in page.service-table %}
-       <h3>{{ item.title }}</h3>
+       <h3>{{ item.group }}</h3>
        <p>{{ item.desc }}</p>
         <table class="service-table">
           <tbody>
+              {% for options in item.options %}
             <tr>
-              <td>{{ item.options }}</td>
-              <td class="price">{{item.price}}</td>
+              <td>{{ options.option }}</td>
+              <td class="price">{{ options.price }}</td>
             </tr>
+            {% endfor %}
           </tbody>
         </table>
         {% endfor %}
-
          {% include gallery.html %}
-
-
-
       </div>
   </div>
 </main>
