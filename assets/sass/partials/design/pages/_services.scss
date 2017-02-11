@@ -1,27 +1,21 @@
 
 // Location Node Styles
 
-.services--location .content-section {
+.services--details .content-section {
   padding-top: 3em;
   @include clearfix;
-  .col-1 {
+  .pricing-block {
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       float: left;
-      width: 50%;
-    }
-    @include breakpoint($bp-large, $no-query: '.no-mq') {
-      float: left;
-      width: 65%;
+      width: 30%;
+      padding-right: 3em;
     }
   }
-  .col-2 {
+  .service--detail-wrap{
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      float: right;
-      width: 45%;
-    }
-    @include breakpoint($bp-large, $no-query: '.no-mq') {
-      float: right;
-      width: 30%;
+      overflow: hidden;
+      max-width: 80%;
+      margin: 0 auto;
     }
   }
   .gallery-grid {
@@ -32,9 +26,26 @@
       }
     }
   }
+  .table-title {
+    //padding: 2em 0 0em;
+    
+  }
+  hr {
+    background: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 3em;
+  }
+  .service-description {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2em;
+
+  }
 }
 .service-table {
   font-weight: 700;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
   tr:nth-child(odd) {
     background: #E8E8E8;
   }

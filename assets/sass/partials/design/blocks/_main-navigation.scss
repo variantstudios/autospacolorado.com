@@ -51,6 +51,13 @@
       transition: color .5s ease;
       color: #4A4A4A;
       text-transform: uppercase;
+      opacity: 1;
+        transition: all .5s linear;
+        visibility: visible;
+      a {
+        background: #000;
+      }
+
     }
     a {
       font-weight: 700;
@@ -60,11 +67,23 @@
       display: block;
       color: #4A4A4A;
       text-transform: uppercase;
+      transition: margin-top .25s ease;
+      margin-top: 0;
+      
       @include breakpoint($bp-medium, $no-query: '.no-mq') {
         padding: 0;
       }
+      img {
+        opacity: 1;
+        transition: opacity .25s ease;
+      }
       &:hover {
-        color: $color-one;
+        transition: margin-top .25s ease;
+        margin-top: -5px;
+        img {
+          transition: opacity .25s ease;
+          opacity: 0.7;
+        }
       }
       &:active {
         top: 1px;
@@ -89,7 +108,7 @@
         padding: 2%;
         opacity: 0;
         margin-top: -60px;
-        animation: FadeOut .75s linear;
+        animation: FadeOut .5s linear;
         a {
           position: relative;
           line-height: 0;
@@ -114,7 +133,7 @@
         li {
           opacity: 1;
           margin-top: 0;
-          animation: FadeIn .75s linear;
+          animation: FadeIn .5s linear;
         animation-fill-mode:both;
           &:nth-child(2){
             animation-delay: .25s
@@ -143,11 +162,11 @@
   }
 }
 .main-nav .menu {
-  max-height: 0;
+  //max-height: 0;
   overflow: hidden;
-  transition: max-height .5s ease;
+  transition: all .5s ease;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    max-height: none;
+    //max-height: none;
   }
   &.show {
     max-height: 5000px;
