@@ -36,13 +36,31 @@ service-table:
         price: $259
       - option: Small Suvs/Crossovers
         price: $309
-  - group: Prestige Detail
+  - group: Ceramic Lifetime Film (Blocks more Heat)
     desc:
     options:
-      - option: Option 1
-        price: $219
-      - option: Option 2
-        price: $289
+      - option: Front Windshield Visor
+        price: $59
+      - option: Full Front Windshield
+        price: $209
+      - option: 1 Window
+        price: $89
+      - option: '2 Front Windows (common on suvs, trucks, vans and crossovers)'
+        price: $169
+      - option: 2 Door Cars
+        price: $329
+      - option: 4 Door Cars
+        price: $369
+      - option: Regular Cab Truck (+$20 for Slider Rear Window)
+        price: $309
+      - option: Extended Cab Truck (+$20 for Slider Rear Window)
+        price: $339
+      - option: Crew Cab Truck (+$20 for Slider Rear Window)
+        price: $369
+      - option: Small Suvs/Crossovers
+        price: $489
+      - option: Large Suvs
+        price: $509
 ---
 
 

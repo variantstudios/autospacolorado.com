@@ -1,7 +1,6 @@
 ---
 title: Windshield Skin
-permalink: "/bray-windshield-skin/"
-description: This is just a sample general page.
+description: Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped? 
 header_image_path: /assets/images/bgs/store.jpg
 images_and_videos:
   - title:
@@ -13,7 +12,12 @@ images_and_videos:
     large_image_path: 
     youtube_id: 5EfuLuN0VXs
 pricing: Pricing varies, Please contact for details. 
-layout: service-detail
+service-table:
+  - group:  
+    desc:
+    options:
+    - option:
+      price:
 ---
 
 Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped? 

@@ -2,50 +2,50 @@
 layout: default
 ---
 
-<main class="services--location">
-  
+<main class="services--details">
   <!-- Header Image with NO text overlay -->
   {% if page.header_image_path %}
     <figure class="page-image--main">
       <img src="{{ page.header_image_path}}">
     </figure>
   {% endif %}
-  
-  <!-- 2 Column Layout -->
-  <div class="wrap content-section">
-      
-      <div class="col-1">
-        <h1 class="section-title">{{ page.title }}</h1>
-        <h3 class="section-subtitle">{{ page.subtitle }}</h3>
-        {{ content }}
-      </div>
-      
-      <div class="col-2">
+
+  <!--- Services WITH Pricing Tables -->
+    <div class="wrap content-section">
 
         {% if page.pricing %}
-          <h4>Pricing:</h4>
-          <p class="pricing-block">{{ page.pricing }}</p>
+          <div class="pricing-block">
+            <h4>Pricing:</h4>
+            <p>{{ page.pricing }}</p>
+          </div>
         {% endif %}
 
-        <!-- Service Table Prcing and Option Table -->
-        {% for item in page.service-table %}
-         <h3>{{ item.group }}</h3>
-         <p>{{ item.desc }}</p>
-          <table class="service-table">
-            <tbody>
-                {% for options in item.options %}
-              <tr>
-                <td>{{ options.option }}</td>
-                <td class="price">{{ options.price }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        {% endfor %}
+        <div class="service--detail-wrap">
+          <h1 class="section-title">{{ page.title }}</h1>
+          <h3 class="section-subtitle">{{ page.subtitle }}</h3>
+          <div class="service-description">{{ content }}</div>
 
-        {% include gallery.html %}
+          <!-- Service Table Prcing and Option Table -->
+          {% for item in page.service-table %}
+           {% if item.group %}<h3 class="table-title">{{ item.group }}</h3>{% endif %}
+           {% if item.desc %}<p>{{ item.desc }}</p>{% endif %}
 
-      </div>
-  </div>
+            <table class="service-table">
+              <tbody>
+                  {% for options in item.options %}
+                <tr>
+                  {% if options.option %}<td>{{ options.option }}</td>{% endif %}
+                  {% if options.price %}<td class="price">{{ options.price }}</td>{% endif %}
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+            <hr>
+          {% endfor %}
+
+          {% include gallery.html %}
+      </div> 
+    </div>
+
 </main>
 {% include book-appointment.html %}
