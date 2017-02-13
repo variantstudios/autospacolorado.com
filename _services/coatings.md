@@ -1,7 +1,7 @@
 ---
 title: Coatings
 description: Want your car to look its best? Want insane gloss? Want the paint to look better than it was brand new? We have you covered.
-header_image_path: /assets/images/bgs/store.jpg
+header_image_path: /assets/images/header/coatings.jpg
 images_and_videos:
   - title:
     teaser_image_path: /assets/images/gallery/atomic.jpg

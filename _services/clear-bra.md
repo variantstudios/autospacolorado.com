@@ -1,16 +1,12 @@
 ---
 title: Clear Bra/PPF
 description: Do you find rock chips to be annoying? Did you know it only takes 1 drive down the highway in Colorado to get rock chips on the front fascia of your car? We have the perfect solution for you.
-header_image_path: /assets/images/bgs/store.jpg
+header_image_path: /assets/images/header/clearbra.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /assets/images/gallery/atomic.jpg
-    large_image_path: /assets/images/IMG_5638.JPG
+    teaser_image_path: 
+    large_image_path: 
     youtube_url:
-  - title:
-    teaser_image_path: /assets/images/gallery/mogwai_small.png
-    large_image_path:
-    youtube_id: 5EfuLuN0VXs
 pricing: Pricing will vary depending on material used and how much coverage is desired.
 ---
 
