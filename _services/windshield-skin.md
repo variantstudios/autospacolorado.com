@@ -1,16 +1,12 @@
 ---
 title: Windshield Skin
 description: Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped? 
-header_image_path: /assets/images/bgs/store.jpg
+header_image_path: /assets/images/header/skin.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /assets/images/gallery/atomic.jpg
-    large_image_path: /assets/images/IMG_5638.JPG
-    youtube_url: 
-  - title:
-    teaser_image_path: /assets/images/gallery/mogwai_small.png
+    teaser_image_path: 
     large_image_path: 
-    youtube_id: 5EfuLuN0VXs
+    youtube_url: 
 pricing: Pricing varies, Please contact for details. 
 service-table:
   - group:  

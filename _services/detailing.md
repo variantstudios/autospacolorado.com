@@ -1,7 +1,7 @@
 ---
 title: Detailing
 description: Our definition of detailing at Auto Spa of Greeley and Loveland is a very thorough deep steam/shampoo cleaning of your entire interior of the vehicle.
-header_image_path: /assets/images/bgs/store.jpg
+header_image_path: /assets/images/header/detailing.jpg
 images_and_videos:
   - title:
     teaser_image_path: /assets/images/gallery/atomic.jpg

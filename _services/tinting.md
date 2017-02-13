@@ -1,16 +1,12 @@
 ---
 title: Window Tinting
 description: Our definition of detailing at Auto Spa of Greeley and Loveland is a very thorough deep steam/shampoo cleaning of your entire interior of the vehicle.
-header_image_path: /assets/images/bgs/store.jpg
+header_image_path: /assets/images/header/tinting.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /assets/images/gallery/atomic.jpg
-    large_image_path: /assets/images/IMG_5638.JPG
+    teaser_image_path: 
+    large_image_path: 
     youtube_url:
-  - title:
-    teaser_image_path: /assets/images/gallery/mogwai_small.png
-    large_image_path:
-    youtube_id: 5EfuLuN0VXs
 pricing:
 service-table:
   - group: Standard Lifetime Film
