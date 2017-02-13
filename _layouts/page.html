@@ -23,6 +23,7 @@ layout: default
     {% endif %} -->
     <div class="content-section">{{ content }}</div>
     {% if page.url contains "contact" %}
+      {% include locations.html %}
       {% include contact-form.html %}
       {% elsif page.url contains "about" %}
         {% include team.html %}

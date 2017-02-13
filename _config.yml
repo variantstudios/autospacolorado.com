@@ -41,6 +41,8 @@ collections:
     permalink: '/services/:title/'
   people:
     output: false
+  locations:
+    output: false
   categories:
     output: true
     permalink: '/blog/:title/'

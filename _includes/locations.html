@@ -1,0 +1,19 @@
+<!-- Video & Images Grid -->
+{% for item in site.locations %}
+ <div class="location-block">
+  <div class="map-embed">
+    <iframe src="{{ item.map }}" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <h3 class="location--title">{{ item.title }}</h3>
+  <h5 class="phone--location">{{item.phone}}</h5>
+        
+  <!-- Hours List -->
+  <h6 class="hours--label">Hours:</h6>
+  <ul class="hours--location">
+  {% for hours in item.hours %}
+    <li>{{ hours.day }}</li>
+    {% endfor %}
+  </ul>
+
+ </div>
+{% endfor %}

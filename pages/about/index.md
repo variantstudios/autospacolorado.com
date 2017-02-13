@@ -4,7 +4,7 @@ permalink: /about/
 description: Auto Colorado has an experienced team offering premium car care services and professional grade detailing products for our customers.
 intro: We are very proud to offer an unrivaled range of detailing services designed to meet the needs of discerning customers throughout Northern Colorado Area who want the very best in car care for their vehicles.
 main_image_path: /assets/images/team.jpg
-header_image_path: 'http://o.homedsgn.com/wp-content/uploads/2014/09/A-Home-With-a-16-Car-Garage-15.jpg'
+header_image_path: /assets/images/bgs/team.jpg
 layout: page
 ---
 
