@@ -1,5 +1,5 @@
 ---
-title: BMW 64Oi Gran Sport Coupe
+title: BMW 640i Gran Sport Coupe
 main_image_path: /uploads/20150214-124801.jpg
 images_and_videos:
   - title:
@@ -15,9 +15,6 @@ images_and_videos:
     image_path: /uploads/20150214-124911.jpg
     youtube_id:
 services:
-  - Example 1
-  - Example 2
-  - Example 3
 ---
 
 
