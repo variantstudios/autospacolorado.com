@@ -18,13 +18,7 @@
   url: /blog/
 - text: About
   url: /about/
-- text: Locations
-  subitems:
-    - text: Greeley
-      url: /greeley-colorado/
-    - text: Loveland
-      url: /loveland-colorado/
 - text: Store
   url: /store/
-- text: Contact
+- text: Contact & Locations
   url: /contact/
