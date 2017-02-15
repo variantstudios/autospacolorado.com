@@ -1,23 +1,39 @@
-.gallery-item {
-  position: relative;
-  margin-bottom: 2em;
-  .gallery-item--content {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 1em;
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0.0) 0%, rgba(39,39,39,0.9) 100% );
-    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(39,39,39,0.9) 100% );
-    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%, rgba(39,39,39,0.9) 100% ); 
+.gallery-wrapper {
+  @include clearfix;
+
+  .gallery-item {
+    position: relative;
+    margin-bottom: 2em;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      padding: 1em 2em;
+      &:nth-child(odd) {
+        float: left;
+        width: 49%;
+
+      }
+      &:nth-child(even) {
+        float: right;
+        width: 49%;
+        
+      }
     }
-    h2, a {  
-      color: #fff;
-      text-decoration: none;
+    .gallery-item--content {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 1em;
+      background: -moz-linear-gradient(top,  rgba(0,0,0,0.0) 0%, rgba(39,39,39,0.9) 100% );
+      background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(39,39,39,0.9) 100% );
+      background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%, rgba(39,39,39,0.9) 100% ); 
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        padding: 1em 2em;
+      }
+      h2, a {  
+        color: #fff;
+        text-decoration: none;
+      }
     }
-  }
-  .gallery-item--image {
-    line-height: 0;
+    .gallery-item--image {
+      line-height: 0;
+    }
   }
 }

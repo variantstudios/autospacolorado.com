@@ -4,13 +4,9 @@ description: Our definition of detailing at Auto Spa of Greeley and Loveland is 
 header_image_path: /assets/images/header/detailing.jpg
 images_and_videos:
   - title:
-    teaser_image_path: /assets/images/gallery/atomic.jpg
-    large_image_path: /assets/images/IMG_5638.JPG
+    teaser_image_path: 
+    large_image_path: 
     youtube_url:
-  - title:
-    teaser_image_path: /assets/images/gallery/mogwai_small.png
-    large_image_path:
-    youtube_id: 5EfuLuN0VXs
 service-table:
   - group:  Signature
     desc: Our Signature Detail includes a full interior detailing/steam cleaning/shampoo, uv protectant application, exterior wash, wheel cleaning, tires dressed and all windows cleaned. This detail package is great for those who maintain their vehicle on a regular basis.

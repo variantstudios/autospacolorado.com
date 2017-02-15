@@ -29,12 +29,28 @@
       height: 400px;
     }
   }
+  .wrap {
+    position: relative;
+  }
 
 }
 .one3rd {
   max-width: 33%;
   float: right;
   margin: 0 0 1em 1em;
+}
+.gallery-title {
+  //position: absolute;
+  z-index: 1;
+  //width: 100%;
+  padding: 1em 2em;
+  top: 0;
+  margin: 0;
+  //color: #fff;
+  // background: -moz-linear-gradient(to top, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.94) 100%);
+  // background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.94) 100%);
+  // background: linear-gradient(to top, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.94) 100%); 
+  background:#fff;
 }
 
 .gallery-grid {
@@ -54,6 +70,9 @@
     &.first-grid-item {
       display: block;
       width: 100%;
+      img {
+        width: 100%;
+      }
     }
 
 

@@ -5,6 +5,8 @@ layout: default
 
 <main class="gallery-detail-node">
   <div class="wrap">
+    <h1 class="gallery-title">{{ page.title }}</h1>
+
 
     <!-- Video & Images Grid -->
     <ul class="gallery-grid" data-featherlight-gallery data-featherlight-filter="a">
@@ -15,9 +17,7 @@ layout: default
       </li>
         {% for item in page.images_and_videos %}
         <li itemscope class="grid-item">
-          {% if item.large_image_path %} 
-            <a class="gallery-item gallery" href="{{ item.image_path }}" >
-          {% endif %}
+          <a class="gallery-item gallery" href="{{ item.image_path }}" >
 
           {% if item.youtube_id %} 
             <iframe class="lightbox"  width="560" height="315" src="https://www.youtube.com/embed/{{ item.youtube_id }} " frameborder="0" allowfullscreen id="video"></iframe>
@@ -34,7 +34,6 @@ layout: default
 
 
     <div class="gallery-content-section">
-      <h1 class="section-title">{{ page.title }}</h1>
       <h3 class="section-subtitle">{{ page.subtitle }}</h3>
       <div class="intro-text"><p>{{ page.intro }}</p></div>
       <div class="content-section">{{ content }}</div>

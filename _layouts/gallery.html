@@ -7,11 +7,7 @@ layout: page
       <div class="gallery-item--image">
         {% if gallery.main_image_path %}
          <a href="{{ gallery.url }}">
-            <img
-              src="{{ site.cloudinaryintro }}/c_limit,w_800,q_auto,f_auto/{{ site.url }}/{{ gallery.main_image_path }}"
-              srcset="{{ site.cloudinaryintro }}/c_limit,w_320,q_auto,f_auto/{{ site.url }}/{{ gallery.main_image_path }} 320w,{{ site.cloudinaryintro }}/c_limit,w_640,q_auto,f_auto/{{ site.url }}/{{ gallery.main_image_path }} 640w,{{ site.cloudinaryintro }}/c_limit,w_960,q_auto,f_auto/{{ site.url }}/{{ gallery.main_image_path }} 960w,{{ site.cloudinaryintro }}/c_limit,w_1280,q_auto,f_auto/{{ site.url }}/{{ gallery.main_image_path }} 1280w,{{ site.cloudinaryintro }}/c_limit,w_1600,q_auto,f_auto/{{ site.url }}/{{ gallery.main_image_path }} 1600w"
-              sizes="100%"
-              alt="{{ gallery.title }}" title="{{ gallery.title }}" />
+            <img src="https://res.cloudinary.com/variant-studios/image/fetch/w_700,h_400,c_fill/{{ site.url }}/{{ gallery.main_image_path }}" alt="{{ gallery.title }}" title="{{ gallery.title }}">
           </a>
         {% endif %}
       </div>
@@ -23,3 +19,4 @@ layout: page
     </article>
   {% endfor %}
 </section>
+
