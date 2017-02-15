@@ -11,7 +11,7 @@ layout: default
     <section class="preface clearfix">
       <div class="wrap">
         <div class="headings">
-          <h2 class="section-title">Locations</h2>
+          <h2 class="section-title">Our Location</h2>
           <h3 class="section-subtitle">Serving Northern Colorado</h3>
         </div>
         <div class="location-block first editable">
@@ -19,14 +19,7 @@ layout: default
           <p>3620 35th Ave #3  <br>
             Evans, CO 80620</p>
           <p>970-619-9863</p>
-          <div class="btn outline"><a href="#">Book An Appointment</a></div>
-        </div>
-        <div class="location-block last editable">
-          <h4>Loveland</h4>
-          <p>497 Denver Ave<br>
-            Loveland, CO 80537</p>
-          <p>970-619-9863</p>
-          <div class="btn outline"><a href="#">Book An Appointment</a></div>
+          <div class="btn outline"><a href="/contact">Contact Us</a></div>
         </div>
       </div>
     </section>
@@ -60,21 +53,11 @@ layout: default
           <h3 class="section-subtitle">Award Winning. Certified. Professional.</h3>
         </div>
         <ul class="services-list">
-          <li class="service-item">
-            <a href="">Ceramic Pro Coatings <img src="/assets/images/arrow-red.png" alt=""></a>
-          </li>
-          <li class="service-item">
-            <a href="">Clear Bra Protection <img src="/assets/images/arrow-red.png" alt=""></a>
-          </li>
-          <li class="service-item">
-            <a href="">Prestige Detailing <img src="/assets/images/arrow-red.png" alt=""></a>
-          </li>
-          <li class="service-item">
-            <a href="">Window Titling <img src="/assets/images/arrow-red.png" alt=""></a>
-          </li>
-          <li class="service-item">
-            <a href="">Windshield Protection <img src="/assets/images/arrow-red.png" alt=""></a>
-          </li>
+          {% for services in site.services %}
+            <li class="service-item">
+              <a href="{{ services.url }}">{{ services.title }}<img src="/assets/images/arrow-red.png" alt=""></a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="service-info-wrap">

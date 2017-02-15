@@ -54,34 +54,34 @@
       @include breakpoint($bp-medium, $no-query: '.no-mq') {
         @include grid-span(5.5,1);
       }
-      &:after {
-        content: '01';
-        position: absolute;
-        top: 0px;
-        right: 40px;
-        color: #EEEEEE;
-        font-family: $heading-font-family;
-        font-size: 70px;
-        font-weight: 300;
-      }
+      // &:after {
+      //   content: '01';
+      //   position: absolute;
+      //   top: 0px;
+      //   right: 40px;
+      //   color: #EEEEEE;
+      //   font-family: $heading-font-family;
+      //   font-size: 70px;
+      //   font-weight: 300;
+      // }
     }
-    &.last {
-      margin-top: 3em;
-      @include breakpoint($bp-medium, $no-query: '.no-mq') {
-        margin-top: 6em;
-        @include grid-span(5.5,7.5);
-      }
-      &:after {
-        content: '02';
-        position: absolute;
-        top: 0px;
-        right: 40px;
-        color: #EEEEEE;
-        font-family: $heading-font-family;
-        font-size: 70px;
-        font-weight: 300;
-      }
-    }
+    // &.last {
+    //   margin-top: 3em;
+    //   @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    //     margin-top: 6em;
+    //     @include grid-span(5.5,7.5);
+    //   }
+    //   &:after {
+    //     content: '02';
+    //     position: absolute;
+    //     top: 0px;
+    //     right: 40px;
+    //     color: #EEEEEE;
+    //     font-family: $heading-font-family;
+    //     font-size: 70px;
+    //     font-weight: 300;
+    //   }
+    // }
     h4 {
       text-transform: uppercase;
     }
