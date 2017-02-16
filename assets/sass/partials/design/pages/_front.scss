@@ -25,8 +25,11 @@
   }
   section {
     padding: 5em 0;
-    &.work-section, &.postscript {
+    &.postscript {
       padding: 10em 0 5em;
+    }
+    &.work-section {
+      padding: 6em 0 6em;
     }
     &.preface {
       padding: 5em 0 10em;

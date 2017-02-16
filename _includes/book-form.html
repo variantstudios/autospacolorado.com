@@ -1,4 +1,4 @@
-
+<div class="book-apt-modal">
 <form action="#" method="post" class="book-form">
   <input type="hidden" name="_to" value="team@variantstudios.com">
   <input type="hidden" name="_subject" value="Contact Form">
@@ -7,15 +7,15 @@
     <h2>Personal Info</h2>
     <div class="webform-component-wrap">
       <div class="webform-component">
-        <label for="name" class="webform-label">Your Name</label>
+        <label for="name" class="webform-label">Name</label>
         <input type="text" name="name" id="name" required="">
       </div>
       <div class="webform-component">
-        <label for="email" class="webform-label">Your Email</label>
+        <label for="email" class="webform-label">Email</label>
         <input type="email" name="email" id="email" required="">
       </div>
       <div class="webform-component">
-        <label for="phone" class="webform-label">Your Phone</label>
+        <label for="phone" class="webform-label">Phone</label>
         <input type="tel" name="phone" id="phone" required="">
       </div>
     </div>
@@ -25,27 +25,31 @@
      <div class="webform-component-wrap">
     <div class="webform-component">
       <label for="dow" class="webform-label">Which Day Works Best?</label>
-      <label><input type="checkbox" name="checkbox" value="Monday">Monday</label>
-      <label><input type="checkbox" name="checkbox" value="Tuesday">Tuesday</label>
-      <label><input type="checkbox" name="checkbox" value="Wednesday">Wednesday</label>
-      <label><input type="checkbox" name="checkbox" value="Thursday">Thursday</label>
-      <label><input type="checkbox" name="checkbox" value="Friday">Friday</label>
-      <label><input type="checkbox" name="checkbox" value="Saturday">Saturday</label>
-      <label><input type="checkbox" name="checkbox" value="Sunday">Sunday</label>
+      <select>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
     </div>
 
     <div class="webform-component">
       <label for="dow" class="webform-label">Time of Day?</label>
-      <label><input type="checkbox" name="checkbox" value="Any">Any Time</label>
-      <label><input type="checkbox" name="checkbox" value="Morning">Only Mornings</label>
-      <label><input type="checkbox" name="checkbox" value="Afternoon">Only Afternoon</label>
+      <select>
+        <option value="Any">Any Time</option>
+        <option value="Morning">Only Mornings</option>
+        <option value="Afternoon">Only Afternoons</option>
+      </select>
     </div>
   </div>
   </div>
   <div class="group-3 webform-group">
     <h2>What needs done?</h2>
      <div class="webform-component-wrap">
-    <div class="webform-component">
+<!--     <div class="webform-component">
         <label for="dow" class="webform-label">What Needs Done?</label>
         <label><input type="checkbox" name="checkbox" value="Packages">Packages</label>
         <label><input type="checkbox" name="checkbox" value="Surface Coatings">Surface Coatings</label>
@@ -53,12 +57,13 @@
         <label><input type="checkbox" name="checkbox" value="Window Tint">Window Tint</label>
         <label><input type="checkbox" name="checkbox" value="Clear Bra Protection">Clear Bra Protection</label>
         <label><input type="checkbox" name="checkbox" value="Bray Windshield Skin">Bray Windshield Skin</label>
-      </div>
+      </div> -->
         <div class="webform-component">
-          <label for="message" class="webform-label">Message</label>
-          <textarea id="message" name="message" rows="6"></textarea>
+<!--           <label for="message" class="webform-label">Message</label>
+ -->          <textarea id="message" name="message" rows="6"></textarea>
         </div>
       </div>
   </div>
     <input class="sendButton" type="submit" name="Submit" value="Send">
 </form>
+</div>
