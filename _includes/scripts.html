@@ -6,9 +6,7 @@
 <!-- Side JS Script for home page -->
 {% if page.url == "/" %}
   <script src="/assets/js/prod/jquery.vide.js"></script>
-{% endif %}
 <!-- Slick Gallery for Home -->
-{% if page.url == "/" %}
   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 {% endif %}
 <!-- ScrollReveal Library -->
@@ -16,7 +14,6 @@
 <!-- Featherlight Library -->
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-
 <!-- ScrollReveal Inits -->
 <script type="text/javascript">
   window.sr = ScrollReveal({ reset: true });
@@ -37,7 +34,7 @@
 $(document).ready(function() {
     // Slick Init for Home Page
   $('.gallery-slider').slick({
-      centerMode: true,
+      centerMode: false,
       dots: false,
       infinite: true,
       speed: 300,
@@ -76,6 +73,11 @@ $(document).ready(function() {
     });
 });
 </script>
+{% endif %}
+
+
+{% if page.permalink == "/contact/" %}
+<script src='https://www.google.com/recaptcha/api.js'></script>
 {% endif %}
 
 <!-- Custom JS -->

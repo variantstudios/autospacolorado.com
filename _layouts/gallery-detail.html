@@ -19,18 +19,18 @@ layout: default
         <li itemscope class="grid-item">
           <a class="gallery-item gallery" href="{{ item.image_path }}" >
 
-          {% if item.youtube_id %} 
+          {% if item.youtube_id %}
             <iframe class="lightbox"  width="560" height="315" src="https://www.youtube.com/embed/{{ item.youtube_id }} " frameborder="0" allowfullscreen id="video"></iframe>
             <a class="btn btn-default" href="#" data-featherlight="#video">
           {% endif %}
-          
-            <img class="gallery-img lrg" src="{{ site.cloudinaryurl }}/w_300,h_300,c_fill/{{ site.url }}/{{ item.image_path }}" alt="{{ item.title }}" itemprop="image">
+
+            <img class="gallery-img lrg" src="{{ site.cloudinaryurl }}image/fetch/w_300,h_300,c_fill/{{ site.url }}/{{ item.image_path }}" alt="{{ item.title }}" itemprop="image">
           </a>
         </li>
       {% endfor %}
     </ul>
 
-    
+
 
 
     <div class="gallery-content-section">
@@ -38,7 +38,7 @@ layout: default
       <div class="intro-text"><p>{{ page.intro }}</p></div>
       <div class="content-section">{{ content }}</div>
     </div>
-    {% if page.services %} 
+    {% if page.services %}
       <div class="gallery-service-section">
         <ul class="service-list">
           {% for item in page.services %}
