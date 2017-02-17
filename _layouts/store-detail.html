@@ -2,29 +2,29 @@
 layout: page
 ---
 
-<section class="store-wrapper">
-  {% assign collection = site.products | group_by: "group" %}
+<section class="">
+  <!-- {% assign collection = site.products | item_by: "item" %} -->
 
-  {% for group in collection %}
-    <h2 class="store-group-labels">{{ group.name }}</h2>
-    {% for item in group.items %}
-      <article class="product-item clearfix">
-          <a href="{{ item.url }}" title="{{ item.title }}">
-            <div class="product-item--image">
-              {% if item.image_path %}
-                <img src="{{ item.image_path }}" alt="{{ item.title }}" title="{{ item.title }}">
+    <h2 class="">{{ page.name }}</h2>
+
+      <article class="clearfix">
+
+            <div class="">
+              <h4>${{page.base_price  }}</h4>
+              {% if content %}
+                <p>{{ content }}</p>
               {% endif %}
             </div>
-            <div class="product-item--content">
-              <h4>{{item.price_range}}</h4>
-              {% if item.description %}
-                <p>{{ item.description }}</p>
-              {% endif %}
-            </div>
-          </a>
+
+            <div class="buy-now">
+                <a class="snipcart-add-item" class="snipcart-add-item" data-item-id="{{page.product_id}}" data-item-name="{{ page.title }}" data-item-price="{{page.base_price}}" data-item-weight="0" data-item-url="{{site.url}}{{page.url}}" "
+                data-item-custom1-name="Add-Ons"
+                data-item-custom1-options="
+                {% for addons in page.add_ons %}
+                {{addons.title}}{% if  addons.price %}[+{{addons.price}}]{%endif%}{% unless forloop.last %}|{% endunless %}
+                {% endfor %}
+                ">Buy Now</a></div>
+
         </article>
-      {%endfor%}
-  {%endfor%}
 
 </section>
-

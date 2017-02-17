@@ -6,6 +6,7 @@ $(document).ready(function() {
     $('html').addClass('no-mq');
   }
 
+  /* --- Mobile Menu ToggleClass -- */
   $('.book-fixed').click(function() {
     $('.book-apt-modal').toggleClass('modal-open');
     $('.overlay').toggleClass('overlay-show');
@@ -16,12 +17,15 @@ $(document).ready(function() {
     $('.menu').toggleClass('show');
   });
 
-
-  // Menu Sub Links
+  /* --- Menu Sub Links -- */
   $(".has-submenu").on('click touch', function() {
      $(this).toggleClass('submenu--open');
   });
-  
+
+ /* --- SnipCart Funcationality -- */
+Snipcart.execute('registerLocale', 'en', {
+ "thankyou_message": "Thanks for your order!"
+});
 
   $("nav.main-nav").click(function(event) {
       event.stopPropagation();
