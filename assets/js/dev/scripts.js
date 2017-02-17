@@ -6,16 +6,19 @@ $(document).ready(function() {
     $('html').addClass('no-mq');
   }
 
-  // Mobile Menu ToggleClass
+  /* --- Mobile Menu ToggleClass -- */
   $(".menu-btn").on('click touch', function() {
     $('.menu').toggleClass('show');
   });
 
-
-  // Menu Sub Links
+  /* --- Menu Sub Links -- */
   $(".has-submenu").on('click touch', function() {
      $(this).toggleClass('submenu--open');
   });
-  
+
+ /* --- SnipCart Funcationality -- */
+Snipcart.execute('registerLocale', 'en', {
+ "thankyou_message": "Thanks for your order!"
+});
 
 });

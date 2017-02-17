@@ -4,7 +4,7 @@
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
 {% include head.html %}
-<body>
+<body class="snipcart-overwrite {% if page.class %} {{page.class}}{%endif%}">
     {%  unless page.url contains "book-appointment"  %}
       <div class="book-fixed"><a href="/book-appointment/">Book an Appointment</a></div>
     {% endunless %}
@@ -18,7 +18,7 @@
   <div class="main-wrapper clearfix">
 	  {{ content }}
   </div>
-  
+
   <div class="footer-wrapper clearfix">
   	{% include footer.html %}
   </div>

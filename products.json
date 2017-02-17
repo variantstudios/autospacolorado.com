@@ -1,0 +1,15 @@
+---
+layout: null
+sitemap: false
+
+---
+[
+{% for product in site.products %}
+{
+"id_number": {{ product.product_id | jsonify }} ,
+"price": {{product.base_price}},
+"url": "{{ site.url }}/products.json"}
+{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+
+]
