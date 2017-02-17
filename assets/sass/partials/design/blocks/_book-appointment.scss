@@ -17,7 +17,7 @@
 }
 .book-fixed {
   position: fixed;
-  z-index: 9999;
+  z-index: 900;
   right: 10%;
   bottom: 10%;
   span {
@@ -33,7 +33,6 @@
     cursor: pointer;
   }
 }
-
 .book-apt-modal {
   position: absolute;
   visibility: hidden;

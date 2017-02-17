@@ -1,14 +1,15 @@
 
 # Site settings
-title: "Auto Spa Colorado"
+title: "Greeley Colorado Auto Spa"
 email: "team@variantstudios.com"
-description: "Car Detailing, Clear Bra, Tinting &amp; Ceramic Pro Colorado"
+description: "Premium Car Detailing, Clear Bra, Tinting, Ceramic Coatings Colorado."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maraschino-cherry.cloudvent.net" # the base hostname & protocol for your site
 #timezone: America/Denver - Don't set for CloudCannon...for reasons.
 version: "3.1.6" # the version of jekyll
-author.name: "Variant Studios"
-author.email: "team@variantstudios.com"
+
+#CloudCannon defaults
+uploads_dir: "assets/images"
 
 # Gems for plugins
 gems:
@@ -84,22 +85,25 @@ defaults:
       type: services
     values:
       layout: service-detail
-      title: 
-      description: 
-      header_image_path: 
+      title:
+      description:
+      header_image_path:
       images_and_videos:
         - title:
-          teaser_image_path: 
-          large_image_path: 
+          teaser_image_path:
+          large_image_path:
           youtube_url:
       pricing:
       service-table:
-        - group:  
+        - group:
           desc:
           options:
-          - option: 
-            price: 
+          - option:
+            price:
 
+
+# Snipcart's Public Key
+snipcart-key: 'OTY2NmQ4YWItOTM1NS00MTgzLThmZmQtNGUxMDhhMTRjYWU2NjM2MDQ1ODk4ODQxODIyNTgz'
 
 # typekit - Because we all need nice type faces.
 typekit: kqz1qdu
