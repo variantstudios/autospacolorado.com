@@ -6,7 +6,7 @@ header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/341145803
 image_path: /assets/images/store/tint-2-door.png
 description: "Gift Certificate for tinting on most 2 door cars. Includes a lifetime warranty."
 product_id: 2
-base_price: "238.00"
+base_price: "209.00"
 add_ons:
   - title: "2 door car"
     price:

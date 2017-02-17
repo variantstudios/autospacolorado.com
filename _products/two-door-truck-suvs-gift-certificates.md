@@ -15,7 +15,7 @@ add_ons:
   - title: "Windshield Visor/Eyeb​row/Banner (+$29.00)"
     price: "29.00"
   - title: "Sunroof (+$59.00)"
-    price: "59.00"    
+    price: "59.00"
   - title: "Windshield Visor and Sunroof (+$88.00)"
     price: "88.00"
 seo:
