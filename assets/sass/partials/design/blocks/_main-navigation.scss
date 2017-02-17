@@ -45,19 +45,21 @@
       vertical-align: top;
       padding-right: 2em;
     }
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
     &.has-submenu {
-      font-weight: 700;
-      font-size: 1em;
-      transition: color .5s ease;
-      color: #4A4A4A;
-      text-transform: uppercase;
-      opacity: 1;
-        transition: all .5s linear;
-        visibility: visible;
-      a {
-        background: #000;
-      }
+        font-weight: 700;
+        font-size: 1em;
+        transition: color .5s ease;
+        color: #4A4A4A;
+        text-transform: uppercase;
+        opacity: 1;
+          transition: all .5s linear;
+          visibility: visible;
+        a {
+          background: #000;
+        }
 
+      }
     }
     a {
       font-weight: 700;
@@ -82,6 +84,10 @@
         position: relative;
       }
     }
+    img {
+      display: none;
+    }
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
     ul {
       position: absolute;
       width: 200px;
@@ -95,6 +101,9 @@
       text-align: left;
       transition: all .5s linear;
       visibility: hidden;
+      img {
+        display: block;
+      }
       li {
         width: 33%;
         padding: 2%;
@@ -126,6 +135,7 @@
         color: #fff;
       }
     }
+  }
     &.submenu--open {
       ul {
         opacity: 1;
@@ -163,19 +173,24 @@
   }
 }
 .main-nav .menu {
-  //max-height: 0;
+  max-height: 0;
   overflow: hidden;
-  transition: all .5s ease;
+  transition: all .5s linear;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    //max-height: none;
+    max-height: none;
   }
   &.show {
+    transition: all .5s linear;
     max-height: 5000px;
     padding-top: 1em;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       max-height: none;
     }
   }
+  .menu {
+    max-height: 0;
+  }
+
 }
 .menu-btn {
   position: absolute;

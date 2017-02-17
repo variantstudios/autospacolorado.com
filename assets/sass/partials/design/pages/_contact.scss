@@ -1,29 +1,33 @@
 .webform-group {
-  background: #eee;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,eaeaea+100 */
-background: rgb(247,247,247); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+//   background: #eee;
+//   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,eaeaea+100 */
+// background: rgb(247,247,247); /* Old browsers */
+// background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
 
-  padding: 2em;
-  margin-bottom: 2em;
-  border-radius: 3px;
-  border:1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 0em;
+  // border-radius: 3px;
+  // border:1px solid #ccc;
   h2 {
+    font-size: 1em;
+     text-transform: uppercase;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       float: left;
-      width: 230px;
-      text-align: right;
+      width: 135px;
+      /* text-align: right; */
       margin-right: 3em;
       margin-top: 0;
+     
     }
   }
   .webform-component {
     padding-bottom: 1em;
     label {
       display: block;
+      font-size: 95%;
       input {
         width: auto;
       }
@@ -31,6 +35,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
     }
     input {
       width: 100%;
+      padding: .25em .5em;
     }
   }
 }
