@@ -5,6 +5,16 @@
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart-key }}"></script>
 <!-- Side JS Script for home page -->
 {% if page.url == "/" %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   // Target your .container, .wrapper, .post, etc. around the video
+   $(".videobg").fitVids();
+ });
+</script>
+
+
   <script src="/assets/js/prod/jquery.vide.js"></script>
 <!-- Slick Gallery for Home -->
   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
@@ -79,6 +89,8 @@ $(document).ready(function() {
 {% if page.permalink == "/contact/" %}
 <script src='https://www.google.com/recaptcha/api.js'></script>
 {% endif %}
+
+
 
 <!-- Custom JS -->
 <script src="/assets/js/prod/scripts.js"></script>
