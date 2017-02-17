@@ -1,21 +1,21 @@
 ---
-title: Aston Martin
-main_image_path: /uploads/img-0626.jpg
+title: BMW 640i Gran Sport Coupe
+main_image_path: /uploads/20150214-124801.jpg
 images_and_videos:
   - title:
-    image_path: /uploads/img-0415.jpg
+    image_path: /uploads/20150214-124703.jpg
     youtube_url:
   - title:
-    image_path: /uploads/img-0425.jpg
+    image_path: /uploads/20151023-154529.jpg
     youtube_id:
   - title:
-    image_path: /uploads/img-0481.jpg
+    image_path: /uploads/20150214-124809.jpg
+    youtube_id:
+  - title:
+    image_path: /uploads/20150214-124911.jpg
     youtube_id:
 services:
-  - Example 1
-  - Example 2
-  - Example 3
-weight: 2
+weight: 4
 ---
 
 

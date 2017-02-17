@@ -2,12 +2,13 @@
 layout: page
 ---
 <section class="gallery-wrapper">
-  {% for gallery in site.projects %}
+  {% assign items =  site.projects | sort: "weight" %}
+  {% for gallery in items %}
     <article class="gallery-item clearfix">
       <div class="gallery-item--image">
         {% if gallery.main_image_path %}
          <a href="{{ gallery.url }}">
-            <img src="https://res.cloudinary.com/variant-studios/image/fetch/w_700,h_400,c_fill/{{ site.url }}/{{ gallery.main_image_path }}" alt="{{ gallery.title }}" title="{{ gallery.title }}">
+            <img src="{{site.cloudinaryurl}}/image/fetch/w_700,h_400,c_fill/{{ site.url }}/{{ gallery.main_image_path }}" alt="{{ gallery.title }}" title="{{ gallery.title }}">
           </a>
         {% endif %}
       </div>
@@ -19,4 +20,3 @@ layout: page
     </article>
   {% endfor %}
 </section>
-
