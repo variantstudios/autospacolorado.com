@@ -3,7 +3,10 @@ layout: default
 ---
 <div class="front">
   <!-- Video Header pulling from Front Matter -->
-  <div id="block" style="width: 100%; height: 100vh;" data-vide-bg="{{ page.header_video_path }}" data-vide-options="position: 0% 50%"></div>
+  <!-- <div id="block" style="width: 100%; height: 100vh;" data-vide-bg="{{ page.header_video_path }}" data-vide-options="position: 0% 50%"></div> -->
+  <div class="videobg">
+    <iframe src="https://player.vimeo.com/video/{{page.hero_video_vimeo_id}}?loop=1&autoplay=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
   <!-- Slider Using Slick -->
   <section class="clearfix work-section">
@@ -47,6 +50,10 @@ layout: default
 
   <!-- Service Section  -->
   <section class="postscript clearfix">
+      <div class="videobg">
+        <iframe src="https://player.vimeo.com/video/{{page.bottom_video_vimeo_id}}?loop=1&autoplay=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
     <div class="wrap">
       <div class="service-list-wrap">
         <div class="headings">

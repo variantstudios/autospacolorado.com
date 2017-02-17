@@ -1469,29 +1469,53 @@ ul.pager li a:visited {
 }
 /* line 16, ../sass/partials/design/pages/_front.scss */
 .front .postscript {
-  background: #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), black;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), black;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), black;
   color: #fff;
-  background: url(../images/bgs/postscript.jpg) no-repeat center center;
-  background-size: cover;
+  /*background: url(../images/bgs/postscript.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  position: relative;
   overflow: hidden;
 }
-/* line 26, ../sass/partials/design/pages/_front.scss */
+/* line 30, ../sass/partials/design/pages/_front.scss */
+.front .postscript:after {
+  display: block;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000000));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  height: 300px;
+  width: 100%;
+  content: '';
+  bottom: 0;
+}
+/* line 39, ../sass/partials/design/pages/_front.scss */
+.front .postscript .videobg {
+  position: absolute;
+  width: 100%;
+  margin-top: -10em;
+}
+/* line 45, ../sass/partials/design/pages/_front.scss */
 .front section {
   padding: 5em 0;
 }
-/* line 28, ../sass/partials/design/pages/_front.scss */
+/* line 47, ../sass/partials/design/pages/_front.scss */
 .front section.postscript {
   padding: 10em 0 5em;
 }
-/* line 31, ../sass/partials/design/pages/_front.scss */
+/* line 50, ../sass/partials/design/pages/_front.scss */
 .front section.work-section {
   padding: 6em 0 6em;
 }
-/* line 34, ../sass/partials/design/pages/_front.scss */
+/* line 53, ../sass/partials/design/pages/_front.scss */
 .front section.preface {
   padding: 5em 0 10em;
 }
-/* line 40, ../sass/partials/design/pages/_front.scss */
+/* line 59, ../sass/partials/design/pages/_front.scss */
 .front .location-block {
   background: #fff;
   padding: 2em 2em 2em 3em;
@@ -1500,7 +1524,7 @@ ul.pager li a:visited {
   -webkit-box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
           box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
 }
-/* line 46, ../sass/partials/design/pages/_front.scss */
+/* line 65, ../sass/partials/design/pages/_front.scss */
 .front .location-block:before {
   content: '';
   position: absolute;
@@ -1513,7 +1537,7 @@ ul.pager li a:visited {
           box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.12);
 }
 @media (min-width: 50em) {
-  /* line 56, ../sass/partials/design/pages/_front.scss */
+  /* line 75, ../sass/partials/design/pages/_front.scss */
   .front .location-block.first {
     width: 44.68085%;
     float: left;
@@ -1530,15 +1554,15 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 88, ../sass/partials/design/pages/_front.scss */
+/* line 107, ../sass/partials/design/pages/_front.scss */
 .front .location-block h4 {
   text-transform: uppercase;
 }
-/* line 94, ../sass/partials/design/pages/_front.scss */
+/* line 113, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider {
   margin-top: 4em;
 }
-/* line 96, ../sass/partials/design/pages/_front.scss */
+/* line 115, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider button {
   position: absolute;
   top: 48%;
@@ -1554,21 +1578,21 @@ ul.pager li a:visited {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-/* line 107, ../sass/partials/design/pages/_front.scss */
+/* line 126, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-prev {
   background: url(../images/left.png);
   left: 20px;
 }
-/* line 111, ../sass/partials/design/pages/_front.scss */
+/* line 130, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-next {
   background: url(../images/right.png);
   right: 20px;
 }
-/* line 116, ../sass/partials/design/pages/_front.scss */
+/* line 135, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-slide {
   padding: 1em;
 }
-/* line 121, ../sass/partials/design/pages/_front.scss */
+/* line 140, ../sass/partials/design/pages/_front.scss */
 .front .car-side {
   position: absolute;
   right: 0;
@@ -1576,7 +1600,7 @@ ul.pager li a:visited {
   bottom: 1em;
 }
 @media (min-width: 50em) {
-  /* line 121, ../sass/partials/design/pages/_front.scss */
+  /* line 140, ../sass/partials/design/pages/_front.scss */
   .front .car-side {
     top: 30%;
     bottom: auto;
@@ -1591,13 +1615,15 @@ ul.pager li a:visited {
 }
 
 @media (min-width: 50em) {
-  /* line 134, ../sass/partials/design/pages/_front.scss */
+  /* line 153, ../sass/partials/design/pages/_front.scss */
   .service-list-wrap {
     width: 61.70213%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
+    z-index: 1;
+    position: relative;
   }
 }
 /* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
@@ -1607,15 +1633,17 @@ ul.pager li a:visited {
   margin-right: -100%;
   margin-left: 0;
   clear: none;
+  z-index: 1;
+  position: relative;
 }
 
-/* line 140, ../sass/partials/design/pages/_front.scss */
+/* line 162, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap {
   position: relative;
   margin: 0 -2em;
 }
 @media (min-width: 50em) {
-  /* line 140, ../sass/partials/design/pages/_front.scss */
+  /* line 162, ../sass/partials/design/pages/_front.scss */
   .service-info-wrap {
     width: 31.91489%;
     float: right;
@@ -1632,7 +1660,7 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 146, ../sass/partials/design/pages/_front.scss */
+/* line 168, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap:before {
   content: '';
   position: absolute;
@@ -1642,7 +1670,7 @@ ul.pager li a:visited {
   background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.28) 0%, #880409 91%);
 }
 @media (min-width: 50em) {
-  /* line 146, ../sass/partials/design/pages/_front.scss */
+  /* line 168, ../sass/partials/design/pages/_front.scss */
   .service-info-wrap:before {
     top: -10em;
   }
@@ -1651,35 +1679,35 @@ ul.pager li a:visited {
 .no-mq .service-info-wrap:before {
   top: -10em;
 }
-/* line 156, ../sass/partials/design/pages/_front.scss */
+/* line 178, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap .service-info {
   padding: 2em;
 }
-/* line 158, ../sass/partials/design/pages/_front.scss */
+/* line 180, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap .service-info img {
   display: block;
   margin: 0 auto;
   padding-bottom: 3em;
 }
 
-/* line 166, ../sass/partials/design/pages/_front.scss */
+/* line 188, ../sass/partials/design/pages/_front.scss */
 ul.services-list {
   list-style: none;
   padding: 2em 0;
   margin: 0;
 }
-/* line 170, ../sass/partials/design/pages/_front.scss */
+/* line 192, ../sass/partials/design/pages/_front.scss */
 ul.services-list li {
   list-style: none;
   padding: 0;
   margin: 0;
   border-top: 1px solid #3F3F3F;
 }
-/* line 175, ../sass/partials/design/pages/_front.scss */
+/* line 197, ../sass/partials/design/pages/_front.scss */
 ul.services-list li:last-child {
   border-bottom: 1px solid #3F3F3F;
 }
-/* line 178, ../sass/partials/design/pages/_front.scss */
+/* line 200, ../sass/partials/design/pages/_front.scss */
 ul.services-list li a {
   text-decoration: none;
   color: #fff;
@@ -1691,7 +1719,7 @@ ul.services-list li a {
           transition: all .25s linear;
 }
 @media (min-width: 50em) {
-  /* line 178, ../sass/partials/design/pages/_front.scss */
+  /* line 200, ../sass/partials/design/pages/_front.scss */
   ul.services-list li a {
     font-size: 1.65em;
   }
@@ -1700,13 +1728,13 @@ ul.services-list li a {
 .no-mq ul.services-list li a {
   font-size: 1.65em;
 }
-/* line 191, ../sass/partials/design/pages/_front.scss */
+/* line 213, ../sass/partials/design/pages/_front.scss */
 ul.services-list li a:hover img {
   padding-right: 10px;
   -webkit-transition: all .25s linear;
           transition: all .25s linear;
 }
-/* line 197, ../sass/partials/design/pages/_front.scss */
+/* line 219, ../sass/partials/design/pages/_front.scss */
 ul.services-list li img {
   float: right;
   padding-top: 10px;
