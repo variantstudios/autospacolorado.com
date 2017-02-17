@@ -17,7 +17,7 @@ layout: default
       {% for gallery in site.projects %}
         <div>
           <a href="{{ gallery.url }}">
-            <img src="https://res.cloudinary.com/variant-studios/image/fetch/w_400,h_400,c_fill/http://maraschino-cherry.cloudvent.net/{{ gallery.main_image_path }}">
+            <img src="https://res.cloudinary.com/variant-studios/image/fetch/w_400,h_400,c_fill/{{site.url}}}{{ gallery.main_image_path }}">
           </a>
         </div>
       {% endfor %}
