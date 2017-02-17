@@ -4,3 +4,4 @@ Gemfile.lock
 /vendor
 .bundle
 node_modules
+assets/css/*.css.map
