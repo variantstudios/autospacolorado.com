@@ -7,6 +7,12 @@ $(document).ready(function() {
   }
 
   /* --- Mobile Menu ToggleClass -- */
+  $('.book-fixed').click(function() {
+    $('.book-apt-modal').toggleClass('modal-open');
+    $('.overlay').toggleClass('overlay-show');
+  });
+
+  // Mobile Menu ToggleClass
   $(".menu-btn").on('click touch', function() {
     $('.menu').toggleClass('show');
   });
@@ -20,5 +26,17 @@ $(document).ready(function() {
 Snipcart.execute('registerLocale', 'en', {
  "thankyou_message": "Thanks for your order!"
 });
+
+  $("nav.main-nav").click(function(event) {
+      event.stopPropagation();
+    });
+    $(document).click(function() {
+      //alert('clicked outside');
+      $('nav.main-nav .has-submenu').removeClass('submenu--open');
+    });
+
+
+
+
 
 });

@@ -6,7 +6,7 @@
 {% include head.html %}
 <body class="snipcart-overwrite {% if page.class %} {{page.class}}{%endif%}">
     {%  unless page.url contains "book-appointment"  %}
-      <div class="book-fixed"><a href="/book-appointment/">Book an Appointment</a></div>
+      <div class="book-fixed"><span>Book an Appointment</span></div>
     {% endunless %}
 
     {% include browserupgrade.html %}
@@ -22,6 +22,9 @@
   <div class="footer-wrapper clearfix">
   	{% include footer.html %}
   </div>
+  <div class="overlay"></div>
+  {% include book-form.html %}
+
 
 	{% include scripts.html %}
 </body>
