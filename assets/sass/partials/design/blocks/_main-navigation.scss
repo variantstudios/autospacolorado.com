@@ -189,6 +189,9 @@
   }
   .menu {
     max-height: 0;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    max-height: none;
+  }
   }
 
 }
