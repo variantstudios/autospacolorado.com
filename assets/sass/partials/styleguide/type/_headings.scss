@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #A7A7A7;
     font-weight: 300;
     font-size: 1.5em;
-    margin: 2px 0 0;
+    margin: 4px 0 0;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
     font-size: 2.2em;
     margin: -3px 0 0;

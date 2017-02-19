@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #A7A7A7;
   font-weight: 300;
   font-size: 1.5em;
-  margin: 2px 0 0;
+  margin: 4px 0 0;
 }
 @media (min-width: 50em) {
   /* line 42, ../sass/partials/styleguide/type/_headings.scss */
@@ -1196,7 +1196,7 @@ ul.pager li a:visited {
 /* line 18, ../sass/partials/design/blocks/_book-appointment.scss */
 .book-fixed {
   position: fixed;
-  z-index: 900;
+  z-index: 11111;
   top: 0;
   width: 100%;
 }
