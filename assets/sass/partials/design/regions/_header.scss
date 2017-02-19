@@ -3,6 +3,10 @@
   background: $header-bg;
   position: relative;
   z-index: 999;
+  margin-top: 52px;
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+    margin-top: 0;
+  }
   .wrap {
     max-width: none;
   }

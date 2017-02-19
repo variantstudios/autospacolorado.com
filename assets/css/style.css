@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3.5em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .section-title {
   font-size: 3.5em;
 }
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3.2em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .front .section-title {
   font-size: 3.2em;
 }
@@ -138,24 +138,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #A7A7A7;
   font-weight: 300;
   font-size: 1.5em;
-  margin: -3px 0 0;
+  margin: 2px 0 0;
 }
 @media (min-width: 50em) {
   /* line 42, ../sass/partials/styleguide/type/_headings.scss */
   .section-subtitle {
     font-size: 2.2em;
+    margin: -3px 0 0;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .section-subtitle {
   font-size: 2.2em;
+  margin: -3px 0 0;
 }
 
-/* line 52, ../sass/partials/styleguide/type/_headings.scss */
+/* line 53, ../sass/partials/styleguide/type/_headings.scss */
 .headings {
   position: relative;
 }
-/* line 54, ../sass/partials/styleguide/type/_headings.scss */
+/* line 55, ../sass/partials/styleguide/type/_headings.scss */
 .headings:before {
   content: '';
   background: #d5121a;
@@ -166,13 +168,13 @@ h1, h2, h3, h4, h5, h6 {
   left: -80%;
 }
 
-/* line 67, ../sass/partials/styleguide/type/_headings.scss */
+/* line 68, ../sass/partials/styleguide/type/_headings.scss */
 .postscript .headings:before {
   bottom: auto;
   top: -40px;
 }
 
-/* line 74, ../sass/partials/styleguide/type/_headings.scss */
+/* line 75, ../sass/partials/styleguide/type/_headings.scss */
 .intro-text {
   font-size: 1.2em;
   padding-top: 0.2em;
@@ -720,7 +722,7 @@ ul.pager li a:visited {
     max-width: 250px;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .logo img {
   margin: 0;
   max-width: 250px;
@@ -823,7 +825,7 @@ ul.pager li a:visited {
     padding-top: 1.5em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .menu {
   text-align: right;
   padding-top: 1.5em;
@@ -843,7 +845,7 @@ ul.pager li a:visited {
     padding-right: 2em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .menu li {
   display: inline-block;
   vertical-align: top;
@@ -905,7 +907,7 @@ ul.pager li a:visited {
     padding: 0;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .menu li a {
   padding: 0;
 }
@@ -1105,7 +1107,7 @@ ul.pager li a:visited {
     max-height: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .main-nav .menu {
   max-height: none;
 }
@@ -1122,7 +1124,7 @@ ul.pager li a:visited {
     max-height: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .main-nav .menu.show {
   max-height: none;
 }
@@ -1130,8 +1132,18 @@ ul.pager li a:visited {
 .main-nav .menu .menu {
   max-height: 0;
 }
+@media (min-width: 50em) {
+  /* line 190, ../sass/partials/design/blocks/_main-navigation.scss */
+  .main-nav .menu .menu {
+    max-height: none;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .main-nav .menu .menu {
+  max-height: none;
+}
 
-/* line 195, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 198, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn {
   position: absolute;
   right: 10px;
@@ -1140,21 +1152,21 @@ ul.pager li a:visited {
   cursor: pointer;
 }
 @media (min-width: 50em) {
-  /* line 195, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 198, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu-btn {
     display: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .menu-btn {
   display: none;
 }
-/* line 204, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 207, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn img {
   padding-right: .5em;
 }
 
-/* line 208, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 211, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-js .menu-btn {
   display: none;
 }
@@ -1185,10 +1197,26 @@ ul.pager li a:visited {
 .book-fixed {
   position: fixed;
   z-index: 900;
+  top: 0;
+  width: 100%;
+}
+@media (min-width: 50em) {
+  /* line 18, ../sass/partials/design/blocks/_book-appointment.scss */
+  .book-fixed {
+    top: auto;
+    right: 10%;
+    bottom: 10%;
+    width: auto;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .book-fixed {
+  top: auto;
   right: 10%;
   bottom: 10%;
+  width: auto;
 }
-/* line 23, ../sass/partials/design/blocks/_book-appointment.scss */
+/* line 29, ../sass/partials/design/blocks/_book-appointment.scss */
 .book-fixed span {
   background: #d5121a;
   color: #fff;
@@ -1201,9 +1229,12 @@ ul.pager li a:visited {
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
-/* line 37, ../sass/partials/design/blocks/_book-appointment.scss */
+/* line 49, ../sass/partials/design/blocks/_book-appointment.scss */
 .book-apt-modal {
   position: absolute;
   visibility: hidden;
@@ -1220,13 +1251,13 @@ ul.pager li a:visited {
   z-index: 1001;
 }
 
-/* line 53, ../sass/partials/design/blocks/_book-appointment.scss */
+/* line 65, ../sass/partials/design/blocks/_book-appointment.scss */
 .modal-open {
   opacity: 1;
   visibility: visible;
 }
 
-/* line 58, ../sass/partials/design/blocks/_book-appointment.scss */
+/* line 70, ../sass/partials/design/blocks/_book-appointment.scss */
 .overlay.overlay-show {
   position: absolute;
   content: '';
@@ -1276,7 +1307,7 @@ ul.pager li a:visited {
     margin-top: 0;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .webform-group h2 {
   float: left;
   width: 135px;
@@ -1344,7 +1375,7 @@ ul.pager li a:visited {
     width: 48%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .contact-form {
   margin: 0em 0em;
   float: right;
@@ -1360,7 +1391,7 @@ ul.pager li a:visited {
     margin-top: 0;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .contact-form h2 {
   float: left;
   width: 230px;
@@ -1393,7 +1424,7 @@ ul.pager li a:visited {
   border-radius: 3px;
   padding-right: 1em;
 }
-/* line 13, ../../vendor/bundle/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .location-block:after {
   content: "";
   display: table;
@@ -1411,7 +1442,7 @@ ul.pager li a:visited {
     border-radius: 3px;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .location-block {
   float: left;
   width: 48%;
@@ -1473,15 +1504,10 @@ ul.pager li a:visited {
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), black;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), black;
   color: #fff;
-  /*background: url(../images/bgs/postscript.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
   position: relative;
   overflow: hidden;
 }
-/* line 30, ../sass/partials/design/pages/_front.scss */
+/* line 25, ../sass/partials/design/pages/_front.scss */
 .front .postscript:after {
   display: block;
   position: absolute;
@@ -1493,29 +1519,40 @@ ul.pager li a:visited {
   content: '';
   bottom: 0;
 }
-/* line 39, ../sass/partials/design/pages/_front.scss */
+/* line 34, ../sass/partials/design/pages/_front.scss */
 .front .postscript .videobg {
   position: absolute;
   width: 100%;
   margin-top: -10em;
+  display: none;
 }
-/* line 47, ../sass/partials/design/pages/_front.scss */
+@media (min-width: 50em) {
+  /* line 34, ../sass/partials/design/pages/_front.scss */
+  .front .postscript .videobg {
+    display: block;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front .postscript .videobg {
+  display: block;
+}
+/* line 46, ../sass/partials/design/pages/_front.scss */
 .front section {
   padding: 5em 0;
 }
-/* line 49, ../sass/partials/design/pages/_front.scss */
+/* line 48, ../sass/partials/design/pages/_front.scss */
 .front section.postscript {
   padding: 10em 0 5em;
 }
-/* line 52, ../sass/partials/design/pages/_front.scss */
+/* line 51, ../sass/partials/design/pages/_front.scss */
 .front section.work-section {
   padding: 6em 0 6em;
 }
-/* line 55, ../sass/partials/design/pages/_front.scss */
+/* line 54, ../sass/partials/design/pages/_front.scss */
 .front section.preface {
   padding: 5em 0 10em;
 }
-/* line 61, ../sass/partials/design/pages/_front.scss */
+/* line 60, ../sass/partials/design/pages/_front.scss */
 .front .location-block {
   background: #fff;
   padding: 2em 2em 2em 3em;
@@ -1524,7 +1561,7 @@ ul.pager li a:visited {
   -webkit-box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
           box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.23);
 }
-/* line 67, ../sass/partials/design/pages/_front.scss */
+/* line 66, ../sass/partials/design/pages/_front.scss */
 .front .location-block:before {
   content: '';
   position: absolute;
@@ -1537,7 +1574,7 @@ ul.pager li a:visited {
           box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.12);
 }
 @media (min-width: 50em) {
-  /* line 77, ../sass/partials/design/pages/_front.scss */
+  /* line 76, ../sass/partials/design/pages/_front.scss */
   .front .location-block.first {
     width: 44.68085%;
     float: left;
@@ -1546,7 +1583,7 @@ ul.pager li a:visited {
     clear: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .front .location-block.first {
   width: 44.68085%;
   float: left;
@@ -1554,15 +1591,15 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 109, ../sass/partials/design/pages/_front.scss */
+/* line 81, ../sass/partials/design/pages/_front.scss */
 .front .location-block h4 {
   text-transform: uppercase;
 }
-/* line 115, ../sass/partials/design/pages/_front.scss */
+/* line 87, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider {
   margin-top: 4em;
 }
-/* line 117, ../sass/partials/design/pages/_front.scss */
+/* line 89, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider button {
   position: absolute;
   top: 48%;
@@ -1578,21 +1615,21 @@ ul.pager li a:visited {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-/* line 128, ../sass/partials/design/pages/_front.scss */
+/* line 100, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-prev {
   background: url(../images/left.png);
   left: 20px;
 }
-/* line 132, ../sass/partials/design/pages/_front.scss */
+/* line 104, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-next {
   background: url(../images/right.png);
   right: 20px;
 }
-/* line 137, ../sass/partials/design/pages/_front.scss */
+/* line 109, ../sass/partials/design/pages/_front.scss */
 .front .gallery-slider .slick-slide {
   padding: 1em;
 }
-/* line 142, ../sass/partials/design/pages/_front.scss */
+/* line 114, ../sass/partials/design/pages/_front.scss */
 .front .car-side {
   position: absolute;
   right: 0;
@@ -1600,14 +1637,14 @@ ul.pager li a:visited {
   bottom: 1em;
 }
 @media (min-width: 50em) {
-  /* line 142, ../sass/partials/design/pages/_front.scss */
+  /* line 114, ../sass/partials/design/pages/_front.scss */
   .front .car-side {
     top: 30%;
     bottom: auto;
     max-width: 50%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .front .car-side {
   top: 30%;
   bottom: auto;
@@ -1615,7 +1652,7 @@ ul.pager li a:visited {
 }
 
 @media (min-width: 50em) {
-  /* line 155, ../sass/partials/design/pages/_front.scss */
+  /* line 127, ../sass/partials/design/pages/_front.scss */
   .service-list-wrap {
     width: 61.70213%;
     float: left;
@@ -1626,7 +1663,7 @@ ul.pager li a:visited {
     position: relative;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .service-list-wrap {
   width: 61.70213%;
   float: left;
@@ -1637,13 +1674,14 @@ ul.pager li a:visited {
   position: relative;
 }
 
-/* line 164, ../sass/partials/design/pages/_front.scss */
+/* line 136, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap {
   position: relative;
   margin: 0 -2em;
+  z-index: 11111;
 }
 @media (min-width: 50em) {
-  /* line 164, ../sass/partials/design/pages/_front.scss */
+  /* line 136, ../sass/partials/design/pages/_front.scss */
   .service-info-wrap {
     width: 31.91489%;
     float: right;
@@ -1652,7 +1690,7 @@ ul.pager li a:visited {
     clear: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .service-info-wrap {
   width: 31.91489%;
   float: right;
@@ -1660,7 +1698,7 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 170, ../sass/partials/design/pages/_front.scss */
+/* line 143, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap:before {
   content: '';
   position: absolute;
@@ -1670,44 +1708,44 @@ ul.pager li a:visited {
   background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.28) 0%, #880409 91%);
 }
 @media (min-width: 50em) {
-  /* line 170, ../sass/partials/design/pages/_front.scss */
+  /* line 143, ../sass/partials/design/pages/_front.scss */
   .service-info-wrap:before {
     top: -10em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .service-info-wrap:before {
   top: -10em;
 }
-/* line 180, ../sass/partials/design/pages/_front.scss */
+/* line 153, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap .service-info {
   padding: 2em;
 }
-/* line 182, ../sass/partials/design/pages/_front.scss */
+/* line 155, ../sass/partials/design/pages/_front.scss */
 .service-info-wrap .service-info img {
   display: block;
   margin: 0 auto;
   padding-bottom: 3em;
 }
 
-/* line 190, ../sass/partials/design/pages/_front.scss */
+/* line 163, ../sass/partials/design/pages/_front.scss */
 ul.services-list {
   list-style: none;
   padding: 2em 0;
   margin: 0;
 }
-/* line 194, ../sass/partials/design/pages/_front.scss */
+/* line 167, ../sass/partials/design/pages/_front.scss */
 ul.services-list li {
   list-style: none;
   padding: 0;
   margin: 0;
   border-top: 1px solid #3F3F3F;
 }
-/* line 199, ../sass/partials/design/pages/_front.scss */
+/* line 172, ../sass/partials/design/pages/_front.scss */
 ul.services-list li:last-child {
   border-bottom: 1px solid #3F3F3F;
 }
-/* line 202, ../sass/partials/design/pages/_front.scss */
+/* line 175, ../sass/partials/design/pages/_front.scss */
 ul.services-list li a {
   text-decoration: none;
   color: #fff;
@@ -1719,22 +1757,22 @@ ul.services-list li a {
           transition: all .25s linear;
 }
 @media (min-width: 50em) {
-  /* line 202, ../sass/partials/design/pages/_front.scss */
+  /* line 175, ../sass/partials/design/pages/_front.scss */
   ul.services-list li a {
     font-size: 1.65em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq ul.services-list li a {
   font-size: 1.65em;
 }
-/* line 215, ../sass/partials/design/pages/_front.scss */
+/* line 188, ../sass/partials/design/pages/_front.scss */
 ul.services-list li a:hover img {
   padding-right: 10px;
   -webkit-transition: all .25s linear;
           transition: all .25s linear;
 }
-/* line 221, ../sass/partials/design/pages/_front.scss */
+/* line 194, ../sass/partials/design/pages/_front.scss */
 ul.services-list li img {
   float: right;
   padding-top: 10px;
@@ -1742,12 +1780,12 @@ ul.services-list li img {
           transition: all .25s linear;
 }
 
-/* line 231, ../sass/partials/design/pages/_front.scss */
+/* line 204, ../sass/partials/design/pages/_front.scss */
 .hero.videobg {
   position: relative;
   z-index: 1;
 }
-/* line 234, ../sass/partials/design/pages/_front.scss */
+/* line 207, ../sass/partials/design/pages/_front.scss */
 .hero.videobg:after {
   content: '';
   display: block;
@@ -1757,7 +1795,7 @@ ul.services-list li img {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   z-index: 1000;
 }
 
@@ -1783,7 +1821,7 @@ ul.services-list li img {
     height: 400px;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .gallery-detail-node:after {
   height: 400px;
 }
@@ -1803,7 +1841,7 @@ ul.services-list li img {
     height: 400px;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .gallery-detail-node:before {
   height: 400px;
 }
@@ -1850,7 +1888,7 @@ ul.services-list li img {
     width: 15%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .gallery-grid li {
   width: 15%;
 }
@@ -1878,7 +1916,7 @@ ul.services-list li img {
     clear: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .gallery-content-section {
   width: 48.93617%;
   float: left;
@@ -1897,7 +1935,7 @@ ul.services-list li img {
     clear: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .gallery-service-section {
   width: 44.68085%;
   float: right;
@@ -1910,7 +1948,7 @@ ul.services-list li img {
 .layout--location .content-section {
   padding-top: 3em;
 }
-/* line 13, ../../vendor/bundle/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .layout--location .content-section:after {
   content: "";
   display: table;
@@ -1923,7 +1961,7 @@ ul.services-list li img {
     width: 50%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .layout--location .content-section .col-1 {
   float: left;
   width: 50%;
@@ -1935,7 +1973,7 @@ ul.services-list li img {
     width: 45%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .layout--location .content-section .col-2 {
   float: right;
   width: 45%;
@@ -1945,7 +1983,7 @@ ul.services-list li img {
 .services--details .content-section {
   padding-top: 3em;
 }
-/* line 13, ../../vendor/bundle/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .services--details .content-section:after {
   content: "";
   display: table;
@@ -1959,7 +1997,7 @@ ul.services-list li img {
     padding-right: 3em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .services--details .content-section .pricing-block {
   float: left;
   width: 30%;
@@ -1973,7 +2011,7 @@ ul.services-list li img {
     margin: 0 auto;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .services--details .content-section .service--detail-wrap {
   overflow: hidden;
   max-width: 80%;
@@ -1989,7 +2027,7 @@ ul.services-list li img {
     width: 22%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .services--details .content-section .gallery-grid li {
   width: 22%;
 }
@@ -2046,7 +2084,7 @@ ul.services-list li img {
     padding: 3em 2em 1em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .footer-wrapper {
   padding: 3em 2em 1em;
 }
@@ -2079,7 +2117,7 @@ ul.services-list li img {
     display: inline-block;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .footer-wrapper .footer-block-1 {
   width: 23.40426%;
   float: left;
@@ -2105,7 +2143,7 @@ ul.services-list li img {
     display: inline-block;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .footer-wrapper .footer-block-2 {
   width: 23.40426%;
   float: left;
@@ -2127,7 +2165,7 @@ ul.services-list li img {
     clear: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .footer-wrapper .footer-block-3 {
   width: 23.40426%;
   float: right;
@@ -2142,18 +2180,29 @@ ul.services-list li img {
   background: white;
   position: relative;
   z-index: 999;
+  margin-top: 52px;
 }
-/* line 6, ../sass/partials/design/regions/_header.scss */
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/regions/_header.scss */
+  .header-wrapper {
+    margin-top: 0;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .header-wrapper {
+  margin-top: 0;
+}
+/* line 10, ../sass/partials/design/regions/_header.scss */
 .header-wrapper .wrap {
   max-width: none;
 }
 
-/* line 11, ../sass/partials/design/regions/_header.scss */
+/* line 15, ../sass/partials/design/regions/_header.scss */
 .logo {
   width: 200px;
 }
 @media (min-width: 50em) {
-  /* line 11, ../sass/partials/design/regions/_header.scss */
+  /* line 15, ../sass/partials/design/regions/_header.scss */
   .logo {
     width: 25%;
     float: left;
@@ -2162,7 +2211,7 @@ ul.services-list li img {
     clear: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .logo {
   width: 25%;
   float: left;
@@ -2172,7 +2221,7 @@ ul.services-list li img {
 }
 
 @media (min-width: 50em) {
-  /* line 17, ../sass/partials/design/regions/_header.scss */
+  /* line 21, ../sass/partials/design/regions/_header.scss */
   .main-nav {
     width: 65.95745%;
     float: right;
@@ -2181,7 +2230,7 @@ ul.services-list li img {
     clear: none;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .main-nav {
   width: 65.95745%;
   float: right;
@@ -2194,25 +2243,25 @@ ul.services-list li img {
 main {
   padding: 0 0 2em;
 }
-/* line 13, ../../vendor/bundle/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 main:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 5, ../sass/partials/design/regions/_main.scss */
+/* line 4, ../sass/partials/design/regions/_main.scss */
 main section {
   padding: 3em 0;
 }
 
-/* line 10, ../sass/partials/design/regions/_main.scss */
+/* line 9, ../sass/partials/design/regions/_main.scss */
 .preface-wrap {
   background: #ccc;
   background-image: -webkit-linear-gradient(269deg, #fcfcfc 16%, #d5d5d5 72%, #dedede 100%);
   background-image: linear-gradient(-179deg, #fcfcfc 16%, #d5d5d5 72%, #dedede 100%);
 }
 
-/* line 15, ../sass/partials/design/regions/_main.scss */
+/* line 14, ../sass/partials/design/regions/_main.scss */
 .preface {
   background-position: center;
   background-size: cover;
@@ -2221,7 +2270,7 @@ main section {
   overflow: hidden;
   margin-bottom: 3em;
 }
-/* line 26, ../sass/partials/design/regions/_main.scss */
+/* line 24, ../sass/partials/design/regions/_main.scss */
 .preface:after {
   content: '';
   background: rgba(0, 0, 0, 0.43);
@@ -2230,7 +2279,7 @@ main section {
   top: 0;
   height: 100%;
 }
-/* line 35, ../sass/partials/design/regions/_main.scss */
+/* line 32, ../sass/partials/design/regions/_main.scss */
 .preface:before {
   content: '';
   display: block;
@@ -2243,7 +2292,7 @@ main section {
   bottom: 0;
   z-index: 1000;
 }
-/* line 49, ../sass/partials/design/regions/_main.scss */
+/* line 45, ../sass/partials/design/regions/_main.scss */
 .preface.no-rectangle:before {
   content: '';
   display: block;
@@ -2257,40 +2306,40 @@ main section {
   z-index: 1000;
 }
 
-/* line 64, ../sass/partials/design/regions/_main.scss */
+/* line 60, ../sass/partials/design/regions/_main.scss */
 .interior-headings {
   z-index: 9;
   position: relative;
 }
 @media (min-width: 50em) {
-  /* line 64, ../sass/partials/design/regions/_main.scss */
+  /* line 60, ../sass/partials/design/regions/_main.scss */
   .interior-headings {
-    width: 45%;
+    width: 50%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .interior-headings {
-  width: 45%;
+  width: 50%;
 }
-/* line 71, ../sass/partials/design/regions/_main.scss */
+/* line 67, ../sass/partials/design/regions/_main.scss */
 .interior-headings * {
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   font-family: "futura-pt", sans-serif;
 }
-/* line 77, ../sass/partials/design/regions/_main.scss */
+/* line 72, ../sass/partials/design/regions/_main.scss */
 .interior-headings p {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
-/* line 86, ../sass/partials/design/regions/_main.scss */
+/* line 78, ../sass/partials/design/regions/_main.scss */
 .page-image--main {
   margin: -3em auto 4em;
   -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   line-height: 0;
 }
-/* line 91, ../sass/partials/design/regions/_main.scss */
+/* line 83, ../sass/partials/design/regions/_main.scss */
 .page-image--main img {
   width: 100%;
 }
@@ -2321,7 +2370,7 @@ html body {
   margin: 0 auto;
   padding: 0 2em;
 }
-/* line 13, ../../vendor/bundle/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .wrap:after {
   content: "";
   display: table;
@@ -2339,7 +2388,7 @@ main, header, footer, section, aside {
   display: block;
 }
 
-/* line 13, ../../vendor/bundle/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .gallery-wrapper:after {
   content: "";
   display: table;
@@ -2389,7 +2438,7 @@ main, header, footer, section, aside {
     padding: 1em 2em;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .gallery-wrapper .gallery-item .gallery-item--content {
   padding: 1em 2em;
 }
@@ -2420,7 +2469,7 @@ main, header, footer, section, aside {
     vertical-align: top;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .team-list .person {
   display: inline-block;
   width: 46%;
@@ -2439,7 +2488,7 @@ main, header, footer, section, aside {
     width: 150px;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .team-list .person img {
   width: 150px;
 }
@@ -2559,7 +2608,7 @@ main, header, footer, section, aside {
     width: 33%;
   }
 }
-/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .store-wrapper .product-item {
   width: 33%;
 }

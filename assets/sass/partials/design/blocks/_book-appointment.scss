@@ -18,8 +18,14 @@
 .book-fixed {
   position: fixed;
   z-index: 900;
-  right: 10%;
-  bottom: 10%;
+  top: 0;  
+  width: 100%;
+ @include breakpoint($bp-medium, $no-query: '.no-mq') {
+   top: auto;
+   right: 10%;
+   bottom: 10%;
+   width: auto;
+ }
   span {
     background: $color-one;
     color: #fff;
@@ -31,6 +37,12 @@
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+
+    }
   }
 }
 
