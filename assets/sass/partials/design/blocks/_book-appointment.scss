@@ -17,7 +17,7 @@
 }
 .book-fixed {
   position: fixed;
-  z-index: 900;
+  z-index: 11111;
   top: 0;  
   width: 100%;
  @include breakpoint($bp-medium, $no-query: '.no-mq') {
