@@ -1239,16 +1239,16 @@ ul.pager li a:visited {
   position: absolute;
   visibility: hidden;
   opacity: 0;
-  top: 100px;
+  top: 50px;
   max-width: 700px;
   left: 0;
   right: 0;
   margin: 0 auto;
   background: #fff;
-  padding: 1em;
+  padding: 2em 1em;
   -webkit-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
-  z-index: 1001;
+  z-index: 99999;
 }
 
 /* line 65, ../sass/partials/design/blocks/_book-appointment.scss */
@@ -1289,7 +1289,7 @@ ul.pager li a:visited {
 
 /* line 1, ../sass/partials/design/pages/_contact.scss */
 .webform-group {
-  padding: 1em;
+  padding: 0 1em 0;
   margin-bottom: 0em;
 }
 /* line 14, ../sass/partials/design/pages/_contact.scss */
@@ -1324,29 +1324,62 @@ ul.pager li a:visited {
   display: block;
   font-size: 95%;
 }
-/* line 31, ../sass/partials/design/pages/_contact.scss */
-.webform-group .webform-component label input {
-  width: auto;
+@media (min-width: 50em) {
+  /* line 28, ../sass/partials/design/pages/_contact.scss */
+  .webform-group .webform-component label {
+    width: 196px;
+    text-align: right;
+    padding-right: 1em;
+    display: inline-block;
+    vertical-align: top;
+  }
 }
-/* line 36, ../sass/partials/design/pages/_contact.scss */
-.webform-group .webform-component input {
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .webform-group .webform-component label {
+  width: 196px;
+  text-align: right;
+  padding-right: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 38, ../sass/partials/design/pages/_contact.scss */
+.webform-group .webform-component label input, .webform-group .webform-component label select, .webform-group .webform-component label textarea {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 45, ../sass/partials/design/pages/_contact.scss */
+.webform-group .webform-component input, .webform-group .webform-component textarea {
   width: 100%;
   padding: .25em .5em;
+  vertical-align: top;
+}
+@media (min-width: 50em) {
+  /* line 45, ../sass/partials/design/pages/_contact.scss */
+  .webform-group .webform-component input, .webform-group .webform-component textarea {
+    width: -webkit-calc(100% - 200px);
+    width: calc(100% - 200px);
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .webform-group .webform-component input, .no-mq .webform-group .webform-component textarea {
+  width: -webkit-calc(100% - 200px);
+  width: calc(100% - 200px);
 }
 
-/* line 43, ../sass/partials/design/pages/_contact.scss */
+/* line 56, ../sass/partials/design/pages/_contact.scss */
 .webform-label {
   display: block;
   font-weight: 700;
   font-family: "futura-pt", sans-serif;
 }
 
-/* line 49, ../sass/partials/design/pages/_contact.scss */
+/* line 62, ../sass/partials/design/pages/_contact.scss */
 .webform-component-wrap {
   overflow: hidden;
 }
 
-/* line 53, ../sass/partials/design/pages/_contact.scss */
+/* line 66, ../sass/partials/design/pages/_contact.scss */
 .contact-form {
   margin-top: 2em;
   background: #eee;
@@ -1368,7 +1401,7 @@ ul.pager li a:visited {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 50em) {
-  /* line 53, ../sass/partials/design/pages/_contact.scss */
+  /* line 66, ../sass/partials/design/pages/_contact.scss */
   .contact-form {
     margin: 0em 0em;
     float: right;
@@ -1382,7 +1415,7 @@ ul.pager li a:visited {
   width: 48%;
 }
 @media (min-width: 50em) {
-  /* line 76, ../sass/partials/design/pages/_contact.scss */
+  /* line 89, ../sass/partials/design/pages/_contact.scss */
   .contact-form h2 {
     float: left;
     width: 230px;
@@ -1399,24 +1432,24 @@ ul.pager li a:visited {
   margin-right: 3em;
   margin-top: 0;
 }
-/* line 85, ../sass/partials/design/pages/_contact.scss */
+/* line 98, ../sass/partials/design/pages/_contact.scss */
 .contact-form .webform-component {
   padding-bottom: 1em;
 }
-/* line 87, ../sass/partials/design/pages/_contact.scss */
+/* line 100, ../sass/partials/design/pages/_contact.scss */
 .contact-form .webform-component label {
   display: block;
 }
-/* line 89, ../sass/partials/design/pages/_contact.scss */
+/* line 102, ../sass/partials/design/pages/_contact.scss */
 .contact-form .webform-component label input {
   width: auto;
 }
-/* line 94, ../sass/partials/design/pages/_contact.scss */
+/* line 107, ../sass/partials/design/pages/_contact.scss */
 .contact-form .webform-component input {
   width: 100%;
 }
 
-/* line 104, ../sass/partials/design/pages/_contact.scss */
+/* line 117, ../sass/partials/design/pages/_contact.scss */
 .location-block {
   margin: 1em 1% 2em;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -1431,7 +1464,7 @@ ul.pager li a:visited {
   clear: both;
 }
 @media (min-width: 50em) {
-  /* line 104, ../sass/partials/design/pages/_contact.scss */
+  /* line 117, ../sass/partials/design/pages/_contact.scss */
   .location-block {
     float: left;
     width: 48%;
@@ -1452,19 +1485,19 @@ ul.pager li a:visited {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 }
-/* line 118, ../sass/partials/design/pages/_contact.scss */
+/* line 131, ../sass/partials/design/pages/_contact.scss */
 .location-block .location--title {
   font-size: 1.75em;
   text-transform: uppercase;
   padding-left: .5rem;
   margin: 0;
 }
-/* line 124, ../sass/partials/design/pages/_contact.scss */
+/* line 137, ../sass/partials/design/pages/_contact.scss */
 .location-block .map-embed {
   margin: -2em -2em 1em;
 }
 
-/* line 129, ../sass/partials/design/pages/_contact.scss */
+/* line 142, ../sass/partials/design/pages/_contact.scss */
 .phone--location {
   padding: 0 .5em 1em;
   border-bottom: 1px solid #ccc;
@@ -1472,13 +1505,13 @@ ul.pager li a:visited {
   margin-bottom: 1.5em;
 }
 
-/* line 136, ../sass/partials/design/pages/_contact.scss */
+/* line 149, ../sass/partials/design/pages/_contact.scss */
 .hours--location {
   list-style: none;
   padding: 0 0.5em 0em;
 }
 
-/* line 140, ../sass/partials/design/pages/_contact.scss */
+/* line 153, ../sass/partials/design/pages/_contact.scss */
 .hours--label {
   text-transform: uppercase;
   font-size: 1em;

@@ -10,6 +10,8 @@ $(document).ready(function() {
   $('.book-fixed').click(function() {
     $('.book-apt-modal').toggleClass('modal-open');
     $('.overlay').toggleClass('overlay-show');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
   });
 
   // Mobile Menu ToggleClass
@@ -26,6 +28,16 @@ $(document).ready(function() {
 Snipcart.execute('registerLocale', 'en', {
  "thankyou_message": "Thanks for your order!"
 });
+
+  
+  // $(".book-fixed").click(function(event) {
+  //     event.stopPropagation();
+  //   });
+  //   $(document).click(function() {
+  //     //alert('clicked outside');
+  //     $('.modal-open').removeClass('modal-open');
+  //     $('.overlay-show').removeClass('overlay-show');
+  //   });
 
   $("nav.main-nav").click(function(event) {
       event.stopPropagation();
