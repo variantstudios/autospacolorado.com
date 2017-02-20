@@ -23,7 +23,6 @@ images_and_videos:
   - title:
     image_path: /assets/images/projects/bmw-xm5-white-2015/20151024_141046.jpg
     youtube_id:
-
 services:
   - tinting
   - coatings
