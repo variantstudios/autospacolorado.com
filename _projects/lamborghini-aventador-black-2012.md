@@ -59,7 +59,6 @@ images_and_videos:
   - title:
     image_path: /assets/images/projects/lamborghini-aventador-black-2012/880x0_aventador_cover.jpg
     youtube_id:
-
 services:
   - tinting
   - clear-bra
