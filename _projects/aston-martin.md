@@ -1,22 +1,19 @@
 ---
-title: Aston Martin
-main_image_path: /uploads/img-0626.jpg
+title: Aston Martin 2014
+main_image_path: /assets/images/projects/img-0626.jpg
 images_and_videos:
   - title:
-    image_path: /uploads/img-0415.jpg
+    image_path: /assets/images/projects/img-0415.jpg
     youtube_url:
   - title:
-    image_path: /uploads/img-0425.jpg
+    image_path: /assets/images/projects/img-0425.jpg
     youtube_id:
   - title:
-    image_path: /uploads/img-0481.jpg
+    image_path: /assets/images/projects/img-0481.jpg
     youtube_id:
 services:
-  - Example 1
-  - Example 2
-  - Example 3
+  - Coatings
+  - Detailing
 weight: 2
 ---
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in turpis tellus. Morbi nec ante interdum, volutpat lectus viverra, sodales libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc ut malesuada lectus. Curabitur gravida sed lorem sed pharetra. Maecenas quam purus, facilisis sed ante nec, elementum mollis turpis. Aliquam cursus massa tincidunt hendrerit viverra. Mauris convallis urna leo, ut ultricies tortor sollicitudin ut. Quisque aliquet tincidunt neque, et rutrum tortor cursus vitae. In nec diam posuere, dapibus urna vel, laoreet risus. Nullam posuere ante nibh, sed aliquet nulla ultricies vitae. Sed consectetur commodo ullamcorper.
+Shine bright even at night is what this client wanted for his Aston Martin. Of course he wanted it protected from environmental elements and make it easier to maintain without having to wax it! Our experienced techs showed the paint on this car who is boss by smoothing out all the swirl marks, scratches and defects. The best part of the cake is the icing right? We then soaked this bad boy with a multi layered ceramic coating, providing protection for years to come.
