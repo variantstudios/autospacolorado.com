@@ -1,4 +1,4 @@
-@keyframes FadeIn { 
+@keyframes FadeIn {
   0% {
     opacity: 0;
     transform: scale(.1);
@@ -12,7 +12,7 @@
     transform: scale(1);
   }
 }
-@keyframes FadeOut { 
+@keyframes FadeOut {
   0% {
     transform: scale(1);
   }
@@ -55,8 +55,10 @@
         opacity: 1;
           transition: all .5s linear;
           visibility: visible;
+          cursor: pointer;
         a {
           background: #000;
+
         }
 
       }
@@ -71,7 +73,7 @@
       text-transform: uppercase;
       transition: margin-top .25s ease;
       margin-top: 0;
-      
+
       @include breakpoint($bp-medium, $no-query: '.no-mq') {
         padding: 0;
       }
@@ -139,27 +141,27 @@
     &.submenu--open {
       ul {
         opacity: 1;
-        transition: all .5s linear;
+        transition: all .4s linear;
         visibility: visible;
         li {
           opacity: 1;
           margin-top: 0;
-          animation: FadeIn .5s linear;
+          animation: FadeIn .3s linear;
         animation-fill-mode:both;
           &:nth-child(2){
-            animation-delay: .25s
+            animation-delay: .1s
           }
           &:nth-child(3){
-            animation-delay: .5s
+            animation-delay: .2s
           }
           &:nth-child(4){
-            animation-delay: .75s
+            animation-delay: .3s
           }
           &:nth-child(5){
-            animation-delay: 1s
+            animation-delay: .4s
           }
           &:nth-child(6){
-            animation-delay: 1.25s
+            animation-delay: .5s
           }
         }
       }
@@ -175,7 +177,7 @@
 .main-nav .menu {
   max-height: 0;
   overflow: hidden;
-  transition: all .5s linear;
+  transition: all .3s linear;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     max-height: none;
   }
