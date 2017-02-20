@@ -1,22 +1,23 @@
 ---
-title: BMW 640i Gran Sport Coupe
-main_image_path: /uploads/20150214-124801.jpg
+title: BMW 640i Gran Sport Coupe 2016
+main_image_path: /assets/images/projects/20150214-124801.jpg
 images_and_videos:
   - title:
-    image_path: /uploads/20150214-124703.jpg
+    image_path: /assets/images/projects/20150214-124703.jpg
     youtube_url:
   - title:
-    image_path: /uploads/20151023-154529.jpg
+    image_path: /assets/images/projects/20151023-154529.jpg
     youtube_id:
   - title:
-    image_path: /uploads/20150214-124809.jpg
+    image_path: /assets/images/projects/20150214-124809.jpg
     youtube_id:
   - title:
-    image_path: /uploads/20150214-124911.jpg
+    image_path: /assets/images/projects/20150214-124911.jpg
     youtube_id:
 services:
+  - Window Tinting
+  - Clear Bra/PPF
+  - Coatings
 weight: 4
 ---
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in turpis tellus. Morbi nec ante interdum, volutpat lectus viverra, sodales libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc ut malesuada lectus. Curabitur gravida sed lorem sed pharetra. Maecenas quam purus, facilisis sed ante nec, elementum mollis turpis. Aliquam cursus massa tincidunt hendrerit viverra. Mauris convallis urna leo, ut ultricies tortor sollicitudin ut. Quisque aliquet tincidunt neque, et rutrum tortor cursus vitae. In nec diam posuere, dapibus urna vel, laoreet risus. Nullam posuere ante nibh, sed aliquet nulla ultricies vitae. Sed consectetur commodo ullamcorper.
+Bought new, wants to keep it looking new and staying cool. So what do you do? You bring it into our highly experienced reconditioning techs at Greeley Auto Spa for a full frontal clear bra wrap, full ceramic window tinting, top tier paint correction process and topped off with our multi layered ceramic coating.
