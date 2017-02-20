@@ -60,8 +60,7 @@ images_and_videos:
     image_path: /assets/images/projects/porsche-911-turbo-s-white-2016/20150819_154410.jpg
     youtube_id:
 services:
-  - clear-bra
   - coatings
 weight: 9
 ---
-Sting like a bee! This vehicle had 10,000 miles of unprotected road life. The client wanted to prevent any further road rash, so we repaired some rock chips, covered her with some clear bra, and topped it off with our multi layered ceramic coating.
+Drop the top, go for a stress free drive is what the owner of this turbo stallion had in mind. Brand new, straight from the dealer this vehicle only needed some minor polishing, but needed major protection! We sealed up the clear coat with our multi layered ceramic coating.
