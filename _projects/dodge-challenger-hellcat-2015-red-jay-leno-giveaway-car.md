@@ -37,7 +37,11 @@ images_and_videos:
     youtube_id:
   - title:
     image_path: /assets/images/projects/dodge-challenger-hellcat-2015-red-jay-leno-giveaway-car/IMG_0350.jpg
-    youtube_id: 
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/dodge-challenger-hellcat-2015-red-jay-leno-giveaway-car/IMG_1574.jpg
+    youtube_id:
+
 services:
   - detailing
   - clear-bra
