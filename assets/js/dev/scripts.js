@@ -10,9 +10,30 @@ $(document).ready(function() {
   $('.book-fixed').click(function() {
     $('.book-apt-modal').toggleClass('modal-open');
     $('.overlay').toggleClass('overlay-show');
-    $("html, body").animate({ scrollTop: 0 }, "slow");
+    $("html, body").animate({ scrollTop: $(".book-apt-modal").offset().top},
+            'slow');
   return false;
   });
+  $('.close-form').click(function() {
+     $('.book-apt-modal').toggleClass('modal-open');
+    $('.overlay').toggleClass('overlay-show');
+  });
+
+      function goToByScroll(id){
+          // Reove "link" from the ID
+        id = id.replace("link", "");
+          // Scroll
+        $('html,body').animate({
+            scrollTop: $("#"+id).offset().top},
+            'slow');
+    }
+
+    $("#sidebar > ul > li > a").click(function(e) { 
+          // Prevent a page reload when a link is pressed
+        e.preventDefault(); 
+          // Call the scroll function
+        goToByScroll($(this).attr("id"));           
+    });
 
   // Mobile Menu ToggleClass
   $(".menu-btn").on('click touch', function() {
@@ -29,15 +50,6 @@ Snipcart.execute('registerLocale', 'en', {
  "thankyou_message": "Thanks for your order!"
 });
 
-  
-  // $(".book-fixed").click(function(event) {
-  //     event.stopPropagation();
-  //   });
-  //   $(document).click(function() {
-  //     //alert('clicked outside');
-  //     $('.modal-open').removeClass('modal-open');
-  //     $('.overlay-show').removeClass('overlay-show');
-  //   });
 
   $("nav.main-nav").click(function(event) {
       event.stopPropagation();
