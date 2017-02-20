@@ -15,9 +15,11 @@ images_and_videos:
     image_path: /assets/images/projects/20150214-124911.jpg
     youtube_id:
 services:
-  - Window Tinting
-  - Clear Bra/PPF
-  - Coatings
+  - tinting
+  - clear-bra
+  - coatings
 weight: 4
 ---
+
+
 Bought new, wants to keep it looking new and staying cool. So what do you do? You bring it into our highly experienced reconditioning techs at Greeley Auto Spa for a full frontal clear bra wrap, full ceramic window tinting, top tier paint correction process and topped off with our multi layered ceramic coating.
