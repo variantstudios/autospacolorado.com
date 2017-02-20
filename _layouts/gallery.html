@@ -8,7 +8,7 @@ layout: page
       <div class="gallery-item--image">
         {% if gallery.main_image_path %}
          <a href="{{ gallery.url }}">
-            <img src="{{site.cloudinaryurl}}image/fetch/w_700,h_400,c_fill/{{ site.url }}/{{ gallery.main_image_path }}" alt="{{ gallery.title }}" title="{{ gallery.title }}">
+            <img src="{{site.cloudinaryurl}}image/fetch/w_700,h_400,c_fill/{{ site.url }}{{ gallery.main_image_path }}" alt="{{ gallery.title }}" title="{{ gallery.title }}">
           </a>
         {% endif %}
       </div>
