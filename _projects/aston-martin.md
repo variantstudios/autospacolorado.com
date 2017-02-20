@@ -12,8 +12,10 @@ images_and_videos:
     image_path: /assets/images/projects/img-0481.jpg
     youtube_id:
 services:
-  - Coatings
-  - Detailing
+  - coatings
+  - detailing
 weight: 2
 ---
+
+
 Shine bright even at night is what this client wanted for his Aston Martin. Of course he wanted it protected from environmental elements and make it easier to maintain without having to wax it! Our experienced techs showed the paint on this car who is boss by smoothing out all the swirl marks, scratches and defects. The best part of the cake is the icing right? We then soaked this bad boy with a multi layered ceramic coating, providing protection for years to come.
