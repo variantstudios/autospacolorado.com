@@ -5,9 +5,6 @@ images_and_videos:
   - title:
     image_path:
     youtube_url:
-  - title:
-    image_path:
-    youtube_id:
 services:
   - Clear Bra/PPF
   - Coatings

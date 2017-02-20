@@ -864,8 +864,9 @@ ul.pager li a:visited {
     -webkit-transition: all .5s linear;
             transition: all .5s linear;
     visibility: visible;
+    cursor: pointer;
   }
-  /* line 58, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 59, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li.has-submenu a {
     background: #000;
   }
@@ -882,12 +883,13 @@ ul.pager li a:visited {
   -webkit-transition: all .5s linear;
           transition: all .5s linear;
   visibility: visible;
+  cursor: pointer;
 }
-/* line 58, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 59, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li.has-submenu a {
   background: #000;
 }
-/* line 64, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 66, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a {
   font-weight: 700;
   font-size: 1em;
@@ -902,7 +904,7 @@ ul.pager li a:visited {
   margin-top: 0;
 }
 @media (min-width: 50em) {
-  /* line 64, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 66, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li a {
     padding: 0;
   }
@@ -911,23 +913,23 @@ ul.pager li a:visited {
 .no-mq .menu li a {
   padding: 0;
 }
-/* line 78, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 80, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a img {
   opacity: 1;
   -webkit-transition: opacity .25s ease;
           transition: opacity .25s ease;
 }
-/* line 82, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 84, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a:active {
   top: 1px;
   position: relative;
 }
-/* line 87, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 89, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li img {
   display: none;
 }
 @media (min-width: 50em) {
-  /* line 91, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 93, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul {
     position: absolute;
     width: 200px;
@@ -943,11 +945,11 @@ ul.pager li a:visited {
             transition: all .5s linear;
     visibility: hidden;
   }
-  /* line 104, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 106, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul img {
     display: block;
   }
-  /* line 107, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 109, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul li {
     width: 33%;
     padding: 2%;
@@ -956,12 +958,12 @@ ul.pager li a:visited {
     -webkit-animation: FadeOut .5s linear;
             animation: FadeOut .5s linear;
   }
-  /* line 113, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 115, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul li a {
     position: relative;
     line-height: 0;
   }
-  /* line 116, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 118, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul li a span {
     position: absolute;
     text-shadow: 0 1px 11px rgba(0, 0, 0, 0.75);
@@ -969,24 +971,24 @@ ul.pager li a:visited {
     padding: 0em 1em 1.5em;
     font-size: 1.4em;
   }
-  /* line 123, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 125, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul li a:hover {
     -webkit-transition: margin-top .25s ease;
             transition: margin-top .25s ease;
     margin-top: -5px;
   }
-  /* line 126, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 128, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul li a:hover img {
     -webkit-transition: opacity .25s ease;
             transition: opacity .25s ease;
     opacity: 0.7;
   }
-  /* line 134, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 136, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li ul a {
     color: #fff;
   }
 }
-/* line 91, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 93, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul {
   position: absolute;
   width: 200px;
@@ -1002,11 +1004,11 @@ ul.pager li a:visited {
           transition: all .5s linear;
   visibility: hidden;
 }
-/* line 104, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 106, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul img {
   display: block;
 }
-/* line 107, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 109, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul li {
   width: 33%;
   padding: 2%;
@@ -1015,12 +1017,12 @@ ul.pager li a:visited {
   -webkit-animation: FadeOut .5s linear;
           animation: FadeOut .5s linear;
 }
-/* line 113, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 115, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul li a {
   position: relative;
   line-height: 0;
 }
-/* line 116, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 118, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul li a span {
   position: absolute;
   text-shadow: 0 1px 11px rgba(0, 0, 0, 0.75);
@@ -1028,81 +1030,81 @@ ul.pager li a:visited {
   padding: 0em 1em 1.5em;
   font-size: 1.4em;
 }
-/* line 123, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 125, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul li a:hover {
   -webkit-transition: margin-top .25s ease;
           transition: margin-top .25s ease;
   margin-top: -5px;
 }
-/* line 126, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 128, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul li a:hover img {
   -webkit-transition: opacity .25s ease;
           transition: opacity .25s ease;
   opacity: 0.7;
 }
-/* line 134, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 136, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-mq .menu li ul a {
   color: #fff;
 }
-/* line 140, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 142, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul {
   opacity: 1;
-  -webkit-transition: all .5s linear;
-          transition: all .5s linear;
+  -webkit-transition: all .4s linear;
+          transition: all .4s linear;
   visibility: visible;
 }
-/* line 144, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 146, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li {
   opacity: 1;
   margin-top: 0;
-  -webkit-animation: FadeIn .5s linear;
-          animation: FadeIn .5s linear;
+  -webkit-animation: FadeIn .3s linear;
+          animation: FadeIn .3s linear;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
-/* line 149, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 151, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li:nth-child(2) {
-  -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
 }
-/* line 152, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 154, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li.submenu--open ul li:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+/* line 157, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+/* line 160, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+/* line 163, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu li.submenu--open ul li:nth-child(6) {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
-/* line 155, ../sass/partials/design/blocks/_main-navigation.scss */
-.menu li.submenu--open ul li:nth-child(4) {
-  -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
-}
-/* line 158, ../sass/partials/design/blocks/_main-navigation.scss */
-.menu li.submenu--open ul li:nth-child(5) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-/* line 161, ../sass/partials/design/blocks/_main-navigation.scss */
-.menu li.submenu--open ul li:nth-child(6) {
-  -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
-}
-/* line 168, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 170, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu a, .menu a:visited {
   text-decoration: none;
 }
-/* line 171, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 173, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li li {
   padding: 0;
 }
 
-/* line 175, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 177, ../sass/partials/design/blocks/_main-navigation.scss */
 .main-nav .menu {
   max-height: 0;
   overflow: hidden;
-  -webkit-transition: all .5s linear;
-          transition: all .5s linear;
+  -webkit-transition: all .3s linear;
+          transition: all .3s linear;
 }
 @media (min-width: 50em) {
-  /* line 175, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 177, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav .menu {
     max-height: none;
   }
@@ -1111,7 +1113,7 @@ ul.pager li a:visited {
 .no-mq .main-nav .menu {
   max-height: none;
 }
-/* line 182, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 184, ../sass/partials/design/blocks/_main-navigation.scss */
 .main-nav .menu.show {
   -webkit-transition: all .5s linear;
           transition: all .5s linear;
@@ -1119,7 +1121,7 @@ ul.pager li a:visited {
   padding-top: 1em;
 }
 @media (min-width: 50em) {
-  /* line 182, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 184, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav .menu.show {
     max-height: none;
   }
@@ -1128,12 +1130,12 @@ ul.pager li a:visited {
 .no-mq .main-nav .menu.show {
   max-height: none;
 }
-/* line 190, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 192, ../sass/partials/design/blocks/_main-navigation.scss */
 .main-nav .menu .menu {
   max-height: 0;
 }
 @media (min-width: 50em) {
-  /* line 190, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 192, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav .menu .menu {
     max-height: none;
   }
@@ -1143,7 +1145,7 @@ ul.pager li a:visited {
   max-height: none;
 }
 
-/* line 198, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 200, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn {
   position: absolute;
   right: 10px;
@@ -1152,7 +1154,7 @@ ul.pager li a:visited {
   cursor: pointer;
 }
 @media (min-width: 50em) {
-  /* line 198, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 200, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu-btn {
     display: none;
   }
@@ -1161,12 +1163,12 @@ ul.pager li a:visited {
 .no-mq .menu-btn {
   display: none;
 }
-/* line 207, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 209, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu-btn img {
   padding-right: .5em;
 }
 
-/* line 211, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 213, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-js .menu-btn {
   display: none;
 }
