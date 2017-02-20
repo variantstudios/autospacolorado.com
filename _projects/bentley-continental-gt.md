@@ -9,9 +9,11 @@ images_and_videos:
     image_path: /assets/images/projects/img-1387.jpg
     youtube_id:
 services:
-  - Clear Bra/PPF
-  - Coatings
-  - Detailing
+  - clear-bra
+  - coatings
+  - detailing
 weight: 3
 ---
+
+
 This Bentley Gt came in with rock chips, interior stains and usual car wash scratches. We provided a full interior steam cleaning, some minor paint touch up, performed our top tier paint correction process (buffing), wrapped the entire front end from the doors forward with clear bra and then topped it off with our multi layered ceramic coating.
