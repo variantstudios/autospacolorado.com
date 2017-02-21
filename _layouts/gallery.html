@@ -2,8 +2,8 @@
 layout: page
 ---
 <section class="gallery-wrapper">
-  {% assign items =  site.projects | sort: "weight" %}
-  {% for gallery in items %}
+
+  {% for gallery in paginator.posts %}
     <article class="gallery-item clearfix">
       <div class="gallery-item--image">
         {% if gallery.main_image_path %}
@@ -20,3 +20,18 @@ layout: page
     </article>
   {% endfor %}
 </section>
+
+{% if paginator.total_pages > 1 %}
+ <ul class="pager">
+     {% if paginator.previous_page %}
+     <li class="previous left">
+         <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previous</a>
+     </li>
+     {% endif %}
+     {% if paginator.next_page %}
+     <li class="next right">
+         <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+     </li>
+     {% endif %}
+ </ul>
+ {% endif %}
