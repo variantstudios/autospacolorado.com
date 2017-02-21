@@ -1,10 +1,43 @@
 ---
 title: Chevrolet Corvette Grand Sport 2013
-main_image_path: /assets/images/projects/IMG_0196.jpg
+main_image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0196.jpg
 images_and_videos:
   - title:
-    image_path:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0203.jpg
     youtube_url:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0202.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0201.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0183.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0095.jpg
+    youtube_url:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0094.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0093.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0092.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0091.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0090.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0089.jpg
+    youtube_id:
+  - title:
+    image_path: /assets/images/projects/chevrolet-corvette-grand-sport-2013/IMG_0088.jpg
+    youtube_id:    
 services:
   - clear-bra
   - coatings

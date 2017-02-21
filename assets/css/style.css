@@ -1345,6 +1345,45 @@ ul.pager li a:visited {
   left: auto;
 }
 
+@media (min-width: 50em) {
+  /* line 2, ../sass/partials/design/blocks/_paginator.scss */
+  .pager .left {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .pager .left {
+  width: 50%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+@media (min-width: 50em) {
+  /* line 7, ../sass/partials/design/blocks/_paginator.scss */
+  .pager .right {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    text-align: right;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .pager .right {
+  width: 50%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  text-align: right;
+}
+
 /* line 1, ../sass/partials/design/pages/_contact.scss */
 .webform-group {
   padding: 0 1em 0;
