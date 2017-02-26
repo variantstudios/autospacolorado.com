@@ -3,22 +3,22 @@ layout: default
 ---
 
 <main class="layout--location">
-  
+
   <!-- Header Image with NO text overlay -->
   {% if page.header_image_path %}
     <figure class="page-image--main">
       <img src="{{ page.header_image_path}}">
     </figure>
   {% endif %}
-  
+
   <!-- 2 Column Layout -->
   <div class="wrap content-section">
-      
+
       <div class="col-1">
         <h1 class="section-title">{{ page.title }}</h1>
         <h3 class="section-subtitle">{{ page.subtitle }}</h3>
         <h4 class="phone--location">{{page.phone}}</h4>
-        
+
         <!-- Hours List -->
         <h4 class="hours--label">Hours:</h4>
         <ul class="hours--location">

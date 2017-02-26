@@ -1,13 +1,36 @@
 .pager {
-    .left {
-        @include breakpoint($bp-medium, $no-query: ".no-mq") {
-          @include grid-span(6,1,$gutter:0);
+    border-top: 1px solid #bfbfbf;
+    li {
+        a {
+            border: solid 1px #bfbfbf;
+            color: #bfbfbf;
+            text-decoration: none;
+            border-radius: 3px;
+            font-family: "futura-pt", sans-serif;
+            padding: 0.75em 1.5em;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+            display: inline-block;
+            transition: all .5s, transform .5s ease-out;
+            &:hover {
+                border: solid 1px #d5121a;
+                color: #d5121a !important;
+                transition: all .5s, transform .5s ease-out;
+            }
         }
     }
+
+    .left {
+        @include breakpoint($bp-medium, $no-query: ".no-mq") {
+             @include grid-span(6,1,$gutter:0);
+        }
+    }
+
     .right {
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
-          @include grid-span(6,7,$gutter:0);
-          text-align: right;
+             @include grid-span(6,7,$gutter:0);
+            text-align: right;
         }
     }
 }

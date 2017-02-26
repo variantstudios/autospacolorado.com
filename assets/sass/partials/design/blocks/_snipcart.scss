@@ -1,0 +1,20 @@
+a.snipcart-add-item {
+    border: solid 1px #d5121a;
+    color: #d5121a;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: "futura-pt", sans-serif;
+    padding: 0.75em 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s, transform 0.5s ease-out;
+
+    &:hover {
+
+        border: solid 1px #bfbfbf;
+        color: #bfbfbf;
+        transition: all 0.5s, transform 0.5s ease-out;
+    }
+}

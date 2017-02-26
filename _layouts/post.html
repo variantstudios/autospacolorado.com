@@ -15,11 +15,11 @@ layout: default
 
       <h1>{{ page.title }}</h1>
       <p class="post-date">{{ page.date | date: "%a, %b %d, %Y" }}</p>
- 
+
       <p>{{ content }}</p>
 
      <!-- Categories -->
-     {% for cat in page.categories %}
+     <!-- {% for cat in page.categories %}
         <p class="category-label">Category: <a href="{{ cat | prepend: '/blog/' | append: '/' }}">{{ cat | replace: '-', ' ' | capitalize }}</a></p>
       {% endfor %}
       {% if page.tags %}
@@ -29,7 +29,7 @@ layout: default
             <li class="tag-label"><a href="{{ tag | prepend: '/blog/' | append: '/' }}">{{ tag | replace: '-', ' ' | capitalize }}</a></li>
           {% endfor %}
         </ul>
-      {% endif %}
+      {% endif %} -->
 
     <!-- Pagination -->
     <nav class="pagination" role="navigation">

@@ -27,6 +27,9 @@ layout: default
       {% include contact-form.html %}
       {% elsif page.url contains "about" %}
         {% include team.html %}
+        {% elsif page.url contains "book-appointment" %}
+         {% include locations.html %}
+        {% include book-form.html %}
     {% endif %}
   </div>
 </main>
