@@ -5,9 +5,11 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
 {% include head.html %}
 <body class="snipcart-overwrite {% if page.class %} {{page.class}}{%endif%}">
-    {%  unless page.url contains "book-appointment"  %}
-      <div class="book-fixed"><span>Book an Appointment</span></div>
-    {% endunless %}
+    {%  if page.url contains "book-appointment"  %}
+    {% elsif page.url contains "contact"  %}
+    {% else %}
+        <div class="book-fixed"><span><a href="/book-appointment/">Book An Appointment</a></span></div>
+    {% endif %}
 
     {% include browserupgrade.html %}
 
@@ -22,11 +24,7 @@
   <div class="footer-wrapper clearfix">
   	{% include footer.html %}
   </div>
-  <div class="overlay"></div>
-  {% include book-form.html %}
-
 
 	{% include scripts.html %}
 </body>
-
 </html>

@@ -23,7 +23,7 @@ $nav-border: #CFCFCF;
 $body-copy-color: #3D3D3D;
 $heading-color: #272727;
 
-$link           : #0F7ABD;
+$link           : #d5121a;
 $visited        : darken($link, 10%);
 $hover          : lighten($link, 10%);
 
@@ -63,4 +63,3 @@ $no-query: $bp-medium, 'no-query' '.no-mq';
 $breakpoint-no-query-fallbacks: true;
 $breakpoint-to-ems: true;
 $breakpoints: '';
-

@@ -7,17 +7,17 @@ $(document).ready(function() {
   }
 
   /* --- Mobile Menu ToggleClass -- */
-  $('.book-fixed').click(function() {
-    $('.book-apt-modal').toggleClass('modal-open');
-    $('.overlay').toggleClass('overlay-show');
-    $("html, body").animate({ scrollTop: $(".book-apt-modal").offset().top},
-            'slow');
-  return false;
-  });
-  $('.close-form').click(function() {
-     $('.book-apt-modal').toggleClass('modal-open');
-    $('.overlay').toggleClass('overlay-show');
-  });
+  // $('.book-fixed').click(function() {
+  //   $('.book-apt-modal').toggleClass('modal-open');
+  //   $('.overlay').toggleClass('overlay-show');
+  //   $("html, body").animate({ scrollTop: $(".book-apt-modal").offset().top},
+  //           'slow');
+  // return false;
+  // });
+  // $('.close-form').click(function() {
+  //    $('.book-apt-modal').toggleClass('modal-open');
+  //   $('.overlay').toggleClass('overlay-show');
+  // });
 
       function goToByScroll(id){
           // Reove "link" from the ID
@@ -28,11 +28,11 @@ $(document).ready(function() {
             'slow');
     }
 
-    $("#sidebar > ul > li > a").click(function(e) { 
+    $("#sidebar > ul > li > a").click(function(e) {
           // Prevent a page reload when a link is pressed
-        e.preventDefault(); 
+        e.preventDefault();
           // Call the scroll function
-        goToByScroll($(this).attr("id"));           
+        goToByScroll($(this).attr("id"));
     });
 
   // Mobile Menu ToggleClass
@@ -58,9 +58,6 @@ Snipcart.execute('registerLocale', 'en', {
       //alert('clicked outside');
       $('nav.main-nav .has-submenu').removeClass('submenu--open');
     });
-
-
-
 
 
 });

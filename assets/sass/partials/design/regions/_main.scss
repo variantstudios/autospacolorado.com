@@ -61,7 +61,7 @@ main {
   z-index: 9;
   position: relative;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    width: 50%;
+    width: 90%;
   }
 
   * {

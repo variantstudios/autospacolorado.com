@@ -1,31 +1,23 @@
-<div class="book-apt-modal">
-  <div class="book-apt-wrap">
-  <div class="close-form"><img src="/assets/images/close.png"></div>
-  <form action="#" method="post" class="book-form">
-    <input type="hidden" name="_to" value="team@variantstudios.com">
-    <input type="hidden" name="_subject" value="Contact Form">
-    <input type="text" name="_gotcha" style="display: none;">
-    <div class="group-1 webform-group">
-  <!--     <h2>Personal Info</h2>
-   -->    <div class="webform-component-wrap">
-        <div class="webform-component">
-          <label for="name" class="webform-label">Name</label>
-          <input type="text" name="name" id="name" required="">
-        </div>
-        <div class="webform-component">
-          <label for="email" class="webform-label">Email</label>
-          <input type="email" name="email" id="email" required="">
-        </div>
-        <div class="webform-component">
-          <label for="phone" class="webform-label">Phone</label>
-          <input type="tel" name="phone" id="phone" required="">
-        </div>
-      </div>
+<form action="#" method="post" class="contact-form">
+  <input type="hidden" name="_to" value="team@variantstudios.com">
+  <input type="hidden" name="_subject" value="Book An Appointment">
+   <input type="text" name="_gotcha" style="display: none;">
+    <div class="webform-component">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required="">
     </div>
-    <div class="group-2 webform-group">
-  <!--     <h2>Date & Time</h2>
-   -->     <div class="webform-component-wrap">
-      <div class="webform-component">
+    <div class="webform-component">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required="">
+    </div>
+    <div class="webform-component">
+        <label for="email">Phone</label>
+        <input type="text" name="phone" id="phone">
+    </div>
+
+    <!-- <div class="group-2 webform-group"> -->
+    <div class="webform-component-wrap">
+      <div class="webform-component left">
         <label for="dow" class="webform-label">Which Day Works Best?</label>
         <select>
           <option value="Monday">Monday</option>
@@ -38,7 +30,7 @@
         </select>
       </div>
 
-      <div class="webform-component">
+      <div class="webform-component right">
         <label for="dow" class="webform-label">Time of Day?</label>
         <select>
           <option value="Any">Any Time</option>
@@ -47,28 +39,13 @@
         </select>
       </div>
     </div>
-    </div>
-    <div class="group-3 webform-group">
-  <!--     <h2>What needs done?</h2>
-   -->     <div class="webform-component-wrap">
-  <!--     <div class="webform-component">
-          <label for="dow" class="webform-label">What Needs Done?</label>
-          <label><input type="checkbox" name="checkbox" value="Packages">Packages</label>
-          <label><input type="checkbox" name="checkbox" value="Surface Coatings">Surface Coatings</label>
-          <label><input type="checkbox" name="checkbox" value="Prestige Detailing">Prestige Detailing</label>
-          <label><input type="checkbox" name="checkbox" value="Window Tint">Window Tint</label>
-          <label><input type="checkbox" name="checkbox" value="Clear Bra Protection">Clear Bra Protection</label>
-          <label><input type="checkbox" name="checkbox" value="Bray Windshield Skin">Bray Windshield Skin</label>
-        </div> -->
-          <div class="webform-component">
-            <label for="message" class="webform-label">Message</label>
-            <textarea id="message" name="message" rows="6" placeholder="What needs done?"></textarea>
-          </div>
-        </div>
+    <!-- </div> -->
+
+
+    <div class="webform-component">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6"  placeholder="What needs done?"></textarea>
     </div>
      <div class="g-recaptcha" data-sitekey="6LfB6RUUAAAAAEySJ7Fqc6dvL7oftcr1-l2ZANZA"></div><br>
-      <input class="sendButton" type="submit" name="Submit" value="Request Appointment">
-  </form>
-  </div>
-</div>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+    <input class="sendButton" type="submit" name="Submit" value="Send">
+</form>
