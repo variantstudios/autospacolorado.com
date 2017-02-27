@@ -37,16 +37,30 @@ layout: default
           <h2 class="section-title">Our Location</h2>
           <h3 class="section-subtitle">Serving Northern Colorado</h3>
         </div>
-        <div class="location-block first editable">
-          <h4>Greeley</h4>
-          <p>3620 35th Ave #3  <br>
-            Evans, CO 80620</p>
-          <p>970-619-9863</p>
+
+        {% for item in site.locations %}
+        <div  itemscope itemtype="http://schema.org/LocalBusiness" class="location-block first editable">
+            <h4 class="location--title" itemprop="name">{{ item.title }}</h4>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">{{ item.address }}</span><br>
+                    <span itemprop="addressLocality">{{ item.city }}</span>,
+                    <span itemprop="addressRegion">{{ item.state }}</span>
+                    <span>{{ item.zip }}</span>
+                </div>
+            <span class="phone--location">{{item.phone}}</span>
+
           <div class="btn outline"><a href="/contact">Contact Us</a></div>
         </div>
+        {% endfor %}
       </div>
     </section>
   </div>
+
+
+  <div itemscope itemtype="http://schema.org/LocalBusiness" class="location-address">
+
+
+
 
   <!-- Service Section  -->
   <section class="postscript clearfix">
