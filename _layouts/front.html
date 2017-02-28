@@ -21,7 +21,7 @@ layout: default
       {% for gallery in items limit:8 %}
         <div>
           <a href="{{ gallery.url }}">
-            <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_400,c_fill/{{site.url}}{{ gallery.main_image_path }}">
+            <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_400,c_fill/{{site.url}}{{ gallery.main_image_path }}" data-img="{{site.url}}{{gallery.main_image_path}}" data-width="400px" data-height="400px">
           </a>
         </div>
       {% endfor %}
