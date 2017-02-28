@@ -1,7 +1,9 @@
 ---
 title: Book Appointment
-permalink: "/book-appointment/"
+permalink: /book-appointment/
 description: Book Appointment.
-header_image_path: /assets/images/bgs/contact.jpg
+header_image_path: /assets/images/header/contact.jpg
 layout: page
 ---
+
+
