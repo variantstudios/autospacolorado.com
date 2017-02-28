@@ -4,48 +4,57 @@
   </li>
   <li class="has-submenu">Services
     <ul class="menu">
-      <li>
+        {% for services in site.services %}
+        <li>
+          <a href="{{services.url}}" alt="{{services.title}}">
+            <img src="{{site.cloudinaryurl}}image/fetch/w_308,h_164,c_fill/{{ site.url }}{{services.header_image_path}}" title="{{services.title}}" />
+            <span>{{services.title}}</span>
+          </a>
+        </li>
+        {% endfor %}
+      <!-- <li>
         <a href="/services/coatings/">
           <img src="/assets/images/menu/ceramic.jpg" />
-          <span>Coatings</span>  
+          <span>Coatings</span>
         </a>
       </li>
       <li>
         <a href="/services/detailing/">
           <img src="/assets/images/menu/detail.jpg" />
-          <span>Prestige Detailing</span> 
-        </a>  
+          <span>Prestige Detailing</span>
+        </a>
       </li>
       <li>
         <a href="/services/tinting/">
           <img src="/assets/images/menu/tint.jpg" />
-          <span>Window Tint</span> 
-        </a>  
+          <span>Window Tint</span>
+        </a>
       </li>
       <li >
         <a href="/services/clear-bra/">
           <img src="/assets/images/menu/clearbra.jpg" />
-          <span>Clear Bra Protection</span> 
-        </a>  
+          <span>Clear Bra Protection</span>
+        </a>
       </li>
       <li>
         <a href="/services/windshield-skin/">
           <img src="/assets/images/menu/windshield.jpg" />
           <span>Bray Windshield Skin</span>
-        </a>  
-      </li>
+        </a>
+      </li> -->
+
     </ul>
   </li>
   <li>
-    <a href="/blog/">Blog</a> 
+    <a href="/blog/">Blog</a>
   </li>
   <li>
-    <a href="/about/">About</a>    
+    <a href="/about/">About</a>
   </li>
   <li class="first">
-    <a href="/store/">Store</a>  
+    <a href="/store/">Store</a>
   </li>
   <li class="first">
     <a href="/contact/">Contact</a>
-  </li> 
+  </li>
 </ul>
