@@ -29,7 +29,7 @@ pagination:
   sort_field: 'title'
   sort_reverse: false
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
+  debug: true
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: 'projects'
 
