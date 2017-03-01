@@ -106,6 +106,10 @@ $(document).ready(function(){
 // $("a[rel^='featherlight-content']").prettyPhoto({
 // social_tools: '<div class="addthis_toolbox addthis_default_style "><a class="addthis_button_tweet" tw:via="somename" tw:lang="en" tw:hashtags="whatever"></a><a class="addthis_button_google_plusone" g:plusone:size="medium"></a><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_facebook_send"></a></div>'
 // });
+afterOpen: function(event){
+    console.log(this); // this contains all related elements
+    alert(this.$content.hasClass('true')); // alert class of content
+}
 </script>
 
 {% if site.google_analytics_tracking_id %}
