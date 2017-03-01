@@ -1,7 +1,6 @@
 .gallery-detail-node {
     padding: 5em 0 2em;
     position: relative;
-
     &:after {
         background: url("../images/bgs/grill.png") no-repeat center center;
         background-position: center;
@@ -19,7 +18,6 @@
             height: 400px;
         }
     }
-
     &:before {
         background-image: linear-gradient(-179deg, #FCFCFC 16%, #D5D5D5 72%, #DEDEDE 100%);
         content: '';
@@ -31,7 +29,6 @@
             height: 400px;
         }
     }
-
     .wrap {
         position: relative;
     }
@@ -85,14 +82,21 @@
             }
 
             .gallery-item--content {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                padding: 1em 2em;
-                background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.9) 100%);
+                @include breakpoint($bp-medium, $no-query: '.no-mq') {
+                  position: absolute;
+                  bottom: 0;
+                  width: 100%;
+                  padding: 1em 2em;
+                  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.9) 100%);
+                  }
                 h1 {
+                  margin-top: .5em;
+                  font-size: 2em;
+                  @include breakpoint($bp-medium, $no-query: '.no-mq') {
                     color: #fff;
                     font-size: 3em;
+                    margin-top: 0;
+                  }
                 }
             }
         }
@@ -107,10 +111,19 @@
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
          @include grid-span(6,1);
     }
+    .content-section {
+        font-size: 1.2em;
+        margin-top: .7em;
+    }
 }
 
 .gallery-service-section {
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
          @include grid-span(5.5,7.5);
+    }
+    font-size: 1.2em;
+    margin-top: .7em;
+    ul {
+        margin-top: 0;
     }
 }

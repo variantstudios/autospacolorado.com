@@ -29,6 +29,9 @@
 
   }
   .footer-block-2 {
+    @include breakpoint($bp-small-down) {
+      padding: 2em 0;
+    }
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       @include grid-span(3,5);
       h6, a, p {

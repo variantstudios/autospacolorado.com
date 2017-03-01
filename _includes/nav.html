@@ -7,7 +7,7 @@
         {% for services in site.services %}
         <li>
           <a href="{{services.url}}" alt="{{services.title}}">
-            <img src="{{site.cloudinaryurl}}image/fetch/w_308,h_164,c_fill/{{ site.url }}{{services.header_image_path}}" title="{{services.title}}" data-img="{{site.url}}{{services.header_image_path}}" data-width="308px" data-height="167px"/>
+            <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_200,c_fill/{{ site.url }}{{services.header_image_path}}" title="{{services.title}}" data-img="{{site.url}}{{services.header_image_path}}" data-width="400px" data-height="200px"/>
             <span>{{services.title}}</span>
           </a>
         </li>

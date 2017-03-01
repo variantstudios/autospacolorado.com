@@ -56,4 +56,23 @@ $(document).ready(function() {
         $('nav.main-nav .has-submenu').removeClass('submenu--open');
     });
 
+    // Stop Button Going Into Footer //
+    function checkOffset() {
+    var footerHeight = $('.footer-wrapper').height();
+
+    if($('.book-fixed').offset().top + $('.book-fixed').height() 
+        >= $('.footer-wrapper').offset().top - 10);
+        $('.book-fixed').css('bottom', '200px'); // restore when you scroll up
+        //$('.book-fixed').css('position', 'absolute');
+    if($(document).scrollTop() + window.innerHeight < $('.footer-wrapper').offset().top)
+        //$('.book-fixed').css('position', 'fixed'); // restore when you scroll up
+        $('.book-fixed').css('bottom', '10%'); // restore when you scroll up
+       //$('.book-fixed').text($(document).scrollTop() + window.innerHeight);
+    }
+    $(document).scroll(function() {
+        checkOffset();
+    });
+
+
+
 });

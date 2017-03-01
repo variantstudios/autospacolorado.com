@@ -4,7 +4,7 @@ ul.footer-social {
     padding: 0;
     display: block;
     li {
-        display: inline;
+        display: inline-block;
         margin-left: 1.5em;
         &:first-child {
             margin-left: 0;
