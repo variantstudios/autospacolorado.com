@@ -98,11 +98,11 @@ $(document).ready(function(){
 
 <script type='text/javascript'> 
     window.onload=function(){
-        $.featherlight({
+        $('.grid-item a').featherlight({
             targetAttr: 'href',
-            beforeOpen: function(event){
-                alert('beforeOpen');
-            },
+            // beforeOpen: function(event){
+            //     alert('beforeOpen');
+            // },
             afterOpen: function(event){
                 alert('afterOpen');
             }
