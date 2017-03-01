@@ -40,6 +40,8 @@
     margin: 0;
     display: block;
     padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       display: inline-block;
       vertical-align: top;
@@ -80,6 +82,7 @@
       img {
         opacity: 1;
         transition: opacity .25s ease;
+        width: 100%;
       }
       &:active {
         top: 1px;
@@ -190,10 +193,18 @@
     }
   }
   .menu {
-    max-height: 0;
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    max-height: none;
-  }
+    // max-height: 0;
+    // @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    //   max-height: none;
+    // }
+    @include breakpoint($bp-small-down) {
+      padding-top: 0.25em;
+    }
+    li {
+      @include breakpoint($bp-small-down) {
+        padding-left: 1em;
+      }
+    }
   }
 
 }

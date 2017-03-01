@@ -20,12 +20,17 @@
   z-index: 1000;
   top: 0;
   width: 100%;
- @include breakpoint($bp-medium, $no-query: '.no-mq') {
-   top: auto;
-   right: 10%;
-   bottom: 10%;
-   width: auto;
- }
+  transition: all .5s linear;
+  @include breakpoint($bp-small-down) {
+    bottom: auto !important;
+  }
+
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+     top: auto;
+     right: 10%;
+     bottom: 10%;
+     width: auto;
+  }
   a {
     background: $color-one;
     color: #fff;
