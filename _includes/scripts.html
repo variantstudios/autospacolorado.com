@@ -97,10 +97,11 @@ $(document).ready(function(){
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58af7cca5245f57c"></script> 
 
 <script type="text/javascript">
-if(addthis.layers && typeof addthis.layers.refresh === 'function'){
-    addthis.layers.refresh();
-    console.log("test");
-}
+
+window.addEventListener("hashchange", function () {
+  addthis.layers.refresh();
+  console.log("test");
+});
 </script>
 
 {% if site.google_analytics_tracking_id %}
