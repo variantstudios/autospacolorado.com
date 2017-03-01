@@ -96,38 +96,6 @@ $(document).ready(function(){
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58af7cca5245f57c"></script> 
 
-<script type="text/javascript">
-
-// window.addEventListener("hashchange", function () {
-//   addthis.layers.refresh();
-//   console.log("test");
-// });
-
-// $("a[rel^='featherlight-content']").prettyPhoto({
-// social_tools: '<div class="addthis_toolbox addthis_default_style "><a class="addthis_button_tweet" tw:via="somename" tw:lang="en" tw:hashtags="whatever"></a><a class="addthis_button_google_plusone" g:plusone:size="medium"></a><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_facebook_send"></a></div>'
-// });
-// $.featherlight.afterOpen: function(event){
-//     console.log(this); // this contains all related elements
-//     alert(this.$content.hasClass('true')); // alert class of content
-// }
-
-
-</script>
-<script type='text/javascript'> 
-    window.onload=function(){
-        $('.grid-item a').featherlight({
-            targetAttr: 'href',
-            // beforeOpen: function(event){
-            //     alert('beforeOpen');
-            // },
-            afterOpen: function(event){
-               console.log("open");
-               $('.featherlight-content').prepend('<div class="addthis_toolbox addthis_default_style" style="z-index:6147483647;"><a class="addthis_button_tweet" tw:via="somename" tw:lang="en" tw:hashtags="whatever"></a><a class="addthis_button_google_plusone" g:plusone:size="medium"></a><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_facebook_send"></a></div>');
-               addthis.layers.refresh();
-            }
-        });
-    }           
-</script>
 
 {% if site.google_analytics_tracking_id %}
   <!-- google analytics -->
