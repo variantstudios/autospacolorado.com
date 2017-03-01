@@ -22,15 +22,19 @@ $(document).ready(function() {
     for (var i = 0; i < document.images.length; i++) {
         if (!isImageOk(document.images[i])) {
             //document.images[i].style.visibility = "hidden";
-            console.log(document.images[i]);
+            //console.log(document.images[i]);
+            console.log(document.images[i].attributes["data-width"].value);
+            console.log( document.images[i].attributes["data-height"].value);
             if (document.images[i].attributes["data-img"]) {
                 document.images[i].src = document.images[i].attributes["data-img"].value;
             }
-            if (document.images[i].attributes["data-width"]) {
+            if (document.images[i].attributes["data-width"].value) {
                 document.images[i].width = document.images[i].attributes["data-width"].value;
+
             }
-            if (document.images[i].attributes["data-height"]) {
+            if (document.images[i].attributes["data-height"].value) {
                 document.images[i].height = document.images[i].attributes["data-height"].value;
+
             }
 
         }
