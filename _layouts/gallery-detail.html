@@ -20,7 +20,7 @@ layout: default
       </li>
         {% for item in page.images_and_videos %}
         <li itemscope class="grid-item">
-          <a class="gallery-item gallery addthis_toolbox addthis_default_style" href="{{ item.image_path }}" >
+          <a class="gallery-item gallery" href="{{ item.image_path }}" >
 
           {% if item.youtube_id %}
             <iframe class="lightbox"  width="560" height="315" src="https://www.youtube.com/embed/{{ item.youtube_id }} " frameborder="0" allowfullscreen id="video"></iframe>
