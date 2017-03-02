@@ -142,29 +142,31 @@
     }
   }
     &.submenu--open {
-      ul {
-        opacity: 1;
-        transition: all .4s linear;
-        visibility: visible;
-        li {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        ul {
           opacity: 1;
-          margin-top: 0;
-          animation: FadeIn .3s linear;
-        animation-fill-mode:both;
-          &:nth-child(2){
-            animation-delay: .1s
-          }
-          &:nth-child(3){
-            animation-delay: .2s
-          }
-          &:nth-child(4){
-            animation-delay: .3s
-          }
-          &:nth-child(5){
-            animation-delay: .4s
-          }
-          &:nth-child(6){
-            animation-delay: .5s
+          transition: all .4s linear;
+          visibility: visible;
+          li {
+            opacity: 1;
+            margin-top: 0;
+            animation: FadeIn .3s linear;
+          animation-fill-mode:both;
+            &:nth-child(2){
+              animation-delay: .1s
+            }
+            &:nth-child(3){
+              animation-delay: .2s
+            }
+            &:nth-child(4){
+              animation-delay: .3s
+            }
+            &:nth-child(5){
+              animation-delay: .4s
+            }
+            &:nth-child(6){
+              animation-delay: .5s
+            }
           }
         }
       }
@@ -177,16 +179,16 @@
     padding: 0;
   }
 }
-.main-nav .menu {
+.main-nav > .menu {
+  transition: all .5s linear;
   max-height: 0;
   overflow: hidden;
-  transition: all .3s linear;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     max-height: none;
   }
   &.show {
     transition: all .5s linear;
-    max-height: 5000px;
+    max-height: 1000px;
     padding-top: 1em;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       max-height: none;

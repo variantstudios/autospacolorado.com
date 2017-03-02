@@ -1,6 +1,10 @@
 .gallery-detail-node {
-    padding: 5em 0 2em;
+    padding: 2em 0 2em;
     position: relative;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      padding: 5em 0 2em;
+    }
+    
     &:after {
         background: url("../images/bgs/grill.png") no-repeat center center;
         background-position: center;

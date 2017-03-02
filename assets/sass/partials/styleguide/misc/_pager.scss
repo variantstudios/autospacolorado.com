@@ -1,7 +1,10 @@
 ul.pager {
   margin: 2em 0 0;
-  padding:2em 0 9em;
+  padding:2em 0 1em;
   //border-top: 1px solid darken($color-two, 5%);
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+     padding:2em 0 9em;
+  }
   li {
     display: inline-block;
     list-style: none;

@@ -132,9 +132,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
         padding-left: .5rem;
     }*/
   @include clearfix;
-  margin: 1em 1% 2em;
+  padding: 2em 2em 2em;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
   border-radius: 3px;
+  margin-bottom: 2em;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     float: left;
     width: 48%;
