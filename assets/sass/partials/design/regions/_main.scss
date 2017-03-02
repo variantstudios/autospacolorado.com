@@ -76,10 +76,13 @@ main {
 
 
 .page-image--main {
-  margin: -3em auto 4em;
+  margin: 0 auto;
+
   box-shadow: 0 4px 10px rgba(0,0,0,0.25);
   line-height: 0;
-
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+   margin: -3em auto 4em;
+  }
   img {
       width: 100%;
   }

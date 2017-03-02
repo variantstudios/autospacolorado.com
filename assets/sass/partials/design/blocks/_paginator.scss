@@ -1,6 +1,7 @@
 .pager {
     border-top: 1px solid #bfbfbf;
     li {
+        padding-bottom: 1em;
         a {
             border: solid 1px #bfbfbf;
             color: #bfbfbf;
@@ -12,6 +13,7 @@
             text-transform: uppercase;
             cursor: pointer;
             display: inline-block;
+            font-size: 0.9em;
             transition: all .5s, transform .5s ease-out;
             &:hover {
                 border: solid 1px #d5121a;
