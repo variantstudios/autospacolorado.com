@@ -1286,7 +1286,7 @@ ul.pager li {
   text-decoration: none;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.23);
           box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.23);
-  border-radius: 2px;
+  border-radius: 0;
   font-family: "futura-pt", sans-serif;
   padding: 0.75em 1.5em;
   font-weight: 700;
@@ -1295,6 +1295,16 @@ ul.pager li {
   display: block;
   width: 100%;
   text-align: center;
+}
+@media (min-width: 48em) {
+  /* line 35, ../sass/partials/design/blocks/_book-appointment.scss */
+  .book-fixed a {
+    border-radius: 2px;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .book-fixed a {
+  border-radius: 2px;
 }
 
 /* line 55, ../sass/partials/design/blocks/_book-appointment.scss */
