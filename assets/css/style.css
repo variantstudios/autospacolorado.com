@@ -728,13 +728,13 @@ ul.pager li {
   /* line 2, ../sass/partials/design/blocks/_logo.scss */
   .logo img {
     margin: 0;
-    max-width: 250px;
+    width: 250px;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .logo img {
   margin: 0;
-  max-width: 250px;
+  width: 250px;
 }
 
 @-webkit-keyframes FadeIn {
