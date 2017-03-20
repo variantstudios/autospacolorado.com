@@ -6,19 +6,6 @@ $(document).ready(function() {
         $('html').addClass('no-mq');
     }
 
-    /* --- Mobile Menu ToggleClass -- */
-    // $('.book-fixed').click(function() {
-    //   $('.book-apt-modal').toggleClass('modal-open');
-    //   $('.overlay').toggleClass('overlay-show');
-    //   $("html, body").animate({ scrollTop: $(".book-apt-modal").offset().top},
-    //           'slow');
-    // return false;
-    // });
-    // $('.close-form').click(function() {
-    //    $('.book-apt-modal').toggleClass('modal-open');
-    //   $('.overlay').toggleClass('overlay-show');
-    // });
-
     function goToByScroll(id) {
         // Reove "link" from the ID
         id = id.replace("link", "");
