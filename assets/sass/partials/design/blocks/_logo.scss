@@ -4,7 +4,7 @@
     margin: 0 auto 0 auto;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       margin: 0;
-      max-width: 250px;
+      width: 250px;
     }
   }
 }
