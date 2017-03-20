@@ -36,5 +36,27 @@
     text-align: center;
   }
 
-
+  .gift-card {
+    @include clearfix;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+    .product-item--image {
+      @include breakpoint($bp-large, $no-query: '.no-mq') {
+        float: left;
+        width: 50%;
+      }
+      .snipcart-add-item {
+        padding: 0;
+        border: 0;
+      }
+    }
+    .gift-card-content {
+      text-align: left;
+      padding: 1em;
+      @include breakpoint($bp-large, $no-query: '.no-mq') {
+        float: right;
+        width: 50%;
+        padding: 2em;
+      }
+    }
+  }
 }
