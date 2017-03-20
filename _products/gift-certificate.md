@@ -3,7 +3,7 @@ layout: store-detail
 title: Gift Certificate
 group: Gift Certificate
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
-image_path: /assets/images/store/detail-gold.png
+image_path: /assets/images/store/giftcard.png
 description: 'These gift certificates are valid on any service we offer. Please print and give the receipt to the great person you wish to give the gift certificate to. Thank you. '
 product_id: 1
 base_price: '20.00'

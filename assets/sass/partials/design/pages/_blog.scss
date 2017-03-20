@@ -1,0 +1,11 @@
+.back-to-blog {
+      text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 3em;
+     @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      margin-top: 0;
+     } 
+    a {
+      text-decoration: none;
+    }
+}

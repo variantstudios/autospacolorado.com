@@ -5,25 +5,29 @@ layout: page
 <section class="store-wrapper">
     {% for gc in site.products %}
     {% if gc.group =="Gift Certificate" %}
-    {{gc.title}}
+    
 
-    <article class="clearfix">
+    <article class="clearfix gift-card">
+        <div class="product-item--image">
+          {% if gc.image_path %}
+          <a class="snipcart-add-item" class="snipcart-add-item" data-item-id="{{gc.product_id}}" data-item-name="{{ gc.title }}" data-item-price="{{gc.base_price}}" data-item-weight="0" data-item-url="{{site.url}}{{gc.url}}"
+          data-item-custom1-name="Gift Certificate Amounts" data-item-custom1-options="{% for addons in gc.add_ons %}{{addons.title}}{% if  addons.price %}[+{{addons.price}}]{%endif%}{% unless forloop.last %}|{% endunless %}{% endfor %}">
+            <img src="{{ gc.image_path }}" alt="{{ gc.title }}" title="{{ gc.title }}">
+          </a>
+          {% endif %}
+        </div>
+        <div class="gift-card-content">
+         <h2>{{gc.title}}</h2>
+          <h4>${{gc.base_price  }}</h4>
+           <p>{{ gc.description }}</p>
 
-          <div class="">
-            <h4>${{gc.base_price  }}</h4>
-             <p>{{ gc.description }}</p>
-            <div class="product-item--image">
-                {% if gc.image_path %}
-                <img src="{{ gc.image_path }}" alt="{{ gc.title }}" title="{{ gc.title }}"> {% endif %}
-            </div>
-            {% if content %}
-              <p>{{ content }}</p>
-            {% endif %}
-          </div>
-
-          <div class="buy-now">
-              <a class="snipcart-add-item" class="snipcart-add-item" data-item-id="{{gc.product_id}}" data-item-name="{{ gc.title }}" data-item-price="{{gc.base_price}}" data-item-weight="0" data-item-url="{{site.url}}{{gc.url}}"
-              data-item-custom1-name="Gift Certificate Amounts" data-item-custom1-options="{% for addons in gc.add_ons %}{{addons.title}}{% if  addons.price %}[+{{addons.price}}]{%endif%}{% unless forloop.last %}|{% endunless %}{% endfor %}">Buy Now</a></div>
+          {% if content %}
+            <p>{{ content }}</p>
+          {% endif %}
+                <div class="buy-now">
+          <a class="snipcart-add-item" class="snipcart-add-item" data-item-id="{{gc.product_id}}" data-item-name="{{ gc.title }}" data-item-price="{{gc.base_price}}" data-item-weight="0" data-item-url="{{site.url}}{{gc.url}}"
+          data-item-custom1-name="Gift Certificate Amounts" data-item-custom1-options="{% for addons in gc.add_ons %}{{addons.title}}{% if  addons.price %}[+{{addons.price}}]{%endif%}{% unless forloop.last %}|{% endunless %}{% endfor %}">Buy Now</a></div>
+        </div>
       </article>
 
     {% endif %}
