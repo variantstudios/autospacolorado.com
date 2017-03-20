@@ -3,10 +3,10 @@
 <script>window.jQuery || document.write('<script src="/assets/js/prod/jquery-1-11-1.min.js"><\/script>')</script>
 <!-- Snipcart JS -->
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart-key }}"></script>
-<!-- VS Custom Cloudinary JS -->
-  <!--<script src="/assets/js/prod/cloudinary.js"></script>-->
-<!-- Side JS Script for home page -->
+
+
 {% if page.url == "/" %}
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -14,7 +14,7 @@ $(document).ready(function(){
    $(".videobg").fitVids();
  });
 </script>
-  <script src="/assets/js/prod/jquery.vide.js"></script>
+
 <!-- Slick Gallery for Home -->
   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   <!-- Slick Init -->
@@ -67,8 +67,7 @@ $(document).ready(function(){
 <!-- ScrollReveal Library -->
 <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 <!-- Featherlight Library -->
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/dev/featherlight.min.js"></script>
 <!-- ScrollReveal Inits -->
 <script type="text/javascript">
   window.sr = ScrollReveal({ reset: true });
