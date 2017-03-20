@@ -10,7 +10,15 @@
 
     {% include browserupgrade.html %}
 
+
+  {% if page.permalink == "/contact/" %}
+  <div class="header-wrapper clearfix" style="margin-top: 0 !important">
+  {% elsif page.permalink == "/book-appointment/" %}
+  <div class="header-wrapper clearfix" style="margin-top: 0 !important">
+
+  {% else %}
   <div class="header-wrapper clearfix">
+  {% endif %}
 	  {% include header.html %}
   </div>
 
