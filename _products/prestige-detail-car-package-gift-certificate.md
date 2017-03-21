@@ -3,7 +3,7 @@ layout: store-detail
 title: Prestige Detail Car Gift Certificate
 group: Detailing Package Gift Certificates
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
-image_path: /assets/images/store/detail-silver.png
+image_path: /assets/images/store/default.jpg
 description: 'What most would consider a full inside and out detail. Included would be a full interior, clay bar process and a 1-step paint enhancement polish (20% light surface scratch removal).'
 product_id: 12
 base_price: '229.00'

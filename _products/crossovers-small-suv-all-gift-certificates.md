@@ -3,7 +3,7 @@ layout: "store-detail"
 title: "Crossovers/Small Suv Window Tinting (all windows*) Window Tinting Gift Certificate"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347062809.jpg
-image_path: /assets/images/store/tint-truck.png
+image_path: /assets/images/store/default.jpg
 description: "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
 product_id: 7
 base_price: "309.00"

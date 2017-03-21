@@ -3,7 +3,7 @@ layout: "store-detail"
 title: "4 Door Car (sedan) Window Tinting Gift Certificate"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg
-image_path: /assets/images/store/tint-4-door-sedan.png
+image_path: /assets/images/store/default.jpg
 description: "Window tinting for a 4 door car. Includes all the windows except the front windshield or sunroof."
 product_id: 3
 base_price: "278.00"

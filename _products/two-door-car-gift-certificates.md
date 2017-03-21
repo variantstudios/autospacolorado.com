@@ -3,7 +3,7 @@ layout: "store-detail"
 title: "2 Door Car Window Tinting Gift Certificate"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/341145803.jpg
-image_path: /assets/images/store/tint-2-door.png
+image_path: /assets/images/store/default.jpg
 description: "Gift Certificate for tinting on most 2 door cars. Includes a lifetime warranty."
 product_id: 2
 base_price: "209.00"

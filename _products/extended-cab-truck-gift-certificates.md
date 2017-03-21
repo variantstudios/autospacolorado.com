@@ -3,7 +3,7 @@ layout: "store-detail"
 title: "Extended Cab Truck (not full size rear doors) Window Tinting Gift Certificate"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347034636.jpg
-image_path: /assets/images/store/tint-truck.png
+image_path: /assets/images/store/default.jpg
 description: "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
 product_id: 5
 base_price: "229.00"

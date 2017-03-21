@@ -3,7 +3,7 @@ layout: store-detail
 title: Signature Detail Car Gift Certificate
 group: Detailing Package Gift Certificates
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
-image_path: /assets/images/store/detail-bronze.png
+image_path: /assets/images/store/default.jpg
 description: This package fits perfectly for vehicles that have been detailed within the last 2 – 3 months or for those looking for a quick cleaning of their vehicles.
 product_id: 13
 base_price: '159.00'

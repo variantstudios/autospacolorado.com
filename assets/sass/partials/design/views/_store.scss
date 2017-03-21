@@ -30,6 +30,29 @@
   }
   .product-item--image {
     line-height: 0;
+    position: relative;
+    background: #523e3e;
+    .product-caption {
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 2em;
+      z-index: 1;
+      h2 {
+        color: #fff;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+        line-height: 1.1;
+      }
+      h6 {
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+        margin: 0;
+        color: #fad04c;
+        font-size: 1.5em;
+      }
+    }
+    img {
+      opacity: 0.5;
+    }
   }
   .store-group-labels {
     padding: 2em 0;
@@ -39,6 +62,9 @@
   .gift-card {
     @include clearfix;
     box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+    img {
+      opacity: 1;
+    }
     .product-item--image {
       @include breakpoint($bp-large, $no-query: '.no-mq') {
         float: left;

@@ -41,7 +41,11 @@ layout: page
     <article class="product-item clearfix">
          <a href="{{ item.url }}" title="{{ item.title }}">
             <div class="product-item--image">
-                {% if item.image_path %}
+              <div class="product-caption">
+                <h6>{{item.subtitle}}</h6>
+                <h2>{{item.title}}</h2>
+              </div>
+               {% if item.image_path %}
                 <img src="{{ item.image_path }}" alt="{{ item.title }}" title="{{ item.title }}"> {% endif %}
             </div>
             <div class="product-item--content">

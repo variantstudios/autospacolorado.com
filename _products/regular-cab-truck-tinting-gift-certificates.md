@@ -3,7 +3,7 @@ layout: "store-detail"
 title: "Regular Cab Truck Tinting"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/346603582.jpg
-image_path: /assets/images/store/tint-truck-reg.png
+image_path: /assets/images/store/default.jpg
 description: "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
 product_id: 4
 base_price: "199.00"
