@@ -2,8 +2,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/prod/jquery-1-11-1.min.js"><\/script>')</script>
 <!-- Snipcart JS -->
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart-key }}"></script>
 
+{% if page.url == "/store/" %}
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart-key }}"></script>
+{% endif %}
 
 {% if page.url == "/" %}
 
@@ -66,8 +68,12 @@ $(document).ready(function(){
 
 <!-- ScrollReveal Library -->
 <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+
 <!-- Featherlight Library -->
-<script src="/assets/js/dev/featherlight.min.js"></script>
+{% if page.url != "/" %}
+  <script src="/assets/js/dev/featherlight.min.js"></script>
+{% endif %}
+
 <!-- ScrollReveal Inits -->
 <script type="text/javascript">
   window.sr = ScrollReveal({ reset: true });
@@ -95,7 +101,9 @@ $(document).ready(function(){
 <script src="/assets/js/prod/scripts.js"></script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58af7cca5245f57c"></script>
+{% if page.url != "/" %}
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58af7cca5245f57c"></script>
+{% endif %}
 
 {% if site.google_analytics_tracking_id %}
   <!-- google analytics -->
