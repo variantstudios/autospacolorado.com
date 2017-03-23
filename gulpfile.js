@@ -12,11 +12,14 @@ var gulp = require('gulp'),
   cp = require('child_process'),
   uglify = require('gulp-uglify'),
   plumber = require('gulp-plumber'),
+  htmlmin = require('gulp-html-minifier'),
   gzip = require('gulp-gzip');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
+
+
 
 /**
  * Build the Jekyll Site
@@ -49,8 +52,6 @@ gulp.task('browser-sync', ['compass', 'jekyll-build'], function() {
 /**
  * Compile files from assets/css into both _site/assets/css (for live injecting) and site (for future jekyll builds)
  */
-
-
 gulp.task('sass-deploy', function() {
   gulp.src('assets/css/**/*.scss')
     .pipe(sass({
@@ -73,11 +74,11 @@ gulp.task('sass-deploy', function() {
 gulp.task('watch', function() {
   gulp.watch('assets/sass/**', ['compass']);
   gulp.watch('assets/js/dev/**', ['scripts']);
+  gulp.watch('_site/*.html', ['minify']);
   gulp.watch(['**.md', '**.html', '_layouts/**.html', '_includes/**.html', '_data/**', 'pages/**', 'assets/**.csv', 'assets/images/**', '_projects/**','_services/**','_products/**','_locations/**',], ['jekyll-rebuild']);
 });
 
 // Compile Compass/sass
-
 gulp.task('compass', function() {
   gulp.src('assets/sass/**.scss')
     .pipe(plumber())
@@ -103,6 +104,14 @@ gulp.task('minify-css', function() {
   return gulp.src('/assets/css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist'));
+});
+
+
+// Minify HTML
+gulp.task('minify', function() {
+  gulp.src('_site/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('_site/'))
 });
 
 
