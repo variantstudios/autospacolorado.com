@@ -12,7 +12,7 @@ var gulp = require('gulp'),
   cp = require('child_process'),
   uglify = require('gulp-uglify'),
   plumber = require('gulp-plumber'),
-  htmlmin = require('gulp-html-minifier'),
+  htmlmin = require('gulp-htmlmin'),
   gzip = require('gulp-gzip');
 
 var messages = {
@@ -108,12 +108,22 @@ gulp.task('minify-css', function() {
 
 
 // Minify HTML
-gulp.task('minify', function() {
-  gulp.src('_site/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('_site/'))
-});
+// gulp.task('minify', function() {
+//   gulp.src('_site/**.html')
+//     .pipe(htmlmin({collapseWhitespace: true}))
+//     .pipe(gulp.dest('_site/'))
+// });
 
+gulp.task('minify', function() {
+  return gulp.src('_site/*.html')
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      minifyJS: true,
+      removeComments: true
+
+    }))
+    .pipe(gulp.dest('_site/'));
+});
 
 // JS Script Tasks
 
