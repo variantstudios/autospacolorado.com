@@ -1,14 +1,13 @@
 ---
 layout: "store-detail"
 title:"Crew Cab Truck Window Tinting Gift Certificate"
-teaser_title:
-  top: "Crew Cab Trucks"
-  bottom: "2 Front Windows+"
-  image_path: "/assets/images/store/tint-truck.png"
+teaser:
+  top_title: "Crew Cab Trucks"
+  bottom_title: "2 Front Windows+"
+  short_description:"Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
+  image_path: "/assets/images/store/ford-lightning.jpg"
 group: "Window Tinting Gift Certificates"
-header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347062177.jpg
-image_path: /assets/images/store/tint-truck.png
-description: "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
+header_image_path: "/assets/images/store/ford-lightning_lg.jpg"
 product_id: 6
 base_price: "259.00"
 add_ons:

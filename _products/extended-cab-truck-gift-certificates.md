@@ -1,14 +1,13 @@
 ---
 layout: "store-detail"
 title: "Extended Cab Truck (not full size rear doors) Window Tinting Gift Certificate"
-teaser_title:
-  top: "Extended Cab"
-  bottom: "Truck Tinging"
-  image_path: "/assets/images/store/tint-truck.png"
+teaser:
+  top_title: "Extended Cab"
+  bottom_title: "Truck Tinging"
+  short_description: "Includes the 2 front door windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider."
+  image_path: "/assets/images/store/Ford-F350-Red-2016.jpg"
 group: "Window Tinting Gift Certificates"
-header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347034636.jpg
-image_path: /assets/images/store/tint-truck.png
-description: "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
+header_image_path: /assets/images/store/Ford-F350-Red-2016_lg.jpg
 product_id: 5
 base_price: "229.00"
 add_ons:
