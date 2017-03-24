@@ -2,8 +2,8 @@
 layout: "store-detail"
 title: "Regular Cab Truck Tinting"
 teaser:
-  top_title:: "Regular Cab"
-  bottom_title:: "Truck Tinting"
+  top_title: "Regular Cab"
+  bottom_title: "Truck Tinting"
   short_description: "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
   image_path: "/assets/images/store/ford-lightning.jpg"
 group: "Window Tinting Gift Certificates"

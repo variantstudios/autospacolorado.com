@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Colorado Car Show Season Approaching
 date: 2017-02-20T00:00:00.000Z
 image_path: /assets/images/blog/orange-lambo.jpg
-description: 'Spring is near, there will be rain showers, tree sap falling, and tar being applied to the roads. All of these are potential hazards that could damage the exterior of your vehicle if it is not protected properly. You could opt to constantly wax your vehicle every 3-4 weeks, risk the potential of getting wax onto your plastics and staining it, leaving wax residue behind that would give it a milky looking finish, and of course every time you go to touch your vehicle you have the possibility of scratching it.'
-person:
-category:
-tags:
+short_description: 'Spring is near, there will be rain showers, tree sap falling, and tar being applied to the roads. All of these are potential hazards that could damage the exterior of your vehicle if it is not protected properly. You could opt to constantly wax your vehicle every 3-4 weeks, risk the potential of getting wax onto your plastics and staining it, leaving wax residue behind that would give it a milky looking finish, and of course every time you go to touch your vehicle you have the possibility of scratching it.'
+search_engine_optimization:
+  page_title: "Colorado Car Show Season Approaching"
+  page_description: "Spring is near, there will be rain showers, tree sap falling, and tar being applied to the roads. All of these are potential hazards that could damage the exterior of your vehicle if it is not protected properly."
 ---
 
 Spring is near, there will be rain showers, tree sap falling, and tar being applied to the roads. All of these are potential hazards that could damage the exterior of your vehicle if it is not protected properly. You could opt to constantly wax your vehicle every 3-4 weeks, risk the potential of getting wax onto your plastics and staining it, leaving wax residue behind that would give it a milky looking finish, and of course every time you go to touch your vehicle you have the possibility of scratching it.
