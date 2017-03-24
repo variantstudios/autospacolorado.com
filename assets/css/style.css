@@ -2120,11 +2120,22 @@ ul.services-list li img {
 
 /* line 205, ../sass/partials/design/pages/_front.scss */
 .hero {
-  margin-top: -90px;
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: 300px;
 }
-/* line 209, ../sass/partials/design/pages/_front.scss */
+@media (min-width: 48em) {
+  /* line 205, ../sass/partials/design/pages/_front.scss */
+  .hero {
+    height: 85vh;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .hero {
+  height: 85vh;
+}
+/* line 213, ../sass/partials/design/pages/_front.scss */
 .hero:after {
   content: '';
   display: block;
