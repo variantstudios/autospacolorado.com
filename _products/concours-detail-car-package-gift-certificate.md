@@ -8,7 +8,6 @@ teaser:
   image_path: "/assets/images/store/detail-gold.png"
 group: Detailing Package Gift Certificates
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
-image_path: /assets/images/store/detail-gold.png
 product_id: 11
 base_price: '359.00'
 add_ons:

@@ -7,8 +7,7 @@ teaser:
   short_description: "Includes the 2 front door windows and rear solid window tint."
   image_path: "/assets/images/store/jeep.jpg"
 group: "Window Tinting Gift Certificates"
-header_image_path: "/assets/images/store/jeep.jpg"
-image_path: /assets/images/store/tint-truck.png
+header_image_path: "/assets/images/store/jeep_lg.jpg"
 product_id: 7
 base_price: "309.00"
 add_ons:
