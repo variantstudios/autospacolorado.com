@@ -202,7 +202,8 @@ ul.services-list {
 }
 
 
-.hero.videobg {
+.hero {
+  margin-top: -90px;
     position: relative;
     z-index: 1;
     &:after {
