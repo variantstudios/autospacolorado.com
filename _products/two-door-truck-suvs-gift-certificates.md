@@ -1,14 +1,13 @@
 ---
 layout: "store-detail"
 title: "Trucks and Suvs 2 front windows"
-teaser_title:
-  top: "Trucks and SUVs"
-  bottom: "2 Front Windows"
+teaser:
+  top_title: "Trucks and SUVs"
+  bottom_title: "2 Front Windows"
+  short_description: "This gift certificate is valid for tinting 2 front door windows on trucks and Suvs."
   image_path: "/assets/images/store/tint-truck.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/341145255.jpg
-image_path: /assets/images/store/tint-truck.png
-description: "This gift certificate is valid for tinting 2 front door windows on trucks and Suvs."
 product_id: 1
 base_price: "109.00"
 add_ons:

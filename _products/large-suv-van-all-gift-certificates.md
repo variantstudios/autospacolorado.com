@@ -1,14 +1,13 @@
 ---
 layout: "store-detail"
 title: "Large Suv/ Van window tinting (all windows*) Window Tinting Gift Certificate"
-teaser_title:
-  top: "Large SUVs and Vans"
-  bottom: "Window Tinging"
+teaser:
+  top_title: "Large SUVs and Vans"
+  bottom_title: "Window Tinging"
+  short_description: "Includes a lifetime nationwide warranty. Includes all windows except the front windshield and sunroof."
   image_path: "/assets/images/store/tint-truck.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347089020.jpg
-image_path: /assets/images/store/tint-truck.png
-description: "Includes a lifetime nationwide warranty. Includes all windows except the front windshield and sunroof."
 product_id: 8
 base_price: "359.00"
 add_ons:
