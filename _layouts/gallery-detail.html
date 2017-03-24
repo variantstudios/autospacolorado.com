@@ -5,9 +5,6 @@ layout: default
 
 <main class="gallery-detail-node">
   <div class="wrap">
-    <!-- <h1 class="gallery-title">{{ page.title }}</h1> -->
-
-
     <!-- Video & Images Grid -->
     <ul class="gallery-grid" data-featherlight-gallery data-featherlight-filter="a">
       <li itemscope class="grid-item first-grid-item">
@@ -36,17 +33,19 @@ layout: default
 
     <div class="gallery-content-section">
       <div class="content-section">{{ content }}</div>
+      {% if page.services %}
+        <div class="gallery-service-section">
+          <ul class="service-list">
+            {% for item in page.services %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
       <div class="addthis_inline_share_toolbox"></div>   
     </div>
-    {% if page.services %}
-      <div class="gallery-service-section">
-        <ul class="service-list">
-          {% for item in page.services %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
+
   </div>
   <div class="wrap">
 
