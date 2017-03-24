@@ -1,14 +1,13 @@
 ---
 layout: "store-detail"
 title: "4 Door Car (sedan) Window Tinting Gift Certificate"
-teaser_title:
-  top: "4 Door Sedan"
-  bottom: "Window Tinging"
-  image_path: "/assets/images/store/tint-4-door-sedan.png"
+teaser:
+  top_title: "4 Door Sedan"
+  bottom_title: "Window Tinging"
+  short_description: "Window tinting for a 4 door car. Includes all the windows except the front windshield or sunroof."
+  image_path: "/assets/images/store/BMW-64Oi.jpg"
 group: "Window Tinting Gift Certificates"
-header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg
-image_path: /assets/images/store/tint-4-door-sedan.png
-description: "Window tinting for a 4 door car. Includes all the windows except the front windshield or sunroof."
+header_image_path: "/assets/images/store/BMW-64Oi_lg.jpg"
 product_id: 3
 base_price: "278.00"
 add_ons:

@@ -1,14 +1,14 @@
 ---
 layout: store-detail
 title: "Concours Detail Car Gift Certificate"
-teaser_title:
-  top: "Gold"
-  bottom: "Concours Detail"
+teaser:
+  top_title: "Gold"
+  bottom_title: "Concours Detail"
+  short_description: 'The package demanded by auto enthusiast of all types for a complete and extensive detailing service. '
   image_path: "/assets/images/store/detail-gold.png"
 group: Detailing Package Gift Certificates
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
 image_path: /assets/images/store/detail-gold.png
-description: 'The package demanded by auto enthusiast of all types for a complete and extensive detailing service. '
 product_id: 11
 base_price: '359.00'
 add_ons:

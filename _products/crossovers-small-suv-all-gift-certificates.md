@@ -1,14 +1,14 @@
 ---
 layout: "store-detail"
 title: Crossovers/Small Suv Window Tinting (all windows*) Window Tinting Gift Certificate"
-teaser_title:
-  top: "Small SUVs"
-  bottom: "All Windows"
-  image_path: "/assets/images/store/tint-truck.png"
+teaser:
+  top_title: "Small SUVs"
+  bottom_title: "All Windows"
+  short_description: "Includes the 2 front door windows and rear solid window tint."
+  image_path: "/assets/images/store/jeep.jpg"
 group: "Window Tinting Gift Certificates"
-header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347062809.jpg
+header_image_path: "/assets/images/store/jeep.jpg"
 image_path: /assets/images/store/tint-truck.png
-description: "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
 product_id: 7
 base_price: "309.00"
 add_ons:

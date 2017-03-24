@@ -5,7 +5,7 @@ layout: page
 <section class="store-wrapper">
     {% for gc in site.products %}
     {% if gc.group =="Gift Certificate" %}
-    
+
 
     <article class="clearfix gift-card">
         <div class="product-item--image">
@@ -41,12 +41,12 @@ layout: page
     <article class="product-item clearfix">
          <a href="{{ item.url }}" title="{{ item.title }}">
             <div class="product-item--image">
-                {% if item.image_path %}
-                <img src="{{ item.image_path }}" alt="{{ item.title }}" title="{{ item.title }}"> {% endif %}
+                {% if item.teaser.image_path %}
+                <img src="{{ site.cloudinaryurl }}image/fetch/w_357,h_228,c_fill/{{ site.url }}/{{ item.teaser.image_path }}" alt="{{ item.title }}" title="{{ item.title }}"> {% endif %}
             </div>
             <div class="product-item--content">
-                <h4>{{item.price_range}}</h4> {% if item.description %}
-                <p>{{ item.description }}</p>
+                <h4>{{item.price_range}}</h4> {% if item.teaser.short_description %}
+                <p>{{ item.teaser.short_description }}</p>
                 {% endif %}
             </div>
             </a>
