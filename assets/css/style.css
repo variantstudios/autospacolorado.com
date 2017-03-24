@@ -2119,12 +2119,13 @@ ul.services-list li img {
 }
 
 /* line 205, ../sass/partials/design/pages/_front.scss */
-.hero.videobg {
+.hero {
+  margin-top: -90px;
   position: relative;
   z-index: 1;
 }
-/* line 208, ../sass/partials/design/pages/_front.scss */
-.hero.videobg:after {
+/* line 209, ../sass/partials/design/pages/_front.scss */
+.hero:after {
   content: '';
   display: block;
   width: 100%;
