@@ -5,9 +5,9 @@ teaser:
   top_title: "2 Door Cars"
   bottom_title: "Window Tinting"
   short_description: "Gift Certificate for tinting on most 2 door cars. Includes a lifetime warranty."
-  image_path: "/assets/images/store/tint-2-door.png"
+  image_path: "/assets/images/store/green-vette.jpg"
 group: "Window Tinting Gift Certificates"
-header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/341145803.jpg
+header_image_path: "/assets/images/store/green-vette_lg.jpg"
 product_id: 2
 base_price: "209.00"
 add_ons:
