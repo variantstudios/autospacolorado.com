@@ -2131,7 +2131,7 @@ ul.services-list li img {
     height: 85vh;
   }
 }
-/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .hero {
   height: 85vh;
 }
@@ -3213,20 +3213,49 @@ main, header, footer, section, aside {
   padding: 2em;
 }
 
-/* line 2, ../sass/partials/design/views/_snipcart.scss */
+@-webkit-keyframes yellow-fade {
+  /* line 2, ../sass/partials/design/views/_snipcart.scss */
+  0% {
+    background: lightgoldenrodyellow;
+  }
+
+  /* line 3, ../sass/partials/design/views/_snipcart.scss */
+  100% {
+    background: none;
+  }
+}
+
+@keyframes yellow-fade {
+  /* line 2, ../sass/partials/design/views/_snipcart.scss */
+  0% {
+    background: lightgoldenrodyellow;
+  }
+
+  /* line 3, ../sass/partials/design/views/_snipcart.scss */
+  100% {
+    background: none;
+  }
+}
+/* line 5, ../sass/partials/design/views/_snipcart.scss */
+.snip-customfields {
+  -webkit-animation: yellow-fade 2s ease-in 1;
+  animation: yellow-fade 2s ease-in 1;
+}
+
+/* line 10, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite .snip-layout .snip-btn--highlight {
   background: white;
   font-family: "source-sans-pro", sans-serif;
 }
 
-/* line 19, ../sass/partials/design/views/_snipcart.scss */
+/* line 27, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite #snipcart-header #snipcart-title {
   color: #f2eee4;
   background: url(../images/logo.svg) no-repeat 0 center;
   padding-left: 415px;
 }
 
-/* line 25, ../sass/partials/design/views/_snipcart.scss */
+/* line 33, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite ul#snipcart-steps li span.snipcart-step-number, .snip-layout .snip-form__label,
 p.snip-step__label, h2.snip-product__name, p.snip-product__description, .snip-layout th,
 a#snipcart-show-discount-box, .snipcart-overwrite .snip-btn.snip-btn--left,
@@ -3236,33 +3265,33 @@ a#snipcart-show-discount-box, .snipcart-overwrite .snip-btn.snip-btn--left,
   font-family: "source-sans-pro", sans-serif;
 }
 
-/* line 35, ../sass/partials/design/views/_snipcart.scss */
+/* line 43, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite .snip-layout .snip-header__total {
   background: #525252;
 }
-/* line 37, ../sass/partials/design/views/_snipcart.scss */
+/* line 45, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite .snip-layout .snip-header__total .snip-header__total-label {
   color: #111;
   font-family: "source-sans-pro", sans-serif;
 }
-/* line 41, ../sass/partials/design/views/_snipcart.scss */
+/* line 49, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite .snip-layout .snip-header__total #snipcart-amount {
   font-family: "source-sans-pro", sans-serif;
 }
 
-/* line 47, ../sass/partials/design/views/_snipcart.scss */
+/* line 55, ../sass/partials/design/views/_snipcart.scss */
 .snip-layout .snip-ico {
   color: #333;
 }
 
-/* line 51, ../sass/partials/design/views/_snipcart.scss */
+/* line 59, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite .snip-layout .snip-header__total {
   padding: 0em 1em;
   float: right;
   margin-right: 2em;
 }
 
-/* line 56, ../sass/partials/design/views/_snipcart.scss */
+/* line 64, ../sass/partials/design/views/_snipcart.scss */
 .snipcart-overwrite .snip-layout .snip-header {
   background: #f2eee4;
 }

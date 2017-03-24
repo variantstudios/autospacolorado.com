@@ -44,7 +44,7 @@ $(document).ready(function() {
     function checkOffset() {
     var footerHeight = $('.footer-wrapper').height();
 
-    if($('.book-fixed').offset().top + $('.book-fixed').height() 
+    if($('.book-fixed').offset().top + $('.book-fixed').height()
         >= $('.footer-wrapper').offset().top - 10);
         $('.book-fixed').css('bottom', '200px'); // restore when you scroll up
         //$('.book-fixed').css('position', 'absolute');
