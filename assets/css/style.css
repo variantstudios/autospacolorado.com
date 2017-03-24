@@ -2321,8 +2321,8 @@ ul.services-list li img {
 }
 
 @media (min-width: 48em) {
-  /* line 108, ../sass/partials/design/pages/_gallery.scss */
-  .gallery-content-section {
+  /* line 107, ../sass/partials/design/pages/_gallery.scss */
+  .gallery-grid-section {
     width: 48.93617%;
     float: left;
     margin-right: -100%;
@@ -2331,53 +2331,50 @@ ul.services-list li img {
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
-.no-mq .gallery-content-section {
+.no-mq .gallery-grid-section {
   width: 48.93617%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
   clear: none;
 }
-/* line 112, ../sass/partials/design/pages/_gallery.scss */
+
+@media (min-width: 48em) {
+  /* line 112, ../sass/partials/design/pages/_gallery.scss */
+  .gallery-content-section {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .gallery-content-section {
+  margin: 0 auto;
+  width: 70%;
+}
+/* line 117, ../sass/partials/design/pages/_gallery.scss */
 .gallery-content-section .content-section {
   font-size: 1.2em;
   margin-top: .7em;
 }
 
-/* line 118, ../sass/partials/design/pages/_gallery.scss */
+/* line 123, ../sass/partials/design/pages/_gallery.scss */
 .gallery-service-section {
+  text-transform: uppercase;
   font-size: 1.2em;
   margin-top: .7em;
+  margin-bottom: 2em;
 }
-@media (min-width: 48em) {
-  /* line 118, ../sass/partials/design/pages/_gallery.scss */
-  .gallery-service-section {
-    width: 44.68085%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
-}
-/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
-.no-mq .gallery-service-section {
-  width: 44.68085%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
-}
-/* line 124, ../sass/partials/design/pages/_gallery.scss */
+/* line 128, ../sass/partials/design/pages/_gallery.scss */
 .gallery-service-section ul {
   margin-top: 0;
 }
 
-/* line 129, ../sass/partials/design/pages/_gallery.scss */
+/* line 133, ../sass/partials/design/pages/_gallery.scss */
 .featherlight {
   background: rgba(29, 29, 29, 0.91);
 }
 
-/* line 133, ../sass/partials/design/pages/_gallery.scss */
+/* line 137, ../sass/partials/design/pages/_gallery.scss */
 .featherlight .featherlight-content .featherlight-next {
   background: rgba(0, 0, 0, 0.25);
   width: 75px;
@@ -2385,7 +2382,7 @@ ul.services-list li img {
           transition: all .25s linear;
 }
 @media (min-width: 48em) {
-  /* line 133, ../sass/partials/design/pages/_gallery.scss */
+  /* line 137, ../sass/partials/design/pages/_gallery.scss */
   .featherlight .featherlight-content .featherlight-next {
     right: 24px;
     top: 25px;
@@ -2396,16 +2393,16 @@ ul.services-list li img {
   right: 24px;
   top: 25px;
 }
-/* line 141, ../sass/partials/design/pages/_gallery.scss */
+/* line 145, ../sass/partials/design/pages/_gallery.scss */
 .featherlight .featherlight-content .featherlight-next:hover {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 144, ../sass/partials/design/pages/_gallery.scss */
+/* line 148, ../sass/partials/design/pages/_gallery.scss */
 .featherlight .featherlight-content .featherlight-next span {
   display: block;
   text-shadow: none;
 }
-/* line 149, ../sass/partials/design/pages/_gallery.scss */
+/* line 153, ../sass/partials/design/pages/_gallery.scss */
 .featherlight .featherlight-content .featherlight-previous {
   background: rgba(0, 0, 0, 0.25);
   width: 75px;
@@ -2413,7 +2410,7 @@ ul.services-list li img {
           transition: all .25s linear;
 }
 @media (min-width: 48em) {
-  /* line 149, ../sass/partials/design/pages/_gallery.scss */
+  /* line 153, ../sass/partials/design/pages/_gallery.scss */
   .featherlight .featherlight-content .featherlight-previous {
     left: 24px;
     top: 25px;
@@ -2424,11 +2421,11 @@ ul.services-list li img {
   left: 24px;
   top: 25px;
 }
-/* line 157, ../sass/partials/design/pages/_gallery.scss */
+/* line 161, ../sass/partials/design/pages/_gallery.scss */
 .featherlight .featherlight-content .featherlight-previous:hover {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 160, ../sass/partials/design/pages/_gallery.scss */
+/* line 164, ../sass/partials/design/pages/_gallery.scss */
 .featherlight .featherlight-content .featherlight-previous span {
   display: block;
   text-shadow: none;
