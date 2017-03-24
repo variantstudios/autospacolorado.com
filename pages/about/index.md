@@ -1,7 +1,7 @@
 ---
 title: About Greeley Auto Spa
 permalink: /about/
-description: Auto Colorado has an experienced team offering premium car care services and professional grade detailing products for our customers.
+description: Auto Spa  Colorado has an experienced team offering premium car care services and professional grade detailing products for our customers.
 intro: We are very proud to offer an unrivaled range of detailing services designed to meet the needs of discerning customers throughout Northern Colorado Area who want the very best in car care for their vehicles.
 header_image_path: /assets/images/header/about-greeley-auto-spa.jpg
 logos:
