@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
-title: "Crossovers/Small Suv Window Tinting (all windows*) Window Tinting Gift Certificate"
+title: Crossovers/Small Suv Window Tinting (all windows*) Window Tinting Gift Certificate"
+teaser_title:
+  top: "Small SUVs"
+  bottom: "All Windows"
+  image_path: "/assets/images/store/tint-truck.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347062809.jpg
 image_path: /assets/images/store/tint-truck.png

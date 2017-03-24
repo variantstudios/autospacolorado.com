@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
 title: "Large Suv/ Van window tinting (all windows*) Window Tinting Gift Certificate"
+teaser_title:
+  top: "Large SUVs and Vans"
+  bottom: "Window Tinging"
+  image_path: "/assets/images/store/tint-truck.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347089020.jpg
 image_path: /assets/images/store/tint-truck.png

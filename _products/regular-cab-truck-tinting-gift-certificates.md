@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
 title: "Regular Cab Truck Tinting"
+teaser_title:
+  top: "Regular Cab"
+  bottom: "Truck Tinting"
+  image_path: "/assets/images/store/tint-truck-reg.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/346603582.jpg
 image_path: /assets/images/store/tint-truck-reg.png

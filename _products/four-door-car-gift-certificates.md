@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
 title: "4 Door Car (sedan) Window Tinting Gift Certificate"
+teaser_title:
+  top: "4 Door Sedan"
+  bottom: "Window Tinging"
+  image_path: "/assets/images/store/tint-4-door-sedan.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg
 image_path: /assets/images/store/tint-4-door-sedan.png

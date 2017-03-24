@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
 title: "2 Door Car Window Tinting Gift Certificate"
+teaser_title:
+  top: "2 Door Cars"
+  bottom: "Window Tinting"
+  image_path: "/assets/images/store/tint-2-door.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/341145803.jpg
 image_path: /assets/images/store/tint-2-door.png

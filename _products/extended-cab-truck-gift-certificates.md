@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
 title: "Extended Cab Truck (not full size rear doors) Window Tinting Gift Certificate"
+teaser_title:
+  top: "Extended Cab"
+  bottom: "Truck Tinging"
+  image_path: "/assets/images/store/tint-truck.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347034636.jpg
 image_path: /assets/images/store/tint-truck.png
