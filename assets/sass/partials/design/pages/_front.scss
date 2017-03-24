@@ -203,19 +203,23 @@ ul.services-list {
 
 
 .hero {
-  margin-top: -90px;
-    position: relative;
-    z-index: 1;
-    &:after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 60px;
-        background: url(../images/diagonal.svg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        position: absolute;
-        bottom: -1px;
-        z-index: 1000;
-    }
+  position: relative;
+  z-index: 1;
+  width: 100%; 
+  height: 300px;
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    height: 85vh;
+  }
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: url(../images/diagonal.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -1px;
+    z-index: 1000;
+  }
 }
