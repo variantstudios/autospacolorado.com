@@ -1,6 +1,10 @@
 ---
 layout: store-detail
 title: Prestige Detail Car Gift Certificate
+teaser_title:
+  top: "Silver"
+  bottom: "Prestige Detail"
+  image_path: "/assets/images/store/detail-silver.png"
 group: Detailing Package Gift Certificates
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
 image_path: /assets/images/store/detail-silver.png

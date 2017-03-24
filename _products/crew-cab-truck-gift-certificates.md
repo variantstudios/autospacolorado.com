@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
-title: "Crew Cab Truck Window Tinting Gift Certificate"
+title:"Crew Cab Truck Window Tinting Gift Certificate"
+teaser_title:
+  top: "Crew Cab Trucks"
+  bottom: "2 Front Windows+"
+  image_path: "/assets/images/store/tint-truck.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/347062177.jpg
 image_path: /assets/images/store/tint-truck.png

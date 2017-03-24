@@ -1,6 +1,10 @@
 ---
 layout: "store-detail"
 title: "Trucks and Suvs 2 front windows"
+teaser_title:
+  top: "Trucks and SUVs"
+  bottom: "2 Front Windows"
+  image_path: "/assets/images/store/tint-truck.png"
 group: "Window Tinting Gift Certificates"
 header_image_path: https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/341145255.jpg
 image_path: /assets/images/store/tint-truck.png
