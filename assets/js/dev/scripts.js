@@ -32,9 +32,6 @@ $(document).ready(function() {
         $(this).toggleClass('submenu--open');
     });
 
-    /* --- SnipCart Funcationality -- */
-    Snipcart.execute('registerLocale', 'en', {"thankyou_message": "Thanks for your order!"});
-
     $("nav.main-nav").click(function(event) {
         event.stopPropagation();
     });
@@ -60,6 +57,9 @@ $(document).ready(function() {
         checkOffset();
     });
 
+
+    /* --- SnipCart Funcationality -- */
+    Snipcart.execute('registerLocale', 'en', {"thankyou_message": "Thanks for your order!"});
 
 
 });

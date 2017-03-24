@@ -119,7 +119,8 @@ gulp.task('minify', function() {
     .pipe(htmlmin({
       collapseWhitespace: true,
       minifyJS: true,
-      removeComments: true
+      removeComments: true,
+      collapseInlineTagWhitespace: true
 
     }))
     .pipe(gulp.dest('_site/'));
