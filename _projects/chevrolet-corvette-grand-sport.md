@@ -43,6 +43,9 @@ services:
   - coatings
   - detailing
 weight: 5
+search_engine_optimization:
+  page_title: ""
+  page_description: ""
 ---
 
 

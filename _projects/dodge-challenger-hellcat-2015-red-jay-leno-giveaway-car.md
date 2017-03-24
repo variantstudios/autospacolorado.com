@@ -41,12 +41,14 @@ images_and_videos:
   - title:
     image_path: /assets/images/projects/dodge-challenger-hellcat-2015-red-jay-leno-giveaway-car/IMG_1574.jpg
     youtube_id:
-
 services:
   - detailing
   - clear-bra
   - coatings
 weight: 7
+search_engine_optimization:
+  page_title: ""
+  page_description: ""
 ---
 ### A Jay Leno Giveaway Car
 This soldier protected our country, so we protected his ride! The client didn't want to have to worry about anything when it came to the exterior of his car. So we wrapped this entire kitty with our self healing clear bra film and then topped it off an extremely slick ceramic coating for ease of maintenance. Jay Leno light the torch on this giveaway and so we kept it lit by providing the entire service for absolutely free!!!!

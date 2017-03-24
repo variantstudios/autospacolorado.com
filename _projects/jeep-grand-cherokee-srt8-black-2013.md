@@ -40,5 +40,8 @@ services:
   - clear-bra
   - coatings
 weight: 9
+search_engine_optimization:
+  page_title: ""
+  page_description: ""
 ---
 This vehicle was brought to us for removal of poorly installed dealer clear bra and reapplication of our self healing clear bra. But wait, there’s more! This client also wanted to have all the car wash scratches and swirls removed. So we turned the machines on full speed and topped it off with our multi layered ceramic coating.

@@ -37,5 +37,8 @@ services:
   - clear-bra
   - coatings
 weight: 9
+search_engine_optimization:
+  page_title: ""
+  page_description: ""
 ---
 This Denali was denied the proper care from the dealer the day it was born. Brought to us with multiple buffer marks and sanded areas, we corrected the paint, laid out some clear bra on the front clip and sealed it all in with our multi layered ceramic coating for ease of maintenance, enhanced gloss and protection from environmental hazards.

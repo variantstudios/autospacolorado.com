@@ -19,6 +19,9 @@ services:
   - clear-bra
   - coatings
 weight: 4
+search_engine_optimization:
+  page_title: ""
+  page_description: ""
 ---
 
 

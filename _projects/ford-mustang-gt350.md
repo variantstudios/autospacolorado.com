@@ -72,5 +72,8 @@ services:
   - detailing
   - coatings
 weight: 9
+search_engine_optimization:
+  page_title: ""
+  page_description: ""
 ---
 When the smoke clears, cleaning the car should be no fear for this client. Another brand new straight from the dealer project needing some G spa love. We corrected the paint, which had some wet sand marks and swirls and then shielded it with our multi layered ceramic coating and tinted the windows with our heat blocking ceramic window film. Melted tires won’t stick to this paint!
