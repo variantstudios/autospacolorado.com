@@ -19,7 +19,7 @@ add_ons:
     price: "59.00"    
   - title: "Windshield Visor and Sunroof (+$88.00)"
     price: "88.00"
-seo:
+search_engine_optimization:
   page_title: "2 Door Car Window Tinting Gift Certificate"
   page_description:  "Gift Certificate for tinting on most 2 door cars. Includes a lifetime warranty."
 weight: 2

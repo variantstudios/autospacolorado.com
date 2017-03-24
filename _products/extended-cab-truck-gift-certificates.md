@@ -19,7 +19,7 @@ add_ons:
     price: "29.00"    
   - title: "Windshield visor & Slider rear window (+$49.00)"
     price: "49.00"
-seo:
+search_engine_optimization:
   page_title: "Extended Cab Truck (not full size rear doors) Window Tinting Gift Certificate"
   page_description:  "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
 weight: 5

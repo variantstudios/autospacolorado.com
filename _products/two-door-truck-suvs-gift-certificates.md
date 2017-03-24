@@ -21,7 +21,7 @@ add_ons:
     price: "59.00"
   - title: "Windshield Visor and Sunroof (+$88.00)"
     price: "88.00"
-seo:
+search_engine_optimization:
   page_title: "Gift Certificate for Trucks and Suvs: 2 front windows"
   page_description:  "This gift certificate is valid for tinting 2 front door windows on trucks and Suvs."
 weight: 1

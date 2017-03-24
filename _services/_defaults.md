@@ -1,11 +1,6 @@
 ---
-title: 
-description:
+title:
 header_image_path:
-images_and_videos:
-  - title:
-    teaser_image_path:
-    large_image_path:
 pricing:
 service-table:
   - group:
@@ -13,4 +8,7 @@ service-table:
     options:
       - option:
         price:
+search_engine_optimization:
+  page_title:
+  page_description:
 ---

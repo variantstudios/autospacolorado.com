@@ -1,16 +1,17 @@
 ---
 title: Clear Bra/PPF
-description: Do you find rock chips to be annoying? Did you know it only takes 1 drive down the highway in Colorado to get rock chips on the front fascia of your car? We have the perfect solution for you.
 header_image_path: /assets/images/header/clear-bra.jpg
-images_and_videos:
-  - title:
-    teaser_image_path:
-    large_image_path:
-    youtube_url:
 pricing: Pricing will vary depending on material used and how much coverage is desired.
+service-table:
+  - group:
+    desc:
+    options:
+      - option:
+        price:
+search_engine_optimization:
+  page_title: "Clear Bra/PPF"
+  page_description: "Do you find rock chips to be annoying? Did you know it only takes 1 drive down the highway in Colorado to get rock chips on the front fascia of your car? We have the perfect solution for you."
 ---
-
-
 Do you find rock chips to be annoying? Did you know it only takes 1 drive down the highway in Colorado to get rock chips on the front fascia of your car? We have the perfect solution for you, a clear plastic film that is virtually invisible and will resist rock chipping on your vehicles paint.
 
 This film is commonly know as clear bra or PPF(paint protection film). This product is self healing (scratches begin to disappear with heat due to the reversible polymers in the material), comes with a warranty and will pay for itself in the long run by preserving your factory paint, therefore resulting in a higher resale value on your car. We offer a number of brand options such as; Xpel, Suntek and Llumar.

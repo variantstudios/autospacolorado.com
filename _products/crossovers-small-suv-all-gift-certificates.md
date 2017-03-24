@@ -19,7 +19,7 @@ add_ons:
     price: "59.00"    
   - title: "Sunroof and windshield visor (+$88.00)"
     price: "88.00"
-seo:
+search_engine_optimization:
   page_title: "Crossovers/Small Suv Window Tinting (all windows*) Window Tinting Gift Certificate"
   page_description:  "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
 weight: 7

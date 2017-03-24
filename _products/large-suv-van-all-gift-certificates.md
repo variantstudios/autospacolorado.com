@@ -19,7 +19,7 @@ add_ons:
     price: "59.00"    
   - title: "Sunroof and windshield visor (+$88.00)"
     price: "88.00"
-seo:
+search_engine_optimization:
   page_title: "Large Suv/ Van window tinting (all windows*) Window Tinting Gift Certificate"
   page_description:  "Includes a lifetime nationwide warranty. Includes all windows except the front windshield and sunroof."
 weight: 8

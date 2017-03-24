@@ -19,7 +19,7 @@ add_ons:
     price: '60.00'
   - title: 'Lg. Suv, Lg Trucks , Vans (Tahoe, Expedition​, Silverado) (+$90.00)'
     price: '90.00'
-seo:
+search_engine_optimization:
   page_title: Prestige Detail Car Gift Certificate
   page_description: 'What most would consider a full inside and out detail. Included would be a full interior, clay bar process and a 1-step paint enhancement polish (20% light surface scratch removal).'
 weight: 2

@@ -1,12 +1,6 @@
 ---
 title: Windshield Skin
-description: 'Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped?'
 header_image_path: /assets/images/header/windshield-skin.jpg
-images_and_videos:
-  - title:
-    teaser_image_path:
-    large_image_path:
-    youtube_url:
 pricing: 'Pricing varies, Please contact for details.'
 service-table:
   - group:
@@ -14,9 +8,10 @@ service-table:
     options:
       - option:
         price:
+search_engine_optimization:
+  page_title: "Windshield Skin"
+  page_description: "Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped?"
 ---
-
-
 Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped?
 
 Thats correct, just like clear bra (paint protection film) prevents rock chips on the paint of your car, there is a film now that will prevent rock chips in your windshield. This film is even backed by a warranty that will cover the cost of your windshield if it happens to crack within the warranty period!
