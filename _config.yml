@@ -79,11 +79,6 @@ defaults:
       type: products
     values:
       layout: store-detail
-      title:
-      image_path:
-      description:
-      price_range:
-      options:
   -
     scope:
       type: projects

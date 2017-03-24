@@ -3,10 +3,8 @@
 <script>window.jQuery || document.write('<script src="/assets/js/prod/jquery-1-11-1.min.js"><\/script>')</script>
 
 
-{% if page.url == "/store/" %}
 <!-- Snipcart JS -->
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart-key }}"></script>
-{% endif %}
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart-key}}"></script>
 
 {% if page.url == "/" %}
   <script src="/assets/js/prod/jquery.vide.js"></script>

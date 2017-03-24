@@ -1,4 +1,0 @@
----
-title: Developer
-layout: tag
----
