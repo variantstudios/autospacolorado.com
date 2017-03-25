@@ -38,20 +38,24 @@ layout: page
      {% assign items = group.items | sort: "weight" %}
     {% for item in items %}
     {% if item.group !="Gift Certificate" %}
-    <article class="product-item clearfix">
+      <article class="product-item clearfix">
          <a href="{{ item.url }}" title="{{ item.title }}">
             <div class="product-item--image">
                 {% if item.teaser.image_path %}
                 <img src="{{ site.cloudinaryurl }}image/fetch/w_357,h_228,c_fill/{{ site.url }}/{{ item.teaser.image_path }}" alt="{{ item.title }}" title="{{ item.title }}"> {% endif %}
+                <div class="product-image-caption">
+                  <h4>{{ item.teaser.top_title }}</h4>
+                  <h2>{{ item.teaser.bottom_title }}</h2>
+                </div>
             </div>
             <div class="product-item--content">
                 <h4>{{item.price_range}}</h4> {% if item.teaser.short_description %}
                 <p>{{ item.teaser.short_description }}</p>
                 {% endif %}
             </div>
-            </a>
+          </a>
         </article>
-        {%endif%}
-      {%endfor%}
+      {%endif%}
+    {%endfor%}
   {%endfor%}
 </section>
