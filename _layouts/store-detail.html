@@ -1,21 +1,15 @@
 ---
 layout: page
+class: store
 ---
-
-<section class="">
-  <!-- {% assign collection = site.products | item_by: "item" %} -->
-
-    <h2 class="">{{ page.name }}</h2>
-
+<section class="store--details">
       <article class="clearfix">
-
             <div class="">
               <h4>${{page.base_price  }}</h4>
               {% if content %}
                 <p>{{ content }}</p>
               {% endif %}
-            </div>
-
+          </div>
             <div class="buy-now">
                 <a class="snipcart-add-item" class="snipcart-add-item" data-item-id="{{page.product_id}}" data-item-name="{{ page.title }}" data-item-price="{{page.base_price}}" data-item-weight="0" data-item-url="{{site.url}}{{page.url}}" "
                 data-item-custom1-name="Add-Ons"
