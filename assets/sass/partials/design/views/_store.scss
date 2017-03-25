@@ -30,6 +30,56 @@
   }
   .product-item--image {
     line-height: 0;
+    position: relative;
+    background: #382b2b;
+    .product-image-caption {
+      position: absolute;
+      top: 0;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;      
+    text-transform: uppercase;
+    padding: 2em 0 0;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        padding: 2em 0 0;
+    }
+    @include breakpoint($bp-lmedium, $no-query: '.no-mq') {
+        padding: 3em 0 0;
+    }
+    @include breakpoint($bp-large, $no-query: '.no-mq') {
+        padding: 2.5em 0 0;
+    }
+    @include breakpoint($bp-xlarge) {
+         padding: 4em 0 0;
+    }
+      h2 {
+        color: #fff;
+        font-size: 2.4em;
+        line-height: 1.1;
+        @include breakpoint($bp-lmedium, $no-query: '.no-mq') {
+        font-size: 3em;
+    }
+        @include breakpoint($bp-large, $no-query: '.no-mq') {
+          font-size: 2.2em;
+        }
+        @include breakpoint($bp-xlarge) {
+          font-size: 3em;
+        }
+      }
+      h4,h2 {
+        margin: 0;
+        text-shadow: 0 0 4px rgba(0,0,0,0.5);
+      }
+      h4 {
+        color: #ffc027;
+      }
+    }
+    img {
+      opacity: 0.3;
+      width: 100%;
+    }
   }
   .store-group-labels {
     padding: 2em 0;
@@ -40,6 +90,9 @@
     @include clearfix;
     box-shadow: 0 2px 16px rgba(0,0,0,0.2);
     .product-item--image {
+      img {
+        opacity: 1;
+      }
       @include breakpoint($bp-large, $no-query: '.no-mq') {
         float: left;
         width: 50%;
