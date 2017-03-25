@@ -4,7 +4,7 @@
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       padding: 5em 0 2em;
     }
-    
+
     &:after {
         background: url("../images/bgs/grill.png") no-repeat center center;
         background-position: center;
@@ -127,6 +127,7 @@
     margin-bottom: 2em;
     ul {
         margin-top: 0;
+        list-style-image: url('/assets/images/star.svg');
     }
 }
 

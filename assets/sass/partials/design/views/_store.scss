@@ -88,7 +88,7 @@
 
   .gift-card {
     @include clearfix;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.21);
     .product-item--image {
       img {
         opacity: 1;
@@ -112,4 +112,10 @@
       }
     }
   }
+}
+
+.store--details {
+    ul {
+        list-style-image: url('/assets/images/star.svg');
+    }
 }
