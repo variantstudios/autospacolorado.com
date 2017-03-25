@@ -30,7 +30,7 @@ images:
     image_path: /assets/images/projects/lamborghini-aventador-black-2012/880x0_p1a4s35l7jlsukvq1k3k2icprq1d.jpg
   - title: Lamborghini Aventador Black 2012
     image_path: /assets/images/projects/lamborghini-aventador-black-2012/880x0_p1a4s35l7jcgpjeg1n2d12ofbe91e.jpg
-    - title: Lamborghini Aventador Black 2012
+  - title: Lamborghini Aventador Black 2012
     image_path: /assets/images/projects/lamborghini-aventador-black-2012/880x0_p1a4s35l7j1912c6tbesrlkst61c.jpg
   - title: Lamborghini Aventador Black 2012
     image_path: /assets/images/projects/lamborghini-aventador-black-2012/880x0_p1a4s35l7j1n7s1lsr16oi1b323gq19.jpg
@@ -40,7 +40,6 @@ images:
     image_path: /assets/images/projects/lamborghini-aventador-black-2012/880x0_p1a4s35l7j1l5kqmi1fao6cubbq1a.jpg
   - title: Lamborghini Aventador Black 2012
     image_path: /assets/images/projects/lamborghini-aventador-black-2012/880x0_aventador_cover.jpg
-    youtube_id:
 services:
   - tinting
   - clear-bra
