@@ -5,5 +5,4 @@ images:
   - title:
     image_path:
 services:
-weight: 1
 ---
