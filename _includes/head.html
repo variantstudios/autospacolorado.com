@@ -4,12 +4,12 @@
 	<link rel="canonical" href="{{ page.url | prepend:site.url }}">
 	<link rel="shortlink" href="{{ page.url | prepend:site.url }}">
 	<meta name="robots" content="follow, index">
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<title>{% if page.search_engine_optimization.page_title %}{{ page.search_engine_optimization.page_title  }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.search_engine_optimization.page_description %}{{ page.search_engine_optimization.page_description }}{% else %}{{ site.description }}{% endif %}">
 	<!-- Open Graph -->
 	<meta property="og:site_name" content="{{ site.title }}">
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:title" content="{% if page.search_engine_optimization.page_title %}{{ page.search_engine_optimization.page_title  }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:description" content="{% if page.search_engine_optimization.page_description %}{{ page.search_engine_optimization.page_description }}{% else %}{{ site.description }}{% endif %}">
 
 	<meta property="og:url" content="{{ page.url | prepend:site.url }}">
 	<meta name="twitter:card" content="summary_large_image">
