@@ -1,0 +1,9 @@
+---
+title:
+date:
+image_path:
+short_description:
+search_engine_optimization:
+  page_title:
+  page_description:
+---

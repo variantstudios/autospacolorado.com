@@ -34,7 +34,7 @@ add_ons:
     price: '280.00'
   - title: '$500 Gift Certificate'
     price: '480.00'        
-seo:
+search_engine_optimization:
   page_title: Gift Certificate
   page_description: 'These gift certificates are valid on any service we offer. Please print and give the receipt to the great person you wish to give the gift certificate to. Thank you.'
 weight: 0

@@ -27,7 +27,7 @@ add_ons:
     price: '159.00'
   - title: 'Lg. Suv, Lg Trucks , Vans (Tahoe, Expedition​, Silverado) with Ceramic Pro Sport (+$189.00)'
     price: '189.00'
-seo:
+search_engine_optimization:
   page_title: Concours Detail Car Gift Certificate
   page_description: The package demanded by auto enthusiast of all types for a complete and extensive detailing service.
 weight: 1

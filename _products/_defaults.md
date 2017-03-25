@@ -12,7 +12,7 @@ base_price:
 add_ons:
   - title:
     price:
-seo:
+search_engine_optimization:
   page_title:
   page_description:
 weight: 0

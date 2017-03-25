@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-
 <main class="gallery-detail-node">
   <div class="wrap">
     <!-- Video & Images Grid -->
@@ -15,17 +13,10 @@ layout: default
             <h1 class="section-title">{{ page.title }}</h1>
         </div>
       </li>
-        {% for item in page.images_and_videos %}
+        {% for item in page.images %}
         <li itemscope class="grid-item">
           <a class="gallery-item gallery" href="{{ item.image_path }}" >
-
-          {% if item.youtube_id %}
-            <iframe class="lightbox"  width="560" height="315" src="https://www.youtube.com/embed/{{ item.youtube_id }} " frameborder="0" allowfullscreen id="video"></iframe>
-            <a class="btn btn-default" href="#" data-featherlight="#video">
-          {% endif %}
-
             <img class="gallery-img lrg" src="{{ site.cloudinaryurl }}image/fetch/w_300,h_300,c_fill/{{ site.url }}/{{ item.image_path }}" alt="{{ item.title }}" itemprop="image" data-img="{{site.url}}{{item.image_path}}" data-width="300px" data-height="300px">
-                        
           </a>
         </li>
       {% endfor %}
@@ -43,7 +34,7 @@ layout: default
         </div>
       {% endif %}
 
-      <div class="addthis_inline_share_toolbox"></div>   
+      <div class="addthis_inline_share_toolbox"></div>
     </div>
 
   </div>

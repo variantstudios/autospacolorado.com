@@ -68,12 +68,6 @@ defaults:
       type: posts
     values:
       layout: post
-      title:
-      image_path:
-      description:
-      author:
-      category:
-      tags:
   -
     scope:
       type: products
@@ -84,28 +78,11 @@ defaults:
       type: projects
     values:
       layout: gallery-detail
-      title:
-      image_path:
   -
     scope:
       type: services
     values:
       layout: service-detail
-      title:
-      description:
-      header_image_path:
-      images_and_videos:
-        - title:
-          teaser_image_path:
-          large_image_path:
-          youtube_url:
-      pricing:
-      service-table:
-        - group:
-          desc:
-          options:
-          - option:
-            price:
 
 
 # Snipcart's Public Key

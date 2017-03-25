@@ -19,7 +19,7 @@ add_ons:
     price: "59.00"    
   - title: "Windshield Visor and Sunroof (+$88.00)"
     price: "88.00"
-seo:
+search_engine_optimization:
   page_title: "4 Door Car (sedan) Window Tinting Gift Certificate"
   page_description:  "Window tinting for a 4 door car. Includes all the windows except the front windshield or sunroof."
 weight: 3

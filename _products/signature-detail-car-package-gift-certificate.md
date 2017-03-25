@@ -19,7 +19,7 @@ add_ons:
     price: '60.00'
   - title: 'Lg. Suv, Lg Trucks , Vans (Tahoe, Expedition​, Silverado) (+$90.00)'
     price: '90.00'
-seo:
+search_engine_optimization:
   page_title: Signature Detail Car Gift Certificate
   page_description: This package fits perfectly for vehicles that have been detailed within the last 2 – 3 months or for those looking for a quick cleaning of their vehicles.
 weight: 3
