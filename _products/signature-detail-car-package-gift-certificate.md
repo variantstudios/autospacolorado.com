@@ -2,10 +2,10 @@
 layout: store-detail
 title: Signature Detail Car Gift Certificate
 teaser:
-  top_title: "Bronze"
-  bottom_title: "Signature Detail"
+  top_title: Bronze
+  bottom_title: Signature Detail
   short_description: This package fits perfectly for vehicles that have been detailed within the last 2 – 3 months or for those looking for a quick cleaning of their vehicles.
-  image_path: "/assets/images/store/detail-bronze.png"
+  image_path: /assets/images/store/detail_sm.jpg
 group: Detailing Package Gift Certificates
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
 product_id: 13
@@ -32,5 +32,3 @@ weight: 3
 * Uv Protectant Applied
 * Paint Sealant Applied
 * Windows Cleaned
-
-This package fits perfectly for vehicles that have been detailed within the last 2–3 months or for those looking for a quick cleaning of their vehicles. This is not recommended for vehicles that have been neglected and/or that are excessively dirty. The Signature Detail is quick and effective and offers months of protection.
