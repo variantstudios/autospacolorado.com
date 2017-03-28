@@ -1,7 +1,7 @@
 ---
 title: Coatings
 header_image_path: /assets/images/header/coatings01.jpg
-pricing: At Auto Spa of Greeley and Loveland we have setup our packages and options to try our best to meet everyone’s requirements and needs when it comes to a vehicle coating. We have packages available ranging from a 1 year coating at $299 to a lifetime or even a self healing coating for $2999(depending on vehicle). It’s always best to call or stop in the shop to discuss options and pricing.
+pricing: At Auto Spa of Greeley  we have setup our packages and options to try our best to meet everyone’s requirements and needs when it comes to a vehicle coating. We have packages available ranging from a 1 year coating at $299 to a lifetime or even a self healing coating for $2999(depending on vehicle). It’s always best to call or stop in the shop to discuss options and pricing.
 service-table:
   - group:
     desc:
@@ -9,9 +9,11 @@ service-table:
       - option:
         price:
 search_engine_optimization:
-  page_title: "Coatings"
-  page_description: "Want your car to look its best? Want insane gloss? Want the paint to look better than it was brand new? We have you covered."
+  page_title: Coatings Greeley Auto Spa Colorado
+  page_description: Want your car to look its best? Want insane gloss? Want the paint to look better than it was brand new? We have you covered.
 ---
+
+
 ## Want your car to look its best? Want insane gloss? Want the paint to look better than it was brand new?
 
 ### We have you covered!
