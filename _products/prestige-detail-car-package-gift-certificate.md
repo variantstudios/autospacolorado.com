@@ -2,10 +2,10 @@
 layout: store-detail
 title: Prestige Detail Car Gift Certificate
 teaser:
-  top_title: "Silver"
-  bottom_title: "Prestige Detail"
+  top_title: Silver
+  bottom_title: Prestige Detail
   short_description: 'What most would consider a full inside and out detail. Included would be a full interior, clay bar process and a 1-step paint enhancement polish (20% light surface scratch removal).'
-  image_path: "/assets/images/store/detail-silver.png"
+  image_path: /assets/images/store/detail_sm.jpg
 group: Detailing Package Gift Certificates
 header_image_path: 'https://dqzrr9k4bjpzk.cloudfront.net/images/7639233/342225154.jpg'
 product_id: 12
@@ -32,5 +32,3 @@ weight: 2
 * Light swirl removal
 * Sealant applied
 * Final Inspection
-
-What most would consider a full inside and out detail. Included would be a full interior, clay bar process and a 1-step paint enhancement polish(20% light surface scratch removal). We recommend this service twice a year, ideally once in the spring to have your vehicle looking its best for the summer and once again in the fall to protect it from harsher winters. With regular visits, the Silver Detail Package will keep your vehicle protected, clean, and maintained!
