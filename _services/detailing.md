@@ -6,7 +6,7 @@ service-table:
     desc: 'Our Signature Detail includes a full interior detailing/steam cleaning/shampoo, uv protectant application, exterior wash, wheel cleaning, tires dressed and all windows cleaned. This detail package is great for those who maintain their vehicle on a regular basis.'
     options:
       - option: Cars
-        price: $219
+        price: $159
       - option: Small Truck
         price: $179
       - option: Small SUV/Crossover
