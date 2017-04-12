@@ -86,7 +86,7 @@ defaults:
 
 
 # Snipcart's Public Key
-snipcart-key: 'NjMwNzM3ZWYtODA5ZS00NzI3LWFmZjYtNjIyZTIxZTRmOGEwNjM2MjMxMzQ4OTI1OTg2MDg0'
+snipcart-key: 'MWEyYThkMGMtM2IxMy00MjUwLTk3ZWMtZDgwNTJhODM1Zjk5NjM2MjMxMzQ4OTI1OTg2MDg0'
 
 # typekit - Because we all need nice type faces.
 typekit: kqz1qdu
