@@ -1,1 +1,22 @@
 # /old_file.html /new_file.html
+/ceramic-pro /services/coatings/
+/clear-bra /services/clear-bra/
+/window-tinting /services/window-tinting/
+/detailing /services/detailing/
+/meet-the-team /about/
+/online-store /store/
+/online-store/Cash-Gift-Certificates-for-Certain-Dollar-Amounts-c15563557 /store/
+/online-store/Custom-amount-Gift-Certificates-p57356691 /store/
+/online-store/Detailing-Package-Gift-Certificates-c15540654 /store/
+/online-store/Signature-Detail-Car-p57316882 /store/signature-detail-car-package-gift-certificate/
+/online-store/Prestige-Detail-Car-p57316883 /store/prestige-detail-car-package-gift-certificate/
+/online-store/Concours-Detail-Car-p57316893 /store/concours-detail-car-package-gift-certificate/
+/online-store/Window-Tinting-Gift-Certificates-c15540655 /store/
+/online-store/2-front-Windows-Trucks-and-Suvs-p57356912 /store/two-door-truck-suvs-gift-certificates/
+/online-store/Window-Tinting-on-a-2-door-Car-p57356936 /store/two-door-car-gift-certificates/
+/online-store/Window-Tinting-on-a-4-door-car-sedan-p57390463 /store/four-door-car-gift-certificates/
+/online-store/Regular-Cab-Truck-Tinting-p57463562 /store/regular-cab-truck-tinting-gift-certificates/
+/online-store/Extended-Cab-Truck-not-full-size-rear-doors-p57463564 /store/extended-cab-truck-gift-certificates/
+/online-store/Crew-Cab-Truck-Window-Tinting-p57471328 /store/crew-cab-truck-gift-certificates/
+/online-store/Crossovers-Small-Suv-Window-Tinting-all-windows*-p57471331 /store/crossovers-small-suv-all-gift-certificates/
+/online-store/Large-Suv-Van-window-tinting-all-windows*-p57471356 /store/crossovers-small-suv-all-gift-certificates/
