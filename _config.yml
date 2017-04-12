@@ -92,6 +92,6 @@ snipcart-key: 'NjMwNzM3ZWYtODA5ZS00NzI3LWFmZjYtNjIyZTIxZTRmOGEwNjM2MjMxMzQ4OTI1O
 typekit: kqz1qdu
 
 # Google Analytics - What site isn't using it?!
-google_analytics_tracking_id:
+google_analytics_tracking_id: 'UA-80029-49'
 
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
