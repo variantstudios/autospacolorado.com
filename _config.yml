@@ -4,7 +4,7 @@ title: "Greeley Colorado Auto Spa"
 email: "team@variantstudios.com"
 description: "Premium Car Detailing, Clear Bra, Tinting, Ceramic Coatings Colorado."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://maraschino-cherry.cloudvent.net" # the base hostname & protocol for your site
+url: "https://www.greeleyautospa.com" # the base hostname & protocol for your site
 #timezone: America/Denver - Don't set for CloudCannon...for reasons.
 version: "3.1.6" # the version of jekyll
 
