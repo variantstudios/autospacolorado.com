@@ -42,22 +42,27 @@ $(document).ready(function() {
         $('nav.main-nav .has-submenu').removeClass('submenu--open');
     });
 
-    // Stop Button Going Into Footer //
-    function checkOffset() {
-    var footerHeight = $('.footer-wrapper').height();
+    // fixed book button
+    if ($('.book-fixed, .reg-fixed').length) {
+        // Stop Button Going Into Footer //
+        function checkOffset() {
+        var footerHeight = $('.footer-wrapper').height();
 
-    if($('.book-fixed').offset().top + $('.book-fixed').height()
-        >= $('.footer-wrapper').offset().top - 10);
-        $('.book-fixed').css('bottom', '200px'); // restore when you scroll up
-        //$('.book-fixed').css('position', 'absolute');
-    if($(document).scrollTop() + window.innerHeight < $('.footer-wrapper').offset().top)
-        //$('.book-fixed').css('position', 'fixed'); // restore when you scroll up
-        $('.book-fixed').css('bottom', '10%'); // restore when you scroll up
-       //$('.book-fixed').text($(document).scrollTop() + window.innerHeight);
+        if($('.book-fixed, .reg-fixed').offset().top + $('.book-fixed').height()
+            >= $('.footer-wrapper').offset().top - 10);
+            $('.book-fixed, .reg-fixed').css('bottom', '200px'); // restore when you scroll up
+            //$('.book-fixed').css('position', 'absolute');
+        if($(document).scrollTop() + window.innerHeight < $('.footer-wrapper').offset().top)
+            //$('.book-fixed, .reg-fixed').css('position', 'fixed'); // restore when you scroll up
+            $('.book-fixed, .reg-fixed').css('bottom', '20%'); // restore when you scroll up
+        //$('.book-fixed').text($(document).scrollTop() + window.innerHeight);
+        }
+        $(document).scroll(function() {
+            checkOffset();
+        });
     }
-    $(document).scroll(function() {
-        checkOffset();
-    });
+
+
 
 
     /* --- SnipCart Funcationality -- */
@@ -66,9 +71,11 @@ $(document).ready(function() {
 
     //$(".snipcart-add-item").removeAttr('href');
 
+// Carshow
+if ($('form.register-form').length) {
     
-$('.snipcart-add-item').hide();
-$(document).on("keyup blur", "input", function(event){       
+    $('.snipcart-add-item').hide();
+    $(document).on("keyup blur", "input", function(event){       
         if ($('input.make').val() != '' && $('input.model').val() != '' && $('input.year').val() != '') {
             //console.log('all inputs filled');
             $('.snipcart-add-item').show();
@@ -77,19 +84,19 @@ $(document).on("keyup blur", "input", function(event){
             $('.snipcart-add-item').hide();
             return false
         }
-});
+    });
 
 
-$('input').change(function() {
-            var CarMake = $(".make").val();
-            var CarModel = $(".model").val();
-            var CarYear = $(".year").val();
-            $(".snipcart-add-item").attr('data-item-custom1-value', CarMake);
-            $(".snipcart-add-item").attr('data-item-custom2-value', CarModel);
-            $(".snipcart-add-item").attr('data-item-custom3-value', CarYear);
-        });
+    $('input').change(function() {
+        var CarMake = $(".make").val();
+        var CarModel = $(".model").val();
+        var CarYear = $(".year").val();
+        $(".snipcart-add-item").attr('data-item-custom1-value', CarMake);
+        $(".snipcart-add-item").attr('data-item-custom2-value', CarModel);
+        $(".snipcart-add-item").attr('data-item-custom3-value', CarYear);
+    });
 
-
+}
 
 
     

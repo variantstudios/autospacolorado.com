@@ -2593,7 +2593,7 @@ ul.services-list li img {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 48em) {
-  /* line 25, ../sass/partials/design/pages/_car-show.scss */
+  /* line 18, ../sass/partials/design/pages/_car-show.scss */
   .register-form h2 {
     float: left;
     width: 230px;
@@ -2610,12 +2610,12 @@ ul.services-list li img {
   margin-right: 3em;
   margin-top: 0;
 }
-/* line 34, ../sass/partials/design/pages/_car-show.scss */
+/* line 27, ../sass/partials/design/pages/_car-show.scss */
 .register-form .webform-component {
   padding-bottom: 1em;
 }
 @media (min-width: 48em) {
-  /* line 35, ../sass/partials/design/pages/_car-show.scss */
+  /* line 28, ../sass/partials/design/pages/_car-show.scss */
   .register-form .webform-component.left {
     width: 48.93617%;
     float: left;
@@ -2633,7 +2633,7 @@ ul.services-list li img {
   clear: none;
 }
 @media (min-width: 48em) {
-  /* line 40, ../sass/partials/design/pages/_car-show.scss */
+  /* line 33, ../sass/partials/design/pages/_car-show.scss */
   .register-form .webform-component.right {
     width: 48.93617%;
     float: right;
@@ -2650,17 +2650,66 @@ ul.services-list li img {
   margin-right: 0;
   clear: none;
 }
-/* line 46, ../sass/partials/design/pages/_car-show.scss */
+/* line 39, ../sass/partials/design/pages/_car-show.scss */
 .register-form .webform-component label {
   display: block;
 }
-/* line 48, ../sass/partials/design/pages/_car-show.scss */
+/* line 41, ../sass/partials/design/pages/_car-show.scss */
 .register-form .webform-component label input {
   width: auto;
 }
-/* line 53, ../sass/partials/design/pages/_car-show.scss */
+/* line 46, ../sass/partials/design/pages/_car-show.scss */
 .register-form .webform-component input {
   width: 100%;
+}
+
+/* line 54, ../sass/partials/design/pages/_car-show.scss */
+.reg-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  -webkit-transition: all .5s linear;
+          transition: all .5s linear;
+}
+@media (min-width: 0) and (max-width: 37.5em) {
+  /* line 54, ../sass/partials/design/pages/_car-show.scss */
+  .reg-fixed {
+    bottom: auto !important;
+  }
+}
+@media (min-width: 48em) {
+  /* line 54, ../sass/partials/design/pages/_car-show.scss */
+  .reg-fixed {
+    top: auto;
+    right: 5%;
+    bottom: 10%;
+    width: auto;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .reg-fixed {
+  top: auto;
+  right: 5%;
+  bottom: 10%;
+  width: auto;
+}
+/* line 72, ../sass/partials/design/pages/_car-show.scss */
+.reg-fixed a {
+  background: url("../images/car-show-badge.svg") no-repeat center center;
+  background-size: cover;
+  width: 214px;
+  height: 180px;
+  text-indent: -999px;
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  text-align: center;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */
