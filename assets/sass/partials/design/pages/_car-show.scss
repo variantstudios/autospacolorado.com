@@ -9,19 +9,12 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(234,234,234,
 background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
-
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 3px;
   //border:1px solid #ccc;
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 
-
-//   @include breakpoint($bp-medium, $no-query: '.no-mq') {
-//     margin:0em 0em;
-//     float: right;
-//       width: 48%;
-//   }
   h2 {
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       float: left;
@@ -52,6 +45,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
     }
     input {
       width: 100%;
+    }
+  }
+}
+
+
+
+.reg-fixed {
+  position: fixed;
+  z-index: 1000;
+  //height: 50px;
+  top: 0;
+  //width: 100%;
+  transition: all .5s linear;
+  @include breakpoint($bp-small-down) {
+    bottom: auto !important;
+  }
+
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+     top: auto;
+     //right: 10%;
+     right: 5%;
+     bottom: 10%;
+     width: auto;
+  }
+  a {
+    //background: $color-one;
+    background: url("../images/car-show-badge.svg") no-repeat center center;
+    background-size: cover;
+    width: 214px;
+    height: 180px;
+    text-indent: -999px;
+    overflow: hidden;
+
+    color: #fff;
+    text-decoration: none;
+    //box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.23);
+    border-radius: 0;
+    font-family: $heading-font-family;
+    //padding: 0.75em 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    //width: 100%;
+    text-align: center;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+         //border-radius: 2px;
     }
   }
 }
