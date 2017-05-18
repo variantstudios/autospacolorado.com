@@ -1,7 +1,6 @@
 ---
 layout: null
 sitemap: false
-
 ---
 [
 {% for product in site.products %}

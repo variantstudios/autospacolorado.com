@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<main>
+  <!--<div class="preface-wrap" >-->
+    <div class="preface" style="background-image: url({{ page.header_image_path}}); position: relative; z-index: 1;    background-position: inherit;">
+      <div class="wrap">
+        <div class="interior-headings">
+          <h1 class="section-title">{{ page.title }}</h1>
+          <h3 class="section-subtitle">{{ page.subtitle }}</h3>
+          <div class="intro-text"><p>{{ page.intro }}</p></div>
+        </div>
+
+      </div>
+    </div>
+  <!--</div>-->
+  <div class="wrap">
+    <!-- {% if page.main_image_path %}
+      <figure class="page-image--main">
+        <img src="{{ page.main_image_path }}">
+      </figure>
+    {% endif %} -->
+    <div class="content-section">{{ content }}</div>
+    <div>
+        <form action="#" class="register-form">
+            <div class="webform-component">
+            <label for="make">Your Car's Make</label>
+            <input type="text" name="make" class="make" required>
+            <div class="webform-component">
+            </div>
+            <label for="model">Your Car's Model</label>
+            <input type="text" name="model" class="model" required>
+            <div class="webform-component">
+            </div>
+            <label for="year">Your Car's Year</label>
+            <input type="text" name="year" class="year" required>
+            </div>
+        <div class="buy-now">
+                <a class="snipcart-add-item" class="snipcart-add-item" data-item-id="{{page.product_id}}" data-item-name="{{ page.title }}" data-item-price="{{page.base_price}}" data-item-weight="0" data-item-url="{{site.url}}{{page.url}}" "
+                data-item-custom1-name="Your Car's Make"
+                data-item-custom1-required="true"
+                data-item-custom1-value=""
+                data-item-custom2-name="Your Car's Model"
+                data-item-custom2-required="true"
+                data-item-custom2-value=""
+                data-item-custom3-name="Your Car's Year"
+                data-item-custom3-required="true"
+                data-item-custom3-value=""
+                ">Register</a></div>
+        </form>
+    </div>
+  </div>
+</main>
+

@@ -15,6 +15,8 @@ $(document).ready(function() {
         }, 'slow');
     }
 
+
+
     $("#sidebar > ul > li > a").click(function(e) {
         // Prevent a page reload when a link is pressed
         e.preventDefault();
@@ -61,5 +63,35 @@ $(document).ready(function() {
     /* --- SnipCart Funcationality -- */
     Snipcart.execute('registerLocale', 'en', {"thankyou_message": "Thanks for your order!"});
 
+
+    //$(".snipcart-add-item").removeAttr('href');
+
+    
+$('.snipcart-add-item').hide();
+$(document).on("keyup blur", "input", function(event){       
+        if ($('input.make').val() != '' && $('input.model').val() != '' && $('input.year').val() != '') {
+            //console.log('all inputs filled');
+            $('.snipcart-add-item').show();
+        } else {
+            //console.log('theres an empty input');
+            $('.snipcart-add-item').hide();
+            return false
+        }
+});
+
+
+$('input').change(function() {
+            var CarMake = $(".make").val();
+            var CarModel = $(".model").val();
+            var CarYear = $(".year").val();
+            $(".snipcart-add-item").attr('data-item-custom1-value', CarMake);
+            $(".snipcart-add-item").attr('data-item-custom2-value', CarModel);
+            $(".snipcart-add-item").attr('data-item-custom3-value', CarYear);
+        });
+
+
+
+
+    
 
 });
