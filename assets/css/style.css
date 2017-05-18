@@ -2668,6 +2668,7 @@ ul.services-list li img {
   position: fixed;
   z-index: 1000;
   top: 0;
+  width: 100%;
   -webkit-transition: all .5s linear;
           transition: all .5s linear;
 }
@@ -2693,23 +2694,48 @@ ul.services-list li img {
   bottom: 10%;
   width: auto;
 }
-/* line 72, ../sass/partials/design/pages/_car-show.scss */
+/* line 73, ../sass/partials/design/pages/_car-show.scss */
 .reg-fixed a {
+  background: #d5121a;
+  color: #fff;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.23);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.23);
+  border-radius: 0;
+  font-family: "futura-pt", sans-serif;
+  padding: 0.75em 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 48em) {
+  /* line 73, ../sass/partials/design/pages/_car-show.scss */
+  .reg-fixed a {
+    background: url("../images/car-show-badge.svg") no-repeat center center;
+    background-size: cover;
+    width: 214px;
+    height: 180px;
+    text-indent: -999px;
+    overflow: hidden;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .reg-fixed a {
   background: url("../images/car-show-badge.svg") no-repeat center center;
   background-size: cover;
   width: 214px;
   height: 180px;
   text-indent: -999px;
   overflow: hidden;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 0;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  cursor: pointer;
-  display: block;
-  text-align: center;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */

@@ -52,11 +52,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
 
 
 .reg-fixed {
+
   position: fixed;
   z-index: 1000;
   //height: 50px;
   top: 0;
-  //width: 100%;
+  width: 100%;
   transition: all .5s linear;
   @include breakpoint($bp-small-down) {
     bottom: auto !important;
@@ -70,28 +71,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
      width: auto;
   }
   a {
-    //background: $color-one;
-    background: url("../images/car-show-badge.svg") no-repeat center center;
-    background-size: cover;
-    width: 214px;
-    height: 180px;
-    text-indent: -999px;
-    overflow: hidden;
-
+    background: $color-one;
     color: #fff;
     text-decoration: none;
-    //box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.23);
     border-radius: 0;
     font-family: $heading-font-family;
-    //padding: 0.75em 1.5em;
+    padding: 0.75em 1.5em;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
     display: block;
-    //width: 100%;
+    width: 100%;
     text-align: center;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
-         //border-radius: 2px;
+      background: url("../images/car-show-badge.svg") no-repeat center center;
+      background-size: cover;
+      width: 214px;
+      height: 180px;
+      text-indent: -999px;
+      overflow: hidden;
+      box-shadow: none;
+      padding: 0;
     }
   }
 }
