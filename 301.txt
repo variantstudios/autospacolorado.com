@@ -1,4 +1,5 @@
 # /old_file.html /new_file.html
+/book-appointment/ /request-a-quote/
 /ceramic-pro /services/coatings/
 /clear-bra /services/clear-bra/
 /window-tinting /services/window-tinting/
