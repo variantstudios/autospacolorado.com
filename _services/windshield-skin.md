@@ -11,6 +11,13 @@ service-table:
 search_engine_optimization:
   page_title: "Windshield Skin"
   page_description: "Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped?"
+  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+_comments:
+  page_title: This is the title that's specifically for Search Engine Optimization.
+  page_description: >-
+    This is the page description that is shown below the page title in the
+    search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results or a minimum of at least 600 x 315px.
 ---
 Do you ever cringe when you hear the sound of sand or rocks hitting your windshield? I know I do, but did you know there is a film that can be placed on the front of your windshield that will give you peace of mind and prevent your windshield from getting chipped?
 
