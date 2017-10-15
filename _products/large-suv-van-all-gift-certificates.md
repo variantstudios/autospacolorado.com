@@ -22,6 +22,13 @@ add_ons:
 search_engine_optimization:
   page_title: "Large Suv/ Van window tinting (all windows*) Window Tinting Gift Certificate"
   page_description:  "Includes a lifetime nationwide warranty. Includes all windows except the front windshield and sunroof."
+  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 weight: 8
+_comments:
+  page_title: This is the title that's specifically for Search Engine Optimization.
+  page_description: >-
+    This is the page description that is shown below the page title in the
+    search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results or a minimum of at least 600 x 315px. 
 ---
 Includes a lifetime nationwide warranty. Includes all windows except the front windshield and sunroof. Please add for windshield visor and sunroof if desired.
