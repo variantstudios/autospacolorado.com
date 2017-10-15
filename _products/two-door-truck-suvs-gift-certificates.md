@@ -24,6 +24,13 @@ add_ons:
 search_engine_optimization:
   page_title: "Gift Certificate for Trucks and Suvs: 2 front windows"
   page_description:  "This gift certificate is valid for tinting 2 front door windows on trucks and Suvs."
+  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 weight: 1
+_comments:
+  page_title: This is the title that's specifically for Search Engine Optimization.
+  page_description: >-
+    This is the page description that is shown below the page title in the
+    search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results or a minimum of at least 600 x 315px. 
 ---
 This gift certificate is valid for tinting 2 front door windows on trucks and Suvs. Includes a lifetime nationwide warranty. $20 Additional for 2 fronts doors with wing windows. $29 additional for a windshield visor.
