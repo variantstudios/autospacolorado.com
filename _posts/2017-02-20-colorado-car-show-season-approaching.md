@@ -6,6 +6,13 @@ short_description: 'Spring is near, there will be rain showers, tree sap falling
 search_engine_optimization:
   page_title: "Colorado Car Show Season Approaching"
   page_description: "Spring is near, there will be rain showers, tree sap falling, and tar being applied to the roads. All of these are potential hazards that could damage the exterior of your vehicle if it is not protected properly."
+  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+_comments:
+  page_title: This is the title that's specifically for Search Engine Optimization.
+  page_description: >-
+    This is the page description that is shown below the page title in the
+    search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results or a minimum of at least 600 x 315px. 
 ---
 
 Spring is near, there will be rain showers, tree sap falling, and tar being applied to the roads. All of these are potential hazards that could damage the exterior of your vehicle if it is not protected properly. You could opt to constantly wax your vehicle every 3-4 weeks, risk the potential of getting wax onto your plastics and staining it, leaving wax residue behind that would give it a milky looking finish, and of course every time you go to touch your vehicle you have the possibility of scratching it.
