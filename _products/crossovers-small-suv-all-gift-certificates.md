@@ -22,6 +22,13 @@ add_ons:
 search_engine_optimization:
   page_title: "Crossovers/Small Suv Window Tinting (all windows*) Window Tinting Gift Certificate"
   page_description:  "Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint."
+  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 weight: 7
+_comments:
+  page_title: This is the title that's specifically for Search Engine Optimization.
+  page_description: >-
+    This is the page description that is shown below the page title in the
+    search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results or a minimum of at least 600 x 315px. 
 ---
 *Includes all windows except front windshield and sunroof. Includes a lifetime nationwide warranty. Please select additional windshield visor option if a windshield visor is wanted.
