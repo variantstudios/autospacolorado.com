@@ -1,7 +1,10 @@
 ---
 title: Greeley Auto Spa &amp; Tinting
 map: >-
-  https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6078.825079696553!2d-104.73651437442189!3d40.37754854341355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876ea123e5fd1c41%3A0x99b3b4d2c3c54789!2s3620+35th+Ave+%233%2C+Evans%2C+CO+80620!5e0!3m2!1sen!2sus!4v1483197831576
+  <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.2647132191514!2d-104.68907668415216!3d40.425136979364225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876ea123e9256d45%3A0xc14ef5756bb4884f!2sGreeley+Auto+Spa+%26+Tinting!5e0!3m2!1sen!2sus!4v1524839979818"
+  width="600" height="450" frameborder="0" style="border:0"
+  allowfullscreen></iframe>
 phone: 970-619-9863
 city: Greeley
 state: CO
