@@ -27,7 +27,7 @@ search_engine_optimization:
   page_title: 4 Door Car (sedan) Window Tinting Gift Certificate
   page_description: >-
     Window tinting for a 4 door car. Includes all the windows except the front
-    windshield or sunroof.
+    windshield or sunroof. Greeley's Tint Shop
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 weight: 3
 _comments:
