@@ -43,9 +43,9 @@ _comments:
 ---
 
 * Full Interior Detail
-* Deep Paint Cleaning
-* 2 Step Polish
+* Clay Bar Treatment
+* 2 Step Polish 50-60% scratch removal
 * Med Swirl/Scratch Removal
-* Sealant Applied
+* Wax Applied
 * Final Inspection
 * UPGRADE TO CERAMIC PRO SPORT FOR ADDED PROTECTION
