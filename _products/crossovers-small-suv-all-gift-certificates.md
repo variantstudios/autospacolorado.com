@@ -43,3 +43,5 @@ _comments:
 ---
 
 \*Includes all windows except front windshield and sunroof. Includes a lifetime nationwide warranty. Please select additional windshield visor option if a windshield visor is wanted.
+
+Upgrade to Ceramic Film Available. Ceramic Film will block 72% of the heat, where standard carbon film only blocks 40%
