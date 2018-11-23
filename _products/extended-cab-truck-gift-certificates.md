@@ -23,7 +23,7 @@ add_ons:
   - title: Windshield visor & Slider rear window (+$49.00)
     price: '49.00'
   - title: Upgrade to Ceramic Film (Blocks 72% of heat and 98% IR Rejection)
-    price:
+    price: '80.00'
 search_engine_optimization:
   page_title: >-
     Extended Cab Truck (not full size rear doors) Window Tinting Gift
