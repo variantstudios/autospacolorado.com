@@ -21,6 +21,8 @@ add_ons:
     price: '59.00'
   - title: Sunroof and windshield visor (+$88.00)
     price: '88.00'
+  - title: Upgrade to Ceramic Film (Blocks 72% of heat and 98% IR Rejection)
+    price: '120.00'
 search_engine_optimization:
   page_title: Large Suv/ Van window tinting (all windows*) Window Tinting Gift Certificate
   page_description: >-
