@@ -40,4 +40,4 @@ _comments:
     at least 600 x 315px.
 ---
 
-Includes a lifetime nationwide warranty. Includes the 2 front door windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider.
+Includes a lifetime nationwide warranty. Includes all 4 door windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider. Upgrade to Ceramic Film Available. Ceramic Film will block 72% of the heat, where standard film only blocks 40%.&nbsp;
