@@ -50,4 +50,4 @@ _comments:
 * Uv Protectant Applied
 * Wax Applied
 * Windows Cleaned
-  * Upgrade to Ceramic Pro Sport for added protection
+* Upgrade to Ceramic Pro Sport for added protection
