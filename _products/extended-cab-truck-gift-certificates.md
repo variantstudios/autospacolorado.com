@@ -3,7 +3,7 @@ layout: store-detail
 title: Extended Cab Truck (not full size rear doors) Window Tinting Gift Certificate
 teaser:
   top_title: Extended Cab
-  bottom_title: Truck Tinging
+  bottom_title: Truck Tinting
   short_description: >-
     Includes the 2 front door windows ,smaller rear side windows and rear solid
     window tint. Please add for windshield visor, sunroof, wing windows and
