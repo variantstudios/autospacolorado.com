@@ -23,7 +23,7 @@ add_ons:
   - title: 'SUV/Truck (silverado, durango, 4runner)'
     price: '100.00'
   - title: 'Lg. Suv, Lg Trucks , Vans (Tahoe, Expedition​, Silverado) (+$90.00)'
-    price: '110.00'
+    price: '120.00'
   - title: Ceramic Pro Sport (8-10 month coating like sealant)
     price: '129.00'
 search_engine_optimization:
