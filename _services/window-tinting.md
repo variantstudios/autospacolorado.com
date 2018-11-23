@@ -1,6 +1,6 @@
 ---
 title: Window Tinting
-header_image_path: /assets/images/header/tinting.jpg
+header_image_path: /assets/images/-24a5471.jpg
 pricing:
 service-table:
   - group: Standard Lifetime Film
@@ -53,22 +53,25 @@ service-table:
         price: $509
 search_engine_optimization:
   page_title: Window Tinting Greeley Auto Spa Colorado
-  page_description: Our definition of detailing at Auto Spa of Greeley is a very thorough deep steam/shampoo cleaning of your entire interior of the vehicle.
+  page_description: >-
+    Our definition of detailing at Auto Spa of Greeley is a very thorough deep
+    steam/shampoo cleaning of your entire interior of the vehicle.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
   page_description: >-
     This is the page description that is shown below the page title in the
     search engine results.
-  facebook_image_path: Use images that are at least 1200 x 630px for best results or a minimum of at least 600 x 315px.
+  facebook_image_path: >-
+    Use images that are at least 1200 x 630px for best results or a minimum of
+    at least 600 x 315px.
 ---
-
 
 You ever feel like somebody is looking at you? Creepy isn't it? Well guess what? Get your windows tinted and it will be difficult to see you in your flashy ride!
 
 We all usually like to lay out on the beach to catch a tan and get that right skin tone right? Well dont catch yourself getting farmers tan because your windows are not tinted. Not only will tint block harmful uv rays, but it will also block a good amount of heat. Looking to block a lot of heat but dont want the look of window tint on your car? We have a film that is extremely light in color but will block as much heat as a dark standard film would. Block harmful uv rays will also protect your interior from sun damage and fading.
 
-Even though the fad of colored tint, mirror tint and even sparkle tint has died, we still have a good amount of options when it comes to the shades, performance, some slight color differences and price points.
+We offer 2 main types of film, Carbon and Ceramic. Carbon is more resistant to scratches than dyed film. ... Unlike dyed film, carbon film will not fade with time. Ceramic film is the highest quality of window tint film, and also blocks more heat, contains neither metal, dye, nor carbon, but instead a kind of ceramic particle that is both non-conductive and nonmetallic.
 
 Our main installer at Greeley Auto Spa has been installing all types of window films since 2005 and has been certified by 3m, Suntek, llumar, Photosync and a few others.
 
