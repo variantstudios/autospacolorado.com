@@ -22,6 +22,8 @@ add_ons:
     price: '29.00'
   - title: Windshield visor & Slider rear window (+$49.00)
     price: '49.00'
+  - title: Upgrade to Ceramic Film (Blocks 72% of heat and 98% IR Rejection)
+    price:
 search_engine_optimization:
   page_title: >-
     Extended Cab Truck (not full size rear doors) Window Tinting Gift
@@ -41,4 +43,6 @@ _comments:
     at least 600 x 315px.
 ---
 
-Includes a lifetime nationwide warranty. Includes the 2 front door windows, rear small side windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider. Upgrade to Ceramic Film Available. Ceramic Film will block 72% of the heat, where standard carbon film only blocks 40%.
+Includes a lifetime nationwide warranty. Includes the 2 front door windows, rear small side windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider.
+
+Upgrade to Ceramic Film Available. Ceramic Film will block 72% of the heat, where standard carbon film only blocks 40%.
