@@ -48,6 +48,6 @@ _comments:
 * Clay Bar/Iron X
 * 1 step polish
 * Light swirl removal
-* Sealant applied
+* Wax applied
 * Final Inspection
 * Upgrade to Ceramic Pro Sport for added protection
