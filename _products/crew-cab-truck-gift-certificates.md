@@ -5,11 +5,11 @@ teaser:
   top_title: Crew Cab Trucks
   bottom_title: 2 Front Windows+
   short_description: >-
-    Includes a lifetime nationwide warranty. Includes the 2 front door windows
-    and rear solid window tint.
-  image_path: /assets/images/store/ford-lightning.jpg
+    Includes a lifetime nationwide warranty. Includes all 4 door windows and
+    rear solid window tint.
+  image_path: /assets/images/20151208-080423-1.jpg
 group: Window Tinting Gift Certificates
-header_image_path: /assets/images/store/ford-lightning_lg.jpg
+header_image_path: /assets/images/20151208-080423.jpg
 product_id: 6
 base_price: '259.00'
 add_ons:
@@ -40,4 +40,4 @@ _comments:
     at least 600 x 315px.
 ---
 
-Includes a lifetime nationwide warranty. Includes all 4 door windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider. Upgrade to Ceramic Film Available. Ceramic Film will block 72% of the heat, where standard film only blocks 40%.&nbsp;
+Includes a lifetime nationwide warranty. Includes all 4 door windows and rear solid window tint. Please add for windshield visor, sunroof, wing windows and slider. Upgrade to Ceramic Film Available. Ceramic Film will block 72% of the heat, where standard film only blocks 40%.
