@@ -8,7 +8,7 @@ state: CO
 zip: 80631
 address: 531 8th Street
 hours:
-  - day: Monday - Friday 8am - 6pm
+  - day: Monday - Friday 8am - 5pm
   - day: Saturday - (Appointment Only)
   - day: Sunday - (Appointment Only)
 ---
