@@ -9,6 +9,7 @@ bio: >-
   favorite thing about working at Greeley Auto Spa is the people!  Everyone
   makes the environment so relaxed and fun, its like a big family, everyone is
   willing to help and she loves working with such down to earth people.
-image_path: /assets/images/-24a6201.jpg
+image_path: /assets/images/-24a6206.jpg
 weight: 5
 ---
+
