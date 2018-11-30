@@ -7,6 +7,6 @@ bio: >-
   results possible. Jacinto enjoys watching Boxing, UFC and attending Colorado
   Eagles hockey games.
 image_path: /assets/images/-24a6220.jpg
-weight: 2
+weight: 3
 ---
 
