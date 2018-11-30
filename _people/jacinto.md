@@ -1,10 +1,12 @@
 ---
 name: Jacinto
 bio: >-
-  Ricque is the head nurse of the company, the smile that greets you when you
-  come through the door and the voice on the phones! With well over 10 years of
-  customer service you can be rest assured that Ricque will give the upmost
-  customer service.
-image_path: /assets/images/-24a6247.jpg
+  Jacinto (The Mexican) is our Head Detailer/Shop Manager. He has worked along
+  Zack's side even before Greeley Auto Spa was created. Jacinto is very detail
+  oriented, has a ton of pride in his work, and constantly pushes for the best
+  results possible. Jacinto enjoys watching Boxing, UFC and attending Colorado
+  Eagles hockey games.
+image_path: /assets/images/-24a6220.jpg
 weight: 2
 ---
+
