@@ -1,11 +1,13 @@
 ---
 name: Shaggy
 bio: >-
-  Jacinto (The Mexican) is our Head Detailer/Shop Manager. He has worked along
-  Zack's side even before Greeley Auto Spa was created. Jacinto is very detail
-  oriented, has a ton of pride in his work, and constantly pushes for the best
-  results possible. Jacinto enjoys watching Boxing, UFC and attending Colorado
-  Eagles hockey games.
-image_path: /assets/images/-24a6220.jpg
+  Shaggy (Real name Brett) is our Head Exhaust Technician. He also assists in
+  the detailing department. He loves making cars sound loud and aggressive.
+  Shaggy is very dedicated and produces great quality exhaust installs. His
+  favorite car is a 67 Camaro. He enjoys hunting and being outdoors. His
+  favorite thing about work at Greeley Auto Spa is the people he gets to work
+  alongside with and doing exhaust.
+image_path: /assets/images/-24a6214.jpg
 weight: 2
 ---
+
