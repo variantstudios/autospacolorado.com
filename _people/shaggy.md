@@ -8,6 +8,6 @@ bio: >-
   favorite thing about working at Greeley Auto Spa is the people he gets to work
   alongside with and doing exhaust.
 image_path: /assets/images/-24a6214.jpg
-weight: 2
+weight: 4
 ---
 
