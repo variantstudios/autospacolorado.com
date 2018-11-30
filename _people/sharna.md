@@ -1,14 +1,12 @@
 ---
 name: Sharna
 bio: >-
-  Chelsea is our newest Tint and PPF installer. She works alongside Zack daily,
-  installing tint and clear bra on a variety of vehicles. She has a great eye
-  for detail and quality installations. She doesn't have a favorite car, its too
-  hard to choose in this market. A hobby she enjoys is photography and capturing
-  moments in life that could tend to fade away in our memories over time. Her
-  favorite thing about working at Greeley Auto Spa is the people!  Everyone
-  makes the environment so relaxed and fun, its like a big family, everyone is
-  willing to help and she loves working with such down to earth people.
-image_path: /assets/images/-24a6201.jpg
-weight: 5
+  Sharna pronounced Sharnay (i know right???) aka Chardonnay is the lady behind
+  the counter, the one with answers to most of the questions. She assists all
+  clients with scheduling appointments, transactions and making sure your visit
+  at Greeley Auto Spa was great. She loves to tell jokes and give all the guys
+  in the shop a hard time. She brings cheer and smiles to everyone in the shop.
+image_path: /assets/images/-24a6226.jpg
+weight: 7
 ---
+
