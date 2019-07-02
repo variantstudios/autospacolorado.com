@@ -7,6 +7,6 @@ bio: >-
   of them via aftermarket accessories. He is a huge mopar fan but is really
   starting to like the new Colorado ZR2's.
 image_path: /assets/images/-24a6210.jpg
-weight: 8
+weight: 12
 ---
 
