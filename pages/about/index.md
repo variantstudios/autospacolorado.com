@@ -7,18 +7,10 @@ intro: >-
   who want the very best in car care for their vehicles.
 header_image_path: /assets/images/header/about-greeley-auto-spa.jpg
 logos:
-  - title: Always Dry
-    logo_path: /assets/images/logos/always-dry.png
-  - title: ClearPlex Invisible Protection Films
-    logo_path: /assets/images/logos/clearplex.png
+  - title: Ceramic Pro Northern Colorado Flagship shop
+    logo_path: /assets/images/cpnc-socialmediaprofile.jpg
   - title: duPount Registry Elite Detailers Alliance
     logo_path: /assets/images/logos/dupont.png
-  - title: feynlab
-    logo_path: /assets/images/logos/feynlab.png
-  - title: GTECHNIQ Smart Surface Science
-    logo_path: /assets/images/logos/gtechniq-ceramic-coatings.png
-  - title: SB3 Coatings
-    logo_path: /assets/images/logos/sb3.png
   - title: SunTek Window Films
     logo_path: /assets/images/logos/suntek.png
   - title: Xpel
