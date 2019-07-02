@@ -15,6 +15,8 @@ logos:
     logo_path: /assets/images/logos/suntek.png
   - title: Xpel
     logo_path: /assets/images/logos/xpel.png
+  - title: Ceramic Pro Coating Greeley Colorado
+    logo_path: /assets/images/ceramic-pro-logo--dark-background-.jpg
 search_engine_optimization:
   page_title: About Greeley Auto Spa
   page_description: >-
