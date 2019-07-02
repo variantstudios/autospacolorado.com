@@ -40,6 +40,6 @@ _comments:
     at least 600 x 315px.
 ---
 
-![](/assets/images/-24a6275-1.jpg)
+![](/assets/images/-24a6485.jpg){: width="5502" height="3668"}
 
 The standard of our work is second to none, as proven by the enviable portfolio of work we have acquired. Recognizing the need to offer our customers a professional set of services that they can trust and rely upon, we have invested heavily in proper equipment, formal training, premium car care and detailing products and comprehensive all risks insurance coverage. Potential customers should note that we are not amateur enthusiasts; we have a wealth of experience and detailing is our full time profession.
