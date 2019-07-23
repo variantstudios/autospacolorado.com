@@ -3,7 +3,7 @@ title: Luster & Dirt Buster
 teaser:
   top_title: wash & wax soap
   bottom_title: Luster & Dirt Buster
-  short_description: car wash soap that contains wax
+  short_description: Car wash soap that contains wax
   image_path: /assets/images/photo-jun-12-2-02-52-pm.jpg
 group: Car Care Products
 header_image_path: /assets/images/-24a2052-1.jpg
