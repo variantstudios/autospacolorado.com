@@ -4,10 +4,10 @@ teaser:
   top_title:
   bottom_title: Test Product
   short_description: please ignore
-  image_path:
+  image_path: /assets/images/store/jeep.jpg
 group: Detailing Products
 header_image_path:
-product_id: 0
+product_id: 12312312
 base_price: '100'
 add_ons:
   - title: 10 oz
