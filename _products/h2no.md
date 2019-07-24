@@ -1,10 +1,12 @@
 ---
 title: H2NO
 teaser:
-  top_title:
-  bottom_title:
-  short_description:
-  image_path:
+  top_title: waterless wash
+  bottom_title: H2NO
+  short_description: >-
+    Waterless wash that contains wax. Great for on the road cleaning or spot
+    cleaning. Can be utilized on entire car as well
+  image_path: /assets/images/photo-jun-12-2-04-29-pm-1.jpg
 group: Car Care Products
 header_image_path: /assets/images/-24a2052-3.jpg
 product_id: 104
