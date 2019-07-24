@@ -6,7 +6,7 @@ teaser:
   short_description: >-
     Spray on silica based ceramic coating booster. Will revitalize the
     hydrophobic properties of a coating
-  image_path:
+  image_path: /assets/images/img-2395.jpg
 group: Car Care Products
 header_image_path: /assets/images/-24a2052-5.jpg
 product_id: 107
@@ -34,4 +34,4 @@ _comments:
 * Easy to use
 * Leaves paint surface very slick
 * Can be used on windows, plastics, paint, wheel, etc.
-* Pineapple scent
+* Pineapple scent![](/assets/images/img-2395.jpg){: width="2061" height="2748"}
