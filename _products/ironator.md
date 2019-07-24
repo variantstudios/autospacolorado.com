@@ -1,12 +1,14 @@
 ---
 title: Ironator
 teaser:
-  top_title:
-  bottom_title:
-  short_description:
-  image_path:
+  top_title: Wheel Cleaner
+  bottom_title: Ironator
+  short_description: >-
+    Removes iron deposits from wheels and paint. Color changes to show its
+    working.
+  image_path: /assets/images/photo-jun-12-2-04-19-pm-1.jpg
 group: Car Care Products
-header_image_path: /assets/images/photo-jun-12-2-04-19-pm.jpg
+header_image_path: /assets/images/-24a2052-7.jpg
 product_id: 105
 base_price: '14.99'
 add_ons:
