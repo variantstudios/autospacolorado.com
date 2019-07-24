@@ -34,5 +34,4 @@ _comments:
 * Great for spot cleaning as well
 * Leaves surfaces slick to the touch
 * Great gloss enhancement
-* Not recommended for ceramic coated vehicles
-* ![](/assets/images/photo-jun-12-2-04-29-pm.jpg){: width="3024" height="4032"}
+* Not recommended for ceramic coated vehicles![](/assets/images/photo-jun-12-2-04-29-pm.jpg){: width="3024" height="4032"}
