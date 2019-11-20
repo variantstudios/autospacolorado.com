@@ -63,10 +63,10 @@ service-table:
       - option: XL Suv/Truck
         price: $519
 search_engine_optimization:
-  page_title: Detailing Greeley Auto Spa Colorado
+  page_title: Detail Shop Greeley Colorado
   page_description: >-
-    Our definition of detailing at Auto Spa of Greeley and Loveland is a very
-    thorough deep steam/shampoo cleaning of your entire interior of the vehicle.
+    Greeley Colorado's premier detail shop, offering window tint, Xpel Clear bra
+    and Ceramic Pro coatings
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
