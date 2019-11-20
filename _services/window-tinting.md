@@ -68,13 +68,15 @@ _comments:
     at least 600 x 315px.
 ---
 
-You ever feel like somebody is looking at you? Creepy isn't it? Well guess what? Get your windows tinted and it will be difficult to see you in your flashy ride!
+You ever feel like somebody is looking at you? Creepy isn't it? Well guess what? Get your windows tinted and it will be difficult to see you in your flashy ride\!
 
-We all usually like to lay out on the beach to catch a tan and get that right skin tone right? Well dont catch yourself getting farmers tan because your windows are not tinted. Not only will tint block harmful uv rays, but it will also block a good amount of heat. Looking to block a lot of heat but dont want the look of window tint on your car? We have a film that is extremely light in color but will block as much heat as a dark standard film would. Block harmful uv rays will also protect your interior from sun damage and fading.
+We all usually like to lay out on the beach to catch a tan and get that right skin tone right? Well dont catch yourself getting farmers tan because your windows are not tinted. Not only will tint block harmful uv rays, but it could also block a good amount of heat. Looking to block a lot of heat but dont want the look of window tint on your car? We have a film that is extremely light in color but will block as much heat as a dark standard film would. Blocking harmful uv rays will also protect your interior from sun damage and fading.
 
-We offer 2 main types of film, Carbon and Ceramic. Carbon is more resistant to scratches than dyed film. … Unlike dyed film, carbon film will not fade with time. Ceramic film is the highest quality of window tint film, and also blocks more heat, contains neither metal, dye, nor carbon, but instead a kind of ceramic particle that is both non-conductive and nonmetallic.
+We offer 4 types of film, Standard, XPEL High Performance,&nbsp; XPEL XR Nano Ceramic &nbsp;and XPEL XR PLUS Multi Layer Nano Ceramic. Standard film is a film that will give you the privacy you desire but will not block any heat. XPEL HP will give you privacy and block up to 40% of infrared heat. XPEL XR will give you privacy, block up to 72% infrared heat and is more resistant to scratches than dyed film. XPEL XR PLUS will block up to 98% of infrared heat, give you privacy and is more scratch resistant.
 
-Our main installer at Greeley Auto Spa has been installing all types of window films since 2005 and has been certified by 3m, Suntek, llumar, Photosync and a few others.
+Ceramic film is the highest quality of window tint film, and also blocks more heat, contains neither metal, dye, nor carbon, but instead a kind of ceramic particle that is both non-conductive and nonmetallic.
+
+Our main installer at Greeley Auto Spa has been installing all types of window films since 2005 and has been certified by 3m, Suntek, llumar, Photosync, XPEL and a few others.
 
 ![](/assets/images/224a5659-1.jpg)
 
