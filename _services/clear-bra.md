@@ -9,12 +9,12 @@ service-table:
       - option:
         price:
 search_engine_optimization:
-  page_title: Clear Bra/PPF
+  page_title: XPEL Clear Bra Colorado
   page_description: >-
-    Clear bra (paint protection film) prevents rock chips and scratches. Do you
-    find rock chips to be annoying? Did you know it only takes 1 drive down the
-    highway in Colorado to get rock chips on the front fascia of your car? We
-    have the perfect solution for you. #1 clear bra shop in Greeley, Colorado
+    Xpel prevents rock chips and scratches. Do you find rock chips to be
+    annoying? Did you know it only takes 1 drive down the highway in Colorado to
+    get rock chips on the front fascia of your car? We have the perfect solution
+    for you. #1 clear bra shop in Greeley, Colorado
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
