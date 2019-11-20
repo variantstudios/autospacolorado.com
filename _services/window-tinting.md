@@ -52,11 +52,10 @@ service-table:
       - option: Large Suvs
         price: $509
 search_engine_optimization:
-  page_title: Window Tinting Greeley Auto Spa Colorado
+  page_title: Window Tinting Greeley Colorado
   page_description: >-
-    Window tinting is a great way to protect the interior of your vehicle along
-    with added privacy, heat rejection and safely blocking bright lights and
-    reducing glare.  #1 tint shop in Greeley, Colorado
+    Window tinting in Northern Colroado using Xpel Films. Voted #1 tint shop in
+    Greeley, Colorado
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
