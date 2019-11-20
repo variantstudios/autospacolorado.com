@@ -9,15 +9,10 @@ service-table:
       - option:
         price:
 search_engine_optimization:
-  page_title: Custom Exhaust
+  page_title: Custom Exhaust Greeley Colorado
   page_description: >-
-    Looking to change not only the sound but the performance of your vehicle as
-    well? We have the answer for you, full custom exhaust.
-
-    We can do everything from a simple resonator/muffler delete to full on
-    custom bent exhausts set ups using the mufflers and tips of your choice!
-
-    Contact us today for you exhaust needs.
+    Muffler repair, Custom Exhaust, Catalytic Converter repair in Greeley
+    Colorado.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
