@@ -26,9 +26,9 @@ _comments:
     at least 600 x 315px.
 ---
 
-Do you find rock chips to be annoying? Did you know it only takes 1 drive down the highway in Colorado to get rock chips on the front fascia of your car? We have the perfect solution for you, a clear plastic film that is virtually invisible and will resist rock chipping on your vehicles paint. Clear bra is about 90% effective, obviously a sharp or &nbsp;large objecting hitting your vehicle at high speeds can possibly tear through the material.&nbsp;
+Do you find rock chips to be annoying? Did you know it only takes 1 drive down the highway in **Colorado** to get rock chips on the front fascia of your car? We have the perfect solution for you, a clear plastic film that is virtually invisible and will resist rock chipping on your vehicles paint. **Clear bra** is about 90% effective, obviously a sharp or &nbsp;large objecting hitting your vehicle at high speeds can possibly tear through the material.&nbsp;
 
-This film is commonly know as clear bra or PPF(paint protection film). This product is self healing (scratches begin to disappear with heat due to the reversible polymers in the material). The self heal top coating is rough .5mil thick, so any scratches past that depth will not be able to fully heal. Our PPF comes with a warranty and will pay for itself in the long run by preserving your factory paint, therefore resulting in a higher resale value on your car. We offer a number of brand options such as; Xpel, Suntek, Llumar and 3M.
+This film is commonly know as clear bra or PPF(paint protection film). This product is self healing (scratches begin to disappear with heat due to the reversible polymers in the material). The self heal top coating is rough .5mil thick, so any scratches past that depth will not be able to fully heal. Our PPF comes with a warranty and will pay for itself in the long run by preserving your factory paint, therefore resulting in a higher resale value on your car. We offer a number of brand options such as; **Xpel**, Suntek, Llumar and 3M.
 
 Most of our PPF installs are computer cut, however there is a rare occasion when our technician may have to do a custom cut install. Custom install you say? No worries there, our clear bra technician has over 10 years experience and can do a custom cut without scoring/cutting into your clear coat.
 
