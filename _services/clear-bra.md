@@ -1,5 +1,5 @@
 ---
-title: Clear Bra/PPF
+title: XPEL Clear Bra
 header_image_path: /assets/images/header/clear-bra.jpg
 pricing: Pricing will vary depending on material used and how much coverage is desired.
 service-table:
@@ -34,6 +34,6 @@ Most of our PPF installs are computer cut, however there is a rare occasion when
 
 ### Benefits
 
-The most valuable benefit of having PPF installed on your vehicle is that the film will preserve your factory finish. We all know a car that has original paint will always be worth more than one that has been repainted!
+The most valuable benefit of having PPF installed on your vehicle is that the film will preserve your factory finish. We all know a car that has original paint will always be worth more than one that has been repainted\!
 
-We have even had clients run into the side of garages, minor accidents and scuffed up against an object who have not had to repaint due to clear bra being installed. A simple peel off of the old material and replacement of that area = good as new!
+We have even had clients run into the side of garages, minor accidents and scuffed up against an object who have not had to repaint due to clear bra being installed. A simple peel off of the old material and replacement of that area = good as new\!
