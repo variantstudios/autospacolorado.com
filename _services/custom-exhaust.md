@@ -24,8 +24,8 @@ _comments:
     at least 600 x 315px.
 ---
 
-Custom exhaust is a great way to add some performance to your vehicle as well as change the sound of it. We carry multiple brands, such as; Flowmaster, Borla, Aero, Magnaflow and many more.&nbsp;
+**Custom exhaust** is a great way to add some performance to your vehicle as well as change the sound of it. We carry multiple brands, such as; Flowmaster, Borla, Aero, Magnaflow and many more.&nbsp;
 
-We can also replace your catalytic converters, install x pipes, custom tips and so much more.
+We can also replace your **catalytic** converters, install x pipes, custom tips and so much more.
 
 We have a complete pipe bender setup that allows us to bend up to 3" diameter pipe. Please contact us today for your custom exhaust or muffler repair needs.
