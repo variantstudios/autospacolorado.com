@@ -78,6 +78,6 @@ _comments:
     at least 600 x 315px.
 ---
 
-Our definition of detailing at Auto Spa of Greeley is a very thorough deep steam/shampoo cleaning of your entire interior of the vehicle. We clean every crack, crevice, nook and cranny. We take deep pride in what we do and always want to produce the best possible result when it comes to any of the services we offer. This is why it takes so much time to complete the job and we only offer complete services for our clients. We are an art business, your vehicle is our canvas that we display our abilities on. Its all in the details right?
+Our definition of **detailing** at Auto Spa of **Greeley** is a very thorough deep steam/shampoo cleaning of your entire interior of the vehicle. We clean every crack, crevice, nook and cranny. We take deep pride in what we do and always want to produce the best possible result when it comes to any of the services we offer. This is why it takes so much time to complete the job and we only offer complete services for our clients. We are an art business, your vehicle is our canvas that we display our abilities on. Its all in the details right?
 
 Ever go to a drive through car wash and purchase an express detail or even a detail and you didn’t get the results you expected? Those types of businesses are a numbers business. With us we know you by name and you become part of our Auto Spa family.
