@@ -10,7 +10,7 @@ teaser:
 group: Car Care Products
 header_image_path: /assets/images/-24a2052-5.jpg
 product_id: 107
-base_price: '15.99'
+base_price: '23.99'
 add_ons:
   - title: Ceramic Coating Booster
     price:
