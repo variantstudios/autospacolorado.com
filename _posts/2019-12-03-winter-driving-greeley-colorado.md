@@ -1,8 +1,14 @@
 ---
 title: Winter Driving  Greeley Colorado
 date: 2019-12-03 00:00:00
-image_path:
-short_description:
+image_path: /assets/images/blog-header-1.jpg
+short_description: >-
+  Winter driving can be very unsafe. Please be prepared and remember to have
+  your vehicle serviced and ready for the driving conditions. Here is a great
+  read on how you can prepare for the conditions. There is even a checklist
+  included for you to go over. 
+
+  Thank you
 search_engine_optimization:
   page_title: Car Detailing Greeley Colorado
   page_description: >-
