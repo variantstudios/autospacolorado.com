@@ -7,7 +7,7 @@ search_engine_optimization:
   page_title: Car Detailing Greeley Colorado
   page_description: >-
     Offering ceramic coatings, clear bra, window tinting, detailing and custom
-    exhaust.
+    exhaust in Greeley and surrounding areas.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
