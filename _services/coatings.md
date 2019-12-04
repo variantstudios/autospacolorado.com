@@ -35,7 +35,7 @@ _comments:
 
 ### We have you covered\!
 
-* This is what it boils down to, we offer coatings of all types of levels.
+* This is what it boils down to, we offer ceramic coatings of all types of levels.
 * Want a coating that will just make your car glossier and last a year? We have that.
 * Want a coating that has a warranty? Not a problem
 * Have a new car and want to keep it looking amazing?\*\* Looking for a specific coating brand? We have been authorized by the majority of coating companies to install their products. However our preferred product is **Ceramic Pro**\!
