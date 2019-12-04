@@ -16,8 +16,8 @@ service-table:
 search_engine_optimization:
   page_title: Ceramic Coatings Greeley Colorado
   page_description: >-
-    Want your car to look its best? Want insane gloss? Want the paint to look
-    better than it was brand new? We have you covered.
+    Ceramic Pro Coatings in Northern Colorado . Offering Window tint, Clear bra,
+    detailing and custom exhaust as well/
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
