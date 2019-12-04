@@ -1,11 +1,13 @@
 ---
-title:
-date:
+title: Winter Driving  Greeley Colorado
+date: 2019-12-03 00:00:00
 image_path:
 short_description:
 search_engine_optimization:
-  page_title:
-  page_description:
+  page_title: Car Detailing Greeley Colorado
+  page_description: >-
+    Offering ceramic coatings, clear bra, window tinting, detailing and custom
+    exhaust.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
