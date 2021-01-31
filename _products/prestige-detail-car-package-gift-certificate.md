@@ -33,6 +33,7 @@ search_engine_optimization:
     full interior, clay bar process and a 1-step paint enhancement polish (20%
     light surface scratch removal).
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+hide: false
 weight: 2
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
