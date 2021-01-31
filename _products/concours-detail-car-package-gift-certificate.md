@@ -31,6 +31,7 @@ search_engine_optimization:
     The package demanded by auto enthusiast of all types for a complete and
     extensive detailing service.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+hide: false
 weight: 1
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
