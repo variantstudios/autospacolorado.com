@@ -29,6 +29,7 @@ search_engine_optimization:
     Includes a lifetime nationwide warranty. Includes all windows except the
     front windshield and sunroof.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+hide: false
 weight: 8
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
