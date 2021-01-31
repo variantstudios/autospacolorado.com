@@ -33,6 +33,7 @@ search_engine_optimization:
     last 2 – 3 months or for those looking for a quick cleaning of their
     vehicles.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+hide: false
 weight: 3
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
