@@ -28,9 +28,3 @@ _comments:
     at least 600 x 315px.
 ---
 
-* Great cleaning properties
-* Good sudsing
-* Specific for ceramic coated vehicles
-* Great melon scent
-* Will revitalize the coated surface and leave a thin layer of protection
-* Ph Neutral formula![](/assets/images/photo-jun-12-2-01-16-pm-1.jpg){: width="3024" height="4032"}
