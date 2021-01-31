@@ -29,6 +29,7 @@ search_engine_optimization:
     Gift Certificate for tinting on most 2 door cars. Includes a lifetime
     warranty.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+hide: false
 weight: 2
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
