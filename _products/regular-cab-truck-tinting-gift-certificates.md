@@ -37,6 +37,7 @@ seo:
     Includes a lifetime nationwide warranty. Includes the 2 front door windows
     and rear solid window tint.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+hide: false
 weight: 4
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
