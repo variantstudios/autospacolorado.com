@@ -16,7 +16,7 @@ search_engine_optimization:
   page_title:
   page_description:
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
-hide: true
+hide: false
 weight: 1
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
