@@ -25,6 +25,7 @@ search_engine_optimization:
   page_title: "Gift Certificate for Trucks and Suvs: 2 front windows"
   page_description:  "This gift certificate is valid for tinting 2 front door windows on trucks and Suvs."
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+hide: false
 weight: 1
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
