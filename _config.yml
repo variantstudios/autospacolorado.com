@@ -88,8 +88,8 @@ defaults:
 _options:
   some_markdown:
     bold: true
-    table: true
-    
+    italic: true
+    link: true
   _text:
     italic: true
   _block:
@@ -101,6 +101,8 @@ _options:
     bold: true
     italic: true
     numberedlist: true
+    outdent: true
+    indent: true
     removeformat: true
     # code: true
     # table: true
@@ -108,6 +110,7 @@ _options:
     # styles: /_sass/_content-typography.scss
     embed: true
     image: true
+    link: true
 
 # Snipcart's Public Key
 snipcart-key: 'MWEyYThkMGMtM2IxMy00MjUwLTk3ZWMtZDgwNTJhODM1Zjk5NjM2MjMxMzQ4OTI1OTg2MDg0'
