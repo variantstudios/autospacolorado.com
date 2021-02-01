@@ -102,7 +102,7 @@ _options:
     code: true
     table: true
     right: align-to-right
-    styles: /_sass/_content-typography.scss
+    # styles: /_sass/_content-typography.scss
     embed: true
 
 # Snipcart's Public Key
