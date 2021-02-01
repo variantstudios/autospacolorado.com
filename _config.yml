@@ -85,6 +85,26 @@ defaults:
       layout: service-detail
 
 
+_options:
+  some_markdown:
+    bold: true
+    table: true
+  _text:
+    italic: true
+  _block:
+    format: p h3
+    undo: true
+    redo: true
+  content:
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    bold: true
+    numberedlist: true
+    code: true
+    table: true
+    right: align-to-right
+    styles: /_sass/_content-typography.scss
+    embed: true
+
 # Snipcart's Public Key
 snipcart-key: 'MWEyYThkMGMtM2IxMy00MjUwLTk3ZWMtZDgwNTJhODM1Zjk5NjM2MjMxMzQ4OTI1OTg2MDg0'
 
