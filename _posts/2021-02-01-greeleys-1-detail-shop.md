@@ -22,3 +22,7 @@ _comments:
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[![](/mq3.jpg){: width="320" height="180"}](https://youtu.be/NJ-C8grPcdo)
 
 Here is a great short video showing you some of the services we offer.&nbsp; No matter what time of the year it is, its always a great idea to at least get your vehicle washed. We offer a great hand wash and vacuum package all the way to a full detailing including buffing. As seen in the video we work on motorcycles as well as atvs, boats, side by sides and so much more. Please contact us today for all of your **detailing**, window **tinting**, clear bra, custom **exhaust** and **Ceramic Pro** Coating needs.
+
+<div class="cms-embed" data-cms-embed="PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9RZXNCRTFKclkzYyIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+"><iframe width="560" height="315" src="https://www.youtube.com/embed/QesBE1JrY3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+&nbsp;
