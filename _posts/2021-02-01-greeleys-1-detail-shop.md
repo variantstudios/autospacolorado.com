@@ -1,7 +1,7 @@
 ---
 title: 'Greeley''s #1 Detail Shop'
 date: 2021-02-01 04:43:00
-image_path: 'https://youtu.be/NJ-C8grPcdo'
+image_path: /mq3.jpg
 short_description: Best of Greeley Detailing done at Greeley Auto Spa Downtown.
 search_engine_optimization:
   page_title: 'Greeley''s #1 Detail Shop'
@@ -18,5 +18,7 @@ _comments:
     Use images that are at least 1200 x 630px for best results or a minimum of
     at least 600 x 315px.
 ---
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[![](/mq3.jpg){: width="320" height="180"}](https://youtu.be/NJ-C8grPcdo)
 
 Here is a great short video showing you some of the services we offer.&nbsp; No matter what time of the year it is, its always a great idea to at least get your vehicle washed. We offer a great hand wash and vacuum package all the way to a full detailing including buffing. As seen in the video we work on motorcycles as well as atvs, boats, side by sides and so much more. Please contact us today for all of your **detailing**, window **tinting**, clear bra, custom **exhaust** and **Ceramic Pro** Coating needs.
