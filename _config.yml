@@ -104,6 +104,7 @@ _options:
     right: align-to-right
     # styles: /_sass/_content-typography.scss
     embed: true
+    image: true
 
 # Snipcart's Public Key
 snipcart-key: 'MWEyYThkMGMtM2IxMy00MjUwLTk3ZWMtZDgwNTJhODM1Zjk5NjM2MjMxMzQ4OTI1OTg2MDg0'
