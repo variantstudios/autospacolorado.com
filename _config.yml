@@ -101,6 +101,7 @@ _options:
     bold: true
     italic: true
     numberedlist: true
+    bulletedlist: true
     outdent: true
     indent: true
     removeformat: true
