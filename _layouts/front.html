@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+
 <div class="front">
   <!-- Video Header pulling from Front Matter -->
   <div class=" hero" id="block" data-vide-bg="/assets/video/home-vid" data-vide-options="position: 0% 50%"></div>
 <!--   <div class="videobg hero">
-    <iframe src="https://player.vimeo.com/video/{{page.hero_video_vimeo_id}}?loop=1&autoplay=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/{{page.hero_video_vimeo_id}}?loop=1&autoplay=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 </div> -->
 
   <!-- Slider Using Slick -->
@@ -21,7 +22,7 @@ layout: default
       {% for gallery in items limit:8 %}
         <div>
           <a href="{{ gallery.url }}">
-            <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_400,c_fill/{{site.url}}{{ gallery.main_image_path }}" data-img="{{site.url}}{{gallery.main_image_path}}" data-width="400px" data-height="400px">
+            <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_400,c_fill/{{site.url}}{{ gallery.main_image_path }}" data-img="{{site.url}}{{gallery.main_image_path}}" data-width="400px" data-height="400px" />
           </a>
         </div>
       {% endfor %}
@@ -30,7 +31,7 @@ layout: default
 
   <!-- Preface Are for Location Blocks  -->
   <div class="preface-wrap">
-    <img src="/assets/images/car.png" class="car-side">
+    <img src="/assets/images/car.png" class="car-side" />
     <section class="preface no-rectangle clearfix">
       <div class="wrap">
         <div class="headings">
@@ -39,10 +40,10 @@ layout: default
         </div>
 
         {% for item in site.locations %}
-        <div  itemscope itemtype="http://schema.org/LocalBusiness" class="location-block first editable">
+        <div itemscope itemtype="http://schema.org/LocalBusiness" class="location-block first editable">
             <h4 class="location--title" itemprop="name">{{ item.title }}</h4>
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">{{ item.address }}</span><br>
+                    <span itemprop="streetAddress">{{ item.address }}</span><br />
                     <span itemprop="addressLocality">{{ item.city }}</span>,
                     <span itemprop="addressRegion">{{ item.state }}</span>
                     <span>{{ item.zip }}</span>
@@ -77,7 +78,7 @@ layout: default
         <ul class="services-list">
           {% for services in site.services %}
             <li class="service-item">
-              <a href="{{ services.url }}">{{ services.title }}<img src="/assets/images/arrow-red.png" alt=""></a>
+              <a href="{{ services.url }}">{{ services.title }}<img src="/assets/images/arrow-red.png" alt="" /></a>
             </li>
           {% endfor %}
         </ul>
