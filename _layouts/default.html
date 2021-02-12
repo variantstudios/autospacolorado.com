@@ -6,7 +6,7 @@
 {% include head.html %}
 <body class="snipcart-overwrite {% if page.class %} {{page.class}}{%endif%}">
 
-    {% if page.permalink == "/contact/" or if page.permalink == "/book-appointment/" or if page.permalink == "request-a-quote" %}{% elsif page.permalink == "/book-appointment/" %}{% else %}<div class="book-fixed"><span><a href="/book-appointment/">Request a Quote</a></span></div>{% endif %}
+    {% if page.permalink == "/contact/" or page.permalink == "/book-appointment/" or page.permalink == "request-a-quote" %}{% elsif page.permalink == "/book-appointment/" %}{% else %}<div class="book-fixed"><span><a href="/book-appointment/">Request a Quote</a></span></div>{% endif %}
 
 
     {% include browserupgrade.html %}
