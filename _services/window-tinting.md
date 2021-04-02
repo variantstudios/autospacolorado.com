@@ -1,7 +1,9 @@
 ---
 title: Window Tinting
-header_image_path: /assets/images/-24a5471.jpg
-pricing:
+header_image_path: /assets/images/tint-002.jpeg
+pricing: >-
+  Prices vary based on material choice, make and model of vehicle, along with
+  additional costs for removal of old film.
 service-table:
   - group: Standard Lifetime Film
     desc:
@@ -67,16 +69,29 @@ _comments:
     at least 600 x 315px.
 ---
 
-You ever feel like somebody is looking at you? Creepy isn't it? Well guess what? Get your windows tinted and it will be difficult to see you in your flashy ride\!
+Do you ever get the feeling somebody is watching you while in your car? Creepy isn't it? Then you realize they are just staring at your tremendously stark farmer's tan\! Avoid the awkward interaction by getting your vehicle's windows tinted and it will be difficult to see you in your flashy ride\! An additional benefit to having your windows tinted is assisting in helping keep your personal belongings safe. You can't take what you can't see\!&nbsp;
 
-We all usually like to lay out on the beach to catch a tan and get that right skin tone right? Well dont catch yourself getting farmers tan because your windows are not tinted. Not only will tint block harmful uv rays, but it could also block a good amount of heat. Looking to block a lot of heat but dont want the look of window tint on your car? We have a film that is extremely light in color but will block as much heat as a dark standard film would. Blocking harmful uv rays will also protect your interior from sun damage and fading.
+Having window tint film applied will not only **block harmful UV** rays but could also **block** a good amount of **heat**. Looking to block a lot of heat but don't want the look of window tint on your car? We have a film that is extremely light in color but will block as much heat as a dark standard film would. Blocking those harmful UV rays will also protect your vehicle's interior from sun damage and fading over time.&nbsp;
 
-We offer 4 types of film, Standard, **XPEL**&nbsp;High Performance,&nbsp; **XPEL XR** Nano **Ceramic**&nbsp; and XPEL XR PLUS Multi Layer Nano Ceramic. Standard film is a film that will give you the privacy you desire but will not block any heat. XPEL HP will give you privacy and block up to 40% of infrared heat. XPEL XR will give you privacy, block up to 72% infrared heat and is more resistant to scratches than dyed film. XPEL XR PLUS will block up to 98% of infrared heat, give you privacy and is more scratch resistant.
+Do you drive a **Telsa** or other EV with a regulated interior temperature? With **Xpel Window Film**, its heat rejection will help assist in keeping your vehicle's interior temperature regulated, thus saving your battery from overworking and wearing down faster over time.&nbsp;
+
+*We offer 4 types of film:&nbsp;*
+
+* **Standard Film**\- will give you the privacy you desire but will not block any heat
+* **XPEL Color-Stable Film**\- will give you privacy and block up to 40% of infrared heat
+* **XPEL XR Ceramic Film**\- will give you privacy, block up to 72% infrared heat, and is more resistant to scratches than dyed film
+* **XPEL XR PLUS Multi-Layer Nano Ceramic Film**\- will block up to 98% of infrared heat, give you privacy, and is more scratch-resistant
 
 Ceramic film is the highest quality of window tint film, and also blocks more heat, contains neither metal, dye, nor carbon, but instead a kind of ceramic particle that is both non-conductive and nonmetallic.
 
-Our main installer at Greeley Auto Spa has been installing all types of window films since 2005 and has been certified by **3m**, **Suntek**, **llumar**, **Photosync**, XPEL and a few others.
-
 ![](/assets/images/224a5659-1.jpg)
 
-All films installed by us are back by a lifetime nationwide warranty that guarantees the tint will not fade, turn purple, peel, delaminate or crack.
+*Reason's to consider XPEL Window Tinting Films:*
+
+* **Ceramic Particle Technology**&nbsp;Contains a proprietary blend of ceramic particles to act as a solid barrier to various percentages of infrared heat while maintaining the ease of install.
+* **Superior Heat Rejection**&nbsp;Our multilayer nano-ceramic particle technology blocks up to 98% of the infrared heat.
+* **UV Ray Protection**&nbsp;PRIME Films provide SPF 1,000 protection that effectively blocks over 99% of harmful UV rays that can lead to numerous skin cancers, premature aging, and skin cell damage.
+* **Greater Clarity**&nbsp;In the past, keeping cool meant choosing a darker shade of tint. The multi-layer nano construction in PRIME Films provides ultra-high performance without reducing outbound visibility.
+* **Crystal Clear Signal**&nbsp;In a digital world, clear communication is key. PRIME Films construction will not interfere with radio, cellular, or Bluetooth signals.
+
+Here at Greeley Auto Spa, our tinters are certified and have been installing window tint films as far back as 2004. All films installed by us are backed by a lifetime nationwide warranty that guarantees the tint will not fade, turn purple, peel, delaminate or crack.&nbsp;<br><br>Stop by and see our display boards and demonstration display heat box for first-hand examples and get a free quote in the process.&nbsp;
