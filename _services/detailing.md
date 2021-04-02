@@ -83,7 +83,7 @@ What can you expect when bringing your vehicle to **Greeley Auto Spa** for a **F
 * &nbsp;Hand Wash - degreaser in the engine bay and wheel-well undercarriage... don't forget the door jambs\! We use a soap cannon to &nbsp;make sure the entire vehicle has soap applied before we use special mitts to wash it by hand. We then Air-dry it as well after a good rinse.
 * Extremely thorough vacuum (additional fees for pet hair & extreme messes) and deep steam/shampoo cleaning of the entire interior.&nbsp;
 * Deep clean every crack, cranny, and crevice\!
-* Every inch of glass, inside and out gets attention... see our **Tint Services** for additional info and options.
+* Every inch of glass, inside and out gets attention... see our **Window**&nbsp;**Tint Services** for additional info and options.
 * For smells and smoke we utilize our Ozone machine to purify the air
 * Apply a UV Protectant to the interior plastics and Leather Conditioner where applicable.
 * Every Detail gets our **JUJU Ceramic Sealant** coating (additional coating options available).
