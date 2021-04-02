@@ -10,15 +10,15 @@ service-table:
       great for those who maintain their vehicle on a regular basis.
     options:
       - option: Cars
-        price: $169
+        price: Call For Pricing
       - option: Small Truck
-        price: $189
+        price: Call For Pricing
       - option: Small SUV/Crossover
-        price: $229
+        price: Call For Pricing
       - option: SUV/Van/Truck
-        price: $269
+        price: Call For Pricing
       - option: XL Suv/Truck
-        price: $289
+        price: Call For Pricing
   - group: Prestige Detail
     desc: >-
       The Prestige Detail package comes with a full interior rejuvenation
@@ -31,15 +31,15 @@ service-table:
       protection)
     options:
       - option: Cars
-        price: $249
+        price: Call For Pricing
       - option: Small Truck
-        price: $279
+        price: Call For Pricing
       - option: Small SUV/Crossover
-        price: $309
+        price: Call For Pricing
       - option: SUV/Van/Truck
-        price: $349
+        price: Call For Pricing
       - option: XL Suv/Truck
-        price: $399
+        price: Call For Pricing
   - group:
     desc: >-
       Want to step it up another notch and get rid of those nasty swirl marks,
@@ -53,15 +53,15 @@ service-table:
       maintenance.
     options:
       - option: Cars
-        price: $369
+        price: Call For Pricing
       - option: Small Truck
-        price: $399
+        price: Call For Pricing
       - option: Small SUV/Crossover
-        price: $429
+        price: Call For Pricing
       - option: SUV/Van/Truck
-        price: $469
+        price: Call For Pricing
       - option: XL Suv/Truck
-        price: $519
+        price: Call For Pricing
 search_engine_optimization:
   page_title: Detail Shop Greeley Colorado
   page_description: >-
@@ -80,10 +80,10 @@ _comments:
 
 What can you expect when bringing your vehicle to **Greeley Auto Spa** for a **Full-Service Detail**?&nbsp;
 
-* &nbsp;Hand Wash - degreaser in the engine bay and wheel-well undercarriage... don't forget the door jambs\! We use a soap cannon to &nbsp;make sure the entire vehicle has soap applied before we use special mitts to wash it by hand. We then Air-dry it as well after a good rinse.
+* &nbsp;Hand Wash - degreaser in the engine bay and wheel-well undercarriage… don't forget the door jambs\! We use a soap cannon to &nbsp;make sure the entire vehicle has soap applied before we use special mitts to wash it by hand. We then Air-dry it as well after a good rinse.
 * Extremely thorough vacuum (additional fees for pet hair & extreme messes) and deep steam/shampoo cleaning of the entire interior.&nbsp;
 * Deep clean every crack, cranny, and crevice\!
-* Every inch of glass, inside and out gets attention... see our **Window**&nbsp;**Tint Services** for additional info and options.
+* Every inch of glass, inside and out gets attention… see our **Window**&nbsp;**Tint Services** for additional info and options.
 * For smells and smoke we utilize our Ozone machine to purify the air
 * Apply a UV Protectant to the interior plastics and Leather Conditioner where applicable.
 * Every Detail gets our **JUJU Ceramic Sealant** coating (additional coating options available).
@@ -91,6 +91,6 @@ What can you expect when bringing your vehicle to **Greeley Auto Spa** for a **F
 
 ![](/assets/images/b37i2365.jpeg){: width="5472" height="3648"}
 
-**What makes us different from the rest?**<br>All of our chemicals are specifically designed with your vehicle's paint in mind, unlike most chain self-service and tunnel washes. Their system is designed to get you in and out in a hurry...why is this important to know? In order for their system to work, more harsh chemicals are required to break down dirt faster, thus penetrating your vehicle's top clear coat. Along with that, they often use brushes and soft cloth that hold onto contaminants from a previous wash...resulting in scratches to your vehicle's surface.&nbsp;
+**What makes us different from the rest?**<br>All of our chemicals are specifically designed with your vehicle's paint in mind, unlike most chain self-service and tunnel washes. Their system is designed to get you in and out in a hurry…why is this important to know? In order for their system to work, more harsh chemicals are required to break down dirt faster, thus penetrating your vehicle's top clear coat. Along with that, they often use brushes and soft cloth that hold onto contaminants from a previous wash…resulting in scratches to your vehicle's surface.&nbsp;
 
-While their wash may only take a matter of minutes, a full detail with us can take the better part of the day. That is because we treat your vehicle as if it was our own pride and joy. We refuse to compromise, it's just not who we are. When you leave here we want to consider you a part of the Greeley Auto Spa family, not just a number.&nbsp;
+While their wash may only take a matter of minutes, a full detail with us can take the better part of the day. That is because we treat your vehicle as if it was our own pride and joy. We refuse to compromise, it's just not who we are. When you leave here we want to consider you a part of the Greeley Auto Spa family, not just a number.&nbsp;<br><br>\*\*\* *Prices vary based on **Year, Make, and Model** of vehicle, along with its current condition and the level of desired detail requested.&nbsp;*
