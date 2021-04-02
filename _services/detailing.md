@@ -1,6 +1,6 @@
 ---
 title: Detailing
-header_image_path: /assets/images/header/detailing.jpg
+header_image_path: /assets/images/detail-header.jpg
 service-table:
   - group: Signature
     desc: >-
@@ -88,6 +88,8 @@ What can you expect when bringing your vehicle to **Greeley Auto Spa** for a **F
 * Apply a UV Protectant to the interior plastics and Leather Conditioner where applicable.
 * Every Detail gets our **JUJU Ceramic Sealant** coating (additional coating options available).
 * Lastly, Tire Dressing is applied (additional coating options on rims are available).
+
+![](/assets/images/b37i2365.jpeg){: width="5472" height="3648"}
 
 **What makes us different from the rest?**<br>All of our chemicals are specifically designed with your vehicle's paint in mind, unlike most chain self-service and tunnel washes. Their system is designed to get you in and out in a hurry...why is this important to know? In order for their system to work, more harsh chemicals are required to break down dirt faster, thus penetrating your vehicle's top clear coat. Along with that, they often use brushes and soft cloth that hold onto contaminants from a previous wash...resulting in scratches to your vehicle's surface.&nbsp;
 
