@@ -78,6 +78,17 @@ _comments:
     at least 600 x 315px.
 ---
 
-Our definition of **detailing** at Auto Spa of **Greeley** is a very thorough deep steam/shampoo cleaning of your entire interior of the vehicle. We clean every crack, crevice, nook and cranny. We take deep pride in what we do and always want to produce the best possible result when it comes to any of the services we offer. This is why it takes so much time to complete the job and we only offer complete services for our clients. We are an art business, your vehicle is our canvas that we display our abilities on. Its all in the details right?
+What can you expect when bringing your vehicle to **Greeley Auto Spa** for a **Full-Service Detail**?&nbsp;
 
-Ever go to a drive through car wash and purchase an express detail or even a detail and you didn’t get the results you expected? Those types of businesses are a numbers business. With us we know you by name and you become part of our Auto Spa family.
+* &nbsp;Hand Wash - degreaser in the engine bay and wheel-well undercarriage... don't forget the door jambs\! We use a soap cannon to &nbsp;make sure the entire vehicle has soap applied before we use special mitts to wash it by hand. We then Air-dry it as well after a good rinse.
+* Extremely thorough vacuum (additional fees for pet hair & extreme messes) and deep steam/shampoo cleaning of the entire interior.&nbsp;
+* Deep clean every crack, cranny, and crevice\!
+* Every inch of glass, inside and out gets attention... see our **Tint Services** for additional info and options.
+* For smells and smoke we utilize our Ozone machine to purify the air
+* Apply a UV Protectant to the interior plastics and Leather Conditioner where applicable.
+* Every Detail gets our **JUJU Ceramic Sealant** coating (additional coating options available).
+* Lastly, Tire Dressing is applied (additional coating options on rims are available).
+
+**What makes us different from the rest?**<br>All of our chemicals are specifically designed with your vehicle's paint in mind, unlike most chain self-service and tunnel washes. Their system is designed to get you in and out in a hurry...why is this important to know? In order for their system to work, more harsh chemicals are required to break down dirt faster, thus penetrating your vehicle's top clear coat. Along with that, they often use brushes and soft cloth that hold onto contaminants from a previous wash...resulting in scratches to your vehicle's surface.&nbsp;
+
+While their wash may only take a matter of minutes, a full detail with us can take the better part of the day. That is because we treat your vehicle as if it was our own pride and joy. We refuse to compromise, it's just not who we are. When you leave here we want to consider you a part of the Greeley Auto Spa family, not just a number.&nbsp;
