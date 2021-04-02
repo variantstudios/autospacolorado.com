@@ -1,6 +1,6 @@
 ---
 title: XPEL PPF Clear Bra
-header_image_path: /assets/images/header/clear-bra.jpg
+header_image_path: /assets/images/ppf-001.jpg
 pricing: Pricing will vary depending on material used and how much coverage is desired.
 service-table:
   - group:
