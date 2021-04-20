@@ -8,7 +8,7 @@ teaser:
     exterior plastics and tires.
   image_path: /assets/images/photo-jun-12-2-05-25-pm.jpg
 group: Car Care Products
-header_image_path: /assets/images/gas-header-image-007.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 108
 base_price: '12.99'
 add_ons:
