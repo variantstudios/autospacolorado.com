@@ -6,7 +6,7 @@ teaser:
   short_description: Interior cleaner that is safe on all surfaces.
   image_path: /assets/images/photo-jun-12-2-03-57-pm.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052-8.jpg
+header_image_path: /assets/images/gas-header-008-1.jpg
 product_id: 110
 base_price: '10.99'
 add_ons:
