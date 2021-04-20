@@ -12,7 +12,7 @@ header_image_path: /assets/images/gas-header-008.jpg
 product_id: 108
 base_price: '12.99'
 add_ons:
-  - title: gloss dressing/tire shine
+  - title: Gloss Dressing/Tire Shine
     price:
 search_engine_optimization:
   page_title:
