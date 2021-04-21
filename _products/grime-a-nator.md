@@ -1,8 +1,8 @@
 ---
-title: Grime A Nator
+title: GRIME-A-NATOR
 teaser:
   top_title: Interior Cleaner
-  bottom_title: Grime A Nator
+  bottom_title: GRIME-A-NATOR
   short_description: Interior cleaner that is safe on all surfaces.
   image_path: /assets/images/37i4591.jpg
 group: Car Care Products
