@@ -1,14 +1,14 @@
 ---
 title: Ironator
 teaser:
-  top_title: Wheel Cleaner
+  top_title: Wheel and Contaminate Cleaner
   bottom_title: Ironator
   short_description: >-
-    Removes iron deposits from wheels and paint. Color changes to show its
-    working.
-  image_path: /assets/images/photo-jun-12-2-04-19-pm-1.jpg
+    Removes iron deposits from wheels and paint. Once applied, the color begins
+    to change in order to show its working.
+  image_path: /assets/images/37i4589.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052-7.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 105
 base_price: '14.99'
 add_ons:
@@ -35,4 +35,4 @@ _comments:
 * Great for brake dust removal
 * Safe on all wheel surfaces
 * Can be used on paint
-* Ph Neutral![](/assets/images/photo-jun-12-2-04-19-pm.jpg){: width="3024" height="4032"}
+* Ph Neutral![](/assets/images/37i4589.jpg){: width="3311" height="4966"}
