@@ -7,7 +7,7 @@ teaser:
   short_description: >-
     Window tinting for a 4 door car. Includes all the windows except the front
     windshield or sunroof.
-  image_path: /assets/images/store/detail_sm.jpg
+  image_path: /assets/images/b37i0777.jpg
 group: Window Tinting Gift Certificates
 header_image_path: /assets/images/store/BMW-64Oi_lg.jpg
 product_id: 3
