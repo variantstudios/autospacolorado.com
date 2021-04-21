@@ -31,6 +31,9 @@ _comments:
     at least 600 x 315px.
 ---
 
-&nbsp;
+* Ceramic Based
+* Enhances existing gloss
+* Applies a thin invisible film of protection
+* Works best with vehicles previously coated in a ceramic coating&nbsp;
 
-​​​​​​​![](/assets/images/37i4593.jpg){: width="3295" height="4942"}
+![](/assets/images/37i4593.jpg){: width="3295" height="4942"}
