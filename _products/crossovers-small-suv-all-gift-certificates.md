@@ -7,7 +7,7 @@ teaser:
   top_title: Small SUVs
   bottom_title: All Windows
   short_description: Includes the 2 front door windows and rear solid window tint.
-  image_path: /assets/images/store/detail_sm.jpg
+  image_path: /assets/images/b37i0777.jpg
 group: Window Tinting Gift Certificates
 header_image_path: /assets/images/store/jeep_lg.jpg
 product_id: 7
