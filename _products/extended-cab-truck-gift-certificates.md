@@ -8,7 +8,7 @@ teaser:
     Includes the 2 front door windows ,smaller rear side windows and rear solid
     window tint. Please add for windshield visor, sunroof, wing windows and
     slider.
-  image_path: /assets/images/store/detail_sm.jpg
+  image_path: /assets/images/b37i0777.jpg
 group: Window Tinting Gift Certificates
 header_image_path: /assets/images/store/Ford-F350-Red-2016_lg.jpg
 product_id: 5
