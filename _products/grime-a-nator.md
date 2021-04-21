@@ -1,5 +1,5 @@
 ---
-title: GRIME-A-NATOR
+title: Grime-A-Nator
 teaser:
   top_title: Interior Cleaner
   bottom_title: Grime-A-Nator
