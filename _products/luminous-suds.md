@@ -3,10 +3,13 @@ title: Luminous Suds
 teaser:
   top_title: Ceramic Soap
   bottom_title: Luminous Suds
-  short_description: Ceramic based soap specific for ceramic coated vehicles
-  image_path: /assets/images/photo-jun-12-2-01-16-pm.jpg
+  short_description: >-
+    Ceramic-based soap is specific for ceramic coated vehicles. This shampoo
+    will revitalize the surface of the coating, all while adding a thin
+    invisible film of protection.
+  image_path: /assets/images/37i4593.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 101
 base_price: '23.99'
 add_ons:
@@ -28,3 +31,6 @@ _comments:
     at least 600 x 315px.
 ---
 
+&nbsp;
+
+​​​​​​​![](/assets/images/37i4593.jpg){: width="3295" height="4942"}
