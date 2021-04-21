@@ -2,8 +2,12 @@
 title: GRIME-A-NATOR
 teaser:
   top_title: Interior Cleaner
-  bottom_title: GRIME-A-NATOR
-  short_description: Interior cleaner that is safe on all surfaces.
+  bottom_title: Grime-A-Nator
+  short_description: >-
+    Interior cleaner that can be used on leather, vinyl, rubber, plastics,
+    carpet, cloth & upholstery.  Our Grime-A-Nator is gentle and works tough to
+    remove stains. No added shine, jut a clean factory finish. Adds UV
+    protection.
   image_path: /assets/images/37i4591.jpg
 group: Car Care Products
 header_image_path: /assets/images/gas-header-008-1.jpg
