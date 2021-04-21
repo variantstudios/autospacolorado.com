@@ -4,11 +4,11 @@ teaser:
   top_title: Ceramic Coating Booster
   bottom_title: JU JU
   short_description: >-
-    Spray on silica based ceramic coating booster. Will revitalize the
-    hydrophobic properties of a coating
-  image_path: /assets/images/img-2395.jpg
+    Spray on silica-based ceramic coating booster. It adds a high gloss, super
+    slick finish and will revitalize the hydrophobic properties of a coating
+  image_path: /assets/images/37i4587.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052-5.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 107
 base_price: '23.99'
 add_ons:
@@ -35,4 +35,4 @@ _comments:
 * Easy to use
 * Leaves paint surface very slick
 * Can be used on windows, plastics, paint, wheel, etc.
-* Pineapple scent![](/assets/images/img-2395.jpg){: width="2061" height="2748"}
+* Pineapple scent![](/assets/images/37i4587.jpg){: width="3311" height="4966"}
