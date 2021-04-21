@@ -7,7 +7,7 @@ teaser:
   short_description: >-
     Includes a lifetime nationwide warranty. Includes all 4 door windows and
     rear solid window tint.
-  image_path: /assets/images/store/detail_sm.jpg
+  image_path: /assets/images/b37i0777.jpg
 group: Window Tinting Gift Certificates
 header_image_path: /assets/images/20151208-080423.jpg
 product_id: 6
