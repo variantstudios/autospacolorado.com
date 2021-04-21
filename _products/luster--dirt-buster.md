@@ -1,7 +1,7 @@
 ---
 title: Luster & Dirt Buster
 teaser:
-  top_title: Wash & Wax soap
+  top_title: Wash & Wax Soap
   bottom_title: Luster & Dirt Buster
   short_description: >-
     Wax-based car wash soap that works hard to break down grime, grease, dirt,
