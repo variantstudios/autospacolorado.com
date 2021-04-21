@@ -1,12 +1,15 @@
 ---
 title: Luster & Dirt Buster
 teaser:
-  top_title: wash & wax soap
+  top_title: Wash & Wax soap
   bottom_title: Luster & Dirt Buster
-  short_description: Car wash soap that contains wax
-  image_path: /assets/images/photo-jun-12-2-02-52-pm.jpg
+  short_description: >-
+    Wax-based car wash soap that works hard to break down grime, grease, dirt,
+    etc. This is a concentrated soap infused with wax to increase gloss with a
+    simple wash.
+  image_path: /assets/images/37i4592.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052-1.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 102
 base_price: '12.99'
 add_ons:
@@ -31,4 +34,4 @@ _comments:
 * Works hard to break down grime, grease, dirt, etc
 * Infused with wax to increase gloss with a simple wash
 * Great sudsing
-* Use in conjunction with Spritz N Glitz (spray wax)![](/assets/images/photo-jun-12-2-02-52-pm.jpg){: width="3024" height="4032"}
+* Use in conjunction with Spritz N Glitz (spray wax)![](/assets/images/37i4592.jpg){: width="3311" height="4966"}
