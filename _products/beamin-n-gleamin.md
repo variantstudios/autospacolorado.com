@@ -1,12 +1,12 @@
 ---
 title: Beamin N Gleamin
 teaser:
-  top_title: gloss dressing/tire dressing
+  top_title: Gloss Dressing/Tire Dressing
   bottom_title: Beamin N Gleamin
   short_description: >-
-    universal dressing/protectant that can be used on interior plastics,
-    exterior plastics and tires.
-  image_path: /assets/images/photo-jun-12-2-05-25-pm.jpg
+    A gloss dressing that has both interior and exterior uses. The product can
+    be applied in additional layers to achieve the desired shine you're after.
+  image_path: /assets/images/37i4585.jpg
 group: Car Care Products
 header_image_path: /assets/images/gas-header-008.jpg
 product_id: 108
@@ -34,4 +34,4 @@ _comments:
 * Great for tires
 * Great gloss with no sling
 * Spray on tires and walk away
-* Interior/Exterior&nbsp;![](/assets/images/photo-jun-12-2-05-25-pm.jpg){: width="3024" height="4032"}
+* Interior/Exterior&nbsp;![](/assets/images/37i4585.jpg){: width="3311" height="4966"}
