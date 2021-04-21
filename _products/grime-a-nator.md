@@ -30,4 +30,4 @@ _comments:
 
 * Safe on all surfaces
 * Low foaming formula
-* Removes grime, grease dirt, etc![](/assets/images/photo-jun-12-2-03-57-pm.jpg){: width="3024" height="4032"}
+* Removes grime, grease dirt, etc![](/assets/images/37i4591-1.jpg){: width="3311" height="4966"}
