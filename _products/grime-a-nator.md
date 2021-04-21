@@ -4,7 +4,7 @@ teaser:
   top_title: Interior Cleaner
   bottom_title: Grime A Nator
   short_description: Interior cleaner that is safe on all surfaces.
-  image_path: /assets/images/photo-jun-12-2-03-57-pm.jpg
+  image_path: /assets/images/37i4591.jpg
 group: Car Care Products
 header_image_path: /assets/images/gas-header-008-1.jpg
 product_id: 110
