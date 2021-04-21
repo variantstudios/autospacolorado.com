@@ -1,12 +1,14 @@
 ---
-title: Streaks B Gone
+title: Streaks B' Gone
 teaser:
   top_title: Glass Cleaner
-  bottom_title: Streaks B Gone
-  short_description: 'streak free glass cleaner, safe on multiple surfaces'
-  image_path: /assets/images/photo-jun-12-2-02-21-pm.jpg
+  bottom_title: Streaks B' Gone
+  short_description: >-
+    A streak-free glass cleaner that's safe for multiple surfaces and will leave
+    your glass show ready after each use.
+  image_path: /assets/images/37i4584.jpg
 group: Car Care Products
-header_image_path: /assets/images/photo-jun-12-2-02-21-pm.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 109
 base_price: '9.99'
 add_ons:
@@ -31,4 +33,4 @@ _comments:
 * Streak free formula
 * Can be used on chrome
 * Safe on tinted windows
-* Safe on mirrors![](/assets/images/photo-jun-12-2-02-21-pm.jpg){: width="3024" height="4032"}
+* Safe on mirrors![](/assets/images/37i4584.jpg){: width="3311" height="4966"}
