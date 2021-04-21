@@ -4,11 +4,12 @@ teaser:
   top_title: Quick Detailer
   bottom_title: Smudge Fudger
   short_description: >-
-    Quick detailer used for spot cleaning, safe removal of bird doppings or bug
-    splatter. Can be used on ceramic coated vehicle
-  image_path: /assets/images/photo-jun-12-2-01-56-pm.jpg
+    An exterior high gloss quick detailer used for spot cleaning, safe removal
+    of bird droppings, or bug splatter. Can be used on a ceramic coated vehicle,
+    trim, and glass pieces.
+  image_path: /assets/images/37i4581.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052-4.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 106
 base_price: '12.99'
 add_ons:
@@ -35,4 +36,4 @@ _comments:
 * Can be used on Ceramic Coated vehicles
 * Great gloss enhancement
 * Great smell&nbsp;
-* Easy to use![](/assets/images/photo-jun-12-2-01-56-pm.jpg){: width="4032" height="3024"}
+* Easy to use![](/assets/images/37i4581.jpg){: width="3311" height="4966"}
