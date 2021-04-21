@@ -3,10 +3,13 @@ title: Leather So Soft
 teaser:
   top_title: Leather Conditioner
   bottom_title: Leather So Soft
-  short_description: 'Leather conditioner revives the leather, leaving it soft and moisturized.'
-  image_path: /assets/images/photo-jun-12-2-05-51-pm.jpg
+  short_description: >-
+    This Leather conditioner works on interior surfaces like leather, vinyl &
+    plastics. It will help to prevent cracking/fading and revives the leather,
+    leaving it soft and moisturized.
+  image_path: /assets/images/37i4583.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052-9.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 111
 base_price: '19.99'
 add_ons:
@@ -32,4 +35,4 @@ _comments:
 * Revives the leather, leaving it soft and supple
 * Pleasant smell
 * Non Greasy formula
-* Can be used on vinyl![](/assets/images/photo-jun-12-2-05-51-pm.jpg){: width="3024" height="4032"}
+* Can be used on vinyl![](/assets/images/37i4583.jpg){: width="3311" height="4966"}
