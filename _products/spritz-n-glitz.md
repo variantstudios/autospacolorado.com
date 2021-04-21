@@ -3,10 +3,12 @@ title: Spritz N Glitz
 teaser:
   top_title: Spray Wax
   bottom_title: Spritz N Glitz
-  short_description: Easy to use spray wax
-  image_path: /assets/images/photo-jun-12-2-04-08-pm.jpg
+  short_description: >-
+    An enhanced spray wax with extreme high gloss. Will leave the surface with
+    long-lasting protection between washes.
+  image_path: /assets/images/37i4588.jpg
 group: Car Care Products
-header_image_path: /assets/images/-24a2052-2.jpg
+header_image_path: /assets/images/008.jpg
 product_id: 103
 base_price: '12.99'
 add_ons:
@@ -29,7 +31,7 @@ _comments:
 ---
 
 * Extreme gloss enhancing spray wax
-* long lasting protection
+* Long-lasting protection
 * Great water beading effects
 * Will enhance the depth and metallic in your paintwork
-* Easy spray on and wipe off product![](/assets/images/photo-jun-12-2-04-08-pm.jpg){: width="3024" height="4032"}
+* Easy spray on and wipe off product![](/assets/images/37i4588.jpg){: width="3311" height="4966"}
