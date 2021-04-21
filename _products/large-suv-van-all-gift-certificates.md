@@ -7,7 +7,7 @@ teaser:
   short_description: >-
     Includes a lifetime nationwide warranty. Includes all windows except the
     front windshield and sunroof.
-  image_path: /assets/images/store/large_suv_sm.jpg
+  image_path: /assets/images/b37i0777.jpg
 group: Window Tinting Gift Certificates
 header_image_path: /assets/images/store/large_suv.jpg
 product_id: 8
