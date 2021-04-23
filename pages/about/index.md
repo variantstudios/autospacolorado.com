@@ -5,7 +5,7 @@ intro: >-
   We are very proud to offer an unrivaled range of detailing services designed
   to meet the needs of discerning customers throughout Northern Colorado Area
   who want the very best in car care for their vehicles.
-header_image_path: /assets/images/header/coatings01.jpg
+header_image_path: /assets/images/15challenger-header-001.jpg
 logos:
   - title: Ceramic Pro Northern Colorado Flagship shop
     logo_path: /assets/images/cpnc-socialmediaprofile.jpg
