@@ -7,18 +7,18 @@ intro: >-
   who want the very best in car care for their vehicles.
 header_image_path: /assets/images/15challenger-header-001.jpg
 logos:
+  - title: Sun Stoppers
+    logo_path: /assets/images/sunstoppers-greeley-longmont-logo-large.png
+  - title: Xpel
+    logo_path: /assets/images/xpelultimate-eps-logo.png
   - title: Ceramic Pro Northern Colorado Flagship shop
     logo_path: /assets/images/cpnc-socialmediaprofile.jpg
   - title: duPount Registry Elite Detailers Alliance
     logo_path: /assets/images/logos/dupont.png
   - title: SunTek Window Films
     logo_path: /assets/images/logos/suntek.png
-  - title: Xpel
-    logo_path: /assets/images/logos/xpel.png
   - title: Ceramic Pro Coating Greeley Colorado
     logo_path: /assets/images/ceramic-pro-logo--dark-background-.jpg
-  - title: Sun Stoppers
-    logo_path: /assets/images/sunstoppers-greeley-longmont-logo-large.png
 search_engine_optimization:
   page_title: About Greeley Auto Spa
   page_description: >-
