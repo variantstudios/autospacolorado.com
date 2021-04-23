@@ -1,7 +1,9 @@
 ---
 title: Store
 permalink: /store/
-intro: 'Gift Certificates, Detailing Packages, Tinting Packages.'
+intro: >-
+  Gift Certificates, Detailing Products and Supplies, Limited Release
+  Merchandise
 header_image_path: /assets/images/waterdrop-header-0011.jpg
 search_engine_optimization:
   page_title: Greeley Auto Spa's Store
