@@ -1,5 +1,5 @@
 ---
-title: Contact Greeley Auto Spa
+title: Contact Greeley Auto Spa/Sun Stoppers
 permalink: /contact/
 intro:
 header_image_path: /assets/images/car-header-srt-001-1.jpg
