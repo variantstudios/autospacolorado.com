@@ -7,7 +7,7 @@ search_engine_optimization:
   page_title: Greeley Auto Spa Blog
   page_description: Keep up to date with the latest News & Updates from AutoSpa Colorado.
   facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
-layout: blog
+layout: gallery
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
   page_description: >-
