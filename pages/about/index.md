@@ -9,7 +9,7 @@ header_image_path: /assets/images/15challenger-header-001.jpg
 logos:
   - title: Sun Stoppers
     logo_path: /assets/images/sunstoppers-greeley-longmont-logo-large.png
-  - title: Xpel
+  - title: Xpel PPF
     logo_path: /assets/images/xpelultimate-eps-logo.png
   - title: Ceramic Pro Northern Colorado Flagship shop
     logo_path: /assets/images/cpnc-socialmediaprofile.jpg
@@ -19,6 +19,8 @@ logos:
     logo_path: /assets/images/logos/suntek.png
   - title: Ceramic Pro Coating Greeley Colorado
     logo_path: /assets/images/ceramic-pro-logo--dark-background-.jpg
+  - title:
+    logo_path:
 search_engine_optimization:
   page_title: About Greeley Auto Spa
   page_description: >-
