@@ -21,6 +21,8 @@ logos:
     logo_path: /assets/images/ceramic-pro-logo--dark-background-.jpg
   - title:
     logo_path:
+  - title: Xpel Prime
+    logo_path: /assets/images/xpel-prime-logo.png
 search_engine_optimization:
   page_title: About Greeley Auto Spa
   page_description: >-
