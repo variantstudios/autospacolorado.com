@@ -6,7 +6,7 @@ teaser:
   short_description: >-
     This is a waterless wash that contains wax. Great for on-the-go cleaning or
     spot treatments. H2NO can be utilized on all painted surfaces.
-  image_path: /assets/images/photo-jun-12-2-04-29-pm-1.jpg
+  image_path: /assets/images/37i4599.jpg
 group: Car Care Products
 header_image_path: /assets/images/008.jpg
 product_id: 104
@@ -35,4 +35,4 @@ _comments:
 * Great for spot cleaning as well
 * Leaves surfaces slick to the touch
 * Great gloss enhancement
-* Not recommended for ceramic coated vehicles![](/assets/images/photo-jun-12-2-04-29-pm.jpg){: width="3024" height="4032"}
+* Not recommended for ceramic coated vehicles![](/assets/images/37i4599.jpg){: width="3311" height="4966"}
