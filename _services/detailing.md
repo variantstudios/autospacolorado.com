@@ -40,7 +40,7 @@ service-table:
         price: Call For Pricing
       - option: XL Suv/Truck
         price: Call For Pricing
-  - group:
+  - group: Concours
     desc: >-
       Want to step it up another notch and get rid of those nasty swirl marks,
       50-60% of your scratches and really enhance your paints gloss? The
