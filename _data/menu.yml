@@ -1,5 +1,3 @@
-- text: Gallery
-  url: /gallery/
 - text: Services
   subitems:
     - text: Packages
@@ -18,6 +16,8 @@
   url: /blog/
 - text: About
   url: /about/
+- text: Gallery
+  url: /gallery/
 - text: Store
   url: /store/
 - text: Contact & Locations
