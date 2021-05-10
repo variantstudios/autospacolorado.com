@@ -41,16 +41,10 @@ layout: default
 
         {% for item in site.locations %}
         <div itemscope itemtype="http://schema.org/LocalBusiness" class="location-block first editable">
-            <h4 class="location--title" itemprop="name">{{ item.title }}</h4>
-                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">{{ item.address }}</span><br />
-                    <span itemprop="addressLocality">{{ item.city }}</span>,
-                    <span itemprop="addressRegion">{{ item.state }}</span>
-                    <span>{{ item.zip }}</span>
-                </div>
-            <span class="phone--location">{{item.phone}}</span>
-
-          <div class="btn outline"><a href="/contact">Contact Us</a></div>
+        	<h4 class="location--title" itemprop="name">Greeley Auto Spa/Sun Stoppers Window Tinting</h4>
+        	<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">531 8th Street</span><br /><span itemprop="addressLocality">Greeley</span>, <span itemprop="addressRegion">CO</span> <span>80631</span></div>
+        	<p><span class="phone--location">970-619-9863</span></p>
+        	<div class="btn outline"><a href="/contact">Contact Us</a></div>
         </div>
         {% endfor %}
       </div>
@@ -85,9 +79,11 @@ layout: default
       </div>
       <div class="service-info-wrap">
         <div class="service-info editable">
-          <img src="/assets/images/small-badge.png" />
-          <p>With well over 21 years of vehicle reconditioning experience combined between Ricque and Zack you can be rest assured you will receive the highest quality workmanship. </p>
-          <p>We are also I.D.A. Certified, Xpel Paint Protection Certified Installers, Suntek Window Tint and Protection Film Certified Installers, Ceramic Pro Certified Installers and received many awards for our work.</p>
+        	<p><img src="/assets/images/small-badge.png" /></p>
+        	<p>Northern Colorado's leading business for Window Tint &amp; Paint Protection! Be assured that we offer only the highest quality materials available, all backed by authentic and genuine warranties. Our employees stay current and certifiably trained with industry processes, advances in tech &amp; trends, thus providing award-winning service! We currently provide Window Tint, Paint Protection Film (commonly known as PPF or Clear Bra), Ceramic Coatings, Residential Window Film &amp; Treatments, as well as a variety of Award Winning, DuPont Registry Certified Detailing services. We are always happy to offer free quotes, shuttle service, and also have options for vehicle transport if needed.&nbsp;</p>
+        	<p>- I.D.A. Certified</p>
+        	<p>- Xpel Paint Protection Certified Installers</p>
+        	<p>- Ceramic Pro Certified Installers&nbsp;</p>
         </div>
       </div>
     </div>
