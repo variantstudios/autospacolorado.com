@@ -6,7 +6,7 @@ teaser:
   short_description: >-
     Interior cleaner that can be used on leather, vinyl, rubber, plastics,
     carpet, cloth & upholstery.  Our Grime-A-Nator is gentle and works tough to
-    remove stains. No added shine, jut a clean factory finish. Adds UV
+    remove stains. No added shine, just a clean factory finish. Adds UV
     protection.
   image_path: /assets/images/37i4591.jpg
 group: Car Care Products
