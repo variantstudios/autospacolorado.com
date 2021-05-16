@@ -25,6 +25,9 @@ $ git clone git@github.com:variantstudios/vs-jekyll-base
 ### Install the Node packages
 `$ npm install`
 
+## Install Gulp
+`$ npm install --global gulp-cli`
+
 ## Compile
 
 To compile Jekyll, SASS and run a local server (with browsersync) you'll need to run `$ gulp`

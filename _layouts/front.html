@@ -13,17 +13,18 @@ layout: default
   <section class="clearfix work-section">
     <div class="wrap clearfix">
       <div class="headings">
-        <h2 class="section-title">Our Work</h2>
-        <h3 class="section-subtitle">The Highest Quality Workmanship.</h3>
+        <h2 class="section-title">News &amp; Updates</h2>
+        <h3 class="section-subtitle">Keep up to date with the latest News &amp; Updates from AutoSpa Colorado.</h3>
       </div>
     </div>
     <div class="gallery-slider">
-      {% assign items =  site.projects | sort: "weight" %}
-      {% for gallery in items limit:8 %}
+      {% assign items =  site.posts %}
+      {% for post in items limit:8 %}
         <div>
-          <a href="{{ gallery.url }}">
-            <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_400,c_fill/{{site.url}}{{ gallery.main_image_path }}" data-img="{{site.url}}{{gallery.main_image_path}}" data-width="400px" data-height="400px" />
+          <a href="{{ post.url }}">
+            <img src="{{site.cloudinaryurl}}image/fetch/w_300,h_300,c_fill/{{site.url}}{{ post.image_path }}" data-img="{{site.url}}{{post.image_path}}" data-width="300px" data-height="300px" />
           </a>
+          <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
         </div>
       {% endfor %}
     </div>
@@ -33,7 +34,7 @@ layout: default
   <div class="preface-wrap">
     <img src="/assets/images/car.png" class="car-side" />
     <section class="preface no-rectangle clearfix">
-      <div class="wrap">
+      <div class="wrap lift">
         <div class="headings">
           <h2 class="section-title">Our Location</h2>
           <h3 class="section-subtitle">Serving Northern Colorado</h3>
@@ -43,7 +44,7 @@ layout: default
         <div itemscope itemtype="http://schema.org/LocalBusiness" class="location-block first editable">
         	<h4 class="location--title" itemprop="name">Greeley Auto Spa/Sun Stoppers Window Tinting</h4>
         	<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">531 8th Street</span><br /><span itemprop="addressLocality">Greeley</span>, <span itemprop="addressRegion">CO</span> <span>80631</span></div>
-        	<p><span class="phone--location">970-619-9863</span></p>
+        	<p><span class="phone--location"> <a href="tel:1-970-619-9863">970-619-9863</a></span></p>
         	<div class="btn outline"><a href="/contact">Contact Us</a></div>
         </div>
         {% endfor %}

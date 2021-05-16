@@ -33,7 +33,7 @@
       padding: 2em 0;
     }
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      @include grid-span(3,5);
+      @include grid-span(4,5);
       h6, a, p {
         display: inline-block;
       }
@@ -41,7 +41,7 @@
   }
   .footer-block-3 {
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      @include grid-span(3,10);
+      @include grid-span(2,10);
     }
   }
 }
