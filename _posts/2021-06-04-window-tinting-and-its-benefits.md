@@ -1,7 +1,7 @@
 ---
 title: Window Tinting and its Benefits
 date: 2021-06-04 15:38:00
-image_path: /assets/images/tint-001.jpeg
+image_path: /assets/images/dodge-charger-tinted.jpeg
 short_description: >-
   XPEL Window Tint Film installed on a vehicle not only allows for protection,
   comfort, but also a very stylish ride! A Nationwide Lifetime Warranty also
