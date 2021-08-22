@@ -1,24 +1,22 @@
 ---
 title: Window Tinting and its Benefits
-date: 2021-06-04 15:38:00
-image_path: /assets/images/dodge-charger-tinted.jpeg
-short_description: >-
-  XPEL Window Tint Film installed on a vehicle not only allows for protection,
-  comfort, but also a very stylish ride! A Nationwide Lifetime Warranty also
-  gives the customer peace of mind, knowing they are covered.
+date: 2021-06-04 15:38:00 Z
+image_path: "/assets/images/dodge-charger-tinted.jpeg"
+short_description: XPEL Window Tint Film installed on a vehicle not only allows for
+  protection, comfort, but also a very stylish ride! A Nationwide Lifetime Warranty
+  also gives the customer peace of mind, knowing they are covered.
 search_engine_optimization:
-  page_title:
-  page_description:
-  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+  page_title: 
+  page_description: 
+  facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: >-
-    This is the page description that is shown below the page title in the
-    search engine results.
-  facebook_image_path: >-
-    Use images that are at least 1200 x 630px for best results or a minimum of
-    at least 600 x 315px.
+  page_description: This is the page description that is shown below the page title
+    in the search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results
+    or a minimum of at least 600 x 315px.
 ---
+
 ## &nbsp;
 
 ## &nbsp;

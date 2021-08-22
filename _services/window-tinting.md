@@ -1,72 +1,68 @@
 ---
 title: Window Tinting
-header_image_path: /assets/images/tint-002.jpeg
-pricing: >-
-  Prices vary based on material choice, make and model of vehicle, along with
+header_image_path: "/assets/images/tint-002.jpeg"
+pricing: Prices vary based on material choice, make and model of vehicle, along with
   additional costs for removal of old film.
 service-table:
-  - group: Standard Lifetime Film
-    desc:
-    options:
-      - option: Front Windshield Visor
-        price: $39
-      - option: Full Front Windshield
-        price: $149
-      - option: 1 Window
-        price: $59
-      - option: '2 Front Windows (common on suvs, trucks, vans and crossovers)'
-        price: $109
-      - option: 2 Door Cars
-        price: $209
-      - option: 4 Door Cars
-        price: $249
-      - option: Regular Cab Truck (+$20 for Slider Rear Window)
-        price: $219
-      - option: Extended Cab Truck (+$20 for Slider Rear Window)
-        price: $229
-      - option: Crew Cab Truck (+$20 for Slider Rear Window)
-        price: $259
-      - option: Small Suvs/Crossovers
-        price: $309
-  - group: Ceramic Lifetime Film (Blocks more Heat)
-    desc:
-    options:
-      - option: Front Windshield Visor
-        price: $59
-      - option: Full Front Windshield
-        price: $209
-      - option: 1 Window
-        price: $89
-      - option: '2 Front Windows (common on suvs, trucks, vans and crossovers)'
-        price: $169
-      - option: 2 Door Cars
-        price: $329
-      - option: 4 Door Cars
-        price: $369
-      - option: Regular Cab Truck (+$20 for Slider Rear Window)
-        price: $309
-      - option: Extended Cab Truck (+$20 for Slider Rear Window)
-        price: $339
-      - option: Crew Cab Truck (+$20 for Slider Rear Window)
-        price: $369
-      - option: Small Suvs/Crossovers
-        price: $489
-      - option: Large Suvs
-        price: $509
+- group: Standard Lifetime Film
+  desc: 
+  options:
+  - option: Front Windshield Visor
+    price: "$39"
+  - option: Full Front Windshield
+    price: "$149"
+  - option: 1 Window
+    price: "$59"
+  - option: 2 Front Windows (common on suvs, trucks, vans and crossovers)
+    price: "$109"
+  - option: 2 Door Cars
+    price: "$209"
+  - option: 4 Door Cars
+    price: "$249"
+  - option: Regular Cab Truck (+$20 for Slider Rear Window)
+    price: "$219"
+  - option: Extended Cab Truck (+$20 for Slider Rear Window)
+    price: "$229"
+  - option: Crew Cab Truck (+$20 for Slider Rear Window)
+    price: "$259"
+  - option: Small Suvs/Crossovers
+    price: "$309"
+- group: Ceramic Lifetime Film (Blocks more Heat)
+  desc: 
+  options:
+  - option: Front Windshield Visor
+    price: "$59"
+  - option: Full Front Windshield
+    price: "$209"
+  - option: 1 Window
+    price: "$89"
+  - option: 2 Front Windows (common on suvs, trucks, vans and crossovers)
+    price: "$169"
+  - option: 2 Door Cars
+    price: "$329"
+  - option: 4 Door Cars
+    price: "$369"
+  - option: Regular Cab Truck (+$20 for Slider Rear Window)
+    price: "$309"
+  - option: Extended Cab Truck (+$20 for Slider Rear Window)
+    price: "$339"
+  - option: Crew Cab Truck (+$20 for Slider Rear Window)
+    price: "$369"
+  - option: Small Suvs/Crossovers
+    price: "$489"
+  - option: Large Suvs
+    price: "$509"
 search_engine_optimization:
   page_title: Window Tinting Greeley Colorado
-  page_description: >-
-    Window tinting in Northern Colroado using Xpel Films. Voted #1 tint shop in
-    Greeley, Colorado
-  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+  page_description: 'Window tinting in Northern Colroado using Xpel Films. Voted #1
+    tint shop in Greeley, Colorado'
+  facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: >-
-    This is the page description that is shown below the page title in the
-    search engine results.
-  facebook_image_path: >-
-    Use images that are at least 1200 x 630px for best results or a minimum of
-    at least 600 x 315px.
+  page_description: This is the page description that is shown below the page title
+    in the search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results
+    or a minimum of at least 600 x 315px.
 ---
 
 Do you ever get the feeling somebody is watching you while in your car? Creepy isn't it? Then you realize they are just staring at your tremendously stark farmer's tan\! Avoid the awkward interaction by getting your vehicle's windows tinted and it will be difficult to see you in your flashy ride\! An additional benefit to having your windows tinted is assisting in helping keep your personal belongings safe. You can't take what you can't see\!&nbsp;

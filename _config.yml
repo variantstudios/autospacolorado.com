@@ -1,90 +1,81 @@
-
-# Site settings
-title: "Greeley Auto Spa / Sun Stoppers Window Tinting"
-email: "team@variantstudios.com"
-description: "Premium Car Detailing, Clear Bra, Tinting, Ceramic Coatings Colorado."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.greeleyautospa.com" # the base hostname & protocol for your site
-#timezone: America/Denver - Don't set for CloudCannon...for reasons.
-version: "3.1.6" # the version of jekyll
-
-#CloudCannon defaults
-uploads_dir: "assets/images"
-
-# Gems for plugins
+---
+title: Greeley Auto Spa / Sun Stoppers Window Tinting
+timezone: UTC
+collections:
+  categories:
+    title: Categories
+    output: true
+    permalink: "/blog/:title/"
+  locations:
+    title: Locations
+    output: false
+  people:
+    title: People
+    output: false
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: true
+    permalink: "/store/:title/"
+  projects:
+    title: Projects
+    output: true
+    permalink: "/gallery/:title/"
+  services:
+    title: Services
+    output: true
+    permalink: "/services/:title/"
+  tags:
+    title: Tags
+    output: true
+    permalink: "/blog/:title/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: products
+  values:
+    layout: store-detail
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: gallery-detail
+- scope:
+    path: ''
+    type: services
+  values:
+    layout: service-detail
+email: team@variantstudios.com
+description: Premium Car Detailing, Clear Bra, Tinting, Ceramic Coatings Colorado.
+baseurl: ''
+url: https://www.greeleyautospa.com
+version: 3.1.6
+uploads_dir: assets/images
 gems:
-  - jekyll-paginate-v2 # Needed to add paginate on Jekyll ver 3+
-  - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
-
-# Permalinks
+- jekyll-paginate-v2
+- jekyll-sitemap
 permalink: pretty
-
-# Pagination V2 Settings
 pagination:
   enabled: true
   per_page: 6
-  permalink: '/:num/'
-  title: ':title - page :num'
+  permalink: "/:num/"
+  title: ":title - page :num"
   limit: 0
-  sort_field: 'title'
+  sort_field: title
   sort_reverse: false
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: true
-  # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: 'projects'
-
-
-# Cloudinary
+  collection: projects
 cloudinaryurl: https://res.cloudinary.com/greeleyautospa-com/
-
-#Collections
-collections:
-  posts:
-    output: true
-    permalink: '/blog/:title/'
-  products:
-    output: true
-    permalink: '/store/:title/'
-  projects:
-    output: true
-    permalink: '/gallery/:title/'
-  services:
-    output: true
-    permalink: '/services/:title/'
-  people:
-    output: false
-  locations:
-    output: false
-  categories:
-    output: true
-    permalink: '/blog/:title/'
-  tags:
-    output: true
-    permalink: '/blog/:title/'
-
-defaults:
-  -
-    scope:
-      type: posts
-    values:
-      layout: post
-  -
-    scope:
-      type: products
-    values:
-      layout: store-detail
-  -
-    scope:
-      type: projects
-    values:
-      layout: gallery-detail
-  -
-    scope:
-      type: services
-    values:
-      layout: service-detail
-
-
 _options:
   some_markdown:
     bold: true
@@ -105,21 +96,16 @@ _options:
     outdent: true
     indent: true
     removeformat: true
-    # code: true
-    # table: true
-    # right: align-to-right
-    # styles: /_sass/_content-typography.scss
     embed: true
     image: true
     link: true
-
-# Snipcart's Public Key
-snipcart-key: 'MWEyYThkMGMtM2IxMy00MjUwLTk3ZWMtZDgwNTJhODM1Zjk5NjM2MjMxMzQ4OTI1OTg2MDg0'
-
-# typekit - Because we all need nice type faces.
+snipcart-key: MWEyYThkMGMtM2IxMy00MjUwLTk3ZWMtZDgwNTJhODM1Zjk5NjM2MjMxMzQ4OTI1OTg2MDg0
 typekit: kqz1qdu
-
-# Google Analytics - What site isn't using it?!
-google_analytics_tracking_id: 'UA-80029-49'
-
-exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
+google_analytics_tracking_id: UA-80029-49
+exclude:
+- vendor
+- node_modules
+- package.json
+- Gemfile
+- gulpfile.js
+- "*.scss"

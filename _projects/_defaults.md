@@ -1,8 +1,8 @@
 ---
-title:
-main_image_path:
+main_image_path: 
 images:
-  - title:
-    image_path:
-services:
+- title: 
+  image_path: 
+services: 
 ---
+

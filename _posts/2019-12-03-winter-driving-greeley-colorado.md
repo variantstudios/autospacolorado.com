@@ -1,28 +1,22 @@
 ---
 title: Winter Driving  Greeley Colorado
-date: 2019-12-03 00:00:00
-image_path: /assets/images/blog-header-1.jpg
-short_description: >-
-  Winter driving can be very unsafe. Please be prepared and remember to have
-  your vehicle serviced and ready for the driving conditions. Here is a great
-  read on how you can prepare for the conditions. There is even a checklist
-  included for you to go over. 
-
-  Thank you
+date: 2019-12-03 00:00:00 Z
+image_path: "/assets/images/blog-header-1.jpg"
+short_description: "Winter driving can be very unsafe. Please be prepared and remember
+  to have your vehicle serviced and ready for the driving conditions. Here is a great
+  read on how you can prepare for the conditions. There is even a checklist included
+  for you to go over. \nThank you"
 search_engine_optimization:
   page_title: Car Detailing Greeley Colorado
-  page_description: >-
-    Offering ceramic coatings, clear bra, window tinting, detailing and custom
-    exhaust in Greeley and surrounding areas.
-  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+  page_description: Offering ceramic coatings, clear bra, window tinting, detailing
+    and custom exhaust in Greeley and surrounding areas.
+  facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: >-
-    This is the page description that is shown below the page title in the
-    search engine results.
-  facebook_image_path: >-
-    Use images that are at least 1200 x 630px for best results or a minimum of
-    at least 600 x 315px.
+  page_description: This is the page description that is shown below the page title
+    in the search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results
+    or a minimum of at least 600 x 315px.
 ---
 
 ![](/assets/images/blog-header.jpg){: width="2048" height="699"}

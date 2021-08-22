@@ -1,34 +1,30 @@
 ---
 title: Ceramic Coatings
-header_image_path: /assets/images/water-beading-001.jpeg
-pricing: >-
-  At Greeley Auto Spa/Sun Stoppers  we have setup our packages and options to
-  try our best to meet everyone’s requirements and needs when it comes to a
-  vehicle coating. We have packages available ranging from a 1 year coating at
-  $299 to a lifetime starting at $1699(depending on vehicle). It’s always best
-  to call or stop in the shop to discuss options and pricing.
+header_image_path: "/assets/images/water-beading-001.jpeg"
+pricing: At Greeley Auto Spa/Sun Stoppers  we have setup our packages and options
+  to try our best to meet everyone’s requirements and needs when it comes to a vehicle
+  coating. We have packages available ranging from a 1 year coating at $299 to a lifetime
+  starting at $1699(depending on vehicle). It’s always best to call or stop in the
+  shop to discuss options and pricing.
 service-table:
-  - group:
-    desc:
-    options:
-      - option:
-        price:
+- group: 
+  desc: 
+  options:
+  - option: 
+    price: 
 search_engine_optimization:
   page_title: Ceramic Coatings Greeley Colorado
-  page_description: >-
-    Ceramic Pro Coatings in Northern Colorado . Here at Greeley Auto Spa we
-    understand how important it is to keep your car’s paint protected. If you’ve
-    been searching for the best auto detailing Greeley Co has to offer, than
-    you’ve found it here.
-  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+  page_description: Ceramic Pro Coatings in Northern Colorado . Here at Greeley Auto
+    Spa we understand how important it is to keep your car’s paint protected. If you’ve
+    been searching for the best auto detailing Greeley Co has to offer, than you’ve
+    found it here.
+  facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: >-
-    This is the page description that is shown below the page title in the
-    search engine results.
-  facebook_image_path: >-
-    Use images that are at least 1200 x 630px for best results or a minimum of
-    at least 600 x 315px.
+  page_description: This is the page description that is shown below the page title
+    in the search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results
+    or a minimum of at least 600 x 315px.
 ---
 
 ## Want your car to look its best? Want insane gloss? Want the paint to look better than it was brand new?

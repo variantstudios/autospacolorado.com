@@ -3,31 +3,28 @@ title: H2NO
 teaser:
   top_title: Waterless Wash
   bottom_title: H2NO
-  short_description: >-
-    This is a waterless wash that contains wax. Great for on-the-go cleaning or
-    spot treatments. H2NO can be utilized on all painted surfaces.
-  image_path: /assets/images/37i4599.jpg
+  short_description: This is a waterless wash that contains wax. Great for on-the-go
+    cleaning or spot treatments. H2NO can be utilized on all painted surfaces.
+  image_path: "/assets/images/37i4599.jpg"
 group: Car Care Products
-header_image_path: /assets/images/008.jpg
+header_image_path: "/assets/images/008.jpg"
 product_id: 104
 base_price: '12.99'
 add_ons:
-  - title: Waterless wash
-    price:
+- title: Waterless wash
+  price: 
 search_engine_optimization:
-  page_title:
-  page_description:
-  facebook_image_path: /assets/images/greeley-autospa-facebook-1200x630.png
+  page_title: 
+  page_description: 
+  facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 hide: false
 weight: 4
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: >-
-    This is the page description that is shown below the page title in the
-    search engine results.
-  facebook_image_path: >-
-    Use images that are at least 1200 x 630px for best results or a minimum of
-    at least 600 x 315px.
+  page_description: This is the page description that is shown below the page title
+    in the search engine results.
+  facebook_image_path: Use images that are at least 1200 x 630px for best results
+    or a minimum of at least 600 x 315px.
 ---
 
 * This waterless wash contains wax
