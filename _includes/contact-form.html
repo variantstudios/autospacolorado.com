@@ -1,8 +1,13 @@
 
-<form action="#" method="post" class="contact-form" netlify>
+<form name="contact" method="post" class="contact-form" netlify-honeypot="bot-field" action="/contact/success" data-netlify-recaptcha="true" data-netlify="true">
+   <p  style="display: none;">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" />
+    </label>
+  </p>
   <input type="hidden" name="_to" value="greeleyautospa@gmail.com, team@variantstudios.com">
   <input type="hidden" name="_subject" value="Greeley Auto Spa: Contact Form">
-   <input type="text" name="_gotcha" style="display: none;">
+   
     <div class="webform-component">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" required="">
@@ -79,7 +84,6 @@
   
     
     
-    
-     <div class="g-recaptcha" data-sitekey="6LfB6RUUAAAAAEySJ7Fqc6dvL7oftcr1-l2ZANZA"></div><br>
+    <div class="g-recaptcha" data-netlify-recaptcha="true"></div><br>
     <input class="sendButton" type="submit" value="Send">
 </form>
