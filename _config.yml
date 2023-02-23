@@ -35,35 +35,35 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-- scope:
-    path: ''
-    type: products
-  values:
-    layout: store-detail
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: gallery-detail
-- scope:
-    path: ''
-    type: services
-  values:
-    layout: service-detail
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: store-detail
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: gallery-detail
+  - scope:
+      path: ""
+      type: services
+    values:
+      layout: service-detail
 email: team@variantstudios.com
 description: Premium Car Detailing, Clear Bra, Tinting, Ceramic Coatings Colorado.
-baseurl: ''
+baseurl: ""
 url: https://www.greeleyautospa.com
 version: 3.1.6
 uploads_dir: assets/images
 gems:
-- jekyll-paginate-v2
-- jekyll-sitemap
+  - jekyll-paginate-v2
+  - jekyll-sitemap
 permalink: pretty
 pagination:
   enabled: true
@@ -102,10 +102,11 @@ _options:
 snipcart-key: MWEyYThkMGMtM2IxMy00MjUwLTk3ZWMtZDgwNTJhODM1Zjk5NjM2MjMxMzQ4OTI1OTg2MDg0
 typekit: kqz1qdu
 google_analytics_tracking_id: UA-80029-49
+gtag: G-9JCGQ2123Q
 exclude:
-- vendor
-- node_modules
-- package.json
-- Gemfile
-- gulpfile.js
-- "*.scss"
+  - vendor
+  - node_modules
+  - package.json
+  - Gemfile
+  - gulpfile.js
+  - "*.scss"

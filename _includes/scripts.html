@@ -4,65 +4,66 @@
 
 
 <!-- Snipcart JS -->
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart-key}}"></script>
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart"
+  data-api-key="{{ site.snipcart-key}}"></script>
 
 {% if page.url == "/" %}
-  <script src="/assets/js/prod/jquery.vide.js"></script>
+<script src="/assets/js/prod/jquery.vide.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
-   // Target your .container, .wrapper, .post, etc. around the video
-   $(".videobg").fitVids();
- });
+  $(document).ready(function () {
+    // Target your .container, .wrapper, .post, etc. around the video
+    $(".videobg").fitVids();
+  });
 </script>
 
 <!-- Slick Gallery for Home -->
-  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-  <!-- Slick Init -->
-  <script>
-  $(document).ready(function() {
-      // Slick Init for Home Page
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<!-- Slick Init -->
+<script>
+  $(document).ready(function () {
+    // Slick Init for Home Page
     $('.gallery-slider').slick({
-        centerMode: false,
-        dots: false,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-            }
-          },
-          {
-            breakpoint: 900,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 320,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
+      centerMode: false,
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
           }
-        ]
-      });
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 320,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
   });
-  </script>
+</script>
 
 {% endif %}
 
@@ -71,8 +72,8 @@ $(document).ready(function(){
 
 
 {% if page.url != "/" %}
-  <!-- Featherlight Library -->
-  <script src="/assets/js/dev/featherlight.min.js"></script>
+<!-- Featherlight Library -->
+<script src="/assets/js/dev/featherlight.min.js"></script>
 {% endif %}
 
 <!-- ScrollReveal Inits -->
@@ -103,20 +104,20 @@ $(document).ready(function(){
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 {% if page.url != "/" %}
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58af7cca5245f57c"></script>
-{% endif %}
-
-{% if site.google_analytics_tracking_id %}
-  <!-- google analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
-    ga('send', 'pageview');
-  </script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58af7cca5245f57c"></script>
 {% endif %}
 
 
-<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '3aa1a76a-da92-49cf-9872-0f917fdc2d72', f: true }); done = true; } }; })();</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9JCGQ2123Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-9JCGQ2123Q');
+</script>
+
+
+<script type='text/javascript'
+  data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: '3aa1a76a-da92-49cf-9872-0f917fdc2d72', f: true }); done = true; } }; })();</script>
