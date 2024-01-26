@@ -1,11 +1,11 @@
 .webform-group {
-//   background: #eee;
-//   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,eaeaea+100 */
-// background: rgb(247,247,247); /* Old browsers */
-// background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
-// background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
-// background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+  //   background: #eee;
+  //   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,eaeaea+100 */
+  // background: rgb(247,247,247); /* Old browsers */
+  // background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+  // background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  // background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
 
   padding: 0 1em 0;
   margin-bottom: 0em;
@@ -13,42 +13,42 @@
   // border:1px solid #ccc;
   h2 {
     font-size: 1em;
-     text-transform: uppercase;
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    text-transform: uppercase;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
       float: left;
       width: 135px;
       /* text-align: right; */
       margin-right: 3em;
       margin-top: 0;
-
     }
   }
   .webform-component {
-
     padding-bottom: 1em;
     label {
       display: block;
       font-size: 95%;
-      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
         width: 196px;
         text-align: right;
         padding-right: 1em;
         display: inline-block;
         vertical-align: top;
       }
-      input, select, textarea {
+      input,
+      select,
+      textarea {
         width: auto;
         display: inline-block;
         vertical-align: top;
       }
-
     }
-    input, textarea {
+    input,
+    textarea {
       width: 100%;
-      padding: .25em .5em;
+      padding: 0.25em 0.5em;
       vertical-align: top;
-      @include breakpoint($bp-medium, $no-query: '.no-mq') {
-         width: calc(100% - 200px);
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        width: calc(100% - 200px);
       }
     }
   }
@@ -61,36 +61,33 @@
 }
 
 .webform-component-wrap {
-  overflow:hidden;
+  overflow: hidden;
 }
-
-
 
 .contact-form {
   //clear: both;
   margin-top: 2em;
-  background: #eee;
+  background: #f7f7f7;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,eaeaea+100 */
-background: rgb(247,247,247); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+  // background: rgb(247,247,247); /* Old browsers */
+  // background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+  // background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  // background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
 
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 3px;
   //border:1px solid #ccc;
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
-
-  @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    margin:0em 0em;
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+    margin: 0em 0em;
     float: right;
-      width: 48%;
+    width: 48%;
   }
   h2 {
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
       float: left;
       width: 230px;
       text-align: right;
@@ -99,23 +96,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
     }
   }
   .webform-component {
-      &.left {
-          @include breakpoint($bp-medium, $no-query: '.no-mq') {
-              @include grid-span(6,1);
-          }
+    &.left {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        @include grid-span(6, 1);
       }
-      &.right {
-          @include breakpoint($bp-medium, $no-query: '.no-mq') {
-              @include grid-span(6,7);
-          }
+    }
+    &.right {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        @include grid-span(6, 7);
       }
+    }
     padding-bottom: 1em;
     label {
       display: block;
       input {
         width: auto;
       }
-
     }
     input {
       width: 100%;
@@ -123,25 +119,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
   }
 }
 
-
-
 /// Locations
 
 .location-block {
-    /*.location-address {
+  /*.location-address {
         padding-left: .5rem;
     }*/
   @include clearfix;
   padding: 2em 2em 2em;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   margin-bottom: 2em;
-  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
     float: left;
     width: 48%;
     padding: 2em;
     margin: 0em 0em;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
   }
   padding-right: 1em;
