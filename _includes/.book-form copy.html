@@ -1,0 +1,84 @@
+<form action="#" method="post" class="contact-form">
+  <input type="hidden" name="_to" value="greeleyautospa@gmail.com, team@variantstudios.com">
+  <input type="hidden" name="_subject" value="Greeley Auto Spa: Request a Quote">
+   <input type="text" name="_gotcha" style="display: none;">
+    <div class="webform-component">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required="">
+    </div>
+    <div class="webform-component">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required="">
+    </div>
+    <div class="webform-component">
+        <label for="email">Phone</label>
+        <input type="text" name="phone" id="phone">
+    </div>
+
+    <!-- <div class="group-2 webform-group"> -->
+    <div class="webform-component-wrap">
+      <div class="webform-component left">
+        <label for="dow" class="webform-label">Which Day Works Best?</label>
+        <select>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+      </div>
+
+      <div class="webform-component right">
+        <label for="dow" class="webform-label">Time of Day?</label>
+        <select>
+          <option value="Any">Any Time</option>
+          <option value="Morning">Only Mornings</option>
+          <option value="Afternoon">Only Afternoons</option>
+        </select>
+      </div>
+    </div>
+    <!-- </div> -->
+    
+   
+    <div class="webform-component-wrap">
+      <div class="webform-component left">
+        <label for="make" class="webform-label">Your Car's Make</label>
+         <input type="text" name="make" id="make" required="">
+      </div>
+
+      <div class="webform-component right">
+        <label for="model" class="webform-label">Your Car's Model</label>
+         <input type="text" name="model" id="model" required="">
+      </div>
+    </div>
+ 
+     <div class="webform-component">
+        <label for="year" class="webform-label">Your Car's Year</label>
+         <input type="number" name="year" id="yeart" required="" style="  box-sizing: border-box; padding: .5em 1em; font-size: 100%; font-family: source-sans-pro,sans-serif; border: 1px solid #D3D3D3; border-radius: 3px; margin-bottom: .5em;">
+      </div>
+
+      
+    
+    
+    <div class="webform-component-wrap">
+      <div class="webform-component">
+        <label for="services" class="webform-label">Check the service(s) you would like</label>
+         <div style="display: flex;"><input type="checkbox" name="services" value="Clear Bra" style="width: auto;"> Clear Bra</div>
+         <div style="display: flex;"><input type="checkbox" name="services" value="Detailing" style="width: auto;"> Detailing</div>
+         <div style="display: flex;"><input type="checkbox" name="services" value="Ceramic Pro Coating" style="width: auto;"> Ceramic Pro Coating</div>
+         <div style="display: flex;"><input type="checkbox" name="services" value="Window Tint" style="width: auto;"> Window Tint</div>
+      </div>
+      
+    </div>
+  
+
+
+    <div class="webform-component">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6"  placeholder="What needs done?"></textarea>
+    </div>
+     <div class="g-recaptcha" data-sitekey="6LfB6RUUAAAAAEySJ7Fqc6dvL7oftcr1-l2ZANZA"></div><br>
+    <input class="sendButton" type="submit" value="Send">
+</form>
