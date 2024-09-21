@@ -1,5 +1,5 @@
 ---
-title: Greeley Auto Spa / Sun Stoppers Window Tinting
+title: Greeley Auto Spa &amp; Longmont Sun Stoppers Window Tinting
 timezone: UTC
 collections:
   categories:
@@ -8,7 +8,8 @@ collections:
     permalink: "/blog/:title/"
   locations:
     title: Locations
-    output: false
+    output: true
+    permalink: "/locations/:slug/"
   people:
     title: People
     output: false
@@ -55,6 +56,11 @@ defaults:
       type: services
     values:
       layout: service-detail
+  - scope:
+      path: ""
+      type: locations
+    values:
+      layout: locations
 email: team@variantstudios.com
 description: Premium Car Detailing, Clear Bra, Tinting, Ceramic Coatings Colorado.
 baseurl: ""

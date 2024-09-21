@@ -2,35 +2,38 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
 {% include head.html %}
+
 <body class="snipcart-overwrite {% if page.class %} {{page.class}}{%endif%}">
 
-    {% if page.permalink == "/contact/" or page.permalink == "/book-appointment/" or page.permalink == "/request-a-quote/" %}{% elsif page.permalink == "/book-appointment/" %}{% else %}<div class="book-fixed"><span><a href="/contact/">Request a Quote</a></span></div>{% endif %}
+  <!-- {% if page.permalink == "/contact/" or page.permalink == "/book-appointment/" or page.permalink == "/request-a-quote/" %}{% elsif page.permalink == "/book-appointment/" %}{% else %}<div class="book-fixed"><span><a href="/contact/">Request a Quote</a></span></div>{% endif %} -->
 
 
-    {% include browserupgrade.html %}
+  {% include browserupgrade.html %}
 
 
   {% if page.permalink == "/contact/" %}
   <div class="header-wrapper clearfix" style="margin-top: 0 !important">
-  {% elsif page.permalink == "/book-appointment/" %}
-  <div class="header-wrapper clearfix" style="margin-top: 0 !important">
+    {% elsif page.permalink == "/book-appointment/" %}
+    <div class="header-wrapper clearfix" style="margin-top: 0 !important">
 
-  {% else %}
-  <div class="header-wrapper clearfix">
-  {% endif %}
-	  {% include header.html %}
-  </div>
+      {% else %}
+      <div class="header-wrapper clearfix">
+        {% endif %}
+        {% include header.html %}
+      </div>
 
-  <div class="main-wrapper clearfix">
-	  {{ content }}
-  </div>
+      <div class="main-wrapper clearfix">
+        {{ content }}
+      </div>
 
-  <div class="footer-wrapper clearfix">
-  	{% include footer.html %}
-  </div>
+      <div class="footer-wrapper clearfix">
+        {% include footer.html %}
+      </div>
 
-	{% include scripts.html %}
+      {% include scripts.html %}
 </body>
+
 </html>
