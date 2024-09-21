@@ -1,0 +1,2 @@
+[build]
+  command = "gem update --system && bundle install"
