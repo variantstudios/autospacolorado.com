@@ -1,2 +1,2 @@
 [build]
-  command = "gem update --system && bundle install"
+  command = "rm -rf $HOME/.rvm/gems && gem update --system && bundle install"
