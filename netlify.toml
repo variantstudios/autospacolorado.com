@@ -1,2 +1,2 @@
 [build]
-  command = "rvm get stable && rvm install 2.7.5 && rvm use 2.7.5 && gem install rubygems-update -v 3.3.22 && update_rubygems && gem install bundler && bundle install"
+  command = "rvm get stable && rvm install 2.7.5 && rvm use 2.7.5 && gem update --system 3.3.22 && gem install bundler && bundle install"
