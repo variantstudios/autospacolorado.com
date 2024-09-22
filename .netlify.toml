@@ -1,2 +1,0 @@
-[build]
-  command = "rvm install 2.6.3 && rvm use 2.6.3 && gem install rubygems-update -v 3.3.22 && update_rubygems && bundle install --path vendor/bundle && npm install"
