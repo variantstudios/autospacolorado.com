@@ -41,6 +41,7 @@ Your personally identifiable information is kept secure. Only authorized employe
 If you have any questions, concerns, or comments about our privacy policy, you may contact us using the information below:
 
 By e-mail: [greeleyautospa@gmail.com](mailto:greeleyautospa@gmail.com)
+
 By Phone: 970-619-9863
 
 We reserve the right to make changes to this policy. Any changes to this policy will be posted.
