@@ -1,17 +1,16 @@
 <ul class="menu">
-  <li class="first">
-    <a href="/gallery/">Gallery</a>
-  </li>
   <li class="has-submenu">Services
     <ul class="menu">
-        {% for services in site.services %}
-        <li>
-          <a href="{{services.url}}" alt="{{services.title}}">
-            <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_200,c_fill/{{ site.url }}{{services.header_image_path}}" title="{{services.title}}" data-img="{{site.url}}{{services.header_image_path}}" data-width="400px" data-height="200px"/>
-            <span>{{services.title}}</span>
-          </a>
-        </li>
-        {% endfor %}
+      {% for services in site.services %}
+      <li>
+        <a href="{{services.url}}" alt="{{services.title}}">
+          <img src="{{site.cloudinaryurl}}image/fetch/w_400,h_200,c_fill/{{ site.url }}{{services.header_image_path}}"
+            title="{{services.title}}" data-img="{{site.url}}{{services.header_image_path}}" data-width="400px"
+            data-height="200px" />
+          <span>{{services.title}}</span>
+        </a>
+      </li>
+      {% endfor %}
       <!-- <li>
         <a href="/services/coatings/">
           <img src="/assets/images/menu/ceramic.jpg" />
@@ -48,16 +47,28 @@
   <li>
     <a href="/blog/">Blog</a>
   </li>
+  <li class="first">
+    <a href="/gallery/">Gallery</a>
+  </li>
   <li>
     <a href="/about/">About</a>
   </li>
-  <li class="first">
+
+  <li>
+    <a href="/locations/greeley">Greeley</a>
+  </li>
+
+  <li>
+    <a href="/locations/longmont">Longmont</a>
+  </li>
+
+  <!-- <li class="first">
     <a href="/store/">Store</a>
   </li>
   <li class="first">
     <a href="/contact/">Contact</a>
-  </li>
-  <li>
-      <a href="/#!/cart" class="snipcart-checkout">Cart</a>
-  </li>
+  </li> -->
+  <!-- <li>
+    <a href="/#!/cart" class="snipcart-checkout">Cart</a>
+  </li> -->
 </ul>

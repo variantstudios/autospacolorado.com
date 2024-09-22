@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/store/*"
+  to = "/"
+  force = true
+
+[[redirects]]
+  from = "/contact/"
+  to = "/locations/greeley/"
+  force = true

@@ -6,36 +6,73 @@ layout: default
 
   <!-- Header Image with NO text overlay -->
   {% if page.header_image_path %}
-    <figure class="page-image--main">
-      <img src="{{ page.header_image_path}}">
-    </figure>
+  <div class="preface" style="background-image: url({{ page.header_image_path}}); position: relative; z-index: 1;">
+    <div class="wrap">
+      <div class="interior-headings">
+        <h1 class="section-title">{{ page.title }}</h1>
+        <!-- <h3 class="section-subtitle">{{ page.subtitle }}</h3>
+        <div class="intro-text">
+          <p>{{ page.intro }}</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
   {% endif %}
 
   <!-- 2 Column Layout -->
   <div class="wrap content-section">
 
-      <div class="col-1">
-        <h1 class="section-title">{{ page.title }}</h1>
-        <h3 class="section-subtitle">{{ page.subtitle }}</h3>
-        <h4 class="phone--location">{{page.phone}}</h4>
+    <div class="col-1">
+      <h2>Address:</h2>
+      <p class="address-p">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">{{ page.address }}</span><br>
+          <span itemprop="addressLocality">{{ page.city }}</span>,
+          <span itemprop="addressRegion">{{ page.state }}</span>
+          <span itemprop="postalCode">{{ page.zip }}</span>
+        </span>
+      </p>
+      <!-- Phone -->
+      {% if page.phone %}
+      <p class="address-p">
+        <a href="tel:{{page.phone}}">{{page.phone}}</a>
+      </p>
+      {% endif %}
+      <!-- email -->
+      {% if page.email %}
+      <p class="address-p">
+        <a href="mailto:{{page.email}}">{{page.email}}</a>
+      </p>
+      {% endif %}
 
-        <!-- Hours List -->
-        <h4 class="hours--label">Hours:</h4>
-        <ul class="hours--location">
-          {% for item in page.hours %}
-          <li>{{ item.title }}</li>
-          {% endfor %}
-        </ul>
-        {{ content }}
+      <!-- Hours List -->
+      <h2>Hours:</h2>
+      <ul class="hours--location">
+        {% for item in page.hours %}
+        <li>{{ item.day }}</li>
+        {% endfor %}
+      </ul>
 
-        {% include gallery.html %}
-
+      <!-- Google Map -->
+      {% if page.map %}
+      <div class="google-map">
+        <iframe src="{{ page.map }}" width="100%" height="450" frameborder="0" style="border:0"
+          allowfullscreen></iframe>
       </div>
+      {% endif %}
 
-       <!-- Map Embed  -->
-      <div class="map-embed col-2">
-        <iframe src="{{ page.map_embed }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+      {{ content }}
+
+      {% include gallery.html %}
+
+    </div>
+
+    <!-- Map Embed  -->
+    <div class="map-embed col-2">
+
+      <iframe src="{{ page.form }}" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="1260px"
+        width="100%"></iframe>
+    </div>
 
   </div>
 </main>

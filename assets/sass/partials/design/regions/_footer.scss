@@ -2,10 +2,12 @@
   background: $footer-bg;
   color: #fff;
   padding: 3em 0em 1em;
-  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
     padding: 3em 2em 1em;
   }
-  h6, a, p {
+  h6,
+  a,
+  p {
     color: #fff;
     vertical-align: top;
   }
@@ -15,33 +17,48 @@
     //padding-right: 2em;
     margin-bottom: 0;
   }
-  .footer-block, .copy-footer-block {
+  .footer-block,
+  .copy-footer-block {
     //display: inline-block;
     vertical-align: top;
   }
   .footer-block-1 {
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      @include grid-span(3,1);
-      h6, a, p {
-        display: inline-block;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      @include grid-span(3, 1);
+      h6,
+      a,
+      p {
+        // display: inline-block;
+      }
+      p {
+        margin: 0;
       }
     }
-
   }
   .footer-block-2 {
     @include breakpoint($bp-small-down) {
       padding: 2em 0;
     }
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      @include grid-span(4,5);
-      h6, a, p {
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      @include grid-span(4, 5);
+      h6,
+      a,
+      p {
         display: inline-block;
       }
     }
   }
   .footer-block-3 {
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      @include grid-span(2,10);
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      @include grid-span(2, 10);
     }
   }
+}
+
+.footer-block.footer-block-1 .footer-location-wrapper {
+  margin-top: 10px;
+}
+
+.footer-location-wrapper .title {
+  font-weight: bold;
 }

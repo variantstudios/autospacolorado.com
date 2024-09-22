@@ -5,7 +5,7 @@ layout: default
 <div class="front">
   <!-- Video Header pulling from Front Matter -->
   <div class=" hero" id="block" data-vide-bg="/assets/video/home-vid" data-vide-options="position: 0% 50%"></div>
-<!--   <div class="videobg hero">
+  <!--   <div class="videobg hero">
     <iframe src="https://player.vimeo.com/video/{{page.hero_video_vimeo_id}}?loop=1&autoplay=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 </div> -->
 
@@ -18,39 +18,55 @@ layout: default
       </div>
     </div>
     <div class="gallery-slider">
-      {% assign items =  site.posts %}
+      {% assign items = site.posts %}
       {% for post in items limit:8 %}
-        <div>
-          <a href="{{ post.url }}">
-            <img src="{{site.cloudinaryurl}}image/fetch/w_300,h_300,c_fill/{{site.url}}{{ post.image_path }}" data-img="{{site.url}}{{post.image_path}}" data-width="300px" data-height="300px" />
-          </a>
-          <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
-        </div>
+      <div>
+        <a href="{{ post.url }}">
+          <img src="{{site.cloudinaryurl}}image/fetch/w_300,h_300,c_fill/{{site.url}}{{ post.image_path }}"
+            data-img="{{site.url}}{{post.image_path}}" data-width="300px" data-height="300px" />
+        </a>
+        <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
+      </div>
       {% endfor %}
     </div>
   </section>
 
   <!-- Preface Are for Location Blocks  -->
-  <div class="preface-wrap">
+  <!-- <div class="preface-wrap">
     <img src="/assets/images/car.png" class="car-side" />
     <section class="preface no-rectangle clearfix">
       <div class="wrap lift">
         <div class="headings">
-          <h2 class="section-title">Our Location</h2>
+          <h2 class="section-title">Our Locations</h2>
           <h3 class="section-subtitle">Serving Northern Colorado</h3>
-        </div>
+        </div> -->
 
-        {% for item in site.locations %}
+  <!-- {% for item in site.locations %}
         <div itemscope itemtype="http://schema.org/LocalBusiness" class="location-block first editable">
-        	<h4 class="location--title" itemprop="name">Greeley Auto Spa/Sun Stoppers Window Tinting</h4>
-        	<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">531 8th Street</span><br /><span itemprop="addressLocality">Greeley</span>, <span itemprop="addressRegion">CO</span> <span>80631</span></div>
-        	<p><span class="phone--location"> <a href="tel:1-970-619-9863">970-619-9863</a></span></p>
-        	<div class="btn outline"><a href="/contact">Contact Us</a></div>
+          <h4 class="location--title" itemprop="name">Greeley Auto Spa/Sun Stoppers Window Tinting</h4>
+          <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span
+              itemprop="streetAddress">531 8th Street</span><br /><span itemprop="addressLocality">Greeley</span>, <span
+              itemprop="addressRegion">CO</span> <span>80631</span></div>
+          <p><span class="phone--location"> <a href="tel:1-970-619-9863">970-619-9863</a></span></p>
+          <div class="btn outline"><a href="/contact">Contact Us</a></div>
+        </div>
+        {% endfor %} -->
+  <!-- {% for item in site.locations %}
+        <div itemscope itemtype="http://schema.org/LocalBusiness" class="location-block first editable">
+          <h4 class="location--title" itemprop="name">{{ item.title }}</h4>
+          <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">{{ item.address }}</span><br>
+            <span itemprop="addressLocality">{{ item.city }}</span>,
+            <span itemprop="addressRegion">{{ item.state }}</span>
+            <span>{{ item.zip }}</span>
+          </div>
+          <span class="phone--location">{{item.phone}}</span>
+          <div class="btn outline"><a href="/contact">Contact Us</a></div>
         </div>
         {% endfor %}
       </div>
     </section>
-  </div>
+  </div> -->
 
 
   <div itemscope itemtype="http://schema.org/LocalBusiness" class="location-address">
@@ -58,35 +74,42 @@ layout: default
 
 
 
-  <!-- Service Section  -->
-  <section class="postscript clearfix">
+    <!-- Service Section  -->
+    <section class="postscript clearfix">
       <div class="videobg">
-        <iframe src="https://player.vimeo.com/video/{{page.bottom_video_vimeo_id}}?loop=1&autoplay=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
+        <iframe src="https://player.vimeo.com/video/{{page.bottom_video_vimeo_id}}?loop=1&autoplay=1&background=1"
+          width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
 
-    <div class="wrap">
-      <div class="service-list-wrap">
-        <div class="headings">
-          <h2 class="section-title">What We Do.</h2>
-          <h3 class="section-subtitle">Award Winning. Certified. Professional.</h3>
-        </div>
-        <ul class="services-list">
-          {% for services in site.services %}
+      <div class="wrap">
+        <div class="service-list-wrap">
+          <div class="headings">
+            <h2 class="section-title">What We Do.</h2>
+            <h3 class="section-subtitle">Award Winning. Certified. Professional.</h3>
+          </div>
+          <ul class="services-list">
+            {% for services in site.services %}
             <li class="service-item">
               <a href="{{ services.url }}">{{ services.title }}<img src="/assets/images/arrow-red.png" alt="" /></a>
             </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="service-info-wrap">
-        <div class="service-info editable">
-        	<p><img src="/assets/images/small-badge.png" /></p>
-        	<p>Northern Colorado's leading business for Window Tint &amp; Paint Protection! Be assured that we offer only the highest quality materials available, all backed by authentic and genuine warranties. Our employees stay current and certifiably trained with industry processes, advances in tech &amp; trends, thus providing award-winning service! We currently provide Window Tint, Paint Protection Film (commonly known as PPF or Clear Bra), Ceramic Coatings, Residential Window Film &amp; Treatments, as well as a variety of Award Winning, DuPont Registry Certified Detailing services. We are always happy to offer free quotes, shuttle service, and also have options for vehicle transport if needed.&nbsp;</p>
-        	<p>- I.D.A. Certified</p>
-        	<p>- Xpel Paint Protection Certified Installers</p>
-        	<p>- Ceramic Pro Certified Installers&nbsp;</p>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="service-info-wrap">
+          <div class="service-info editable">
+            <p><img src="/assets/images/small-badge.png" /></p>
+            <p>Northern Colorado's leading business for Window Tint &amp; Paint Protection! Be assured that we offer
+              only the highest quality materials available, all backed by authentic and genuine warranties. Our
+              employees stay current and certifiably trained with industry processes, advances in tech &amp; trends,
+              thus providing award-winning service! We currently provide Window Tint, Paint Protection Film (commonly
+              known as PPF or Clear Bra), Ceramic Coatings, Residential Window Film &amp; Treatments, as well as a
+              variety of Award Winning, DuPont Registry Certified Detailing services. We are always happy to offer free
+              quotes, shuttle service, and also have options for vehicle transport if needed.&nbsp;</p>
+            <p>- I.D.A. Certified</p>
+            <p>- Xpel Paint Protection Certified Installers</p>
+            <p>- Ceramic Pro Certified Installers&nbsp;</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-</div>
+    </section>
+  </div>
