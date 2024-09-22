@@ -1,9 +1,9 @@
 [[redirects]]
-  from: "/store/*"
-  to: "/"
+  from = "/store/*"
+  to = "/"
   force = true
 
 [[redirects]]
-  from: "/contact/"
-  to: "/locations/greeley/"
+  from = "/contact/"
+  to = "/locations/greeley/"
   force = true
