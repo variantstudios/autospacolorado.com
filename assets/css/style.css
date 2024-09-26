@@ -709,12 +709,10 @@ ul.pager li {
 @media (min-width: 48em) {
   .menu {
     text-align: right;
-    padding-top: 1.5em;
   }
 }
 .no-mq .menu {
   text-align: right;
-  padding-top: 1.5em;
 }
 .menu li {
   list-style: none;
@@ -728,25 +726,33 @@ ul.pager li {
   .menu li {
     display: inline-block;
     vertical-align: top;
-    padding-right: 2em;
+    padding-right: 20px;
   }
 }
 .no-mq .menu li {
   display: inline-block;
   vertical-align: top;
-  padding-right: 2em;
+  padding-right: 20px;
+}
+@media (min-width: 62.5em) {
+  .menu li {
+    padding-right: 40px;
+  }
+}
+.no-mq .menu li {
+  padding-right: 40px;
 }
 @media (min-width: 48em) {
   .menu li.has-submenu {
     font-weight: 700;
     font-size: 1em;
-    -webkit-transition: color .5s ease;
-    transition: color .5s ease;
-    color: #4A4A4A;
+    -webkit-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    color: #4a4a4a;
     text-transform: uppercase;
     opacity: 1;
-    -webkit-transition: all .5s linear;
-    transition: all .5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     visibility: visible;
     cursor: pointer;
   }
@@ -757,13 +763,13 @@ ul.pager li {
 .no-mq .menu li.has-submenu {
   font-weight: 700;
   font-size: 1em;
-  -webkit-transition: color .5s ease;
-  transition: color .5s ease;
-  color: #4A4A4A;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  color: #4a4a4a;
   text-transform: uppercase;
   opacity: 1;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   visibility: visible;
   cursor: pointer;
 }
@@ -773,14 +779,14 @@ ul.pager li {
 .menu li a {
   font-weight: 700;
   font-size: 1em;
-  -webkit-transition: color .5s ease;
-  transition: color .5s ease;
-  padding: .5em 0;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  padding: 0.5em 0;
   display: block;
-  color: #4A4A4A;
+  color: #4a4a4a;
   text-transform: uppercase;
-  -webkit-transition: margin-top .25s ease;
-  transition: margin-top .25s ease;
+  -webkit-transition: margin-top 0.25s ease;
+  transition: margin-top 0.25s ease;
   margin-top: 0;
 }
 @media (min-width: 48em) {
@@ -793,8 +799,8 @@ ul.pager li {
 }
 .menu li a img {
   opacity: 1;
-  -webkit-transition: opacity .25s ease;
-  transition: opacity .25s ease;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
   width: 100%;
 }
 .menu li a:active {
@@ -816,8 +822,8 @@ ul.pager li {
     margin-top: 30px;
     padding: 2em;
     text-align: left;
-    -webkit-transition: all .5s linear;
-    transition: all .5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     visibility: hidden;
   }
   .menu li ul img {
@@ -828,8 +834,8 @@ ul.pager li {
     padding: 2%;
     opacity: 0;
     margin-top: -60px;
-    -webkit-animation: FadeOut .5s linear;
-            animation: FadeOut .5s linear;
+    -webkit-animation: FadeOut 0.5s linear;
+            animation: FadeOut 0.5s linear;
   }
   .menu li ul li a {
     position: relative;
@@ -843,13 +849,13 @@ ul.pager li {
     font-size: 1.4em;
   }
   .menu li ul li a:hover {
-    -webkit-transition: margin-top .25s ease;
-    transition: margin-top .25s ease;
+    -webkit-transition: margin-top 0.25s ease;
+    transition: margin-top 0.25s ease;
     margin-top: -5px;
   }
   .menu li ul li a:hover img {
-    -webkit-transition: opacity .25s ease;
-    transition: opacity .25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
     opacity: 0.7;
   }
   .menu li ul a {
@@ -867,8 +873,8 @@ ul.pager li {
   margin-top: 30px;
   padding: 2em;
   text-align: left;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   visibility: hidden;
 }
 .no-mq .menu li ul img {
@@ -879,8 +885,8 @@ ul.pager li {
   padding: 2%;
   opacity: 0;
   margin-top: -60px;
-  -webkit-animation: FadeOut .5s linear;
-          animation: FadeOut .5s linear;
+  -webkit-animation: FadeOut 0.5s linear;
+          animation: FadeOut 0.5s linear;
 }
 .no-mq .menu li ul li a {
   position: relative;
@@ -894,13 +900,13 @@ ul.pager li {
   font-size: 1.4em;
 }
 .no-mq .menu li ul li a:hover {
-  -webkit-transition: margin-top .25s ease;
-  transition: margin-top .25s ease;
+  -webkit-transition: margin-top 0.25s ease;
+  transition: margin-top 0.25s ease;
   margin-top: -5px;
 }
 .no-mq .menu li ul li a:hover img {
-  -webkit-transition: opacity .25s ease;
-  transition: opacity .25s ease;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
   opacity: 0.7;
 }
 .no-mq .menu li ul a {
@@ -909,15 +915,15 @@ ul.pager li {
 @media (min-width: 48em) {
   .menu li.submenu--open ul {
     opacity: 1;
-    -webkit-transition: all .4s linear;
-    transition: all .4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
     visibility: visible;
   }
   .menu li.submenu--open ul li {
     opacity: 1;
     margin-top: 0;
-    -webkit-animation: FadeIn .3s linear;
-            animation: FadeIn .3s linear;
+    -webkit-animation: FadeIn 0.3s linear;
+            animation: FadeIn 0.3s linear;
     -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
   }
@@ -944,15 +950,15 @@ ul.pager li {
 }
 .no-mq .menu li.submenu--open ul {
   opacity: 1;
-  -webkit-transition: all .4s linear;
-  transition: all .4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
   visibility: visible;
 }
 .no-mq .menu li.submenu--open ul li {
   opacity: 1;
   margin-top: 0;
-  -webkit-animation: FadeIn .3s linear;
-          animation: FadeIn .3s linear;
+  -webkit-animation: FadeIn 0.3s linear;
+          animation: FadeIn 0.3s linear;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -976,7 +982,8 @@ ul.pager li {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
-.menu a, .menu a:visited {
+.menu a,
+.menu a:visited {
   text-decoration: none;
 }
 .menu li li {
@@ -984,8 +991,8 @@ ul.pager li {
 }
 
 .main-nav > .menu {
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   max-height: 0;
   overflow: hidden;
 }
@@ -998,8 +1005,8 @@ ul.pager li {
   max-height: none;
 }
 .main-nav > .menu.show {
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   max-height: 1000px;
   padding-top: 1em;
 }
@@ -1025,7 +1032,7 @@ ul.pager li {
 .menu-btn {
   position: absolute;
   right: 10px;
-  top: -3px;
+  top: -10px;
   padding: 1em;
   cursor: pointer;
 }
@@ -1038,7 +1045,7 @@ ul.pager li {
   display: none;
 }
 .menu-btn img {
-  padding-right: .5em;
+  padding-right: 0.5em;
 }
 
 .no-js .menu-btn {
@@ -1504,9 +1511,6 @@ a.snipcart-add-item:hover {
 }
 
 .location-block {
-  /*.location-address {
-        padding-left: .5rem;
-    }*/
   padding: 2em 2em 2em;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -2512,7 +2516,6 @@ ul.services-list li img {
   background: white;
   position: relative;
   z-index: 999;
-  margin-top: 52px;
 }
 @media (min-width: 48em) {
   .header-wrapper {
@@ -2524,28 +2527,67 @@ ul.services-list li img {
 }
 .header-wrapper .wrap {
   max-width: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .logo {
-  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.logo img {
+  width: 100px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
 }
 @media (min-width: 48em) {
-  .logo {
-    width: 25%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
+  .logo img {
+    width: 200px;
   }
 }
-.no-mq .logo {
-  width: 25%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none;
+.no-mq .logo img {
+  width: 200px;
+}
+.logo > a:last-child {
+  position: relative;
+}
+.logo > a:last-child::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 50%;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.1);
 }
 
+.main-nav {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 100%;
+}
 @media (min-width: 48em) {
   .main-nav {
     width: 65.95745%;

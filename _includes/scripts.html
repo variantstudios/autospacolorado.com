@@ -114,9 +114,36 @@
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
-
   gtag('config', 'G-9JCGQ2123Q');
 </script>
+<script>
+  const path = window.location.pathname;
+  if (path === "/locations/greeley/") {
+    // Greeley Location Page Google Tag Script
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9JCGQ2123Q');
+    gtag('event', 'ads_conversion_Contact_Us_1', {})
+
+  } else if (path === "/locations/longmont/") {
+    // Longmont Location Page Google Tag Script
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9JCGQ2123Q');
+    gtag('event', 'ads_conversion_Contact_Us_1', {})
+
+  } else {
+    // All Other Pages Google Tag Script
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9JCGQ2123Q');
+
+  }
+</script>
+
 
 
 <!-- <script type='text/javascript'

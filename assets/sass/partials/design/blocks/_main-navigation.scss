@@ -1,7 +1,7 @@
 @keyframes FadeIn {
   0% {
     opacity: 0;
-    transform: scale(.1);
+    transform: scale(0.1);
   }
 
   85% {
@@ -19,7 +19,7 @@
 
   85% {
     opacity: 0;
-    transform: scale(.1);
+    transform: scale(0.1);
   }
   100% {
     transform: scale(0);
@@ -31,10 +31,13 @@
   margin: 0;
   font-family: $heading-font-family;
   font-size: 92%;
-  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
     text-align: right;
-    padding-top: 1.5em;
+    //
   }
+  // @include breakpoint($bp-large, $no-query: ".no-mq") {
+  //   padding-top: 1.5em;
+  // }
   li {
     list-style: none;
     margin: 0;
@@ -42,46 +45,47 @@
     padding: 0;
     text-transform: uppercase;
     font-weight: 700;
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
       display: inline-block;
       vertical-align: top;
-      padding-right: 2em;
+      padding-right: 20px;
     }
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    &.has-submenu {
+    @include breakpoint($bp-large, $no-query: ".no-mq") {
+      padding-right: 40px;
+    }
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      &.has-submenu {
         font-weight: 700;
         font-size: 1em;
-        transition: color .5s ease;
-        color: #4A4A4A;
+        transition: color 0.5s ease;
+        color: #4a4a4a;
         text-transform: uppercase;
         opacity: 1;
-          transition: all .5s linear;
-          visibility: visible;
-          cursor: pointer;
+        transition: all 0.5s linear;
+        visibility: visible;
+        cursor: pointer;
         a {
           background: #000;
-
         }
-
       }
     }
     a {
       font-weight: 700;
       font-size: 1em;
-      transition: color .5s ease;
-      padding: .5em 0;
+      transition: color 0.5s ease;
+      padding: 0.5em 0;
       display: block;
-      color: #4A4A4A;
+      color: #4a4a4a;
       text-transform: uppercase;
-      transition: margin-top .25s ease;
+      transition: margin-top 0.25s ease;
       margin-top: 0;
 
-      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
         padding: 0;
       }
       img {
         opacity: 1;
-        transition: opacity .25s ease;
+        transition: opacity 0.25s ease;
         width: 100%;
       }
       &:active {
@@ -92,87 +96,87 @@
     img {
       display: none;
     }
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    ul {
-      position: absolute;
-      width: 200px;
-      opacity: 0;
-      background: rgba(0,0,0,0.9);
-      width: 100%;
-      left: 0;
-      z-index: 9;
-      margin-top: 30px;
-      padding:2em;
-      text-align: left;
-      transition: all .5s linear;
-      visibility: hidden;
-      img {
-        display: block;
-      }
-      li {
-        width: 33%;
-        padding: 2%;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      ul {
+        position: absolute;
+        width: 200px;
         opacity: 0;
-        margin-top: -60px;
-        animation: FadeOut .5s linear;
-        a {
-          position: relative;
-          line-height: 0;
-          span {
-            position: absolute;
-            text-shadow: 0 1px 11px rgba(0,0,0,0.75);
-            bottom: 0;
-            padding: 0em 1em 1.5em;
-            font-size: 1.4em;
-          }
-          &:hover {
-            transition: margin-top .25s ease;
-            margin-top: -5px;
-            img {
-              transition: opacity .25s ease;
-              opacity: 0.7;
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        left: 0;
+        z-index: 9;
+        margin-top: 30px;
+        padding: 2em;
+        text-align: left;
+        transition: all 0.5s linear;
+        visibility: hidden;
+        img {
+          display: block;
+        }
+        li {
+          width: 33%;
+          padding: 2%;
+          opacity: 0;
+          margin-top: -60px;
+          animation: FadeOut 0.5s linear;
+          a {
+            position: relative;
+            line-height: 0;
+            span {
+              position: absolute;
+              text-shadow: 0 1px 11px rgba(0, 0, 0, 0.75);
+              bottom: 0;
+              padding: 0em 1em 1.5em;
+              font-size: 1.4em;
+            }
+            &:hover {
+              transition: margin-top 0.25s ease;
+              margin-top: -5px;
+              img {
+                transition: opacity 0.25s ease;
+                opacity: 0.7;
+              }
             }
           }
         }
-
-      }
-      a {
-        color: #fff;
+        a {
+          color: #fff;
+        }
       }
     }
-  }
     &.submenu--open {
-      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
         ul {
           opacity: 1;
-          transition: all .4s linear;
+          transition: all 0.4s linear;
           visibility: visible;
           li {
             opacity: 1;
             margin-top: 0;
-            animation: FadeIn .3s linear;
-          animation-fill-mode:both;
-            &:nth-child(2){
-              animation-delay: .1s
+            animation: FadeIn 0.3s linear;
+            animation-fill-mode: both;
+            &:nth-child(2) {
+              animation-delay: 0.1s;
             }
-            &:nth-child(3){
-              animation-delay: .2s
+            &:nth-child(3) {
+              animation-delay: 0.2s;
             }
-            &:nth-child(4){
-              animation-delay: .3s
+            &:nth-child(4) {
+              animation-delay: 0.3s;
             }
-            &:nth-child(5){
-              animation-delay: .4s
+            &:nth-child(5) {
+              animation-delay: 0.4s;
             }
-            &:nth-child(6){
-              animation-delay: .5s
+            &:nth-child(6) {
+              animation-delay: 0.5s;
             }
           }
         }
       }
     }
   }
-  a, a:visited {
+  a,
+  a:visited {
     text-decoration: none;
   }
   li li {
@@ -180,17 +184,17 @@
   }
 }
 .main-nav > .menu {
-  transition: all .5s linear;
+  transition: all 0.5s linear;
   max-height: 0;
   overflow: hidden;
-  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
     max-height: none;
   }
   &.show {
-    transition: all .5s linear;
+    transition: all 0.5s linear;
     max-height: 1000px;
     padding-top: 1em;
-    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
       max-height: none;
     }
   }
@@ -208,19 +212,18 @@
       }
     }
   }
-
 }
 .menu-btn {
   position: absolute;
   right: 10px;
-  top: -3px;
+  top: -10px;
   padding: 1em;
   cursor: pointer;
-  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
     display: none;
   }
   img {
-    padding-right: .5em;
+    padding-right: 0.5em;
   }
 }
 .no-js .menu-btn {
