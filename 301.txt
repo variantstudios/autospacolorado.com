@@ -21,3 +21,4 @@
 /online-store/Crew-Cab-Truck-Window-Tinting-p57471328 /store/crew-cab-truck-gift-certificates/
 /online-store/Crossovers-Small-Suv-Window-Tinting-all-windows*-p57471331 /store/crossovers-small-suv-all-gift-certificates/
 /online-store/Large-Suv-Van-window-tinting-all-windows*-p57471356 /store/crossovers-small-suv-all-gift-certificates/
+/services/detailing/ /

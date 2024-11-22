@@ -51,11 +51,11 @@ defaults:
       type: projects
     values:
       layout: gallery-detail
-  - scope:
-      path: ""
-      type: services
-    values:
-      layout: service-detail
+  # - scope:
+  #     path: ""
+  #     type: services
+  #   values:
+  #     layout: service-detail
   - scope:
       path: ""
       type: locations

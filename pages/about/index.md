@@ -1,38 +1,42 @@
 ---
 title: About Greeley Auto Spa
 permalink: "/about/"
-intro: We are very proud to offer an unrivaled range of detailing services designed
+intro:
+  We are very proud to offer an unrivaled range of detailing services designed
   to meet the needs of discerning customers throughout Northern Colorado Area who
   want the very best in car care for their vehicles.
 header_image_path: "/assets/images/15challenger-header-001.jpg"
 logos:
-- title: Sun Stoppers
-  logo_path: "/assets/images/sunstoppers-greeley-longmont-logo-large.png"
-- title: Xpel PPF
-  logo_path: "/assets/images/xpelultimate-eps-logo.png"
-- title: Xpel Prime
-  logo_path: "/assets/images/xpel-prime-logo.png"
-- title: Ceramic Pro Northern Colorado Flagship shop
-  logo_path: "/assets/images/cpnc-socialmediaprofile.jpg"
-- title: Ceramic Pro Coating Greeley Colorado
-  logo_path: "/assets/images/ceramic-pro-logo--dark-background-.jpg"
-- title: duPount Registry Elite Detailers Alliance
-  logo_path: "/assets/images/logos/dupont.png"
-- title: SunTek Window Films
-  logo_path: "/assets/images/logos/suntek.png"
-- title: 
-  logo_path: 
+  - title: Sun Stoppers
+    logo_path: "/assets/images/sunstoppers-greeley-longmont-logo-large.png"
+  - title: Xpel PPF
+    logo_path: "/assets/images/xpelultimate-eps-logo.png"
+  - title: Xpel Prime
+    logo_path: "/assets/images/xpel-prime-logo.png"
+  # - title: Ceramic Pro Northern Colorado Flagship shop
+  #   logo_path: "/assets/images/cpnc-socialmediaprofile.jpg"
+  # - title: Ceramic Pro Coating Greeley Colorado
+  #   logo_path: "/assets/images/ceramic-pro-logo--dark-background-.jpg"
+  - title: duPount Registry Elite Detailers Alliance
+    logo_path: "/assets/images/logos/dupont.png"
+  # - title: SunTek Window Films
+  #   logo_path: "/assets/images/logos/suntek.png"
+  - title:
+    logo_path:
 search_engine_optimization:
   page_title: About Greeley Auto Spa
-  page_description: Auto Spa Colorado has an experienced team offering premium car
+  page_description:
+    Auto Spa Colorado has an experienced team offering premium car
     care services and professional grade detailing products for our customers.
   facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 layout: page
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: This is the page description that is shown below the page title
+  page_description:
+    This is the page description that is shown below the page title
     in the search engine results.
-  facebook_image_path: Use images that are at least 1200 x 630px for best results
+  facebook_image_path:
+    Use images that are at least 1200 x 630px for best results
     or a minimum of at least 600 x 315px.
 ---
 

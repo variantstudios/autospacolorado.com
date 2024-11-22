@@ -1,29 +1,32 @@
 ---
 title: Ceramic Coatings
 header_image_path: "/assets/images/water-beading-001.jpeg"
-pricing: At Greeley Auto Spa/Sun Stoppers  we have setup our packages and options
+pricing:
+  At Greeley Auto Spa/Sun Stoppers  we have setup our packages and options
   to try our best to meet everyone’s requirements and needs when it comes to a vehicle
   coating. We have packages available ranging from a 1 year coating at $299 to a lifetime
   starting at $1699(depending on vehicle). It’s always best to call or stop in the
   shop to discuss options and pricing.
 service-table:
-- group: 
-  desc: 
-  options:
-  - option: 
-    price: 
+  - group:
+    desc:
+    options:
+      - option:
+        price:
 search_engine_optimization:
   page_title: Ceramic Coatings Greeley Colorado
-  page_description: Ceramic Pro Coatings in Northern Colorado . Here at Greeley Auto
+  page_description: Coatings in Northern Colorado . Here at Greeley Auto
     Spa we understand how important it is to keep your car’s paint protected. If you’ve
     been searching for the best auto detailing Greeley Co has to offer, than you’ve
     found it here.
   facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: This is the page description that is shown below the page title
+  page_description:
+    This is the page description that is shown below the page title
     in the search engine results.
-  facebook_image_path: Use images that are at least 1200 x 630px for best results
+  facebook_image_path:
+    Use images that are at least 1200 x 630px for best results
     or a minimum of at least 600 x 315px.
 ---
 
@@ -31,10 +34,10 @@ _comments:
 
 ### We have you covered\!
 
-* This is what it boils down to, we offer ceramic coatings of all types of levels.
-* Want a coating that will just make your car glossier and last a year? We have that.
-* Want a coating that has a warranty? Not a problem
-* Have a new car and want to keep it looking amazing?\*\* Looking for a specific coating brand? We have been authorized by the majority of coating companies to install their products. However our preferred products are **Xpel Fusion Plus & Ceramic Pro\!**
+- This is what it boils down to, we offer ceramic coatings of all types of levels.
+- Want a coating that will just make your car glossier and last a year? We have that.
+- Want a coating that has a warranty? Not a problem
+- Have a new car and want to keep it looking amazing?\*\* Looking for a specific coating brand? We have been authorized by the majority of coating companies to install their products. However our preferred products are **Xpel Fusion Plus & Ceramic Pro\!**
 
 ![](/assets/images/xpel-fusion-info.jpg){: width="2550" height="3017"}
 

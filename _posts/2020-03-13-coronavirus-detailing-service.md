@@ -5,15 +5,18 @@ image_path: "/assets/images/coronavirus.jpg"
 short_description: Coronavirus Detailing prevention service. Germ Killing Detail service
 search_engine_optimization:
   page_title: Coronavirus Greeley Colorado
-  page_description: Coronavirus along with other germ or airborne illnesses can be
-    prevented with a proper detailing service from Greeley Auto Spa. Ceramic Pro TAG
+  page_description:
+    Coronavirus along with other germ or airborne illnesses can be
+    prevented with a proper detailing service from Greeley Auto Spa. Ceramic coating
     is a prevention service we offer in Greeley, Co
   facebook_image_path: "/assets/images/greeley-autospa-facebook-1200x630.png"
 _comments:
   page_title: This is the title that's specifically for Search Engine Optimization.
-  page_description: This is the page description that is shown below the page title
+  page_description:
+    This is the page description that is shown below the page title
     in the search engine results.
-  facebook_image_path: Use images that are at least 1200 x 630px for best results
+  facebook_image_path:
+    Use images that are at least 1200 x 630px for best results
     or a minimum of at least 600 x 315px.
 ---
 
